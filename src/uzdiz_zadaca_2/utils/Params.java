@@ -73,24 +73,20 @@ public class Params {
                 params.put("-brl", RandomNumber.dajSlucajniBroj(100, 999));
             }
 
-            if (!params.containsKey("-m")
-                    || !params.containsKey("-s")
-                    || !params.containsKey("-a")
-                    || !params.containsKey("-alg")) {
-                status = false;
-            } else {
-                status = true;
-            }
+            status = (params.containsKey("-m")
+                    && params.containsKey("-s")
+                    && params.containsKey("-a")
+                    && params.containsKey("-alg"));
             
+
+            System.out.println(Collections.singletonList(params));
+
             return status;
 
         }
-
-        // System.out.println(Collections.singletonList(params));
     }
 
     private static boolean checkParams(String flag, String value) {
-        System.out.println("STIGLO: " + flag + " " + value);
         boolean status = false;
         Pattern pattern;
         Matcher matcher;
