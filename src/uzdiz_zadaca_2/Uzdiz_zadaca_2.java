@@ -5,7 +5,7 @@
  */
 package uzdiz_zadaca_2;
 
-import uzdiz_zadaca_2.utils.Utils;
+import uzdiz_zadaca_2.utils.Params;
 
 /**
  *
@@ -17,7 +17,7 @@ public class Uzdiz_zadaca_2 {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        if (Utils.checkArgs(args)) {
+        if (Params.checkArgs(args)) {
             System.out.println("Prosao");
         } else {
             System.out.println("Parametri nisu ispravni!");
