@@ -12,15 +12,20 @@ import java.util.Random;
  * @author abenkovic
  */
 public class RandomNumber {
+    public static Random rand = new Random();
+    
+    
+    public static void setSeed(long seed){
+        RandomNumber.rand.setSeed(seed);
+    }
+    
 
     public static int dajSlucajniBroj(int odBroja, int doBroja) {
-        Random rand = new Random();
-        return rand.nextInt((doBroja - odBroja) + 1) + odBroja;
+        return RandomNumber.rand.nextInt((doBroja - odBroja) + 1) + odBroja;
     }
 
     public static float dajSlucajniBroj(float odBroja, float doBroja) {
-        Random rand = new Random();
-        return odBroja + rand.nextFloat() * (doBroja - odBroja);   
+        return odBroja + RandomNumber.rand.nextFloat() * (doBroja - odBroja);   
     }
 
 }

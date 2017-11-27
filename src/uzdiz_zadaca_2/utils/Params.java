@@ -6,6 +6,7 @@
 package uzdiz_zadaca_2.utils;
 
 import java.text.SimpleDateFormat;
+import java.util.Calendar;
 import java.util.Collections;
 import java.util.Date;
 import java.util.HashMap;
@@ -47,6 +48,12 @@ public class Params {
                 checkParams(args[i], args[i + 1]);
             }
 
+            if (!params.containsKey("-g")) {
+                // broj milisekundi od trenutnog vremena, a ne od 1.1.1970
+                params.put("-g", Calendar.getInstance().get(Calendar.MILLISECOND));
+
+            }
+
             if (!params.containsKey("-i")) {
                 String timestamp = new SimpleDateFormat("_yyyyMMdd_HHmmss").format(new Date());
                 String value = "alebenkov_" + timestamp + ".txt";
@@ -65,8 +72,15 @@ public class Params {
             if (!params.containsKey("-brl")) {
                 params.put("-brl", RandomNumber.dajSlucajniBroj(100, 999));
             }
-            
-            
+
+            if (!params.containsKey("-m")
+                    || !params.containsKey("-s")
+                    || !params.containsKey("-a")
+                    || !params.containsKey("-alg")) {
+                status = false;
+            } else {
+                status = true;
+            }
 
         }
 
@@ -82,14 +96,15 @@ public class Params {
         Matcher matcher;
         switch (flag) {
             case "-g":
-                System.out.println("provjera g");
                 status = Integer.parseInt(value) >= 100 && Integer.parseInt(value) <= 65535;
+                if (status) {
+                    RandomNumber.setSeed(Long.getLong(value));
+                }
                 break;
             case "-m":
             case "-s":
             case "-a":
             case "-i":
-                System.out.println("provjera m");
                 pattern = Pattern.compile("\\w*(.txt)?");
                 matcher = pattern.matcher(value);
                 status = matcher.matches();
@@ -105,7 +120,6 @@ public class Params {
             case "-tcd":
             case "-bcd":
             case "-brl":
-                System.out.println("provjera tcd");
                 pattern = Pattern.compile("\\d*");
                 matcher = pattern.matcher(value);
                 status = matcher.matches();
@@ -114,7 +128,6 @@ public class Params {
         if (status) {
             params.put(flag, value);
         }
-        System.out.println(status);
 
         return status;
     }
