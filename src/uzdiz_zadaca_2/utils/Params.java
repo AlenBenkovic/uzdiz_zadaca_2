@@ -41,7 +41,7 @@ public class Params {
                     + "-brl broj linija u spremniku za upis u datoteku za izlaz.\nAko nije upisana opcija,"
                     + " uzima se slučajni broj u intervalu 100 - 999.\n"
                     + "");
-
+            return true;
         } else {
 
             for (int i = 0; i < args.length - 1; i = i + 2) {
@@ -81,12 +81,12 @@ public class Params {
             } else {
                 status = true;
             }
+            
+            return status;
 
         }
 
-        System.out.println(Collections.singletonList(params));
-
-        return status;
+        // System.out.println(Collections.singletonList(params));
     }
 
     private static boolean checkParams(String flag, String value) {
