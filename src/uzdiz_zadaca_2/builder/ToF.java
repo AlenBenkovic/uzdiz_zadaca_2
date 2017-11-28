@@ -26,11 +26,13 @@ public class ToF {
         
         public Builder(HashMap params) {
             this.params = params;   
-            this.logger.init(this.params.get("-i").toString());
+            this.logger.init(this.params.get("-i").toString(), Integer.parseInt(this.params.get("-brl").toString()));
         }
         
         public Builder postaviUredjaje() {
-            this.logger.log("TEST", "info");
+            for (int i = 0; i < 210; i++) {
+                this.logger.log("TEST" + i, "info");
+            }
 
             return this;
         }
