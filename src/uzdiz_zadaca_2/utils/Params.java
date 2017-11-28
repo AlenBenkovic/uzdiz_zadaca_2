@@ -19,7 +19,7 @@ import java.util.regex.Pattern;
  */
 public class Params {
 
-    static HashMap params = new HashMap();
+    public static HashMap params = new HashMap();
 
     public static boolean checkArgs(String[] args) {
         boolean status = false;
@@ -41,7 +41,8 @@ public class Params {
                     + "-brl broj linija u spremniku za upis u datoteku za izlaz.\nAko nije upisana opcija,"
                     + " uzima se slučajni broj u intervalu 100 - 999.\n"
                     + "");
-            return true;
+            System.exit(0);
+            
         } else {
 
             for (int i = 0; i < args.length - 1; i = i + 2) {
@@ -56,7 +57,7 @@ public class Params {
 
             if (!params.containsKey("-i")) {
                 String timestamp = new SimpleDateFormat("_yyyyMMdd_HHmmss").format(new Date());
-                String value = "alebenkov_" + timestamp + ".txt";
+                String value = "alebenkov" + timestamp + ".txt";
                 params.put("-i", value);
                 System.out.println(params.get("-i"));
             }
@@ -77,13 +78,14 @@ public class Params {
                     && params.containsKey("-s")
                     && params.containsKey("-a")
                     && params.containsKey("-alg"));
-            
 
             System.out.println(Collections.singletonList(params));
 
-            return status;
+            status = true;
 
         }
+
+        return status;
     }
 
     private static boolean checkParams(String flag, String value) {
