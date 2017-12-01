@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package uzdiz_zadaca_2.core;
+package uzdiz_zadaca_2.composite;
 
 import uzdiz_zadaca_2.logs.FoiLogger;
 import uzdiz_zadaca_2.utils.RandomNumber;

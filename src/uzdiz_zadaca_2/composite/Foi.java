@@ -3,17 +3,14 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package uzdiz_zadaca_2.core;
+package uzdiz_zadaca_2.composite;
 
 /**
  *
  * @author abenkovic
  */
-public class Senzor extends Uredjaj{
+public interface Foi {
     
-    public Senzor(String naziv, int tip, int vrsta, float min, float max, String komentar) {
-        super(naziv, tip, vrsta, min, max, komentar);
-    }
-    
+    public void provjera();
     
 }

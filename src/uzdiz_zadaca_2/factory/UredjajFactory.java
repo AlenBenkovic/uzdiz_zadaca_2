@@ -5,7 +5,8 @@
  */
 package uzdiz_zadaca_2.factory;
 
-import uzdiz_zadaca_2.core.Uredjaj;
+import java.util.List;
+import uzdiz_zadaca_2.composite.Uredjaj;
 
 /**
  *
@@ -14,7 +15,8 @@ import uzdiz_zadaca_2.core.Uredjaj;
 public class UredjajFactory extends FoiFactory {
 
     @Override
-    protected Uredjaj kreirajUredjaj(String type) {
+    public List<Uredjaj> kreirajUredjaje(String type, String datoteka) {
+
         if(type.equals("senzor")){
             //kreiraj senzor
         } else {

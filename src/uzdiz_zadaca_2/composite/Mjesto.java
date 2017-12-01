@@ -3,22 +3,25 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package uzdiz_zadaca_2.core;
+package uzdiz_zadaca_2.composite;
 
 import java.util.ArrayList;
 import java.util.HashMap;
+import java.util.List;
 import uzdiz_zadaca_2.utils.RandomNumber;
 
 /**
  *
  * @author abenkovic
  */
-public class Mjesto {
+public class Mjesto implements Foi {
     public String naziv;
     public int tip;
     public int brojSenzora;
     public int brojAktuatora;
     public int uuid;
+    
+    List<Aktuator> aktuatori;
 
     public Mjesto(String naziv, int tip, int brojSenzora, int brojAktuatora) {
         this.naziv = naziv;
@@ -27,5 +30,15 @@ public class Mjesto {
         this.brojAktuatora = brojAktuatora;
         this.uuid = RandomNumber.dajSlucajniBroj(1, 1000);
     }
+
+    @Override
+    public void provjera() {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
+    
+    public void add(Aktuator aktuator){
+        this.aktuatori.add(aktuator);
+    }    
+    
     
 }

@@ -11,7 +11,7 @@ import java.io.IOException;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
-import uzdiz_zadaca_2.core.Mjesto;
+import uzdiz_zadaca_2.composite.Mjesto;
 import uzdiz_zadaca_2.logs.FoiLogger;
 
 /**
@@ -21,7 +21,6 @@ import uzdiz_zadaca_2.logs.FoiLogger;
 public class MjestoFactory extends FoiFactory {
 
     FoiLogger logger = FoiLogger.getInstance();
-    HashMap<String, Mjesto> mjesta;
 
     @Override
     public List<Mjesto> kreirajMjesta(String datoteka) {
