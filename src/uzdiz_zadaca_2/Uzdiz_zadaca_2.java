@@ -5,7 +5,7 @@
  */
 package uzdiz_zadaca_2;
 
-import uzdiz_zadaca_2.builder.ToF;
+import uzdiz_zadaca_2.builder.ToFBuilder;
 import uzdiz_zadaca_2.utils.Params;
 
 /**
@@ -19,7 +19,8 @@ public class Uzdiz_zadaca_2 {
      */
     public static void main(String[] args) {
         if (Params.checkArgs(args)) {
-            ToF tof = new ToF.Builder(Params.params)
+            ToFBuilder tof = new ToFBuilder.Builder(Params.params)
+                    .kreirajMjesta()
                     .postaviUredjaje()
                     .inicijalizacija()
                     .build();

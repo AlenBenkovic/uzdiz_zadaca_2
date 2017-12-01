@@ -7,6 +7,10 @@ package uzdiz_zadaca_2.builder;
 
 import java.util.Collections;
 import java.util.HashMap;
+import java.util.List;
+import uzdiz_zadaca_2.core.Mjesto;
+import uzdiz_zadaca_2.factory.FoiFactory;
+import uzdiz_zadaca_2.factory.MjestoFactory;
 import uzdiz_zadaca_2.logs.FoiLogger;
 import static uzdiz_zadaca_2.utils.Params.params;
 
@@ -14,24 +18,33 @@ import static uzdiz_zadaca_2.utils.Params.params;
  *
  * @author abenkovic
  */
-public class ToF {
+public class ToFBuilder {
     
-    public ToF(Builder builder) {
+    public ToFBuilder(Builder builder) {
         
     }
 
     public static class Builder {
         private final HashMap params;  
         FoiLogger logger = FoiLogger.getInstance();
+        FoiFactory factory = new MjestoFactory();
+        List<Mjesto> mjesta;
         
         public Builder(HashMap params) {
             this.params = params;   
             this.logger.init(this.params.get("-i").toString(), Integer.parseInt(this.params.get("-brl").toString()));
         }
         
+        public Builder kreirajMjesta(){
+            
+            this.mjesta = factory.kreirajMjesta(this.params.get("-m").toString());
+            
+            return this;
+        }
+        
         public Builder postaviUredjaje() {
-            for (int i = 0; i < 210; i++) {
-                this.logger.log("TEST" + i, "info");
+            for (Mjesto m: mjesta){
+                System.out.println(m.uuid + " " + m.naziv);
             }
 
             return this;
@@ -42,8 +55,8 @@ public class ToF {
 
         }
         
-        public ToF build() {
-            return new ToF(this);
+        public ToFBuilder build() {
+            return new ToFBuilder(this);
         }
 
     }
