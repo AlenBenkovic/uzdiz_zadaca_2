@@ -5,6 +5,7 @@
  */
 package uzdiz_zadaca_2.composite;
 
+import java.util.ArrayList;
 import java.util.List;
 
 /**
@@ -13,7 +14,7 @@ import java.util.List;
  */
 public class Aktuator extends Uredjaj implements Foi {
     
-    List<Senzor> senzori;
+    List<Senzor> senzori = new ArrayList<Senzor>();
     
     public Aktuator(String naziv, int tip, int vrsta, float min, float max, String komentar) {
         super(naziv, tip, vrsta, min, max, komentar);
@@ -22,6 +23,22 @@ public class Aktuator extends Uredjaj implements Foi {
     @Override
     public void provjera() {
         throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
+    
+    public void add(Senzor senzor){
+        this.senzori.add(senzor);
+    }
+    
+    public void remove(Senzor senzor){
+        this.senzori.remove(senzor);
+    }
+
+    public List<Senzor> getSenzori() {
+        return senzori;
+    }
+
+    public void setSenzori(List<Senzor> senzori) {
+        this.senzori = senzori;
     }
     
     

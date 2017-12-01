@@ -8,6 +8,7 @@ package uzdiz_zadaca_2.builder;
 import java.util.Collections;
 import java.util.HashMap;
 import java.util.List;
+import uzdiz_zadaca_2.composite.FoiZgrada;
 import uzdiz_zadaca_2.composite.Mjesto;
 import uzdiz_zadaca_2.composite.Uredjaj;
 import uzdiz_zadaca_2.factory.FoiFactory;
@@ -29,8 +30,8 @@ public class ToFBuilder {
     public static class Builder {
         private final HashMap params;  
         FoiLogger logger = FoiLogger.getInstance();
-        List<Mjesto> mjesta;
         List<Uredjaj> uredjaji;
+        FoiZgrada foiZgrada = new FoiZgrada();
         
         public Builder(HashMap params) {
             this.params = params;   
@@ -39,7 +40,11 @@ public class ToFBuilder {
         
         public Builder kreirajMjesta(){
             FoiFactory factory = new MjestoFactory();
-            this.mjesta = factory.kreirajMjesta(this.params.get("-m").toString());
+            List<Mjesto> mjesta = factory.kreirajMjesta(this.params.get("-m").toString());
+            for(Mjesto m: mjesta){
+                this.foiZgrada.add(m);
+            }
+            
             
             return this;
         }
@@ -53,10 +58,7 @@ public class ToFBuilder {
         }
         
         public Builder postaviUredjaje() {
-            for (Mjesto m: mjesta){
-                System.out.println(m.uuid + " " + m.naziv);
-            }
-
+            
             return this;
         }
 

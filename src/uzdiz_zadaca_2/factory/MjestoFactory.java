@@ -9,7 +9,6 @@ import java.io.BufferedReader;
 import java.io.FileReader;
 import java.io.IOException;
 import java.util.ArrayList;
-import java.util.HashMap;
 import java.util.List;
 import uzdiz_zadaca_2.composite.Mjesto;
 import uzdiz_zadaca_2.logs.FoiLogger;

@@ -21,7 +21,7 @@ public class Mjesto implements Foi {
     public int brojAktuatora;
     public int uuid;
     
-    List<Aktuator> aktuatori;
+    List<Aktuator> aktuatori = new ArrayList<Aktuator>();
 
     public Mjesto(String naziv, int tip, int brojSenzora, int brojAktuatora) {
         this.naziv = naziv;
@@ -39,6 +39,18 @@ public class Mjesto implements Foi {
     public void add(Aktuator aktuator){
         this.aktuatori.add(aktuator);
     }    
+    
+    public void remove(Aktuator aktuator){
+        this.aktuatori.remove(aktuator);
+    }
+
+    public List<Aktuator> getAktuatori() {
+        return aktuatori;
+    }
+
+    public void setAktuatori(List<Aktuator> aktuatori) {
+        this.aktuatori = aktuatori;
+    }
     
     
 }
