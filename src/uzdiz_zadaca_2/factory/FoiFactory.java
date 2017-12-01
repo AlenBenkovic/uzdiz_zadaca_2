@@ -5,6 +5,7 @@
  */
 package uzdiz_zadaca_2.factory;
 
+import java.util.HashMap;
 import java.util.List;
 import uzdiz_zadaca_2.composite.Mjesto;
 import uzdiz_zadaca_2.composite.Uredjaj;
@@ -15,14 +16,14 @@ import uzdiz_zadaca_2.composite.Uredjaj;
  */
 public abstract class FoiFactory {
     
-    public FoiFactory() {
-        
+    public void FoiFactory() {
+
     }
     
     public List<Mjesto> kreirajMjesta(String datoteka) { return null;};
 
     
-    public List<Uredjaj> kreirajUredjaje(String type, String datoteka){ return null;};
+    public Uredjaj kreirajUredjaj(boolean isSenzor, int tip){ return null;};
     
     
 }

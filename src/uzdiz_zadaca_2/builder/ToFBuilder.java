@@ -5,17 +5,15 @@
  */
 package uzdiz_zadaca_2.builder;
 
-import java.util.Collections;
 import java.util.HashMap;
-import java.util.List;
+import uzdiz_zadaca_2.composite.Aktuator;
 import uzdiz_zadaca_2.composite.FoiZgrada;
 import uzdiz_zadaca_2.composite.Mjesto;
-import uzdiz_zadaca_2.composite.Uredjaj;
+import uzdiz_zadaca_2.composite.Senzor;
 import uzdiz_zadaca_2.factory.FoiFactory;
 import uzdiz_zadaca_2.factory.MjestoFactory;
 import uzdiz_zadaca_2.factory.UredjajFactory;
 import uzdiz_zadaca_2.logs.FoiLogger;
-import static uzdiz_zadaca_2.utils.Params.params;
 
 /**
  *
@@ -29,9 +27,8 @@ public class ToFBuilder {
 
     public static class Builder {
         private final HashMap params;  
-        FoiLogger logger = FoiLogger.getInstance();
-        List<Uredjaj> uredjaji;
-        FoiZgrada foiZgrada = new FoiZgrada();
+        private final FoiLogger logger = FoiLogger.getInstance();
+        private final FoiZgrada foiZgrada = new FoiZgrada();
         
         public Builder(HashMap params) {
             this.params = params;   
@@ -40,9 +37,18 @@ public class ToFBuilder {
         
         public Builder kreirajMjesta(){
             FoiFactory factory = new MjestoFactory();
-            List<Mjesto> mjesta = factory.kreirajMjesta(this.params.get("-m").toString());
-            for(Mjesto m: mjesta){
+            
+            factory.kreirajMjesta(this.params.get("-m").toString()).forEach((m) -> {
                 this.foiZgrada.add(m);
+            });
+            
+            for(Mjesto m:this.foiZgrada.getMjesta()){
+                System.out.println(m.id + " " + m.naziv);
+                    for(Aktuator a: m.getAktuatori()){
+                        for(Senzor s: a.getSenzori()){
+                            System.out.println(s.naziv);
+                        }
+                }
             }
             
             
@@ -50,9 +56,12 @@ public class ToFBuilder {
         }
         
         public Builder kreirajUredjaje(){
-            FoiFactory factory = new UredjajFactory();
-            this.uredjaji = factory.kreirajUredjaje("senzor", this.params.get("-s").toString());
-            this.uredjaji = factory.kreirajUredjaje("aktuator", this.params.get("-a").toString());
+            FoiFactory factory = new UredjajFactory(this.params);
+            factory.kreirajUredjaj(false, 1);
+            
+            for(Mjesto m: foiZgrada.getMjesta()){
+                
+            }
             
             return this;
         }

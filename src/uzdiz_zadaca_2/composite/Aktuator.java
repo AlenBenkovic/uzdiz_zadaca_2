@@ -14,10 +14,11 @@ import java.util.List;
  */
 public class Aktuator extends Uredjaj implements Foi {
     
-    List<Senzor> senzori = new ArrayList<Senzor>();
+    private List<Senzor> senzori;
     
     public Aktuator(String naziv, int tip, int vrsta, float min, float max, String komentar) {
         super(naziv, tip, vrsta, min, max, komentar);
+        this.senzori = new ArrayList<>();
     }
 
     @Override
