@@ -89,10 +89,12 @@ public class UredjajFactory extends FoiFactory {
     }
 
     public Senzor kreirajSenzor(String[] senzor) {
+        this.logger.log("[Senzor] " + senzor[0], "info");
         return new Senzor(senzor[0], Integer.parseInt(senzor[1]), Integer.parseInt(senzor[2]), Float.parseFloat(senzor[3]), Float.parseFloat(senzor[4]), senzor.length == 5 ? "-" : senzor[5]);
     }
 
     public Aktuator kreirajAktuator(String[] aktuator) {
+        this.logger.log("[Aktuator] " + aktuator[0], "info");
         return new Aktuator(aktuator[0], Integer.parseInt(aktuator[1]), Integer.parseInt(aktuator[2]), Float.parseFloat(aktuator[3]), Float.parseFloat(aktuator[4]), aktuator.length == 5 ? "-" : aktuator[5]);
     }
 

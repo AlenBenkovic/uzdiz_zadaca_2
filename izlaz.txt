@@ -548,3 +548,835 @@
 04.12.2017. 10:14:28 - [INFO] - Kreiram mjesto FOI 1 - dvorana 1 .
 04.12.2017. 10:14:28 - [INFO] - Kreiram mjesto FOI 1 - restoran .
 04.12.2017. 10:14:28 - [INFO] - Kreiram mjesto FOI 1 - sistem sala .
+04.12.2017. 10:18:22 - [INFO] - Kreiram mjesto FOI 1 - ulazna vrata .
+04.12.2017. 10:18:22 - [INFO] - Kreiram mjesto FOI 1 - dvorišna vrata .
+04.12.2017. 10:18:22 - [WARNING] - Mjesto FOI 1 - dvorišna vrata već postoji.
+04.12.2017. 10:18:22 - [INFO] - Kreiram mjesto FOI 1 - parkiralište .
+04.12.2017. 10:18:22 - [INFO] - Kreiram mjesto FOI 1 - vijećnica .
+04.12.2017. 10:18:22 - [INFO] - Kreiram mjesto FOI 1 - knjižnica .
+04.12.2017. 10:18:22 - [WARNING] - Format zapisa za mjesto FOI 1 - knjižnica nije valjan.
+04.12.2017. 10:18:22 - [INFO] - Kreiram mjesto FOI 1 - dvorana 1 .
+04.12.2017. 10:18:22 - [INFO] - Kreiram mjesto FOI 1 - restoran .
+04.12.2017. 10:18:22 - [INFO] - Kreiram mjesto FOI 1 - sistem sala .
+04.12.2017. 10:18:23 - [WARNING] - Format zapisa za smjer vjetra nije valjan.
+04.12.2017. 10:18:23 - [INFO] - >Kreiram mjesta za FOI 1 - ulazna vrata
+04.12.2017. 10:18:23 - [INFO] - Kreiram senzorprepreka
+04.12.2017. 10:18:23 - [INFO] - Kreiram senzorkontakt
+04.12.2017. 10:18:23 - [INFO] - Kreiram senzorvlaga
+04.12.2017. 10:18:23 - [INFO] - Kreiram aktuatorsnimanje kamerom
+04.12.2017. 10:18:23 - [INFO] - Kreiram aktuatordizanje/spuštanje platna za ploču
+04.12.2017. 10:18:23 - [INFO] - >Kreiram mjesta za FOI 1 - dvorišna vrata
+04.12.2017. 10:18:23 - [INFO] - Kreiram senzorkontakt
+04.12.2017. 10:18:23 - [INFO] - Kreiram senzorunutarnja temperatura
+04.12.2017. 10:18:23 - [INFO] - Kreiram senzorprepreka
+04.12.2017. 10:18:23 - [INFO] - Kreiram aktuatorpaljenje/gašenje lampe
+04.12.2017. 10:18:23 - [INFO] - Kreiram aktuatordizanje/spuštanje televizora
+04.12.2017. 10:18:23 - [INFO] - >Kreiram mjesta za FOI 1 - parkiralište
+04.12.2017. 10:18:23 - [INFO] - Kreiram senzorprepreka
+04.12.2017. 10:18:23 - [INFO] - Kreiram senzorprepreka
+04.12.2017. 10:18:23 - [INFO] - Kreiram senzorvjetar
+04.12.2017. 10:18:23 - [INFO] - Kreiram senzorsvjetlo
+04.12.2017. 10:18:23 - [INFO] - Kreiram aktuatorsnimanje kamerom
+04.12.2017. 10:18:23 - [INFO] - Kreiram aktuatorpaljenje/gašenje lampe
+04.12.2017. 10:18:23 - [INFO] - >Kreiram mjesta za FOI 1 - vijećnica
+04.12.2017. 10:18:23 - [INFO] - Kreiram senzorprepreka
+04.12.2017. 10:18:23 - [INFO] - Kreiram senzorunutarnja temperatura
+04.12.2017. 10:18:23 - [INFO] - Kreiram senzorunutarnja temperatura
+04.12.2017. 10:18:23 - [INFO] - Kreiram senzordim
+04.12.2017. 10:18:23 - [INFO] - Kreiram aktuatorsnimanje kamerom
+04.12.2017. 10:18:23 - [INFO] - Kreiram aktuatordizanje/spuštanje televizora
+04.12.2017. 10:18:23 - [INFO] - Kreiram aktuatorotvaranje/zatvaranje vrata
+04.12.2017. 10:18:23 - [INFO] - Kreiram aktuatordizanje/spuštanje televizora
+04.12.2017. 10:18:23 - [INFO] - >Kreiram mjesta za FOI 1 - knjižnica
+04.12.2017. 10:18:23 - [INFO] - Kreiram senzordim
+04.12.2017. 10:18:23 - [INFO] - Kreiram senzorsvjetlo
+04.12.2017. 10:18:23 - [INFO] - Kreiram senzorprepreka
+04.12.2017. 10:18:23 - [INFO] - Kreiram senzorunutarnja temperatura
+04.12.2017. 10:18:23 - [INFO] - Kreiram senzorvlaga
+04.12.2017. 10:18:23 - [INFO] - Kreiram aktuatorsnimanje kamerom
+04.12.2017. 10:18:23 - [INFO] - Kreiram aktuatordizanje/spuštanje televizora
+04.12.2017. 10:18:23 - [INFO] - Kreiram aktuatorpaljenje/gašenje lampe
+04.12.2017. 10:18:23 - [INFO] - >Kreiram mjesta za FOI 1 - dvorana 1
+04.12.2017. 10:18:23 - [INFO] - Kreiram senzordim
+04.12.2017. 10:18:23 - [INFO] - Kreiram senzorkontakt
+04.12.2017. 10:18:23 - [INFO] - Kreiram senzorunutarnja temperatura
+04.12.2017. 10:18:23 - [INFO] - Kreiram senzorsvjetlo
+04.12.2017. 10:18:23 - [INFO] - Kreiram senzordim
+04.12.2017. 10:18:23 - [INFO] - Kreiram senzordim
+04.12.2017. 10:18:23 - [INFO] - Kreiram senzorsvjetlo
+04.12.2017. 10:18:23 - [INFO] - Kreiram aktuatorpaljenje/gašenje lampe
+04.12.2017. 10:18:23 - [INFO] - Kreiram aktuatorotvaranje/zatvaranje vrata
+04.12.2017. 10:18:23 - [INFO] - Kreiram aktuatorotvaranje/zatvaranje vrata
+04.12.2017. 10:18:23 - [INFO] - Kreiram aktuatorpaljenje/gašenje lampe
+04.12.2017. 10:18:23 - [INFO] - Kreiram aktuatordizanje/spuštanje platna za ploču
+04.12.2017. 10:18:23 - [INFO] - >Kreiram mjesta za FOI 1 - restoran
+04.12.2017. 10:18:23 - [INFO] - Kreiram senzorkontakt
+04.12.2017. 10:18:23 - [INFO] - Kreiram senzorunutarnja temperatura
+04.12.2017. 10:18:23 - [INFO] - Kreiram senzorkontakt
+04.12.2017. 10:18:23 - [INFO] - Kreiram senzorvlaga
+04.12.2017. 10:18:23 - [INFO] - Kreiram senzorvlaga
+04.12.2017. 10:18:23 - [INFO] - Kreiram aktuatordizanje/spuštanje platna za ploču
+04.12.2017. 10:18:23 - [INFO] - Kreiram aktuatorpaljenje/gašenje lampe
+04.12.2017. 10:18:23 - [INFO] - Kreiram aktuatorotvaranje/zatvaranje vrata
+04.12.2017. 10:18:23 - [INFO] - >Kreiram mjesta za FOI 1 - sistem sala
+04.12.2017. 10:18:23 - [INFO] - Kreiram senzorkontakt
+04.12.2017. 10:18:23 - [INFO] - Kreiram senzorunutarnja temperatura
+04.12.2017. 10:18:23 - [INFO] - Kreiram senzorprepreka
+04.12.2017. 10:18:23 - [INFO] - Kreiram senzorsvjetlo
+04.12.2017. 10:18:23 - [INFO] - Kreiram senzorsvjetlo
+04.12.2017. 10:18:23 - [INFO] - Kreiram senzorsvjetlo
+04.12.2017. 10:18:23 - [INFO] - Kreiram aktuatordizanje/spuštanje platna za ploču
+04.12.2017. 10:18:23 - [INFO] - Kreiram aktuatorpaljenje/gašenje lampe
+04.12.2017. 10:18:23 - [INFO] - Kreiram aktuatorsnimanje kamerom
+04.12.2017. 10:18:30 - [INFO] - Kreiram mjesto FOI 1 - ulazna vrata .
+04.12.2017. 10:18:30 - [INFO] - Kreiram mjesto FOI 1 - dvorišna vrata .
+04.12.2017. 10:18:30 - [WARNING] - Mjesto FOI 1 - dvorišna vrata već postoji.
+04.12.2017. 10:18:30 - [INFO] - Kreiram mjesto FOI 1 - parkiralište .
+04.12.2017. 10:18:30 - [INFO] - Kreiram mjesto FOI 1 - vijećnica .
+04.12.2017. 10:18:30 - [INFO] - Kreiram mjesto FOI 1 - knjižnica .
+04.12.2017. 10:18:30 - [WARNING] - Format zapisa za mjesto FOI 1 - knjižnica nije valjan.
+04.12.2017. 10:18:30 - [INFO] - Kreiram mjesto FOI 1 - dvorana 1 .
+04.12.2017. 10:18:30 - [INFO] - Kreiram mjesto FOI 1 - restoran .
+04.12.2017. 10:18:30 - [INFO] - Kreiram mjesto FOI 1 - sistem sala .
+04.12.2017. 10:18:30 - [WARNING] - Format zapisa za smjer vjetra nije valjan.
+04.12.2017. 10:18:30 - [INFO] - >Kreiram mjesta za FOI 1 - ulazna vrata
+04.12.2017. 10:18:30 - [INFO] - Kreiram senzor unutarnja temperatura
+04.12.2017. 10:18:30 - [INFO] - Kreiram senzor svjetlo
+04.12.2017. 10:18:30 - [INFO] - Kreiram senzor unutarnja temperatura
+04.12.2017. 10:18:30 - [INFO] - Kreiram aktuator paljenje/gašenje lampe
+04.12.2017. 10:18:30 - [INFO] - Kreiram aktuator paljenje/gašenje lampe
+04.12.2017. 10:18:30 - [INFO] - >Kreiram mjesta za FOI 1 - dvorišna vrata
+04.12.2017. 10:18:30 - [INFO] - Kreiram senzor prepreka
+04.12.2017. 10:18:30 - [INFO] - Kreiram senzor vlaga
+04.12.2017. 10:18:30 - [INFO] - Kreiram senzor prepreka
+04.12.2017. 10:18:30 - [INFO] - Kreiram aktuator otvaranje/zatvaranje vrata
+04.12.2017. 10:18:30 - [INFO] - Kreiram aktuator dizanje/spuštanje platna za ploču
+04.12.2017. 10:18:30 - [INFO] - >Kreiram mjesta za FOI 1 - parkiralište
+04.12.2017. 10:18:30 - [INFO] - Kreiram senzor prepreka
+04.12.2017. 10:18:30 - [INFO] - Kreiram senzor prepreka
+04.12.2017. 10:18:30 - [INFO] - Kreiram senzor kontakt
+04.12.2017. 10:18:30 - [INFO] - Kreiram senzor vanjska temperatura
+04.12.2017. 10:18:30 - [INFO] - Kreiram aktuator snimanje kamerom
+04.12.2017. 10:18:30 - [INFO] - Kreiram aktuator otvaranje/zatvaranje vrata
+04.12.2017. 10:18:30 - [INFO] - >Kreiram mjesta za FOI 1 - vijećnica
+04.12.2017. 10:18:30 - [INFO] - Kreiram senzor svjetlo
+04.12.2017. 10:18:30 - [INFO] - Kreiram senzor dim
+04.12.2017. 10:18:30 - [INFO] - Kreiram senzor vlaga
+04.12.2017. 10:18:30 - [INFO] - Kreiram senzor svjetlo
+04.12.2017. 10:18:30 - [INFO] - Kreiram aktuator paljenje/gašenje lampe
+04.12.2017. 10:18:30 - [INFO] - Kreiram aktuator snimanje kamerom
+04.12.2017. 10:18:30 - [INFO] - Kreiram aktuator paljenje/gašenje lampe
+04.12.2017. 10:18:30 - [INFO] - Kreiram aktuator paljenje/gašenje lampe
+04.12.2017. 10:18:30 - [INFO] - >Kreiram mjesta za FOI 1 - knjižnica
+04.12.2017. 10:18:30 - [INFO] - Kreiram senzor svjetlo
+04.12.2017. 10:18:30 - [INFO] - Kreiram senzor prepreka
+04.12.2017. 10:18:30 - [INFO] - Kreiram senzor prepreka
+04.12.2017. 10:18:30 - [INFO] - Kreiram senzor dim
+04.12.2017. 10:18:30 - [INFO] - Kreiram senzor vlaga
+04.12.2017. 10:18:30 - [INFO] - Kreiram aktuator snimanje kamerom
+04.12.2017. 10:18:30 - [INFO] - Kreiram aktuator dizanje/spuštanje platna za ploču
+04.12.2017. 10:18:30 - [INFO] - Kreiram aktuator otvaranje/zatvaranje vrata
+04.12.2017. 10:18:30 - [INFO] - >Kreiram mjesta za FOI 1 - dvorana 1
+04.12.2017. 10:18:30 - [INFO] - Kreiram senzor unutarnja temperatura
+04.12.2017. 10:18:30 - [INFO] - Kreiram senzor dim
+04.12.2017. 10:18:30 - [INFO] - Kreiram senzor unutarnja temperatura
+04.12.2017. 10:18:30 - [INFO] - Kreiram senzor svjetlo
+04.12.2017. 10:18:30 - [INFO] - Kreiram senzor vlaga
+04.12.2017. 10:18:30 - [INFO] - Kreiram senzor vlaga
+04.12.2017. 10:18:30 - [INFO] - Kreiram senzor prepreka
+04.12.2017. 10:18:30 - [INFO] - Kreiram aktuator dizanje/spuštanje platna za ploču
+04.12.2017. 10:18:30 - [INFO] - Kreiram aktuator paljenje/gašenje lampe
+04.12.2017. 10:18:30 - [INFO] - Kreiram aktuator dizanje/spuštanje televizora
+04.12.2017. 10:18:30 - [INFO] - Kreiram aktuator paljenje/gašenje lampe
+04.12.2017. 10:18:30 - [INFO] - Kreiram aktuator paljenje/gašenje lampe
+04.12.2017. 10:18:30 - [INFO] - >Kreiram mjesta za FOI 1 - restoran
+04.12.2017. 10:18:30 - [INFO] - Kreiram senzor kontakt
+04.12.2017. 10:18:30 - [INFO] - Kreiram senzor prepreka
+04.12.2017. 10:18:30 - [INFO] - Kreiram senzor prepreka
+04.12.2017. 10:18:30 - [INFO] - Kreiram senzor kontakt
+04.12.2017. 10:18:30 - [INFO] - Kreiram senzor dim
+04.12.2017. 10:18:30 - [INFO] - Kreiram aktuator snimanje kamerom
+04.12.2017. 10:18:30 - [INFO] - Kreiram aktuator dizanje/spuštanje platna za ploču
+04.12.2017. 10:18:30 - [INFO] - Kreiram aktuator snimanje kamerom
+04.12.2017. 10:18:30 - [INFO] - >Kreiram mjesta za FOI 1 - sistem sala
+04.12.2017. 10:18:30 - [INFO] - Kreiram senzor svjetlo
+04.12.2017. 10:18:30 - [INFO] - Kreiram senzor kontakt
+04.12.2017. 10:18:30 - [INFO] - Kreiram senzor dim
+04.12.2017. 10:18:30 - [INFO] - Kreiram senzor svjetlo
+04.12.2017. 10:18:30 - [INFO] - Kreiram senzor dim
+04.12.2017. 10:18:30 - [INFO] - Kreiram senzor vlaga
+04.12.2017. 10:18:30 - [INFO] - Kreiram aktuator dizanje/spuštanje televizora
+04.12.2017. 10:18:30 - [INFO] - Kreiram aktuator dizanje/spuštanje televizora
+04.12.2017. 10:18:30 - [INFO] - Kreiram aktuator paljenje/gašenje lampe
+04.12.2017. 10:19:41 - [INFO] - Kreiram mjesto FOI 1 - ulazna vrata .
+04.12.2017. 10:19:41 - [INFO] - Kreiram mjesto FOI 1 - dvorišna vrata .
+04.12.2017. 10:19:41 - [WARNING] - Mjesto FOI 1 - dvorišna vrata već postoji.
+04.12.2017. 10:19:41 - [INFO] - Kreiram mjesto FOI 1 - parkiralište .
+04.12.2017. 10:19:41 - [INFO] - Kreiram mjesto FOI 1 - vijećnica .
+04.12.2017. 10:19:41 - [INFO] - Kreiram mjesto FOI 1 - knjižnica .
+04.12.2017. 10:19:41 - [WARNING] - Format zapisa za mjesto FOI 1 - knjižnica nije valjan.
+04.12.2017. 10:19:41 - [INFO] - Kreiram mjesto FOI 1 - dvorana 1 .
+04.12.2017. 10:19:41 - [INFO] - Kreiram mjesto FOI 1 - restoran .
+04.12.2017. 10:19:41 - [INFO] - Kreiram mjesto FOI 1 - sistem sala .
+04.12.2017. 10:19:41 - [WARNING] - Format zapisa za smjer vjetra nije valjan.
+04.12.2017. 10:19:41 - [INFO] - 
+-------------------------------------------------------------
+	Kreiram uredjaje za FOI 1 - ulazna vrata
+-------------------------------------------------------------
+
+04.12.2017. 10:19:41 - [INFO] - Kreiram senzor unutarnja temperatura
+04.12.2017. 10:19:41 - [INFO] - Kreiram senzor dim
+04.12.2017. 10:19:41 - [INFO] - Kreiram senzor unutarnja temperatura
+04.12.2017. 10:19:41 - [INFO] - Kreiram aktuator dizanje/spuštanje televizora
+04.12.2017. 10:19:41 - [INFO] - Kreiram aktuator otvaranje/zatvaranje vrata
+04.12.2017. 10:19:41 - [INFO] - 
+-------------------------------------------------------------
+	Kreiram uredjaje za FOI 1 - dvorišna vrata
+-------------------------------------------------------------
+
+04.12.2017. 10:19:41 - [INFO] - Kreiram senzor prepreka
+04.12.2017. 10:19:41 - [INFO] - Kreiram senzor vlaga
+04.12.2017. 10:19:41 - [INFO] - Kreiram senzor kontakt
+04.12.2017. 10:19:41 - [INFO] - Kreiram aktuator dizanje/spuštanje platna za ploču
+04.12.2017. 10:19:41 - [INFO] - Kreiram aktuator dizanje/spuštanje televizora
+04.12.2017. 10:19:41 - [INFO] - 
+-------------------------------------------------------------
+	Kreiram uredjaje za FOI 1 - parkiralište
+-------------------------------------------------------------
+
+04.12.2017. 10:19:41 - [INFO] - Kreiram senzor prepreka
+04.12.2017. 10:19:41 - [INFO] - Kreiram senzor vanjska temperatura
+04.12.2017. 10:19:41 - [INFO] - Kreiram senzor kontakt
+04.12.2017. 10:19:41 - [INFO] - Kreiram senzor prepreka
+04.12.2017. 10:19:41 - [INFO] - Kreiram aktuator otvaranje/zatvaranje vrata
+04.12.2017. 10:19:41 - [INFO] - Kreiram aktuator dizanje/spuštanje rampe
+04.12.2017. 10:19:41 - [INFO] - 
+-------------------------------------------------------------
+	Kreiram uredjaje za FOI 1 - vijećnica
+-------------------------------------------------------------
+
+04.12.2017. 10:19:41 - [INFO] - Kreiram senzor vlaga
+04.12.2017. 10:19:41 - [INFO] - Kreiram senzor svjetlo
+04.12.2017. 10:19:41 - [INFO] - Kreiram senzor prepreka
+04.12.2017. 10:19:41 - [INFO] - Kreiram senzor dim
+04.12.2017. 10:19:41 - [INFO] - Kreiram aktuator otvaranje/zatvaranje vrata
+04.12.2017. 10:19:41 - [INFO] - Kreiram aktuator otvaranje/zatvaranje vrata
+04.12.2017. 10:19:41 - [INFO] - Kreiram aktuator paljenje/gašenje lampe
+04.12.2017. 10:19:41 - [INFO] - Kreiram aktuator dizanje/spuštanje platna za ploču
+04.12.2017. 10:19:41 - [INFO] - 
+-------------------------------------------------------------
+	Kreiram uredjaje za FOI 1 - knjižnica
+-------------------------------------------------------------
+
+04.12.2017. 10:19:41 - [INFO] - Kreiram senzor unutarnja temperatura
+04.12.2017. 10:19:41 - [INFO] - Kreiram senzor svjetlo
+04.12.2017. 10:19:41 - [INFO] - Kreiram senzor prepreka
+04.12.2017. 10:19:41 - [INFO] - Kreiram senzor prepreka
+04.12.2017. 10:19:41 - [INFO] - Kreiram senzor vlaga
+04.12.2017. 10:19:41 - [INFO] - Kreiram aktuator dizanje/spuštanje televizora
+04.12.2017. 10:19:41 - [INFO] - Kreiram aktuator snimanje kamerom
+04.12.2017. 10:19:41 - [INFO] - Kreiram aktuator dizanje/spuštanje televizora
+04.12.2017. 10:19:41 - [INFO] - 
+-------------------------------------------------------------
+	Kreiram uredjaje za FOI 1 - dvorana 1
+-------------------------------------------------------------
+
+04.12.2017. 10:19:41 - [INFO] - Kreiram senzor vlaga
+04.12.2017. 10:19:41 - [INFO] - Kreiram senzor unutarnja temperatura
+04.12.2017. 10:19:41 - [INFO] - Kreiram senzor svjetlo
+04.12.2017. 10:19:41 - [INFO] - Kreiram senzor vlaga
+04.12.2017. 10:19:41 - [INFO] - Kreiram senzor dim
+04.12.2017. 10:19:41 - [INFO] - Kreiram senzor dim
+04.12.2017. 10:19:41 - [INFO] - Kreiram senzor dim
+04.12.2017. 10:19:41 - [INFO] - Kreiram aktuator snimanje kamerom
+04.12.2017. 10:19:41 - [INFO] - Kreiram aktuator dizanje/spuštanje televizora
+04.12.2017. 10:19:41 - [INFO] - Kreiram aktuator dizanje/spuštanje platna za ploču
+04.12.2017. 10:19:41 - [INFO] - Kreiram aktuator dizanje/spuštanje televizora
+04.12.2017. 10:19:41 - [INFO] - Kreiram aktuator paljenje/gašenje lampe
+04.12.2017. 10:19:41 - [INFO] - 
+-------------------------------------------------------------
+	Kreiram uredjaje za FOI 1 - restoran
+-------------------------------------------------------------
+
+04.12.2017. 10:19:41 - [INFO] - Kreiram senzor kontakt
+04.12.2017. 10:19:41 - [INFO] - Kreiram senzor unutarnja temperatura
+04.12.2017. 10:19:41 - [INFO] - Kreiram senzor dim
+04.12.2017. 10:19:41 - [INFO] - Kreiram senzor kontakt
+04.12.2017. 10:19:41 - [INFO] - Kreiram senzor dim
+04.12.2017. 10:19:41 - [INFO] - Kreiram aktuator paljenje/gašenje lampe
+04.12.2017. 10:19:41 - [INFO] - Kreiram aktuator otvaranje/zatvaranje vrata
+04.12.2017. 10:19:41 - [INFO] - Kreiram aktuator otvaranje/zatvaranje vrata
+04.12.2017. 10:19:41 - [INFO] - 
+-------------------------------------------------------------
+	Kreiram uredjaje za FOI 1 - sistem sala
+-------------------------------------------------------------
+
+04.12.2017. 10:19:41 - [INFO] - Kreiram senzor kontakt
+04.12.2017. 10:19:41 - [INFO] - Kreiram senzor vlaga
+04.12.2017. 10:19:41 - [INFO] - Kreiram senzor dim
+04.12.2017. 10:19:41 - [INFO] - Kreiram senzor svjetlo
+04.12.2017. 10:19:41 - [INFO] - Kreiram senzor unutarnja temperatura
+04.12.2017. 10:19:41 - [INFO] - Kreiram senzor svjetlo
+04.12.2017. 10:19:41 - [INFO] - Kreiram aktuator dizanje/spuštanje televizora
+04.12.2017. 10:19:41 - [INFO] - Kreiram aktuator dizanje/spuštanje platna za ploču
+04.12.2017. 10:19:41 - [INFO] - Kreiram aktuator otvaranje/zatvaranje vrata
+04.12.2017. 10:21:29 - [INFO] - Kreiram mjesto FOI 1 - ulazna vrata .
+04.12.2017. 10:21:29 - [INFO] - Kreiram mjesto FOI 1 - dvorišna vrata .
+04.12.2017. 10:21:29 - [WARNING] - Mjesto FOI 1 - dvorišna vrata već postoji.
+04.12.2017. 10:21:29 - [INFO] - Kreiram mjesto FOI 1 - parkiralište .
+04.12.2017. 10:21:29 - [INFO] - Kreiram mjesto FOI 1 - vijećnica .
+04.12.2017. 10:21:29 - [INFO] - Kreiram mjesto FOI 1 - knjižnica .
+04.12.2017. 10:21:29 - [WARNING] - Format zapisa za mjesto FOI 1 - knjižnica nije valjan.
+04.12.2017. 10:21:29 - [INFO] - Kreiram mjesto FOI 1 - dvorana 1 .
+04.12.2017. 10:21:29 - [INFO] - Kreiram mjesto FOI 1 - restoran .
+04.12.2017. 10:21:29 - [INFO] - Kreiram mjesto FOI 1 - sistem sala .
+04.12.2017. 10:21:29 - [WARNING] - Format zapisa za smjer vjetra nije valjan.
+04.12.2017. 10:21:29 - [INFO] - 
+-------------------------------------------------------------
+	Postavljam uredjaje za FOI 1 - ulazna vrata
+-------------------------------------------------------------
+
+04.12.2017. 10:21:29 - [INFO] - Kreiram senzor svjetlo
+04.12.2017. 10:21:29 - [INFO] - Kreiram senzor prepreka
+04.12.2017. 10:21:29 - [INFO] - Kreiram senzor unutarnja temperatura
+04.12.2017. 10:21:29 - [INFO] - Kreiram aktuator paljenje/gašenje lampe
+04.12.2017. 10:21:29 - [INFO] - Kreiram aktuator paljenje/gašenje lampe
+04.12.2017. 10:21:29 - [INFO] - 
+-------------------------------------------------------------
+	Postavljam uredjaje za FOI 1 - dvorišna vrata
+-------------------------------------------------------------
+
+04.12.2017. 10:21:29 - [INFO] - Kreiram senzor vlaga
+04.12.2017. 10:21:29 - [INFO] - Kreiram senzor kontakt
+04.12.2017. 10:21:29 - [INFO] - Kreiram senzor dim
+04.12.2017. 10:21:29 - [INFO] - Kreiram aktuator paljenje/gašenje lampe
+04.12.2017. 10:21:29 - [INFO] - Kreiram aktuator dizanje/spuštanje televizora
+04.12.2017. 10:21:29 - [INFO] - 
+-------------------------------------------------------------
+	Postavljam uredjaje za FOI 1 - parkiralište
+-------------------------------------------------------------
+
+04.12.2017. 10:21:29 - [INFO] - Kreiram senzor vjetar
+04.12.2017. 10:21:29 - [INFO] - Kreiram senzor svjetlo
+04.12.2017. 10:21:29 - [INFO] - Kreiram senzor vanjska temperatura
+04.12.2017. 10:21:29 - [INFO] - Kreiram senzor kontakt
+04.12.2017. 10:21:29 - [INFO] - Kreiram aktuator paljenje/gašenje lampe
+04.12.2017. 10:21:29 - [INFO] - Kreiram aktuator snimanje kamerom
+04.12.2017. 10:21:29 - [INFO] - 
+-------------------------------------------------------------
+	Postavljam uredjaje za FOI 1 - vijećnica
+-------------------------------------------------------------
+
+04.12.2017. 10:21:29 - [INFO] - Kreiram senzor kontakt
+04.12.2017. 10:21:29 - [INFO] - Kreiram senzor prepreka
+04.12.2017. 10:21:29 - [INFO] - Kreiram senzor vlaga
+04.12.2017. 10:21:29 - [INFO] - Kreiram senzor svjetlo
+04.12.2017. 10:21:29 - [INFO] - Kreiram aktuator snimanje kamerom
+04.12.2017. 10:21:29 - [INFO] - Kreiram aktuator dizanje/spuštanje televizora
+04.12.2017. 10:21:29 - [INFO] - Kreiram aktuator snimanje kamerom
+04.12.2017. 10:21:29 - [INFO] - Kreiram aktuator otvaranje/zatvaranje vrata
+04.12.2017. 10:21:29 - [INFO] - 
+-------------------------------------------------------------
+	Postavljam uredjaje za FOI 1 - knjižnica
+-------------------------------------------------------------
+
+04.12.2017. 10:21:29 - [INFO] - Kreiram senzor prepreka
+04.12.2017. 10:21:29 - [INFO] - Kreiram senzor prepreka
+04.12.2017. 10:21:29 - [INFO] - Kreiram senzor unutarnja temperatura
+04.12.2017. 10:21:29 - [INFO] - Kreiram senzor unutarnja temperatura
+04.12.2017. 10:21:29 - [INFO] - Kreiram senzor kontakt
+04.12.2017. 10:21:29 - [INFO] - Kreiram aktuator snimanje kamerom
+04.12.2017. 10:21:29 - [INFO] - Kreiram aktuator snimanje kamerom
+04.12.2017. 10:21:29 - [INFO] - Kreiram aktuator snimanje kamerom
+04.12.2017. 10:21:29 - [INFO] - 
+-------------------------------------------------------------
+	Postavljam uredjaje za FOI 1 - dvorana 1
+-------------------------------------------------------------
+
+04.12.2017. 10:21:29 - [INFO] - Kreiram senzor svjetlo
+04.12.2017. 10:21:29 - [INFO] - Kreiram senzor svjetlo
+04.12.2017. 10:21:29 - [INFO] - Kreiram senzor prepreka
+04.12.2017. 10:21:29 - [INFO] - Kreiram senzor vlaga
+04.12.2017. 10:21:29 - [INFO] - Kreiram senzor prepreka
+04.12.2017. 10:21:29 - [INFO] - Kreiram senzor vlaga
+04.12.2017. 10:21:29 - [INFO] - Kreiram senzor dim
+04.12.2017. 10:21:29 - [INFO] - Kreiram aktuator dizanje/spuštanje televizora
+04.12.2017. 10:21:29 - [INFO] - Kreiram aktuator dizanje/spuštanje platna za ploču
+04.12.2017. 10:21:29 - [INFO] - Kreiram aktuator dizanje/spuštanje platna za ploču
+04.12.2017. 10:21:29 - [INFO] - Kreiram aktuator snimanje kamerom
+04.12.2017. 10:21:29 - [INFO] - Kreiram aktuator paljenje/gašenje lampe
+04.12.2017. 10:21:29 - [INFO] - 
+-------------------------------------------------------------
+	Postavljam uredjaje za FOI 1 - restoran
+-------------------------------------------------------------
+
+04.12.2017. 10:21:29 - [INFO] - Kreiram senzor prepreka
+04.12.2017. 10:21:29 - [INFO] - Kreiram senzor prepreka
+04.12.2017. 10:21:29 - [INFO] - Kreiram senzor prepreka
+04.12.2017. 10:21:29 - [INFO] - Kreiram senzor kontakt
+04.12.2017. 10:21:29 - [INFO] - Kreiram senzor svjetlo
+04.12.2017. 10:21:29 - [INFO] - Kreiram aktuator otvaranje/zatvaranje vrata
+04.12.2017. 10:21:29 - [INFO] - Kreiram aktuator snimanje kamerom
+04.12.2017. 10:21:29 - [INFO] - Kreiram aktuator paljenje/gašenje lampe
+04.12.2017. 10:21:29 - [INFO] - 
+-------------------------------------------------------------
+	Postavljam uredjaje za FOI 1 - sistem sala
+-------------------------------------------------------------
+
+04.12.2017. 10:21:29 - [INFO] - Kreiram senzor prepreka
+04.12.2017. 10:21:29 - [INFO] - Kreiram senzor dim
+04.12.2017. 10:21:29 - [INFO] - Kreiram senzor kontakt
+04.12.2017. 10:21:29 - [INFO] - Kreiram senzor svjetlo
+04.12.2017. 10:21:29 - [INFO] - Kreiram senzor unutarnja temperatura
+04.12.2017. 10:21:29 - [INFO] - Kreiram senzor kontakt
+04.12.2017. 10:21:29 - [INFO] - Kreiram aktuator dizanje/spuštanje platna za ploču
+04.12.2017. 10:21:29 - [INFO] - Kreiram aktuator dizanje/spuštanje televizora
+04.12.2017. 10:21:29 - [INFO] - Kreiram aktuator dizanje/spuštanje televizora
+04.12.2017. 10:21:47 - [INFO] - Kreiram mjesto FOI 1 - ulazna vrata .
+04.12.2017. 10:21:47 - [INFO] - Kreiram mjesto FOI 1 - dvorišna vrata .
+04.12.2017. 10:21:47 - [WARNING] - Mjesto FOI 1 - dvorišna vrata već postoji.
+04.12.2017. 10:21:47 - [INFO] - Kreiram mjesto FOI 1 - parkiralište .
+04.12.2017. 10:21:47 - [INFO] - Kreiram mjesto FOI 1 - vijećnica .
+04.12.2017. 10:21:47 - [INFO] - Kreiram mjesto FOI 1 - knjižnica .
+04.12.2017. 10:21:47 - [WARNING] - Format zapisa za mjesto FOI 1 - knjižnica nije valjan.
+04.12.2017. 10:21:47 - [INFO] - Kreiram mjesto FOI 1 - dvorana 1 .
+04.12.2017. 10:21:47 - [INFO] - Kreiram mjesto FOI 1 - restoran .
+04.12.2017. 10:21:47 - [INFO] - Kreiram mjesto FOI 1 - sistem sala .
+04.12.2017. 10:21:47 - [WARNING] - Format zapisa za smjer vjetra nije valjan.
+04.12.2017. 10:21:47 - [INFO] - 
+-------------------------------------------------------------
+	Postavljam uredjaje za FOI 1 - ulazna vrata
+-------------------------------------------------------------
+
+04.12.2017. 10:21:47 - [INFO] - Senzor vlaga
+04.12.2017. 10:21:47 - [INFO] - Senzor dim
+04.12.2017. 10:21:47 - [INFO] - Senzor prepreka
+04.12.2017. 10:21:47 - [INFO] - Aktuator dizanje/spuštanje platna za ploču
+04.12.2017. 10:21:47 - [INFO] - Aktuator dizanje/spuštanje platna za ploču
+04.12.2017. 10:21:47 - [INFO] - 
+-------------------------------------------------------------
+	Postavljam uredjaje za FOI 1 - dvorišna vrata
+-------------------------------------------------------------
+
+04.12.2017. 10:21:47 - [INFO] - Senzor prepreka
+04.12.2017. 10:21:47 - [INFO] - Senzor vlaga
+04.12.2017. 10:21:47 - [INFO] - Senzor dim
+04.12.2017. 10:21:47 - [INFO] - Aktuator paljenje/gašenje lampe
+04.12.2017. 10:21:47 - [INFO] - Aktuator dizanje/spuštanje televizora
+04.12.2017. 10:21:47 - [INFO] - 
+-------------------------------------------------------------
+	Postavljam uredjaje za FOI 1 - parkiralište
+-------------------------------------------------------------
+
+04.12.2017. 10:21:47 - [INFO] - Senzor vjetar
+04.12.2017. 10:21:47 - [INFO] - Senzor svjetlo
+04.12.2017. 10:21:47 - [INFO] - Senzor prepreka
+04.12.2017. 10:21:47 - [INFO] - Senzor svjetlo
+04.12.2017. 10:21:47 - [INFO] - Aktuator paljenje/gašenje lampe
+04.12.2017. 10:21:47 - [INFO] - Aktuator dizanje/spuštanje rampe
+04.12.2017. 10:21:47 - [INFO] - 
+-------------------------------------------------------------
+	Postavljam uredjaje za FOI 1 - vijećnica
+-------------------------------------------------------------
+
+04.12.2017. 10:21:47 - [INFO] - Senzor kontakt
+04.12.2017. 10:21:47 - [INFO] - Senzor svjetlo
+04.12.2017. 10:21:47 - [INFO] - Senzor prepreka
+04.12.2017. 10:21:47 - [INFO] - Senzor vlaga
+04.12.2017. 10:21:47 - [INFO] - Aktuator dizanje/spuštanje televizora
+04.12.2017. 10:21:47 - [INFO] - Aktuator dizanje/spuštanje platna za ploču
+04.12.2017. 10:21:47 - [INFO] - Aktuator dizanje/spuštanje televizora
+04.12.2017. 10:21:47 - [INFO] - Aktuator paljenje/gašenje lampe
+04.12.2017. 10:21:47 - [INFO] - 
+-------------------------------------------------------------
+	Postavljam uredjaje za FOI 1 - knjižnica
+-------------------------------------------------------------
+
+04.12.2017. 10:21:47 - [INFO] - Senzor kontakt
+04.12.2017. 10:21:47 - [INFO] - Senzor unutarnja temperatura
+04.12.2017. 10:21:47 - [INFO] - Senzor dim
+04.12.2017. 10:21:47 - [INFO] - Senzor unutarnja temperatura
+04.12.2017. 10:21:47 - [INFO] - Senzor unutarnja temperatura
+04.12.2017. 10:21:47 - [INFO] - Aktuator dizanje/spuštanje platna za ploču
+04.12.2017. 10:21:47 - [INFO] - Aktuator dizanje/spuštanje televizora
+04.12.2017. 10:21:47 - [INFO] - Aktuator otvaranje/zatvaranje vrata
+04.12.2017. 10:21:47 - [INFO] - 
+-------------------------------------------------------------
+	Postavljam uredjaje za FOI 1 - dvorana 1
+-------------------------------------------------------------
+
+04.12.2017. 10:21:47 - [INFO] - Senzor vlaga
+04.12.2017. 10:21:47 - [INFO] - Senzor dim
+04.12.2017. 10:21:47 - [INFO] - Senzor vlaga
+04.12.2017. 10:21:47 - [INFO] - Senzor dim
+04.12.2017. 10:21:47 - [INFO] - Senzor svjetlo
+04.12.2017. 10:21:47 - [INFO] - Senzor kontakt
+04.12.2017. 10:21:47 - [INFO] - Senzor prepreka
+04.12.2017. 10:21:47 - [INFO] - Aktuator dizanje/spuštanje televizora
+04.12.2017. 10:21:47 - [INFO] - Aktuator snimanje kamerom
+04.12.2017. 10:21:47 - [INFO] - Aktuator snimanje kamerom
+04.12.2017. 10:21:47 - [INFO] - Aktuator snimanje kamerom
+04.12.2017. 10:21:47 - [INFO] - Aktuator dizanje/spuštanje televizora
+04.12.2017. 10:21:47 - [INFO] - 
+-------------------------------------------------------------
+	Postavljam uredjaje za FOI 1 - restoran
+-------------------------------------------------------------
+
+04.12.2017. 10:21:47 - [INFO] - Senzor prepreka
+04.12.2017. 10:21:47 - [INFO] - Senzor kontakt
+04.12.2017. 10:21:47 - [INFO] - Senzor vlaga
+04.12.2017. 10:21:47 - [INFO] - Senzor kontakt
+04.12.2017. 10:21:47 - [INFO] - Senzor prepreka
+04.12.2017. 10:21:47 - [INFO] - Aktuator paljenje/gašenje lampe
+04.12.2017. 10:21:47 - [INFO] - Aktuator paljenje/gašenje lampe
+04.12.2017. 10:21:47 - [INFO] - Aktuator dizanje/spuštanje platna za ploču
+04.12.2017. 10:21:47 - [INFO] - 
+-------------------------------------------------------------
+	Postavljam uredjaje za FOI 1 - sistem sala
+-------------------------------------------------------------
+
+04.12.2017. 10:21:47 - [INFO] - Senzor vlaga
+04.12.2017. 10:21:47 - [INFO] - Senzor unutarnja temperatura
+04.12.2017. 10:21:47 - [INFO] - Senzor vlaga
+04.12.2017. 10:21:47 - [INFO] - Senzor dim
+04.12.2017. 10:21:47 - [INFO] - Senzor dim
+04.12.2017. 10:21:47 - [INFO] - Senzor kontakt
+04.12.2017. 10:21:47 - [INFO] - Aktuator paljenje/gašenje lampe
+04.12.2017. 10:21:47 - [INFO] - Aktuator otvaranje/zatvaranje vrata
+04.12.2017. 10:21:47 - [INFO] - Aktuator dizanje/spuštanje televizora
+04.12.2017. 10:21:54 - [INFO] - Kreiram mjesto FOI 1 - ulazna vrata .
+04.12.2017. 10:21:54 - [INFO] - Kreiram mjesto FOI 1 - dvorišna vrata .
+04.12.2017. 10:21:54 - [WARNING] - Mjesto FOI 1 - dvorišna vrata već postoji.
+04.12.2017. 10:21:54 - [INFO] - Kreiram mjesto FOI 1 - parkiralište .
+04.12.2017. 10:21:54 - [INFO] - Kreiram mjesto FOI 1 - vijećnica .
+04.12.2017. 10:21:54 - [INFO] - Kreiram mjesto FOI 1 - knjižnica .
+04.12.2017. 10:21:54 - [WARNING] - Format zapisa za mjesto FOI 1 - knjižnica nije valjan.
+04.12.2017. 10:21:54 - [INFO] - Kreiram mjesto FOI 1 - dvorana 1 .
+04.12.2017. 10:21:54 - [INFO] - Kreiram mjesto FOI 1 - restoran .
+04.12.2017. 10:21:54 - [INFO] - Kreiram mjesto FOI 1 - sistem sala .
+04.12.2017. 10:21:54 - [WARNING] - Format zapisa za smjer vjetra nije valjan.
+04.12.2017. 10:21:54 - [INFO] - 
+-------------------------------------------------------------
+	Postavljam uredjaje za FOI 1 - ulazna vrata
+-------------------------------------------------------------
+
+04.12.2017. 10:21:54 - [INFO] - Senzor svjetlo
+04.12.2017. 10:21:54 - [INFO] - Senzor dim
+04.12.2017. 10:21:54 - [INFO] - Senzor unutarnja temperatura
+04.12.2017. 10:21:54 - [INFO] - Aktuator dizanje/spuštanje televizora
+04.12.2017. 10:21:54 - [INFO] - Aktuator paljenje/gašenje lampe
+04.12.2017. 10:21:54 - [INFO] - 
+-------------------------------------------------------------
+	Postavljam uredjaje za FOI 1 - dvorišna vrata
+-------------------------------------------------------------
+
+04.12.2017. 10:21:54 - [INFO] - Senzor prepreka
+04.12.2017. 10:21:54 - [INFO] - Senzor svjetlo
+04.12.2017. 10:21:54 - [INFO] - Senzor vlaga
+04.12.2017. 10:21:54 - [INFO] - Aktuator snimanje kamerom
+04.12.2017. 10:21:54 - [INFO] - Aktuator dizanje/spuštanje platna za ploču
+04.12.2017. 10:21:54 - [INFO] - 
+-------------------------------------------------------------
+	Postavljam uredjaje za FOI 1 - parkiralište
+-------------------------------------------------------------
+
+04.12.2017. 10:21:54 - [INFO] - Senzor vlaga
+04.12.2017. 10:21:54 - [INFO] - Senzor vlaga
+04.12.2017. 10:21:54 - [INFO] - Senzor vjetar
+04.12.2017. 10:21:54 - [INFO] - Senzor prepreka
+04.12.2017. 10:21:54 - [INFO] - Aktuator snimanje kamerom
+04.12.2017. 10:21:54 - [INFO] - Aktuator otvaranje/zatvaranje vrata
+04.12.2017. 10:21:54 - [INFO] - 
+-------------------------------------------------------------
+	Postavljam uredjaje za FOI 1 - vijećnica
+-------------------------------------------------------------
+
+04.12.2017. 10:21:54 - [INFO] - Senzor unutarnja temperatura
+04.12.2017. 10:21:54 - [INFO] - Senzor svjetlo
+04.12.2017. 10:21:54 - [INFO] - Senzor kontakt
+04.12.2017. 10:21:54 - [INFO] - Senzor prepreka
+04.12.2017. 10:21:54 - [INFO] - Aktuator paljenje/gašenje lampe
+04.12.2017. 10:21:54 - [INFO] - Aktuator paljenje/gašenje lampe
+04.12.2017. 10:21:54 - [INFO] - Aktuator paljenje/gašenje lampe
+04.12.2017. 10:21:54 - [INFO] - Aktuator snimanje kamerom
+04.12.2017. 10:21:54 - [INFO] - 
+-------------------------------------------------------------
+	Postavljam uredjaje za FOI 1 - knjižnica
+-------------------------------------------------------------
+
+04.12.2017. 10:21:54 - [INFO] - Senzor vlaga
+04.12.2017. 10:21:54 - [INFO] - Senzor vlaga
+04.12.2017. 10:21:54 - [INFO] - Senzor kontakt
+04.12.2017. 10:21:54 - [INFO] - Senzor dim
+04.12.2017. 10:21:54 - [INFO] - Senzor svjetlo
+04.12.2017. 10:21:54 - [INFO] - Aktuator otvaranje/zatvaranje vrata
+04.12.2017. 10:21:54 - [INFO] - Aktuator snimanje kamerom
+04.12.2017. 10:21:54 - [INFO] - Aktuator dizanje/spuštanje platna za ploču
+04.12.2017. 10:21:54 - [INFO] - 
+-------------------------------------------------------------
+	Postavljam uredjaje za FOI 1 - dvorana 1
+-------------------------------------------------------------
+
+04.12.2017. 10:21:54 - [INFO] - Senzor vlaga
+04.12.2017. 10:21:54 - [INFO] - Senzor unutarnja temperatura
+04.12.2017. 10:21:54 - [INFO] - Senzor kontakt
+04.12.2017. 10:21:54 - [INFO] - Senzor prepreka
+04.12.2017. 10:21:54 - [INFO] - Senzor kontakt
+04.12.2017. 10:21:54 - [INFO] - Senzor dim
+04.12.2017. 10:21:54 - [INFO] - Senzor vlaga
+04.12.2017. 10:21:54 - [INFO] - Aktuator snimanje kamerom
+04.12.2017. 10:21:54 - [INFO] - Aktuator dizanje/spuštanje platna za ploču
+04.12.2017. 10:21:54 - [INFO] - Aktuator dizanje/spuštanje televizora
+04.12.2017. 10:21:54 - [INFO] - Aktuator otvaranje/zatvaranje vrata
+04.12.2017. 10:21:54 - [INFO] - Aktuator dizanje/spuštanje platna za ploču
+04.12.2017. 10:21:54 - [INFO] - 
+-------------------------------------------------------------
+	Postavljam uredjaje za FOI 1 - restoran
+-------------------------------------------------------------
+
+04.12.2017. 10:21:54 - [INFO] - Senzor prepreka
+04.12.2017. 10:21:54 - [INFO] - Senzor vlaga
+04.12.2017. 10:21:54 - [INFO] - Senzor svjetlo
+04.12.2017. 10:21:54 - [INFO] - Senzor unutarnja temperatura
+04.12.2017. 10:21:54 - [INFO] - Senzor svjetlo
+04.12.2017. 10:21:54 - [INFO] - Aktuator snimanje kamerom
+04.12.2017. 10:21:54 - [INFO] - Aktuator dizanje/spuštanje televizora
+04.12.2017. 10:21:54 - [INFO] - Aktuator otvaranje/zatvaranje vrata
+04.12.2017. 10:21:54 - [INFO] - 
+-------------------------------------------------------------
+	Postavljam uredjaje za FOI 1 - sistem sala
+-------------------------------------------------------------
+
+04.12.2017. 10:21:54 - [INFO] - Senzor prepreka
+04.12.2017. 10:21:54 - [INFO] - Senzor svjetlo
+04.12.2017. 10:21:54 - [INFO] - Senzor vlaga
+04.12.2017. 10:21:54 - [INFO] - Senzor vlaga
+04.12.2017. 10:21:54 - [INFO] - Senzor svjetlo
+04.12.2017. 10:21:54 - [INFO] - Senzor svjetlo
+04.12.2017. 10:21:54 - [INFO] - Aktuator paljenje/gašenje lampe
+04.12.2017. 10:21:54 - [INFO] - Aktuator snimanje kamerom
+04.12.2017. 10:21:54 - [INFO] - Aktuator dizanje/spuštanje televizora
+04.12.2017. 10:22:15 - [INFO] - Kreiram mjesto FOI 1 - ulazna vrata .
+04.12.2017. 10:22:15 - [INFO] - Kreiram mjesto FOI 1 - dvorišna vrata .
+04.12.2017. 10:22:15 - [WARNING] - Mjesto FOI 1 - dvorišna vrata već postoji.
+04.12.2017. 10:22:15 - [INFO] - Kreiram mjesto FOI 1 - parkiralište .
+04.12.2017. 10:22:15 - [INFO] - Kreiram mjesto FOI 1 - vijećnica .
+04.12.2017. 10:22:15 - [INFO] - Kreiram mjesto FOI 1 - knjižnica .
+04.12.2017. 10:22:15 - [WARNING] - Format zapisa za mjesto FOI 1 - knjižnica nije valjan.
+04.12.2017. 10:22:15 - [INFO] - Kreiram mjesto FOI 1 - dvorana 1 .
+04.12.2017. 10:22:15 - [INFO] - Kreiram mjesto FOI 1 - restoran .
+04.12.2017. 10:22:15 - [INFO] - Kreiram mjesto FOI 1 - sistem sala .
+04.12.2017. 10:22:15 - [WARNING] - Format zapisa za smjer vjetra nije valjan.
+04.12.2017. 10:22:15 - [INFO] - 
+-------------------------------------------------------------
+	Postavljam uredjaje za FOI 1 - ulazna vrata
+-------------------------------------------------------------
+
+04.12.2017. 10:22:15 - [INFO] - [Senzor] svjetlo
+04.12.2017. 10:22:15 - [INFO] - [Senzor] unutarnja temperatura
+04.12.2017. 10:22:15 - [INFO] - [Senzor] vlaga
+04.12.2017. 10:22:15 - [INFO] - [Aktuator] dizanje/spuštanje platna za ploču
+04.12.2017. 10:22:15 - [INFO] - [Aktuator] snimanje kamerom
+04.12.2017. 10:22:15 - [INFO] - 
+-------------------------------------------------------------
+	Postavljam uredjaje za FOI 1 - dvorišna vrata
+-------------------------------------------------------------
+
+04.12.2017. 10:22:15 - [INFO] - [Senzor] dim
+04.12.2017. 10:22:15 - [INFO] - [Senzor] svjetlo
+04.12.2017. 10:22:15 - [INFO] - [Senzor] dim
+04.12.2017. 10:22:15 - [INFO] - [Aktuator] snimanje kamerom
+04.12.2017. 10:22:15 - [INFO] - [Aktuator] snimanje kamerom
+04.12.2017. 10:22:15 - [INFO] - 
+-------------------------------------------------------------
+	Postavljam uredjaje za FOI 1 - parkiralište
+-------------------------------------------------------------
+
+04.12.2017. 10:22:15 - [INFO] - [Senzor] prepreka
+04.12.2017. 10:22:15 - [INFO] - [Senzor] prepreka
+04.12.2017. 10:22:15 - [INFO] - [Senzor] vanjska temperatura
+04.12.2017. 10:22:15 - [INFO] - [Senzor] svjetlo
+04.12.2017. 10:22:15 - [INFO] - [Aktuator] otvaranje/zatvaranje vrata
+04.12.2017. 10:22:15 - [INFO] - [Aktuator] paljenje/gašenje lampe
+04.12.2017. 10:22:15 - [INFO] - 
+-------------------------------------------------------------
+	Postavljam uredjaje za FOI 1 - vijećnica
+-------------------------------------------------------------
+
+04.12.2017. 10:22:15 - [INFO] - [Senzor] unutarnja temperatura
+04.12.2017. 10:22:15 - [INFO] - [Senzor] svjetlo
+04.12.2017. 10:22:15 - [INFO] - [Senzor] prepreka
+04.12.2017. 10:22:15 - [INFO] - [Senzor] vlaga
+04.12.2017. 10:22:15 - [INFO] - [Aktuator] snimanje kamerom
+04.12.2017. 10:22:15 - [INFO] - [Aktuator] paljenje/gašenje lampe
+04.12.2017. 10:22:15 - [INFO] - [Aktuator] otvaranje/zatvaranje vrata
+04.12.2017. 10:22:15 - [INFO] - [Aktuator] dizanje/spuštanje televizora
+04.12.2017. 10:22:15 - [INFO] - 
+-------------------------------------------------------------
+	Postavljam uredjaje za FOI 1 - knjižnica
+-------------------------------------------------------------
+
+04.12.2017. 10:22:15 - [INFO] - [Senzor] unutarnja temperatura
+04.12.2017. 10:22:15 - [INFO] - [Senzor] prepreka
+04.12.2017. 10:22:15 - [INFO] - [Senzor] svjetlo
+04.12.2017. 10:22:15 - [INFO] - [Senzor] prepreka
+04.12.2017. 10:22:15 - [INFO] - [Senzor] prepreka
+04.12.2017. 10:22:15 - [INFO] - [Aktuator] otvaranje/zatvaranje vrata
+04.12.2017. 10:22:15 - [INFO] - [Aktuator] dizanje/spuštanje televizora
+04.12.2017. 10:22:15 - [INFO] - [Aktuator] otvaranje/zatvaranje vrata
+04.12.2017. 10:22:15 - [INFO] - 
+-------------------------------------------------------------
+	Postavljam uredjaje za FOI 1 - dvorana 1
+-------------------------------------------------------------
+
+04.12.2017. 10:22:15 - [INFO] - [Senzor] prepreka
+04.12.2017. 10:22:15 - [INFO] - [Senzor] kontakt
+04.12.2017. 10:22:15 - [INFO] - [Senzor] kontakt
+04.12.2017. 10:22:15 - [INFO] - [Senzor] unutarnja temperatura
+04.12.2017. 10:22:15 - [INFO] - [Senzor] unutarnja temperatura
+04.12.2017. 10:22:15 - [INFO] - [Senzor] vlaga
+04.12.2017. 10:22:15 - [INFO] - [Senzor] dim
+04.12.2017. 10:22:15 - [INFO] - [Aktuator] dizanje/spuštanje televizora
+04.12.2017. 10:22:15 - [INFO] - [Aktuator] snimanje kamerom
+04.12.2017. 10:22:15 - [INFO] - [Aktuator] otvaranje/zatvaranje vrata
+04.12.2017. 10:22:15 - [INFO] - [Aktuator] dizanje/spuštanje platna za ploču
+04.12.2017. 10:22:15 - [INFO] - [Aktuator] otvaranje/zatvaranje vrata
+04.12.2017. 10:22:15 - [INFO] - 
+-------------------------------------------------------------
+	Postavljam uredjaje za FOI 1 - restoran
+-------------------------------------------------------------
+
+04.12.2017. 10:22:15 - [INFO] - [Senzor] vlaga
+04.12.2017. 10:22:15 - [INFO] - [Senzor] unutarnja temperatura
+04.12.2017. 10:22:15 - [INFO] - [Senzor] kontakt
+04.12.2017. 10:22:15 - [INFO] - [Senzor] kontakt
+04.12.2017. 10:22:15 - [INFO] - [Senzor] kontakt
+04.12.2017. 10:22:15 - [INFO] - [Aktuator] dizanje/spuštanje televizora
+04.12.2017. 10:22:15 - [INFO] - [Aktuator] paljenje/gašenje lampe
+04.12.2017. 10:22:15 - [INFO] - [Aktuator] otvaranje/zatvaranje vrata
+04.12.2017. 10:22:15 - [INFO] - 
+-------------------------------------------------------------
+	Postavljam uredjaje za FOI 1 - sistem sala
+-------------------------------------------------------------
+
+04.12.2017. 10:22:15 - [INFO] - [Senzor] unutarnja temperatura
+04.12.2017. 10:22:15 - [INFO] - [Senzor] svjetlo
+04.12.2017. 10:22:15 - [INFO] - [Senzor] svjetlo
+04.12.2017. 10:22:15 - [INFO] - [Senzor] svjetlo
+04.12.2017. 10:22:15 - [INFO] - [Senzor] kontakt
+04.12.2017. 10:22:15 - [INFO] - [Senzor] unutarnja temperatura
+04.12.2017. 10:22:15 - [INFO] - [Aktuator] dizanje/spuštanje televizora
+04.12.2017. 10:22:15 - [INFO] - [Aktuator] snimanje kamerom
+04.12.2017. 10:22:15 - [INFO] - [Aktuator] otvaranje/zatvaranje vrata
+04.12.2017. 10:24:00 - [INFO] - Kreiram mjesto FOI 1 - ulazna vrata .
+04.12.2017. 10:24:00 - [INFO] - Kreiram mjesto FOI 1 - dvorišna vrata .
+04.12.2017. 10:24:00 - [WARNING] - Mjesto FOI 1 - dvorišna vrata već postoji.
+04.12.2017. 10:24:00 - [INFO] - Kreiram mjesto FOI 1 - parkiralište .
+04.12.2017. 10:24:00 - [INFO] - Kreiram mjesto FOI 1 - vijećnica .
+04.12.2017. 10:24:00 - [INFO] - Kreiram mjesto FOI 1 - knjižnica .
+04.12.2017. 10:24:00 - [WARNING] - Format zapisa za mjesto FOI 1 - knjižnica nije valjan.
+04.12.2017. 10:24:00 - [INFO] - Kreiram mjesto FOI 1 - dvorana 1 .
+04.12.2017. 10:24:00 - [INFO] - Kreiram mjesto FOI 1 - restoran .
+04.12.2017. 10:24:00 - [INFO] - Kreiram mjesto FOI 1 - sistem sala .
+04.12.2017. 10:24:00 - [WARNING] - Format zapisa za smjer vjetra nije valjan.
+04.12.2017. 10:24:00 - [INFO] - 
+-------------------------------------------------------------
+	Postavljam uredjaje za FOI 1 - ulazna vrata
+-------------------------------------------------------------
+
+04.12.2017. 10:24:00 - [INFO] - [Senzor] kontakt
+04.12.2017. 10:24:00 - [INFO] - [Senzor] svjetlo
+04.12.2017. 10:24:00 - [INFO] - [Senzor] dim
+04.12.2017. 10:24:00 - [INFO] - [Aktuator] paljenje/gašenje lampe
+04.12.2017. 10:24:00 - [INFO] - [Aktuator] otvaranje/zatvaranje vrata
+04.12.2017. 10:24:00 - [INFO] - 
+-------------------------------------------------------------
+	Postavljam uredjaje za FOI 1 - dvorišna vrata
+-------------------------------------------------------------
+
+04.12.2017. 10:24:00 - [INFO] - [Senzor] prepreka
+04.12.2017. 10:24:00 - [INFO] - [Senzor] dim
+04.12.2017. 10:24:00 - [INFO] - [Senzor] svjetlo
+04.12.2017. 10:24:00 - [INFO] - [Aktuator] dizanje/spuštanje televizora
+04.12.2017. 10:24:00 - [INFO] - [Aktuator] dizanje/spuštanje platna za ploču
+04.12.2017. 10:24:00 - [INFO] - 
+-------------------------------------------------------------
+	Postavljam uredjaje za FOI 1 - parkiralište
+-------------------------------------------------------------
+
+04.12.2017. 10:24:00 - [INFO] - [Senzor] vjetar
+04.12.2017. 10:24:00 - [INFO] - [Senzor] vlaga
+04.12.2017. 10:24:00 - [INFO] - [Senzor] svjetlo
+04.12.2017. 10:24:00 - [INFO] - [Senzor] svjetlo
+04.12.2017. 10:24:00 - [INFO] - [Aktuator] paljenje/gašenje lampe
+04.12.2017. 10:24:00 - [INFO] - [Aktuator] snimanje kamerom
+04.12.2017. 10:24:00 - [INFO] - 
+-------------------------------------------------------------
+	Postavljam uredjaje za FOI 1 - vijećnica
+-------------------------------------------------------------
+
+04.12.2017. 10:24:00 - [INFO] - [Senzor] prepreka
+04.12.2017. 10:24:00 - [INFO] - [Senzor] prepreka
+04.12.2017. 10:24:00 - [INFO] - [Senzor] dim
+04.12.2017. 10:24:00 - [INFO] - [Senzor] dim
+04.12.2017. 10:24:00 - [INFO] - [Aktuator] dizanje/spuštanje platna za ploču
+04.12.2017. 10:24:00 - [INFO] - [Aktuator] dizanje/spuštanje televizora
+04.12.2017. 10:24:00 - [INFO] - [Aktuator] dizanje/spuštanje platna za ploču
+04.12.2017. 10:24:00 - [INFO] - [Aktuator] dizanje/spuštanje televizora
+04.12.2017. 10:24:00 - [INFO] - 
+-------------------------------------------------------------
+	Postavljam uredjaje za FOI 1 - knjižnica
+-------------------------------------------------------------
+
+04.12.2017. 10:24:00 - [INFO] - [Senzor] dim
+04.12.2017. 10:24:00 - [INFO] - [Senzor] unutarnja temperatura
+04.12.2017. 10:24:00 - [INFO] - [Senzor] prepreka
+04.12.2017. 10:24:00 - [INFO] - [Senzor] kontakt
+04.12.2017. 10:24:00 - [INFO] - [Senzor] vlaga
+04.12.2017. 10:24:00 - [INFO] - [Aktuator] dizanje/spuštanje televizora
+04.12.2017. 10:24:00 - [INFO] - [Aktuator] dizanje/spuštanje platna za ploču
+04.12.2017. 10:24:00 - [INFO] - [Aktuator] paljenje/gašenje lampe
+04.12.2017. 10:24:00 - [INFO] - 
+-------------------------------------------------------------
+	Postavljam uredjaje za FOI 1 - dvorana 1
+-------------------------------------------------------------
+
+04.12.2017. 10:24:00 - [INFO] - [Senzor] prepreka
+04.12.2017. 10:24:00 - [INFO] - [Senzor] svjetlo
+04.12.2017. 10:24:00 - [INFO] - [Senzor] svjetlo
+04.12.2017. 10:24:00 - [INFO] - [Senzor] vlaga
+04.12.2017. 10:24:00 - [INFO] - [Senzor] dim
+04.12.2017. 10:24:00 - [INFO] - [Senzor] vlaga
+04.12.2017. 10:24:00 - [INFO] - [Senzor] svjetlo
+04.12.2017. 10:24:00 - [INFO] - [Aktuator] snimanje kamerom
+04.12.2017. 10:24:00 - [INFO] - [Aktuator] otvaranje/zatvaranje vrata
+04.12.2017. 10:24:00 - [INFO] - [Aktuator] snimanje kamerom
+04.12.2017. 10:24:00 - [INFO] - [Aktuator] snimanje kamerom
+04.12.2017. 10:24:00 - [INFO] - [Aktuator] otvaranje/zatvaranje vrata
+04.12.2017. 10:24:00 - [INFO] - 
+-------------------------------------------------------------
+	Postavljam uredjaje za FOI 1 - restoran
+-------------------------------------------------------------
+
+04.12.2017. 10:24:00 - [INFO] - [Senzor] prepreka
+04.12.2017. 10:24:00 - [INFO] - [Senzor] prepreka
+04.12.2017. 10:24:00 - [INFO] - [Senzor] svjetlo
+04.12.2017. 10:24:00 - [INFO] - [Senzor] vlaga
+04.12.2017. 10:24:00 - [INFO] - [Senzor] prepreka
+04.12.2017. 10:24:00 - [INFO] - [Aktuator] paljenje/gašenje lampe
+04.12.2017. 10:24:00 - [INFO] - [Aktuator] snimanje kamerom
+04.12.2017. 10:24:00 - [INFO] - [Aktuator] otvaranje/zatvaranje vrata
+04.12.2017. 10:24:00 - [INFO] - 
+-------------------------------------------------------------
+	Postavljam uredjaje za FOI 1 - sistem sala
+-------------------------------------------------------------
+
+04.12.2017. 10:24:00 - [INFO] - [Senzor] prepreka
+04.12.2017. 10:24:00 - [INFO] - [Senzor] prepreka
+04.12.2017. 10:24:00 - [INFO] - [Senzor] dim
+04.12.2017. 10:24:00 - [INFO] - [Senzor] dim
+04.12.2017. 10:24:01 - [INFO] - [Senzor] unutarnja temperatura
+04.12.2017. 10:24:01 - [INFO] - [Senzor] svjetlo
+04.12.2017. 10:24:01 - [INFO] - [Aktuator] snimanje kamerom
+04.12.2017. 10:24:01 - [INFO] - [Aktuator] snimanje kamerom
+04.12.2017. 10:24:01 - [INFO] - [Aktuator] paljenje/gašenje lampe

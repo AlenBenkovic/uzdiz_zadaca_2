@@ -43,9 +43,14 @@ public class ToFBuilder {
             return this;
         }
         
-        public Builder kreirajUredjaje(){
-            FoiFactory factory = new UredjajFactory(this.params);
+        public Builder postaviUredjaje() {
+             FoiFactory factory = new UredjajFactory(this.params);
             for(Mjesto m : this.foiZgrada.getMjesta()){
+                 String poruka = "\n-------------------------------------------------------------"
+                    + "\n\tPostavljam uredjaje za " + m.naziv
+                    + "\n-------------------------------------------------------------\n";
+                this.logger.log(poruka, "info");
+                
                 for(int i=0; i<= m.brojSenzora; i++){
                     m.addUredjaj(factory.kreirajUredjaj(true, m.tip));
                 }
@@ -54,12 +59,6 @@ public class ToFBuilder {
                     m.addUredjaj(factory.kreirajUredjaj(false, m.tip));
                 }
             }
-            
-            
-            return this;
-        }
-        
-        public Builder postaviUredjaje() {
             
             return this;
         }
