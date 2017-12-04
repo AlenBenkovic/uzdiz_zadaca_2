@@ -12,7 +12,6 @@ import uzdiz_zadaca_2.factory.FoiFactory;
 import uzdiz_zadaca_2.factory.MjestoFactory;
 import uzdiz_zadaca_2.factory.UredjajFactory;
 import uzdiz_zadaca_2.iterator.Iterator;
-import uzdiz_zadaca_2.iterator.MjestoIterator;
 import uzdiz_zadaca_2.logs.FoiLogger;
 
 /**
@@ -70,7 +69,7 @@ public class ToFBuilder {
             while(iterator.hasNext()){
                 Mjesto m = (Mjesto)iterator.next();
                 String poruka = "\n-------------------------------------------------------------"
-                    + "\n\tInicijaliziram uredjaje za " + m.naziv
+                    + "\n\tInicijaliziram uredjaje za " + m.id + " " +  m.naziv
                     + "\n-------------------------------------------------------------\n";
                 this.logger.log(poruka, "info");
                 m.inicijalizacijaUredjaja();
@@ -80,6 +79,16 @@ public class ToFBuilder {
         }
         
         public Builder opremanjeMjesta() {
+            Iterator iterator = this.foiZgrada.createIterator();
+            while(iterator.hasNext()){
+                Mjesto m = (Mjesto)iterator.next();
+                String poruka = "\n-------------------------------------------------------------"
+                    + "\n\tOpremam mjesto " + m.id + " " +  m.naziv
+                    + "\n-------------------------------------------------------------\n";
+                this.logger.log(poruka, "info");
+                
+            }
+            
             return this;
 
         }

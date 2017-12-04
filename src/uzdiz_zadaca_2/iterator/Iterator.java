@@ -15,6 +15,8 @@ public interface Iterator {
     
     boolean hasNext();
     
+    void reset();
+    
     Object next();
     
 }

@@ -12897,3 +12897,2361 @@
 04.12.2017. 01:25:30 - [INFO] - dim [1]
 04.12.2017. 01:25:30 - [INFO] - unutarnja temperatura [1]
 04.12.2017. 01:25:30 - [INFO] - dizanje/spuštanje platna za ploču [1]
+04.12.2017. 01:28:46 - [INFO] - Kreiram mjesto FOI 1 - ulazna vrata .
+04.12.2017. 01:28:46 - [INFO] - Kreiram mjesto FOI 1 - dvorišna vrata .
+04.12.2017. 01:28:46 - [WARNING] - Mjesto FOI 1 - dvorišna vrata već postoji.
+04.12.2017. 01:28:46 - [INFO] - Kreiram mjesto FOI 1 - parkiralište .
+04.12.2017. 01:28:46 - [INFO] - Kreiram mjesto FOI 1 - vijećnica .
+04.12.2017. 01:28:46 - [INFO] - Kreiram mjesto FOI 1 - knjižnica .
+04.12.2017. 01:28:46 - [WARNING] - Format zapisa za mjesto FOI 1 - knjižnica2 nije valjan.
+04.12.2017. 01:28:46 - [INFO] - Kreiram mjesto FOI 1 - dvorana 1 .
+04.12.2017. 01:28:46 - [INFO] - Kreiram mjesto FOI 1 - restoran .
+04.12.2017. 01:28:46 - [INFO] - Kreiram mjesto FOI 1 - sistem sala .
+04.12.2017. 01:28:46 - [WARNING] - Format zapisa za smjer vjetra nije valjan.
+04.12.2017. 01:28:46 - [INFO] - 
+-------------------------------------------------------------
+	Postavljam uredjaje za FOI 1 - ulazna vrata
+-------------------------------------------------------------
+
+04.12.2017. 01:28:46 - [INFO] - [Senzor] dim
+04.12.2017. 01:28:46 - [INFO] - [Senzor] kontakt
+04.12.2017. 01:28:46 - [INFO] - [Senzor] unutarnja temperatura
+04.12.2017. 01:28:46 - [INFO] - [Aktuator] otvaranje/zatvaranje vrata
+04.12.2017. 01:28:46 - [INFO] - [Aktuator] dizanje/spuštanje televizora
+04.12.2017. 01:28:46 - [INFO] - 
+-------------------------------------------------------------
+	Postavljam uredjaje za FOI 1 - dvorišna vrata
+-------------------------------------------------------------
+
+04.12.2017. 01:28:46 - [INFO] - [Senzor] dim
+04.12.2017. 01:28:46 - [INFO] - [Senzor] svjetlo
+04.12.2017. 01:28:46 - [INFO] - [Senzor] dim
+04.12.2017. 01:28:46 - [INFO] - [Aktuator] snimanje kamerom
+04.12.2017. 01:28:46 - [INFO] - [Aktuator] paljenje/gašenje lampe
+04.12.2017. 01:28:46 - [INFO] - 
+-------------------------------------------------------------
+	Postavljam uredjaje za FOI 1 - parkiralište
+-------------------------------------------------------------
+
+04.12.2017. 01:28:46 - [INFO] - [Senzor] vjetar
+04.12.2017. 01:28:46 - [INFO] - [Senzor] kontakt
+04.12.2017. 01:28:46 - [INFO] - [Senzor] vjetar
+04.12.2017. 01:28:46 - [INFO] - [Senzor] vjetar
+04.12.2017. 01:28:46 - [INFO] - [Aktuator] snimanje kamerom
+04.12.2017. 01:28:46 - [INFO] - [Aktuator] snimanje kamerom
+04.12.2017. 01:28:46 - [INFO] - 
+-------------------------------------------------------------
+	Postavljam uredjaje za FOI 1 - vijećnica
+-------------------------------------------------------------
+
+04.12.2017. 01:28:46 - [INFO] - [Senzor] dim
+04.12.2017. 01:28:46 - [INFO] - [Senzor] dim
+04.12.2017. 01:28:46 - [INFO] - [Senzor] prepreka
+04.12.2017. 01:28:46 - [INFO] - [Senzor] unutarnja temperatura
+04.12.2017. 01:28:46 - [INFO] - [Aktuator] dizanje/spuštanje televizora
+04.12.2017. 01:28:46 - [INFO] - [Aktuator] otvaranje/zatvaranje vrata
+04.12.2017. 01:28:46 - [INFO] - [Aktuator] dizanje/spuštanje televizora
+04.12.2017. 01:28:46 - [INFO] - [Aktuator] snimanje kamerom
+04.12.2017. 01:28:46 - [INFO] - 
+-------------------------------------------------------------
+	Postavljam uredjaje za FOI 1 - knjižnica
+-------------------------------------------------------------
+
+04.12.2017. 01:28:46 - [INFO] - [Senzor] vlaga
+04.12.2017. 01:28:46 - [INFO] - [Senzor] prepreka
+04.12.2017. 01:28:46 - [INFO] - [Senzor] kontakt
+04.12.2017. 01:28:46 - [INFO] - [Senzor] vlaga
+04.12.2017. 01:28:46 - [INFO] - [Senzor] svjetlo
+04.12.2017. 01:28:46 - [INFO] - [Aktuator] snimanje kamerom
+04.12.2017. 01:28:46 - [INFO] - [Aktuator] snimanje kamerom
+04.12.2017. 01:28:46 - [INFO] - [Aktuator] dizanje/spuštanje televizora
+04.12.2017. 01:28:46 - [INFO] - 
+-------------------------------------------------------------
+	Postavljam uredjaje za FOI 1 - dvorana 1
+-------------------------------------------------------------
+
+04.12.2017. 01:28:46 - [INFO] - [Senzor] kontakt
+04.12.2017. 01:28:46 - [INFO] - [Senzor] unutarnja temperatura
+04.12.2017. 01:28:46 - [INFO] - [Senzor] dim
+04.12.2017. 01:28:46 - [INFO] - [Senzor] prepreka
+04.12.2017. 01:28:46 - [INFO] - [Senzor] vlaga
+04.12.2017. 01:28:46 - [INFO] - [Senzor] unutarnja temperatura
+04.12.2017. 01:28:46 - [INFO] - [Senzor] vlaga
+04.12.2017. 01:28:46 - [INFO] - [Aktuator] paljenje/gašenje lampe
+04.12.2017. 01:28:46 - [INFO] - [Aktuator] dizanje/spuštanje televizora
+04.12.2017. 01:28:46 - [INFO] - [Aktuator] snimanje kamerom
+04.12.2017. 01:28:46 - [INFO] - [Aktuator] dizanje/spuštanje platna za ploču
+04.12.2017. 01:28:46 - [INFO] - [Aktuator] dizanje/spuštanje platna za ploču
+04.12.2017. 01:28:46 - [INFO] - 
+-------------------------------------------------------------
+	Postavljam uredjaje za FOI 1 - restoran
+-------------------------------------------------------------
+
+04.12.2017. 01:28:46 - [INFO] - [Senzor] prepreka
+04.12.2017. 01:28:46 - [INFO] - [Senzor] dim
+04.12.2017. 01:28:46 - [INFO] - [Senzor] unutarnja temperatura
+04.12.2017. 01:28:46 - [INFO] - [Senzor] prepreka
+04.12.2017. 01:28:46 - [INFO] - [Senzor] svjetlo
+04.12.2017. 01:28:46 - [INFO] - [Aktuator] dizanje/spuštanje televizora
+04.12.2017. 01:28:46 - [INFO] - [Aktuator] dizanje/spuštanje televizora
+04.12.2017. 01:28:46 - [INFO] - [Aktuator] paljenje/gašenje lampe
+04.12.2017. 01:28:46 - [INFO] - 
+-------------------------------------------------------------
+	Postavljam uredjaje za FOI 1 - sistem sala
+-------------------------------------------------------------
+
+04.12.2017. 01:28:46 - [INFO] - [Senzor] kontakt
+04.12.2017. 01:28:46 - [INFO] - [Senzor] svjetlo
+04.12.2017. 01:28:46 - [INFO] - [Senzor] vlaga
+04.12.2017. 01:28:46 - [INFO] - [Senzor] dim
+04.12.2017. 01:28:46 - [INFO] - [Senzor] dim
+04.12.2017. 01:28:46 - [INFO] - [Senzor] vlaga
+04.12.2017. 01:28:46 - [INFO] - [Aktuator] dizanje/spuštanje televizora
+04.12.2017. 01:28:46 - [INFO] - [Aktuator] dizanje/spuštanje platna za ploču
+04.12.2017. 01:28:46 - [INFO] - [Aktuator] dizanje/spuštanje platna za ploču
+04.12.2017. 01:28:46 - [INFO] - [Aktuator] dizanje/spuštanje televizora
+04.12.2017. 01:28:46 - [INFO] - 
+-------------------------------------------------------------
+	Inicijaliziram uredjaje za FOI 1 - vijećnica
+-------------------------------------------------------------
+
+04.12.2017. 01:28:46 - [INFO] - dim [1]
+04.12.2017. 01:28:46 - [INFO] - dim [1]
+04.12.2017. 01:28:46 - [INFO] - prepreka [1]
+04.12.2017. 01:28:46 - [INFO] - unutarnja temperatura [1]
+04.12.2017. 01:28:46 - [INFO] - dizanje/spuštanje televizora [1]
+04.12.2017. 01:28:46 - [WARNING] - otvaranje/zatvaranje vrata [0]
+04.12.2017. 01:28:46 - [INFO] - dizanje/spuštanje televizora [1]
+04.12.2017. 01:28:46 - [INFO] - snimanje kamerom [1]
+04.12.2017. 01:28:46 - [INFO] - 
+-------------------------------------------------------------
+	Inicijaliziram uredjaje za FOI 1 - restoran
+-------------------------------------------------------------
+
+04.12.2017. 01:28:46 - [INFO] - prepreka [1]
+04.12.2017. 01:28:46 - [INFO] - dim [1]
+04.12.2017. 01:28:46 - [INFO] - unutarnja temperatura [1]
+04.12.2017. 01:28:46 - [INFO] - prepreka [1]
+04.12.2017. 01:28:46 - [INFO] - svjetlo [1]
+04.12.2017. 01:28:46 - [INFO] - dizanje/spuštanje televizora [1]
+04.12.2017. 01:28:46 - [INFO] - dizanje/spuštanje televizora [1]
+04.12.2017. 01:28:46 - [INFO] - paljenje/gašenje lampe [1]
+04.12.2017. 01:28:46 - [INFO] - 
+-------------------------------------------------------------
+	Inicijaliziram uredjaje za FOI 1 - ulazna vrata
+-------------------------------------------------------------
+
+04.12.2017. 01:28:46 - [INFO] - dim [1]
+04.12.2017. 01:28:46 - [WARNING] - kontakt [0]
+04.12.2017. 01:28:46 - [INFO] - unutarnja temperatura [1]
+04.12.2017. 01:28:46 - [INFO] - otvaranje/zatvaranje vrata [1]
+04.12.2017. 01:28:46 - [INFO] - dizanje/spuštanje televizora [1]
+04.12.2017. 01:28:46 - [INFO] - 
+-------------------------------------------------------------
+	Inicijaliziram uredjaje za FOI 1 - sistem sala
+-------------------------------------------------------------
+
+04.12.2017. 01:28:46 - [INFO] - kontakt [1]
+04.12.2017. 01:28:46 - [INFO] - svjetlo [1]
+04.12.2017. 01:28:46 - [INFO] - vlaga [1]
+04.12.2017. 01:28:46 - [INFO] - dim [1]
+04.12.2017. 01:28:46 - [INFO] - dim [1]
+04.12.2017. 01:28:46 - [INFO] - vlaga [1]
+04.12.2017. 01:28:46 - [INFO] - dizanje/spuštanje televizora [1]
+04.12.2017. 01:28:46 - [INFO] - dizanje/spuštanje platna za ploču [1]
+04.12.2017. 01:28:46 - [INFO] - dizanje/spuštanje platna za ploču [1]
+04.12.2017. 01:28:46 - [INFO] - dizanje/spuštanje televizora [1]
+04.12.2017. 01:28:46 - [INFO] - 
+-------------------------------------------------------------
+	Inicijaliziram uredjaje za FOI 1 - dvorišna vrata
+-------------------------------------------------------------
+
+04.12.2017. 01:28:46 - [INFO] - dim [1]
+04.12.2017. 01:28:46 - [INFO] - svjetlo [1]
+04.12.2017. 01:28:46 - [INFO] - dim [1]
+04.12.2017. 01:28:46 - [WARNING] - snimanje kamerom [0]
+04.12.2017. 01:28:46 - [WARNING] - paljenje/gašenje lampe [0]
+04.12.2017. 01:28:46 - [INFO] - 
+-------------------------------------------------------------
+	Inicijaliziram uredjaje za FOI 1 - parkiralište
+-------------------------------------------------------------
+
+04.12.2017. 01:28:46 - [INFO] - vjetar [1]
+04.12.2017. 01:28:46 - [WARNING] - kontakt [0]
+04.12.2017. 01:28:46 - [INFO] - vjetar [1]
+04.12.2017. 01:28:46 - [INFO] - vjetar [1]
+04.12.2017. 01:28:46 - [INFO] - snimanje kamerom [1]
+04.12.2017. 01:28:46 - [INFO] - snimanje kamerom [1]
+04.12.2017. 01:28:46 - [INFO] - 
+-------------------------------------------------------------
+	Inicijaliziram uredjaje za FOI 1 - knjižnica
+-------------------------------------------------------------
+
+04.12.2017. 01:28:46 - [INFO] - vlaga [1]
+04.12.2017. 01:28:46 - [INFO] - prepreka [1]
+04.12.2017. 01:28:46 - [INFO] - kontakt [1]
+04.12.2017. 01:28:46 - [INFO] - vlaga [1]
+04.12.2017. 01:28:46 - [INFO] - svjetlo [1]
+04.12.2017. 01:28:46 - [INFO] - snimanje kamerom [1]
+04.12.2017. 01:28:46 - [INFO] - snimanje kamerom [1]
+04.12.2017. 01:28:46 - [INFO] - dizanje/spuštanje televizora [1]
+04.12.2017. 01:28:46 - [INFO] - 
+-------------------------------------------------------------
+	Inicijaliziram uredjaje za FOI 1 - dvorana 1
+-------------------------------------------------------------
+
+04.12.2017. 01:28:46 - [INFO] - kontakt [1]
+04.12.2017. 01:28:46 - [INFO] - unutarnja temperatura [1]
+04.12.2017. 01:28:46 - [INFO] - dim [1]
+04.12.2017. 01:28:46 - [INFO] - prepreka [1]
+04.12.2017. 01:28:46 - [INFO] - vlaga [1]
+04.12.2017. 01:28:46 - [INFO] - unutarnja temperatura [1]
+04.12.2017. 01:28:46 - [INFO] - vlaga [1]
+04.12.2017. 01:28:46 - [WARNING] - paljenje/gašenje lampe [0]
+04.12.2017. 01:28:46 - [INFO] - dizanje/spuštanje televizora [1]
+04.12.2017. 01:28:46 - [INFO] - snimanje kamerom [1]
+04.12.2017. 01:28:46 - [INFO] - dizanje/spuštanje platna za ploču [1]
+04.12.2017. 01:30:43 - [INFO] - Kreiram mjesto FOI 1 - ulazna vrata .
+04.12.2017. 01:30:43 - [INFO] - Kreiram mjesto FOI 1 - dvorišna vrata .
+04.12.2017. 01:30:43 - [WARNING] - Mjesto FOI 1 - dvorišna vrata već postoji.
+04.12.2017. 01:30:43 - [INFO] - Kreiram mjesto FOI 1 - parkiralište .
+04.12.2017. 01:30:43 - [INFO] - Kreiram mjesto FOI 1 - vijećnica .
+04.12.2017. 01:30:43 - [INFO] - Kreiram mjesto FOI 1 - knjižnica .
+04.12.2017. 01:30:43 - [WARNING] - Format zapisa za mjesto FOI 1 - knjižnica2 nije valjan.
+04.12.2017. 01:30:43 - [INFO] - Kreiram mjesto FOI 1 - dvorana 1 .
+04.12.2017. 01:30:43 - [INFO] - Kreiram mjesto FOI 1 - restoran .
+04.12.2017. 01:30:43 - [INFO] - Kreiram mjesto FOI 1 - sistem sala .
+04.12.2017. 01:30:43 - [WARNING] - Format zapisa za smjer vjetra nije valjan.
+04.12.2017. 01:30:43 - [INFO] - 
+-------------------------------------------------------------
+	Postavljam uredjaje za FOI 1 - ulazna vrata
+-------------------------------------------------------------
+
+04.12.2017. 01:30:43 - [INFO] - [Senzor] svjetlo
+04.12.2017. 01:30:43 - [INFO] - [Senzor] unutarnja temperatura
+04.12.2017. 01:30:43 - [INFO] - [Senzor] prepreka
+04.12.2017. 01:30:43 - [INFO] - [Aktuator] paljenje/gašenje lampe
+04.12.2017. 01:30:43 - [INFO] - [Aktuator] snimanje kamerom
+04.12.2017. 01:30:43 - [INFO] - 
+-------------------------------------------------------------
+	Postavljam uredjaje za FOI 1 - dvorišna vrata
+-------------------------------------------------------------
+
+04.12.2017. 01:30:43 - [INFO] - [Senzor] svjetlo
+04.12.2017. 01:30:43 - [INFO] - [Senzor] kontakt
+04.12.2017. 01:30:43 - [INFO] - [Senzor] kontakt
+04.12.2017. 01:30:43 - [INFO] - [Aktuator] paljenje/gašenje lampe
+04.12.2017. 01:30:43 - [INFO] - [Aktuator] dizanje/spuštanje televizora
+04.12.2017. 01:30:43 - [INFO] - 
+-------------------------------------------------------------
+	Postavljam uredjaje za FOI 1 - parkiralište
+-------------------------------------------------------------
+
+04.12.2017. 01:30:43 - [INFO] - [Senzor] prepreka
+04.12.2017. 01:30:43 - [INFO] - [Senzor] kontakt
+04.12.2017. 01:30:43 - [INFO] - [Senzor] vlaga
+04.12.2017. 01:30:43 - [INFO] - [Senzor] prepreka
+04.12.2017. 01:30:43 - [INFO] - [Aktuator] dizanje/spuštanje rampe
+04.12.2017. 01:30:43 - [INFO] - [Aktuator] otvaranje/zatvaranje vrata
+04.12.2017. 01:30:43 - [INFO] - 
+-------------------------------------------------------------
+	Postavljam uredjaje za FOI 1 - vijećnica
+-------------------------------------------------------------
+
+04.12.2017. 01:30:43 - [INFO] - [Senzor] svjetlo
+04.12.2017. 01:30:43 - [INFO] - [Senzor] prepreka
+04.12.2017. 01:30:43 - [INFO] - [Senzor] unutarnja temperatura
+04.12.2017. 01:30:43 - [INFO] - [Senzor] prepreka
+04.12.2017. 01:30:43 - [INFO] - [Aktuator] snimanje kamerom
+04.12.2017. 01:30:43 - [INFO] - [Aktuator] paljenje/gašenje lampe
+04.12.2017. 01:30:43 - [INFO] - [Aktuator] otvaranje/zatvaranje vrata
+04.12.2017. 01:30:43 - [INFO] - [Aktuator] paljenje/gašenje lampe
+04.12.2017. 01:30:43 - [INFO] - 
+-------------------------------------------------------------
+	Postavljam uredjaje za FOI 1 - knjižnica
+-------------------------------------------------------------
+
+04.12.2017. 01:30:43 - [INFO] - [Senzor] prepreka
+04.12.2017. 01:30:43 - [INFO] - [Senzor] vlaga
+04.12.2017. 01:30:43 - [INFO] - [Senzor] prepreka
+04.12.2017. 01:30:43 - [INFO] - [Senzor] vlaga
+04.12.2017. 01:30:43 - [INFO] - [Senzor] unutarnja temperatura
+04.12.2017. 01:30:43 - [INFO] - [Aktuator] snimanje kamerom
+04.12.2017. 01:30:43 - [INFO] - [Aktuator] snimanje kamerom
+04.12.2017. 01:30:43 - [INFO] - [Aktuator] snimanje kamerom
+04.12.2017. 01:30:43 - [INFO] - 
+-------------------------------------------------------------
+	Postavljam uredjaje za FOI 1 - dvorana 1
+-------------------------------------------------------------
+
+04.12.2017. 01:30:43 - [INFO] - [Senzor] svjetlo
+04.12.2017. 01:30:43 - [INFO] - [Senzor] kontakt
+04.12.2017. 01:30:43 - [INFO] - [Senzor] unutarnja temperatura
+04.12.2017. 01:30:43 - [INFO] - [Senzor] unutarnja temperatura
+04.12.2017. 01:30:43 - [INFO] - [Senzor] vlaga
+04.12.2017. 01:30:43 - [INFO] - [Senzor] svjetlo
+04.12.2017. 01:30:43 - [INFO] - [Senzor] kontakt
+04.12.2017. 01:30:43 - [INFO] - [Aktuator] otvaranje/zatvaranje vrata
+04.12.2017. 01:30:43 - [INFO] - [Aktuator] snimanje kamerom
+04.12.2017. 01:30:43 - [INFO] - [Aktuator] dizanje/spuštanje televizora
+04.12.2017. 01:30:43 - [INFO] - [Aktuator] paljenje/gašenje lampe
+04.12.2017. 01:30:43 - [INFO] - [Aktuator] snimanje kamerom
+04.12.2017. 01:30:43 - [INFO] - 
+-------------------------------------------------------------
+	Postavljam uredjaje za FOI 1 - restoran
+-------------------------------------------------------------
+
+04.12.2017. 01:30:43 - [INFO] - [Senzor] prepreka
+04.12.2017. 01:30:43 - [INFO] - [Senzor] prepreka
+04.12.2017. 01:30:43 - [INFO] - [Senzor] vlaga
+04.12.2017. 01:30:43 - [INFO] - [Senzor] unutarnja temperatura
+04.12.2017. 01:30:43 - [INFO] - [Senzor] prepreka
+04.12.2017. 01:30:43 - [INFO] - [Aktuator] otvaranje/zatvaranje vrata
+04.12.2017. 01:30:43 - [INFO] - [Aktuator] snimanje kamerom
+04.12.2017. 01:30:43 - [INFO] - [Aktuator] dizanje/spuštanje platna za ploču
+04.12.2017. 01:30:43 - [INFO] - 
+-------------------------------------------------------------
+	Postavljam uredjaje za FOI 1 - sistem sala
+-------------------------------------------------------------
+
+04.12.2017. 01:30:43 - [INFO] - [Senzor] prepreka
+04.12.2017. 01:30:43 - [INFO] - [Senzor] kontakt
+04.12.2017. 01:30:43 - [INFO] - [Senzor] vlaga
+04.12.2017. 01:30:43 - [INFO] - [Senzor] prepreka
+04.12.2017. 01:30:43 - [INFO] - [Senzor] dim
+04.12.2017. 01:30:43 - [INFO] - [Senzor] vlaga
+04.12.2017. 01:30:43 - [INFO] - [Aktuator] paljenje/gašenje lampe
+04.12.2017. 01:30:43 - [INFO] - [Aktuator] otvaranje/zatvaranje vrata
+04.12.2017. 01:30:43 - [INFO] - [Aktuator] snimanje kamerom
+04.12.2017. 01:30:43 - [INFO] - [Aktuator] paljenje/gašenje lampe
+04.12.2017. 01:30:43 - [INFO] - 
+-------------------------------------------------------------
+	Inicijaliziram uredjaje za FOI 1 - ulazna vrata
+-------------------------------------------------------------
+
+04.12.2017. 01:30:43 - [INFO] - svjetlo [1]
+04.12.2017. 01:30:43 - [INFO] - unutarnja temperatura [1]
+04.12.2017. 01:30:43 - [INFO] - prepreka [1]
+04.12.2017. 01:30:43 - [INFO] - paljenje/gašenje lampe [1]
+04.12.2017. 01:30:43 - [INFO] - snimanje kamerom [1]
+04.12.2017. 01:30:43 - [INFO] - 
+-------------------------------------------------------------
+	Inicijaliziram uredjaje za FOI 1 - sistem sala
+-------------------------------------------------------------
+
+04.12.2017. 01:30:43 - [INFO] - prepreka [1]
+04.12.2017. 01:30:43 - [INFO] - kontakt [1]
+04.12.2017. 01:30:43 - [INFO] - vlaga [1]
+04.12.2017. 01:30:43 - [INFO] - prepreka [1]
+04.12.2017. 01:30:43 - [INFO] - dim [1]
+04.12.2017. 01:30:43 - [INFO] - vlaga [1]
+04.12.2017. 01:30:43 - [INFO] - paljenje/gašenje lampe [1]
+04.12.2017. 01:30:43 - [INFO] - otvaranje/zatvaranje vrata [1]
+04.12.2017. 01:30:43 - [INFO] - snimanje kamerom [1]
+04.12.2017. 01:30:43 - [INFO] - paljenje/gašenje lampe [1]
+04.12.2017. 01:30:43 - [INFO] - 
+-------------------------------------------------------------
+	Inicijaliziram uredjaje za FOI 1 - vijećnica
+-------------------------------------------------------------
+
+04.12.2017. 01:30:43 - [INFO] - svjetlo [1]
+04.12.2017. 01:30:43 - [INFO] - prepreka [1]
+04.12.2017. 01:30:43 - [INFO] - unutarnja temperatura [1]
+04.12.2017. 01:30:43 - [INFO] - prepreka [1]
+04.12.2017. 01:30:43 - [INFO] - snimanje kamerom [1]
+04.12.2017. 01:30:43 - [INFO] - paljenje/gašenje lampe [1]
+04.12.2017. 01:30:43 - [INFO] - otvaranje/zatvaranje vrata [1]
+04.12.2017. 01:30:43 - [INFO] - paljenje/gašenje lampe [1]
+04.12.2017. 01:30:43 - [INFO] - 
+-------------------------------------------------------------
+	Inicijaliziram uredjaje za FOI 1 - restoran
+-------------------------------------------------------------
+
+04.12.2017. 01:30:43 - [INFO] - prepreka [1]
+04.12.2017. 01:30:43 - [INFO] - prepreka [1]
+04.12.2017. 01:30:43 - [INFO] - vlaga [1]
+04.12.2017. 01:30:43 - [INFO] - unutarnja temperatura [1]
+04.12.2017. 01:30:43 - [INFO] - prepreka [1]
+04.12.2017. 01:30:43 - [INFO] - otvaranje/zatvaranje vrata [1]
+04.12.2017. 01:30:43 - [INFO] - snimanje kamerom [1]
+04.12.2017. 01:30:43 - [INFO] - dizanje/spuštanje platna za ploču [1]
+04.12.2017. 01:30:43 - [INFO] - 
+-------------------------------------------------------------
+	Inicijaliziram uredjaje za FOI 1 - dvorišna vrata
+-------------------------------------------------------------
+
+04.12.2017. 01:30:43 - [INFO] - svjetlo [1]
+04.12.2017. 01:30:43 - [INFO] - kontakt [1]
+04.12.2017. 01:30:43 - [WARNING] - kontakt [0]
+04.12.2017. 01:30:43 - [INFO] - paljenje/gašenje lampe [1]
+04.12.2017. 01:30:43 - [INFO] - dizanje/spuštanje televizora [1]
+04.12.2017. 01:30:43 - [INFO] - 
+-------------------------------------------------------------
+	Inicijaliziram uredjaje za FOI 1 - dvorana 1
+-------------------------------------------------------------
+
+04.12.2017. 01:30:43 - [INFO] - svjetlo [1]
+04.12.2017. 01:30:43 - [INFO] - kontakt [1]
+04.12.2017. 01:30:43 - [INFO] - unutarnja temperatura [1]
+04.12.2017. 01:30:43 - [WARNING] - unutarnja temperatura [0]
+04.12.2017. 01:30:43 - [INFO] - vlaga [1]
+04.12.2017. 01:30:43 - [INFO] - svjetlo [1]
+04.12.2017. 01:30:43 - [INFO] - kontakt [1]
+04.12.2017. 01:30:43 - [INFO] - otvaranje/zatvaranje vrata [1]
+04.12.2017. 01:30:43 - [INFO] - snimanje kamerom [1]
+04.12.2017. 01:30:43 - [INFO] - dizanje/spuštanje televizora [1]
+04.12.2017. 01:30:43 - [INFO] - paljenje/gašenje lampe [1]
+04.12.2017. 01:30:43 - [INFO] - snimanje kamerom [1]
+04.12.2017. 01:30:43 - [INFO] - 
+-------------------------------------------------------------
+	Inicijaliziram uredjaje za FOI 1 - knjižnica
+-------------------------------------------------------------
+
+04.12.2017. 01:30:43 - [INFO] - prepreka [1]
+04.12.2017. 01:30:43 - [INFO] - vlaga [1]
+04.12.2017. 01:30:43 - [INFO] - prepreka [1]
+04.12.2017. 01:30:43 - [INFO] - vlaga [1]
+04.12.2017. 01:30:43 - [INFO] - unutarnja temperatura [1]
+04.12.2017. 01:30:43 - [INFO] - snimanje kamerom [1]
+04.12.2017. 01:30:43 - [INFO] - snimanje kamerom [1]
+04.12.2017. 01:30:43 - [INFO] - snimanje kamerom [1]
+04.12.2017. 01:30:43 - [INFO] - 
+-------------------------------------------------------------
+	Inicijaliziram uredjaje za FOI 1 - parkiralište
+-------------------------------------------------------------
+
+04.12.2017. 01:30:43 - [INFO] - prepreka [1]
+04.12.2017. 01:30:43 - [INFO] - kontakt [1]
+04.12.2017. 01:30:43 - [INFO] - vlaga [1]
+04.12.2017. 01:30:43 - [INFO] - prepreka [1]
+04.12.2017. 01:30:43 - [INFO] - dizanje/spuštanje rampe [1]
+04.12.2017. 01:32:45 - [INFO] - Kreiram mjesto FOI 1 - ulazna vrata .
+04.12.2017. 01:32:45 - [INFO] - Kreiram mjesto FOI 1 - dvorišna vrata .
+04.12.2017. 01:32:45 - [WARNING] - Mjesto FOI 1 - dvorišna vrata već postoji.
+04.12.2017. 01:32:45 - [INFO] - Kreiram mjesto FOI 1 - parkiralište .
+04.12.2017. 01:32:45 - [INFO] - Kreiram mjesto FOI 1 - vijećnica .
+04.12.2017. 01:32:45 - [INFO] - Kreiram mjesto FOI 1 - knjižnica .
+04.12.2017. 01:32:45 - [WARNING] - Format zapisa za mjesto FOI 1 - knjižnica2 nije valjan.
+04.12.2017. 01:32:45 - [INFO] - Kreiram mjesto FOI 1 - dvorana 1 .
+04.12.2017. 01:32:45 - [INFO] - Kreiram mjesto FOI 1 - restoran .
+04.12.2017. 01:32:45 - [INFO] - Kreiram mjesto FOI 1 - sistem sala .
+04.12.2017. 01:32:45 - [WARNING] - Format zapisa za smjer vjetra nije valjan.
+04.12.2017. 01:32:45 - [INFO] - 
+-------------------------------------------------------------
+	Postavljam uredjaje za FOI 1 - ulazna vrata
+-------------------------------------------------------------
+
+04.12.2017. 01:32:45 - [INFO] - [Senzor] dim
+04.12.2017. 01:32:45 - [INFO] - [Senzor] svjetlo
+04.12.2017. 01:32:45 - [INFO] - [Senzor] dim
+04.12.2017. 01:32:45 - [INFO] - [Aktuator] dizanje/spuštanje platna za ploču
+04.12.2017. 01:32:45 - [INFO] - [Aktuator] paljenje/gašenje lampe
+04.12.2017. 01:32:45 - [INFO] - 
+-------------------------------------------------------------
+	Postavljam uredjaje za FOI 1 - dvorišna vrata
+-------------------------------------------------------------
+
+04.12.2017. 01:32:45 - [INFO] - [Senzor] svjetlo
+04.12.2017. 01:32:45 - [INFO] - [Senzor] unutarnja temperatura
+04.12.2017. 01:32:45 - [INFO] - [Senzor] vlaga
+04.12.2017. 01:32:45 - [INFO] - [Aktuator] paljenje/gašenje lampe
+04.12.2017. 01:32:45 - [INFO] - [Aktuator] dizanje/spuštanje televizora
+04.12.2017. 01:32:45 - [INFO] - 
+-------------------------------------------------------------
+	Postavljam uredjaje za FOI 1 - parkiralište
+-------------------------------------------------------------
+
+04.12.2017. 01:32:45 - [INFO] - [Senzor] vjetar
+04.12.2017. 01:32:45 - [INFO] - [Senzor] svjetlo
+04.12.2017. 01:32:45 - [INFO] - [Senzor] vanjska temperatura
+04.12.2017. 01:32:45 - [INFO] - [Senzor] vanjska temperatura
+04.12.2017. 01:32:45 - [INFO] - [Aktuator] snimanje kamerom
+04.12.2017. 01:32:45 - [INFO] - [Aktuator] dizanje/spuštanje rampe
+04.12.2017. 01:32:45 - [INFO] - 
+-------------------------------------------------------------
+	Postavljam uredjaje za FOI 1 - vijećnica
+-------------------------------------------------------------
+
+04.12.2017. 01:32:45 - [INFO] - [Senzor] vlaga
+04.12.2017. 01:32:45 - [INFO] - [Senzor] svjetlo
+04.12.2017. 01:32:45 - [INFO] - [Senzor] svjetlo
+04.12.2017. 01:32:45 - [INFO] - [Senzor] prepreka
+04.12.2017. 01:32:45 - [INFO] - [Aktuator] paljenje/gašenje lampe
+04.12.2017. 01:32:45 - [INFO] - [Aktuator] otvaranje/zatvaranje vrata
+04.12.2017. 01:32:45 - [INFO] - [Aktuator] dizanje/spuštanje televizora
+04.12.2017. 01:32:45 - [INFO] - [Aktuator] snimanje kamerom
+04.12.2017. 01:32:45 - [INFO] - 
+-------------------------------------------------------------
+	Postavljam uredjaje za FOI 1 - knjižnica
+-------------------------------------------------------------
+
+04.12.2017. 01:32:45 - [INFO] - [Senzor] dim
+04.12.2017. 01:32:45 - [INFO] - [Senzor] vlaga
+04.12.2017. 01:32:45 - [INFO] - [Senzor] dim
+04.12.2017. 01:32:45 - [INFO] - [Senzor] svjetlo
+04.12.2017. 01:32:45 - [INFO] - [Senzor] vlaga
+04.12.2017. 01:32:45 - [INFO] - [Aktuator] otvaranje/zatvaranje vrata
+04.12.2017. 01:32:45 - [INFO] - [Aktuator] otvaranje/zatvaranje vrata
+04.12.2017. 01:32:45 - [INFO] - [Aktuator] dizanje/spuštanje platna za ploču
+04.12.2017. 01:32:45 - [INFO] - 
+-------------------------------------------------------------
+	Postavljam uredjaje za FOI 1 - dvorana 1
+-------------------------------------------------------------
+
+04.12.2017. 01:32:45 - [INFO] - [Senzor] svjetlo
+04.12.2017. 01:32:45 - [INFO] - [Senzor] vlaga
+04.12.2017. 01:32:45 - [INFO] - [Senzor] prepreka
+04.12.2017. 01:32:45 - [INFO] - [Senzor] unutarnja temperatura
+04.12.2017. 01:32:45 - [INFO] - [Senzor] prepreka
+04.12.2017. 01:32:45 - [INFO] - [Senzor] prepreka
+04.12.2017. 01:32:45 - [INFO] - [Senzor] prepreka
+04.12.2017. 01:32:45 - [INFO] - [Aktuator] dizanje/spuštanje televizora
+04.12.2017. 01:32:45 - [INFO] - [Aktuator] dizanje/spuštanje televizora
+04.12.2017. 01:32:45 - [INFO] - [Aktuator] otvaranje/zatvaranje vrata
+04.12.2017. 01:32:45 - [INFO] - [Aktuator] otvaranje/zatvaranje vrata
+04.12.2017. 01:32:45 - [INFO] - [Aktuator] snimanje kamerom
+04.12.2017. 01:32:45 - [INFO] - 
+-------------------------------------------------------------
+	Postavljam uredjaje za FOI 1 - restoran
+-------------------------------------------------------------
+
+04.12.2017. 01:32:45 - [INFO] - [Senzor] unutarnja temperatura
+04.12.2017. 01:32:45 - [INFO] - [Senzor] svjetlo
+04.12.2017. 01:32:45 - [INFO] - [Senzor] prepreka
+04.12.2017. 01:32:45 - [INFO] - [Senzor] unutarnja temperatura
+04.12.2017. 01:32:45 - [INFO] - [Senzor] dim
+04.12.2017. 01:32:45 - [INFO] - [Aktuator] paljenje/gašenje lampe
+04.12.2017. 01:32:45 - [INFO] - [Aktuator] snimanje kamerom
+04.12.2017. 01:32:45 - [INFO] - [Aktuator] dizanje/spuštanje televizora
+04.12.2017. 01:32:45 - [INFO] - 
+-------------------------------------------------------------
+	Postavljam uredjaje za FOI 1 - sistem sala
+-------------------------------------------------------------
+
+04.12.2017. 01:32:45 - [INFO] - [Senzor] prepreka
+04.12.2017. 01:32:45 - [INFO] - [Senzor] kontakt
+04.12.2017. 01:32:45 - [INFO] - [Senzor] dim
+04.12.2017. 01:32:45 - [INFO] - [Senzor] prepreka
+04.12.2017. 01:32:45 - [INFO] - [Senzor] unutarnja temperatura
+04.12.2017. 01:32:45 - [INFO] - [Senzor] unutarnja temperatura
+04.12.2017. 01:32:45 - [INFO] - [Aktuator] dizanje/spuštanje platna za ploču
+04.12.2017. 01:32:45 - [INFO] - [Aktuator] otvaranje/zatvaranje vrata
+04.12.2017. 01:32:45 - [INFO] - [Aktuator] dizanje/spuštanje televizora
+04.12.2017. 01:32:45 - [INFO] - [Aktuator] otvaranje/zatvaranje vrata
+04.12.2017. 01:32:45 - [INFO] - 
+-------------------------------------------------------------
+	Inicijaliziram uredjaje za FOI 1 - dvorana 1
+-------------------------------------------------------------
+
+04.12.2017. 01:32:45 - [INFO] - svjetlo [1]
+04.12.2017. 01:32:45 - [INFO] - vlaga [1]
+04.12.2017. 01:32:45 - [INFO] - prepreka [1]
+04.12.2017. 01:32:45 - [INFO] - unutarnja temperatura [1]
+04.12.2017. 01:32:45 - [INFO] - prepreka [1]
+04.12.2017. 01:32:45 - [INFO] - prepreka [1]
+04.12.2017. 01:32:45 - [INFO] - prepreka [1]
+04.12.2017. 01:32:45 - [INFO] - dizanje/spuštanje televizora [1]
+04.12.2017. 01:32:45 - [INFO] - dizanje/spuštanje televizora [1]
+04.12.2017. 01:32:45 - [INFO] - otvaranje/zatvaranje vrata [1]
+04.12.2017. 01:32:45 - [WARNING] - otvaranje/zatvaranje vrata [0]
+04.12.2017. 01:32:45 - [INFO] - snimanje kamerom [1]
+04.12.2017. 01:32:45 - [INFO] - 
+-------------------------------------------------------------
+	Inicijaliziram uredjaje za FOI 1 - knjižnica
+-------------------------------------------------------------
+
+04.12.2017. 01:32:45 - [INFO] - dim [1]
+04.12.2017. 01:32:45 - [INFO] - vlaga [1]
+04.12.2017. 01:32:45 - [INFO] - dim [1]
+04.12.2017. 01:32:45 - [INFO] - svjetlo [1]
+04.12.2017. 01:32:45 - [INFO] - vlaga [1]
+04.12.2017. 01:32:45 - [INFO] - otvaranje/zatvaranje vrata [1]
+04.12.2017. 01:32:45 - [INFO] - otvaranje/zatvaranje vrata [1]
+04.12.2017. 01:32:45 - [INFO] - dizanje/spuštanje platna za ploču [1]
+04.12.2017. 01:32:45 - [INFO] - 
+-------------------------------------------------------------
+	Inicijaliziram uredjaje za FOI 1 - sistem sala
+-------------------------------------------------------------
+
+04.12.2017. 01:32:45 - [INFO] - prepreka [1]
+04.12.2017. 01:32:45 - [INFO] - kontakt [1]
+04.12.2017. 01:32:45 - [INFO] - dim [1]
+04.12.2017. 01:32:45 - [INFO] - prepreka [1]
+04.12.2017. 01:32:45 - [INFO] - unutarnja temperatura [1]
+04.12.2017. 01:32:45 - [INFO] - unutarnja temperatura [1]
+04.12.2017. 01:32:45 - [INFO] - dizanje/spuštanje platna za ploču [1]
+04.12.2017. 01:32:45 - [INFO] - otvaranje/zatvaranje vrata [1]
+04.12.2017. 01:32:45 - [INFO] - dizanje/spuštanje televizora [1]
+04.12.2017. 01:32:45 - [INFO] - otvaranje/zatvaranje vrata [1]
+04.12.2017. 01:32:45 - [INFO] - 
+-------------------------------------------------------------
+	Inicijaliziram uredjaje za FOI 1 - parkiralište
+-------------------------------------------------------------
+
+04.12.2017. 01:32:45 - [INFO] - vjetar [1]
+04.12.2017. 01:32:45 - [INFO] - svjetlo [1]
+04.12.2017. 01:32:45 - [INFO] - vanjska temperatura [1]
+04.12.2017. 01:32:45 - [INFO] - vanjska temperatura [1]
+04.12.2017. 01:32:45 - [INFO] - snimanje kamerom [1]
+04.12.2017. 01:32:45 - [WARNING] - dizanje/spuštanje rampe [0]
+04.12.2017. 01:32:45 - [INFO] - 
+-------------------------------------------------------------
+	Inicijaliziram uredjaje za FOI 1 - restoran
+-------------------------------------------------------------
+
+04.12.2017. 01:32:45 - [INFO] - unutarnja temperatura [1]
+04.12.2017. 01:32:45 - [INFO] - svjetlo [1]
+04.12.2017. 01:32:45 - [INFO] - prepreka [1]
+04.12.2017. 01:32:45 - [INFO] - unutarnja temperatura [1]
+04.12.2017. 01:32:45 - [INFO] - dim [1]
+04.12.2017. 01:32:45 - [INFO] - paljenje/gašenje lampe [1]
+04.12.2017. 01:32:45 - [INFO] - snimanje kamerom [1]
+04.12.2017. 01:32:45 - [WARNING] - dizanje/spuštanje televizora [0]
+04.12.2017. 01:32:45 - [INFO] - 
+-------------------------------------------------------------
+	Inicijaliziram uredjaje za FOI 1 - dvorišna vrata
+-------------------------------------------------------------
+
+04.12.2017. 01:32:45 - [INFO] - svjetlo [1]
+04.12.2017. 01:32:45 - [INFO] - unutarnja temperatura [1]
+04.12.2017. 01:32:45 - [INFO] - vlaga [1]
+04.12.2017. 01:32:45 - [INFO] - paljenje/gašenje lampe [1]
+04.12.2017. 01:32:45 - [INFO] - dizanje/spuštanje televizora [1]
+04.12.2017. 01:32:45 - [INFO] - 
+-------------------------------------------------------------
+	Inicijaliziram uredjaje za FOI 1 - vijećnica
+-------------------------------------------------------------
+
+04.12.2017. 01:32:45 - [INFO] - vlaga [1]
+04.12.2017. 01:32:45 - [INFO] - svjetlo [1]
+04.12.2017. 01:32:45 - [INFO] - svjetlo [1]
+04.12.2017. 01:32:45 - [INFO] - prepreka [1]
+04.12.2017. 01:32:45 - [INFO] - paljenje/gašenje lampe [1]
+04.12.2017. 01:32:45 - [INFO] - otvaranje/zatvaranje vrata [1]
+04.12.2017. 01:32:45 - [WARNING] - dizanje/spuštanje televizora [0]
+04.12.2017. 01:32:45 - [INFO] - snimanje kamerom [1]
+04.12.2017. 01:32:45 - [INFO] - 
+-------------------------------------------------------------
+	Inicijaliziram uredjaje za FOI 1 - ulazna vrata
+-------------------------------------------------------------
+
+04.12.2017. 01:32:45 - [INFO] - dim [1]
+04.12.2017. 01:32:45 - [INFO] - svjetlo [1]
+04.12.2017. 01:32:45 - [INFO] - dim [1]
+04.12.2017. 01:32:45 - [WARNING] - dizanje/spuštanje platna za ploču [0]
+04.12.2017. 01:33:40 - [INFO] - Kreiram mjesto FOI 1 - ulazna vrata .
+04.12.2017. 01:33:40 - [INFO] - Kreiram mjesto FOI 1 - dvorišna vrata .
+04.12.2017. 01:33:40 - [WARNING] - Mjesto FOI 1 - dvorišna vrata već postoji.
+04.12.2017. 01:33:40 - [INFO] - Kreiram mjesto FOI 1 - parkiralište .
+04.12.2017. 01:33:40 - [INFO] - Kreiram mjesto FOI 1 - vijećnica .
+04.12.2017. 01:33:40 - [INFO] - Kreiram mjesto FOI 1 - knjižnica .
+04.12.2017. 01:33:40 - [WARNING] - Format zapisa za mjesto FOI 1 - knjižnica2 nije valjan.
+04.12.2017. 01:33:40 - [INFO] - Kreiram mjesto FOI 1 - dvorana 1 .
+04.12.2017. 01:33:40 - [INFO] - Kreiram mjesto FOI 1 - restoran .
+04.12.2017. 01:33:40 - [INFO] - Kreiram mjesto FOI 1 - sistem sala .
+04.12.2017. 01:33:40 - [WARNING] - Format zapisa za smjer vjetra nije valjan.
+04.12.2017. 01:33:40 - [INFO] - 
+-------------------------------------------------------------
+	Postavljam uredjaje za FOI 1 - ulazna vrata
+-------------------------------------------------------------
+
+04.12.2017. 01:33:40 - [INFO] - [Senzor] kontakt
+04.12.2017. 01:33:40 - [INFO] - [Senzor] vlaga
+04.12.2017. 01:33:40 - [INFO] - [Senzor] prepreka
+04.12.2017. 01:33:40 - [INFO] - [Aktuator] dizanje/spuštanje platna za ploču
+04.12.2017. 01:33:40 - [INFO] - [Aktuator] dizanje/spuštanje platna za ploču
+04.12.2017. 01:33:40 - [INFO] - 
+-------------------------------------------------------------
+	Postavljam uredjaje za FOI 1 - dvorišna vrata
+-------------------------------------------------------------
+
+04.12.2017. 01:33:40 - [INFO] - [Senzor] dim
+04.12.2017. 01:33:40 - [INFO] - [Senzor] kontakt
+04.12.2017. 01:33:40 - [INFO] - [Senzor] unutarnja temperatura
+04.12.2017. 01:33:40 - [INFO] - [Aktuator] dizanje/spuštanje televizora
+04.12.2017. 01:33:40 - [INFO] - [Aktuator] dizanje/spuštanje platna za ploču
+04.12.2017. 01:33:40 - [INFO] - 
+-------------------------------------------------------------
+	Postavljam uredjaje za FOI 1 - parkiralište
+-------------------------------------------------------------
+
+04.12.2017. 01:33:40 - [INFO] - [Senzor] kontakt
+04.12.2017. 01:33:40 - [INFO] - [Senzor] vjetar
+04.12.2017. 01:33:40 - [INFO] - [Senzor] vjetar
+04.12.2017. 01:33:40 - [INFO] - [Senzor] vlaga
+04.12.2017. 01:33:40 - [INFO] - [Aktuator] dizanje/spuštanje rampe
+04.12.2017. 01:33:40 - [INFO] - [Aktuator] otvaranje/zatvaranje vrata
+04.12.2017. 01:33:40 - [INFO] - 
+-------------------------------------------------------------
+	Postavljam uredjaje za FOI 1 - vijećnica
+-------------------------------------------------------------
+
+04.12.2017. 01:33:40 - [INFO] - [Senzor] vlaga
+04.12.2017. 01:33:40 - [INFO] - [Senzor] prepreka
+04.12.2017. 01:33:40 - [INFO] - [Senzor] unutarnja temperatura
+04.12.2017. 01:33:40 - [INFO] - [Senzor] prepreka
+04.12.2017. 01:33:40 - [INFO] - [Aktuator] snimanje kamerom
+04.12.2017. 01:33:40 - [INFO] - [Aktuator] dizanje/spuštanje platna za ploču
+04.12.2017. 01:33:40 - [INFO] - [Aktuator] dizanje/spuštanje platna za ploču
+04.12.2017. 01:33:40 - [INFO] - [Aktuator] dizanje/spuštanje televizora
+04.12.2017. 01:33:40 - [INFO] - 
+-------------------------------------------------------------
+	Postavljam uredjaje za FOI 1 - knjižnica
+-------------------------------------------------------------
+
+04.12.2017. 01:33:40 - [INFO] - [Senzor] vlaga
+04.12.2017. 01:33:40 - [INFO] - [Senzor] kontakt
+04.12.2017. 01:33:40 - [INFO] - [Senzor] kontakt
+04.12.2017. 01:33:40 - [INFO] - [Senzor] unutarnja temperatura
+04.12.2017. 01:33:40 - [INFO] - [Senzor] prepreka
+04.12.2017. 01:33:40 - [INFO] - [Aktuator] otvaranje/zatvaranje vrata
+04.12.2017. 01:33:40 - [INFO] - [Aktuator] dizanje/spuštanje televizora
+04.12.2017. 01:33:40 - [INFO] - [Aktuator] dizanje/spuštanje platna za ploču
+04.12.2017. 01:33:40 - [INFO] - 
+-------------------------------------------------------------
+	Postavljam uredjaje za FOI 1 - dvorana 1
+-------------------------------------------------------------
+
+04.12.2017. 01:33:40 - [INFO] - [Senzor] vlaga
+04.12.2017. 01:33:40 - [INFO] - [Senzor] dim
+04.12.2017. 01:33:40 - [INFO] - [Senzor] vlaga
+04.12.2017. 01:33:40 - [INFO] - [Senzor] prepreka
+04.12.2017. 01:33:40 - [INFO] - [Senzor] prepreka
+04.12.2017. 01:33:40 - [INFO] - [Senzor] unutarnja temperatura
+04.12.2017. 01:33:40 - [INFO] - [Senzor] kontakt
+04.12.2017. 01:33:40 - [INFO] - [Aktuator] paljenje/gašenje lampe
+04.12.2017. 01:33:40 - [INFO] - [Aktuator] paljenje/gašenje lampe
+04.12.2017. 01:33:40 - [INFO] - [Aktuator] paljenje/gašenje lampe
+04.12.2017. 01:33:40 - [INFO] - [Aktuator] otvaranje/zatvaranje vrata
+04.12.2017. 01:33:40 - [INFO] - [Aktuator] dizanje/spuštanje platna za ploču
+04.12.2017. 01:33:40 - [INFO] - 
+-------------------------------------------------------------
+	Postavljam uredjaje za FOI 1 - restoran
+-------------------------------------------------------------
+
+04.12.2017. 01:33:40 - [INFO] - [Senzor] kontakt
+04.12.2017. 01:33:40 - [INFO] - [Senzor] dim
+04.12.2017. 01:33:40 - [INFO] - [Senzor] vlaga
+04.12.2017. 01:33:40 - [INFO] - [Senzor] svjetlo
+04.12.2017. 01:33:40 - [INFO] - [Senzor] prepreka
+04.12.2017. 01:33:40 - [INFO] - [Aktuator] paljenje/gašenje lampe
+04.12.2017. 01:33:40 - [INFO] - [Aktuator] otvaranje/zatvaranje vrata
+04.12.2017. 01:33:40 - [INFO] - [Aktuator] otvaranje/zatvaranje vrata
+04.12.2017. 01:33:40 - [INFO] - 
+-------------------------------------------------------------
+	Postavljam uredjaje za FOI 1 - sistem sala
+-------------------------------------------------------------
+
+04.12.2017. 01:33:40 - [INFO] - [Senzor] svjetlo
+04.12.2017. 01:33:40 - [INFO] - [Senzor] dim
+04.12.2017. 01:33:40 - [INFO] - [Senzor] dim
+04.12.2017. 01:33:40 - [INFO] - [Senzor] dim
+04.12.2017. 01:33:40 - [INFO] - [Senzor] kontakt
+04.12.2017. 01:33:40 - [INFO] - [Senzor] prepreka
+04.12.2017. 01:33:40 - [INFO] - [Aktuator] snimanje kamerom
+04.12.2017. 01:33:40 - [INFO] - [Aktuator] paljenje/gašenje lampe
+04.12.2017. 01:33:40 - [INFO] - [Aktuator] otvaranje/zatvaranje vrata
+04.12.2017. 01:33:40 - [INFO] - [Aktuator] dizanje/spuštanje platna za ploču
+04.12.2017. 01:33:40 - [INFO] - 
+-------------------------------------------------------------
+	Inicijaliziram uredjaje za FOI 1 - sistem sala
+-------------------------------------------------------------
+
+04.12.2017. 01:33:40 - [INFO] - svjetlo [1]
+04.12.2017. 01:33:40 - [INFO] - dim [1]
+04.12.2017. 01:33:40 - [INFO] - dim [1]
+04.12.2017. 01:33:40 - [INFO] - dim [1]
+04.12.2017. 01:33:40 - [INFO] - kontakt [1]
+04.12.2017. 01:33:40 - [INFO] - prepreka [1]
+04.12.2017. 01:33:40 - [INFO] - snimanje kamerom [1]
+04.12.2017. 01:33:40 - [INFO] - paljenje/gašenje lampe [1]
+04.12.2017. 01:33:40 - [INFO] - otvaranje/zatvaranje vrata [1]
+04.12.2017. 01:33:40 - [INFO] - dizanje/spuštanje platna za ploču [1]
+04.12.2017. 01:33:40 - [INFO] - 
+-------------------------------------------------------------
+	Inicijaliziram uredjaje za FOI 1 - dvorišna vrata
+-------------------------------------------------------------
+
+04.12.2017. 01:33:40 - [INFO] - dim [1]
+04.12.2017. 01:33:40 - [INFO] - kontakt [1]
+04.12.2017. 01:33:40 - [WARNING] - unutarnja temperatura [0]
+04.12.2017. 01:33:40 - [INFO] - dizanje/spuštanje televizora [1]
+04.12.2017. 01:33:40 - [INFO] - dizanje/spuštanje platna za ploču [1]
+04.12.2017. 01:33:40 - [INFO] - 
+-------------------------------------------------------------
+	Inicijaliziram uredjaje za FOI 1 - parkiralište
+-------------------------------------------------------------
+
+04.12.2017. 01:33:40 - [INFO] - kontakt [1]
+04.12.2017. 01:33:40 - [INFO] - vjetar [1]
+04.12.2017. 01:33:40 - [INFO] - vjetar [1]
+04.12.2017. 01:33:40 - [INFO] - vlaga [1]
+04.12.2017. 01:33:40 - [INFO] - dizanje/spuštanje rampe [1]
+04.12.2017. 01:33:40 - [INFO] - otvaranje/zatvaranje vrata [1]
+04.12.2017. 01:33:40 - [INFO] - 
+-------------------------------------------------------------
+	Inicijaliziram uredjaje za FOI 1 - knjižnica
+-------------------------------------------------------------
+
+04.12.2017. 01:33:40 - [INFO] - vlaga [1]
+04.12.2017. 01:33:40 - [INFO] - kontakt [1]
+04.12.2017. 01:33:40 - [INFO] - kontakt [1]
+04.12.2017. 01:33:40 - [INFO] - unutarnja temperatura [1]
+04.12.2017. 01:33:40 - [INFO] - prepreka [1]
+04.12.2017. 01:33:40 - [INFO] - otvaranje/zatvaranje vrata [1]
+04.12.2017. 01:33:40 - [INFO] - dizanje/spuštanje televizora [1]
+04.12.2017. 01:33:40 - [INFO] - dizanje/spuštanje platna za ploču [1]
+04.12.2017. 01:33:40 - [INFO] - 
+-------------------------------------------------------------
+	Inicijaliziram uredjaje za FOI 1 - vijećnica
+-------------------------------------------------------------
+
+04.12.2017. 01:33:40 - [INFO] - vlaga [1]
+04.12.2017. 01:33:40 - [INFO] - prepreka [1]
+04.12.2017. 01:33:40 - [INFO] - unutarnja temperatura [1]
+04.12.2017. 01:33:40 - [WARNING] - prepreka [0]
+04.12.2017. 01:33:40 - [INFO] - snimanje kamerom [1]
+04.12.2017. 01:33:40 - [INFO] - dizanje/spuštanje platna za ploču [1]
+04.12.2017. 01:33:40 - [INFO] - dizanje/spuštanje platna za ploču [1]
+04.12.2017. 01:33:40 - [INFO] - dizanje/spuštanje televizora [1]
+04.12.2017. 01:33:40 - [INFO] - 
+-------------------------------------------------------------
+	Inicijaliziram uredjaje za FOI 1 - restoran
+-------------------------------------------------------------
+
+04.12.2017. 01:33:40 - [INFO] - kontakt [1]
+04.12.2017. 01:33:40 - [INFO] - dim [1]
+04.12.2017. 01:33:40 - [INFO] - vlaga [1]
+04.12.2017. 01:33:40 - [INFO] - svjetlo [1]
+04.12.2017. 01:33:40 - [INFO] - prepreka [1]
+04.12.2017. 01:33:40 - [INFO] - paljenje/gašenje lampe [1]
+04.12.2017. 01:33:40 - [INFO] - otvaranje/zatvaranje vrata [1]
+04.12.2017. 01:33:40 - [INFO] - otvaranje/zatvaranje vrata [1]
+04.12.2017. 01:33:40 - [INFO] - 
+-------------------------------------------------------------
+	Inicijaliziram uredjaje za FOI 1 - dvorana 1
+-------------------------------------------------------------
+
+04.12.2017. 01:33:40 - [INFO] - vlaga [1]
+04.12.2017. 01:33:40 - [INFO] - dim [1]
+04.12.2017. 01:33:40 - [INFO] - vlaga [1]
+04.12.2017. 01:33:40 - [WARNING] - prepreka [0]
+04.12.2017. 01:33:40 - [INFO] - prepreka [1]
+04.12.2017. 01:33:40 - [INFO] - unutarnja temperatura [1]
+04.12.2017. 01:33:40 - [INFO] - kontakt [1]
+04.12.2017. 01:33:40 - [INFO] - paljenje/gašenje lampe [1]
+04.12.2017. 01:33:40 - [INFO] - paljenje/gašenje lampe [1]
+04.12.2017. 01:33:40 - [INFO] - paljenje/gašenje lampe [1]
+04.12.2017. 01:33:40 - [INFO] - otvaranje/zatvaranje vrata [1]
+04.12.2017. 01:33:40 - [INFO] - dizanje/spuštanje platna za ploču [1]
+04.12.2017. 01:33:40 - [INFO] - 
+-------------------------------------------------------------
+	Inicijaliziram uredjaje za FOI 1 - ulazna vrata
+-------------------------------------------------------------
+
+04.12.2017. 01:33:40 - [INFO] - kontakt [1]
+04.12.2017. 01:33:40 - [WARNING] - vlaga [0]
+04.12.2017. 01:33:40 - [INFO] - prepreka [1]
+04.12.2017. 01:33:40 - [WARNING] - dizanje/spuštanje platna za ploču [0]
+04.12.2017. 01:35:21 - [INFO] - Kreiram mjesto FOI 1 - ulazna vrata .
+04.12.2017. 01:35:21 - [INFO] - Kreiram mjesto FOI 1 - dvorišna vrata .
+04.12.2017. 01:35:21 - [WARNING] - Mjesto FOI 1 - dvorišna vrata već postoji.
+04.12.2017. 01:35:21 - [INFO] - Kreiram mjesto FOI 1 - parkiralište .
+04.12.2017. 01:35:21 - [INFO] - Kreiram mjesto FOI 1 - vijećnica .
+04.12.2017. 01:35:21 - [INFO] - Kreiram mjesto FOI 1 - knjižnica .
+04.12.2017. 01:35:21 - [WARNING] - Format zapisa za mjesto FOI 1 - knjižnica2 nije valjan.
+04.12.2017. 01:35:21 - [INFO] - Kreiram mjesto FOI 1 - dvorana 1 .
+04.12.2017. 01:35:21 - [INFO] - Kreiram mjesto FOI 1 - restoran .
+04.12.2017. 01:35:21 - [INFO] - Kreiram mjesto FOI 1 - sistem sala .
+04.12.2017. 01:35:21 - [WARNING] - Format zapisa za smjer vjetra nije valjan.
+04.12.2017. 01:35:21 - [INFO] - 
+-------------------------------------------------------------
+	Postavljam uredjaje za FOI 1 - ulazna vrata
+-------------------------------------------------------------
+
+04.12.2017. 01:35:21 - [INFO] - [Senzor] kontakt
+04.12.2017. 01:35:21 - [INFO] - [Senzor] unutarnja temperatura
+04.12.2017. 01:35:21 - [INFO] - [Senzor] vlaga
+04.12.2017. 01:35:21 - [INFO] - [Aktuator] otvaranje/zatvaranje vrata
+04.12.2017. 01:35:21 - [INFO] - [Aktuator] paljenje/gašenje lampe
+04.12.2017. 01:35:21 - [INFO] - 
+-------------------------------------------------------------
+	Postavljam uredjaje za FOI 1 - dvorišna vrata
+-------------------------------------------------------------
+
+04.12.2017. 01:35:21 - [INFO] - [Senzor] vlaga
+04.12.2017. 01:35:21 - [INFO] - [Senzor] kontakt
+04.12.2017. 01:35:21 - [INFO] - [Senzor] unutarnja temperatura
+04.12.2017. 01:35:21 - [INFO] - [Aktuator] otvaranje/zatvaranje vrata
+04.12.2017. 01:35:21 - [INFO] - [Aktuator] dizanje/spuštanje televizora
+04.12.2017. 01:35:21 - [INFO] - 
+-------------------------------------------------------------
+	Postavljam uredjaje za FOI 1 - parkiralište
+-------------------------------------------------------------
+
+04.12.2017. 01:35:21 - [INFO] - [Senzor] vanjska temperatura
+04.12.2017. 01:35:21 - [INFO] - [Senzor] vanjska temperatura
+04.12.2017. 01:35:21 - [INFO] - [Senzor] vanjska temperatura
+04.12.2017. 01:35:21 - [INFO] - [Senzor] prepreka
+04.12.2017. 01:35:21 - [INFO] - [Aktuator] dizanje/spuštanje rampe
+04.12.2017. 01:35:21 - [INFO] - [Aktuator] snimanje kamerom
+04.12.2017. 01:35:21 - [INFO] - 
+-------------------------------------------------------------
+	Postavljam uredjaje za FOI 1 - vijećnica
+-------------------------------------------------------------
+
+04.12.2017. 01:35:21 - [INFO] - [Senzor] kontakt
+04.12.2017. 01:35:21 - [INFO] - [Senzor] kontakt
+04.12.2017. 01:35:21 - [INFO] - [Senzor] prepreka
+04.12.2017. 01:35:21 - [INFO] - [Senzor] dim
+04.12.2017. 01:35:21 - [INFO] - [Aktuator] dizanje/spuštanje platna za ploču
+04.12.2017. 01:35:21 - [INFO] - [Aktuator] dizanje/spuštanje televizora
+04.12.2017. 01:35:21 - [INFO] - [Aktuator] otvaranje/zatvaranje vrata
+04.12.2017. 01:35:21 - [INFO] - [Aktuator] paljenje/gašenje lampe
+04.12.2017. 01:35:21 - [INFO] - 
+-------------------------------------------------------------
+	Postavljam uredjaje za FOI 1 - knjižnica
+-------------------------------------------------------------
+
+04.12.2017. 01:35:21 - [INFO] - [Senzor] unutarnja temperatura
+04.12.2017. 01:35:21 - [INFO] - [Senzor] kontakt
+04.12.2017. 01:35:21 - [INFO] - [Senzor] kontakt
+04.12.2017. 01:35:21 - [INFO] - [Senzor] svjetlo
+04.12.2017. 01:35:21 - [INFO] - [Senzor] svjetlo
+04.12.2017. 01:35:21 - [INFO] - [Aktuator] snimanje kamerom
+04.12.2017. 01:35:21 - [INFO] - [Aktuator] dizanje/spuštanje platna za ploču
+04.12.2017. 01:35:21 - [INFO] - [Aktuator] otvaranje/zatvaranje vrata
+04.12.2017. 01:35:21 - [INFO] - 
+-------------------------------------------------------------
+	Postavljam uredjaje za FOI 1 - dvorana 1
+-------------------------------------------------------------
+
+04.12.2017. 01:35:21 - [INFO] - [Senzor] unutarnja temperatura
+04.12.2017. 01:35:21 - [INFO] - [Senzor] prepreka
+04.12.2017. 01:35:21 - [INFO] - [Senzor] dim
+04.12.2017. 01:35:21 - [INFO] - [Senzor] unutarnja temperatura
+04.12.2017. 01:35:21 - [INFO] - [Senzor] svjetlo
+04.12.2017. 01:35:21 - [INFO] - [Senzor] kontakt
+04.12.2017. 01:35:21 - [INFO] - [Senzor] svjetlo
+04.12.2017. 01:35:21 - [INFO] - [Aktuator] dizanje/spuštanje televizora
+04.12.2017. 01:35:21 - [INFO] - [Aktuator] dizanje/spuštanje televizora
+04.12.2017. 01:35:21 - [INFO] - [Aktuator] snimanje kamerom
+04.12.2017. 01:35:21 - [INFO] - [Aktuator] snimanje kamerom
+04.12.2017. 01:35:21 - [INFO] - [Aktuator] dizanje/spuštanje televizora
+04.12.2017. 01:35:21 - [INFO] - 
+-------------------------------------------------------------
+	Postavljam uredjaje za FOI 1 - restoran
+-------------------------------------------------------------
+
+04.12.2017. 01:35:21 - [INFO] - [Senzor] vlaga
+04.12.2017. 01:35:21 - [INFO] - [Senzor] svjetlo
+04.12.2017. 01:35:21 - [INFO] - [Senzor] vlaga
+04.12.2017. 01:35:21 - [INFO] - [Senzor] svjetlo
+04.12.2017. 01:35:21 - [INFO] - [Senzor] prepreka
+04.12.2017. 01:35:21 - [INFO] - [Aktuator] dizanje/spuštanje platna za ploču
+04.12.2017. 01:35:21 - [INFO] - [Aktuator] otvaranje/zatvaranje vrata
+04.12.2017. 01:35:21 - [INFO] - [Aktuator] dizanje/spuštanje televizora
+04.12.2017. 01:35:21 - [INFO] - 
+-------------------------------------------------------------
+	Postavljam uredjaje za FOI 1 - sistem sala
+-------------------------------------------------------------
+
+04.12.2017. 01:35:21 - [INFO] - [Senzor] unutarnja temperatura
+04.12.2017. 01:35:21 - [INFO] - [Senzor] prepreka
+04.12.2017. 01:35:21 - [INFO] - [Senzor] unutarnja temperatura
+04.12.2017. 01:35:21 - [INFO] - [Senzor] prepreka
+04.12.2017. 01:35:21 - [INFO] - [Senzor] vlaga
+04.12.2017. 01:35:21 - [INFO] - [Senzor] svjetlo
+04.12.2017. 01:35:21 - [INFO] - [Aktuator] dizanje/spuštanje platna za ploču
+04.12.2017. 01:35:21 - [INFO] - [Aktuator] otvaranje/zatvaranje vrata
+04.12.2017. 01:35:21 - [INFO] - [Aktuator] dizanje/spuštanje platna za ploču
+04.12.2017. 01:36:21 - [INFO] - Kreiram mjesto FOI 1 - ulazna vrata .
+04.12.2017. 01:36:21 - [INFO] - Kreiram mjesto FOI 1 - dvorišna vrata .
+04.12.2017. 01:36:21 - [WARNING] - Mjesto FOI 1 - dvorišna vrata već postoji.
+04.12.2017. 01:36:21 - [INFO] - Kreiram mjesto FOI 1 - parkiralište .
+04.12.2017. 01:36:21 - [INFO] - Kreiram mjesto FOI 1 - vijećnica .
+04.12.2017. 01:36:21 - [INFO] - Kreiram mjesto FOI 1 - knjižnica .
+04.12.2017. 01:36:21 - [WARNING] - Format zapisa za mjesto FOI 1 - knjižnica2 nije valjan.
+04.12.2017. 01:36:21 - [INFO] - Kreiram mjesto FOI 1 - dvorana 1 .
+04.12.2017. 01:36:21 - [INFO] - Kreiram mjesto FOI 1 - restoran .
+04.12.2017. 01:36:21 - [INFO] - Kreiram mjesto FOI 1 - sistem sala .
+04.12.2017. 01:36:22 - [WARNING] - Format zapisa za smjer vjetra nije valjan.
+04.12.2017. 01:36:22 - [INFO] - 
+-------------------------------------------------------------
+	Postavljam uredjaje za FOI 1 - ulazna vrata
+-------------------------------------------------------------
+
+04.12.2017. 01:36:22 - [INFO] - [Senzor] prepreka
+04.12.2017. 01:36:22 - [INFO] - [Senzor] unutarnja temperatura
+04.12.2017. 01:36:22 - [INFO] - [Senzor] prepreka
+04.12.2017. 01:36:22 - [INFO] - [Aktuator] dizanje/spuštanje televizora
+04.12.2017. 01:36:22 - [INFO] - [Aktuator] paljenje/gašenje lampe
+04.12.2017. 01:36:22 - [INFO] - 
+-------------------------------------------------------------
+	Postavljam uredjaje za FOI 1 - dvorišna vrata
+-------------------------------------------------------------
+
+04.12.2017. 01:36:22 - [INFO] - [Senzor] vlaga
+04.12.2017. 01:36:22 - [INFO] - [Senzor] kontakt
+04.12.2017. 01:36:22 - [INFO] - [Senzor] svjetlo
+04.12.2017. 01:36:22 - [INFO] - [Aktuator] dizanje/spuštanje platna za ploču
+04.12.2017. 01:36:22 - [INFO] - [Aktuator] snimanje kamerom
+04.12.2017. 01:36:22 - [INFO] - 
+-------------------------------------------------------------
+	Postavljam uredjaje za FOI 1 - parkiralište
+-------------------------------------------------------------
+
+04.12.2017. 01:36:22 - [INFO] - [Senzor] prepreka
+04.12.2017. 01:36:22 - [INFO] - [Senzor] svjetlo
+04.12.2017. 01:36:22 - [INFO] - [Senzor] kontakt
+04.12.2017. 01:36:22 - [INFO] - [Senzor] vjetar
+04.12.2017. 01:36:22 - [INFO] - [Aktuator] snimanje kamerom
+04.12.2017. 01:36:22 - [INFO] - [Aktuator] paljenje/gašenje lampe
+04.12.2017. 01:36:22 - [INFO] - 
+-------------------------------------------------------------
+	Postavljam uredjaje za FOI 1 - vijećnica
+-------------------------------------------------------------
+
+04.12.2017. 01:36:22 - [INFO] - [Senzor] unutarnja temperatura
+04.12.2017. 01:36:22 - [INFO] - [Senzor] svjetlo
+04.12.2017. 01:36:22 - [INFO] - [Senzor] vlaga
+04.12.2017. 01:36:22 - [INFO] - [Senzor] vlaga
+04.12.2017. 01:36:22 - [INFO] - [Aktuator] snimanje kamerom
+04.12.2017. 01:36:22 - [INFO] - [Aktuator] paljenje/gašenje lampe
+04.12.2017. 01:36:22 - [INFO] - [Aktuator] otvaranje/zatvaranje vrata
+04.12.2017. 01:36:22 - [INFO] - [Aktuator] dizanje/spuštanje platna za ploču
+04.12.2017. 01:36:22 - [INFO] - 
+-------------------------------------------------------------
+	Postavljam uredjaje za FOI 1 - knjižnica
+-------------------------------------------------------------
+
+04.12.2017. 01:36:22 - [INFO] - [Senzor] prepreka
+04.12.2017. 01:36:22 - [INFO] - [Senzor] svjetlo
+04.12.2017. 01:36:22 - [INFO] - [Senzor] dim
+04.12.2017. 01:36:22 - [INFO] - [Senzor] prepreka
+04.12.2017. 01:36:22 - [INFO] - [Senzor] svjetlo
+04.12.2017. 01:36:22 - [INFO] - [Aktuator] dizanje/spuštanje televizora
+04.12.2017. 01:36:22 - [INFO] - [Aktuator] otvaranje/zatvaranje vrata
+04.12.2017. 01:36:22 - [INFO] - [Aktuator] snimanje kamerom
+04.12.2017. 01:36:22 - [INFO] - 
+-------------------------------------------------------------
+	Postavljam uredjaje za FOI 1 - dvorana 1
+-------------------------------------------------------------
+
+04.12.2017. 01:36:22 - [INFO] - [Senzor] vlaga
+04.12.2017. 01:36:22 - [INFO] - [Senzor] kontakt
+04.12.2017. 01:36:22 - [INFO] - [Senzor] svjetlo
+04.12.2017. 01:36:22 - [INFO] - [Senzor] vlaga
+04.12.2017. 01:36:22 - [INFO] - [Senzor] dim
+04.12.2017. 01:36:22 - [INFO] - [Senzor] unutarnja temperatura
+04.12.2017. 01:36:22 - [INFO] - [Senzor] svjetlo
+04.12.2017. 01:36:22 - [INFO] - [Aktuator] dizanje/spuštanje platna za ploču
+04.12.2017. 01:36:22 - [INFO] - [Aktuator] dizanje/spuštanje platna za ploču
+04.12.2017. 01:36:22 - [INFO] - [Aktuator] otvaranje/zatvaranje vrata
+04.12.2017. 01:36:22 - [INFO] - [Aktuator] paljenje/gašenje lampe
+04.12.2017. 01:36:22 - [INFO] - [Aktuator] dizanje/spuštanje televizora
+04.12.2017. 01:36:22 - [INFO] - 
+-------------------------------------------------------------
+	Postavljam uredjaje za FOI 1 - restoran
+-------------------------------------------------------------
+
+04.12.2017. 01:36:22 - [INFO] - [Senzor] svjetlo
+04.12.2017. 01:36:22 - [INFO] - [Senzor] svjetlo
+04.12.2017. 01:36:22 - [INFO] - [Senzor] unutarnja temperatura
+04.12.2017. 01:36:22 - [INFO] - [Senzor] unutarnja temperatura
+04.12.2017. 01:36:22 - [INFO] - [Senzor] dim
+04.12.2017. 01:36:22 - [INFO] - [Aktuator] snimanje kamerom
+04.12.2017. 01:36:22 - [INFO] - [Aktuator] dizanje/spuštanje platna za ploču
+04.12.2017. 01:36:22 - [INFO] - [Aktuator] snimanje kamerom
+04.12.2017. 01:36:22 - [INFO] - 
+-------------------------------------------------------------
+	Postavljam uredjaje za FOI 1 - sistem sala
+-------------------------------------------------------------
+
+04.12.2017. 01:36:22 - [INFO] - [Senzor] kontakt
+04.12.2017. 01:36:22 - [INFO] - [Senzor] vlaga
+04.12.2017. 01:36:22 - [INFO] - [Senzor] prepreka
+04.12.2017. 01:36:22 - [INFO] - [Senzor] prepreka
+04.12.2017. 01:36:22 - [INFO] - [Senzor] dim
+04.12.2017. 01:36:22 - [INFO] - [Senzor] prepreka
+04.12.2017. 01:36:22 - [INFO] - [Aktuator] paljenje/gašenje lampe
+04.12.2017. 01:36:22 - [INFO] - [Aktuator] otvaranje/zatvaranje vrata
+04.12.2017. 01:36:22 - [INFO] - [Aktuator] snimanje kamerom
+04.12.2017. 01:37:08 - [INFO] - [Aktuator] snimanje kamerom
+04.12.2017. 01:37:08 - [INFO] - 
+-------------------------------------------------------------
+	Inicijaliziram uredjaje za FOI 1 - restoran
+-------------------------------------------------------------
+
+04.12.2017. 01:37:08 - [WARNING] - svjetlo [0]
+04.12.2017. 01:37:08 - [INFO] - svjetlo [1]
+04.12.2017. 01:37:08 - [INFO] - unutarnja temperatura [1]
+04.12.2017. 01:37:08 - [INFO] - unutarnja temperatura [1]
+04.12.2017. 01:37:08 - [INFO] - dim [1]
+04.12.2017. 01:37:08 - [WARNING] - snimanje kamerom [0]
+04.12.2017. 01:37:08 - [INFO] - dizanje/spuštanje platna za ploču [1]
+04.12.2017. 01:37:08 - [INFO] - snimanje kamerom [1]
+04.12.2017. 01:40:44 - [INFO] - Kreiram mjesto FOI 1 - ulazna vrata .
+04.12.2017. 01:40:44 - [INFO] - Kreiram mjesto FOI 1 - dvorišna vrata .
+04.12.2017. 01:40:44 - [WARNING] - Mjesto FOI 1 - dvorišna vrata već postoji.
+04.12.2017. 01:40:44 - [INFO] - Kreiram mjesto FOI 1 - parkiralište .
+04.12.2017. 01:40:44 - [INFO] - Kreiram mjesto FOI 1 - vijećnica .
+04.12.2017. 01:40:44 - [INFO] - Kreiram mjesto FOI 1 - knjižnica .
+04.12.2017. 01:40:44 - [WARNING] - Format zapisa za mjesto FOI 1 - knjižnica2 nije valjan.
+04.12.2017. 01:40:44 - [INFO] - Kreiram mjesto FOI 1 - dvorana 1 .
+04.12.2017. 01:40:44 - [INFO] - Kreiram mjesto FOI 1 - restoran .
+04.12.2017. 01:40:44 - [INFO] - Kreiram mjesto FOI 1 - sistem sala .
+04.12.2017. 01:40:44 - [WARNING] - Format zapisa za smjer vjetra nije valjan.
+04.12.2017. 01:40:44 - [INFO] - 
+-------------------------------------------------------------
+	Postavljam uredjaje za FOI 1 - ulazna vrata
+-------------------------------------------------------------
+
+04.12.2017. 01:40:44 - [INFO] - [Senzor] unutarnja temperatura
+04.12.2017. 01:40:44 - [INFO] - [Senzor] vlaga
+04.12.2017. 01:40:44 - [INFO] - [Senzor] unutarnja temperatura
+04.12.2017. 01:40:44 - [INFO] - [Aktuator] dizanje/spuštanje televizora
+04.12.2017. 01:40:44 - [INFO] - [Aktuator] dizanje/spuštanje platna za ploču
+04.12.2017. 01:40:44 - [INFO] - 
+-------------------------------------------------------------
+	Postavljam uredjaje za FOI 1 - dvorišna vrata
+-------------------------------------------------------------
+
+04.12.2017. 01:40:44 - [INFO] - [Senzor] kontakt
+04.12.2017. 01:40:44 - [INFO] - [Senzor] vlaga
+04.12.2017. 01:40:44 - [INFO] - [Senzor] prepreka
+04.12.2017. 01:40:44 - [INFO] - [Aktuator] dizanje/spuštanje platna za ploču
+04.12.2017. 01:40:44 - [INFO] - [Aktuator] paljenje/gašenje lampe
+04.12.2017. 01:40:44 - [INFO] - 
+-------------------------------------------------------------
+	Postavljam uredjaje za FOI 1 - parkiralište
+-------------------------------------------------------------
+
+04.12.2017. 01:40:44 - [INFO] - [Senzor] svjetlo
+04.12.2017. 01:40:44 - [INFO] - [Senzor] prepreka
+04.12.2017. 01:40:44 - [INFO] - [Senzor] vanjska temperatura
+04.12.2017. 01:40:44 - [INFO] - [Senzor] kontakt
+04.12.2017. 01:40:44 - [INFO] - [Aktuator] snimanje kamerom
+04.12.2017. 01:40:44 - [INFO] - [Aktuator] paljenje/gašenje lampe
+04.12.2017. 01:40:44 - [INFO] - 
+-------------------------------------------------------------
+	Postavljam uredjaje za FOI 1 - vijećnica
+-------------------------------------------------------------
+
+04.12.2017. 01:40:44 - [INFO] - [Senzor] vlaga
+04.12.2017. 01:40:44 - [INFO] - [Senzor] kontakt
+04.12.2017. 01:40:44 - [INFO] - [Senzor] unutarnja temperatura
+04.12.2017. 01:40:44 - [INFO] - [Senzor] prepreka
+04.12.2017. 01:40:44 - [INFO] - [Aktuator] dizanje/spuštanje platna za ploču
+04.12.2017. 01:40:44 - [INFO] - [Aktuator] dizanje/spuštanje platna za ploču
+04.12.2017. 01:40:44 - [INFO] - [Aktuator] dizanje/spuštanje platna za ploču
+04.12.2017. 01:40:44 - [INFO] - [Aktuator] paljenje/gašenje lampe
+04.12.2017. 01:40:44 - [INFO] - 
+-------------------------------------------------------------
+	Postavljam uredjaje za FOI 1 - knjižnica
+-------------------------------------------------------------
+
+04.12.2017. 01:40:44 - [INFO] - [Senzor] dim
+04.12.2017. 01:40:44 - [INFO] - [Senzor] unutarnja temperatura
+04.12.2017. 01:40:44 - [INFO] - [Senzor] unutarnja temperatura
+04.12.2017. 01:40:44 - [INFO] - [Senzor] kontakt
+04.12.2017. 01:40:44 - [INFO] - [Senzor] kontakt
+04.12.2017. 01:40:44 - [INFO] - [Aktuator] paljenje/gašenje lampe
+04.12.2017. 01:40:44 - [INFO] - [Aktuator] dizanje/spuštanje televizora
+04.12.2017. 01:40:44 - [INFO] - [Aktuator] otvaranje/zatvaranje vrata
+04.12.2017. 01:40:44 - [INFO] - 
+-------------------------------------------------------------
+	Postavljam uredjaje za FOI 1 - dvorana 1
+-------------------------------------------------------------
+
+04.12.2017. 01:40:44 - [INFO] - [Senzor] dim
+04.12.2017. 01:40:44 - [INFO] - [Senzor] vlaga
+04.12.2017. 01:40:44 - [INFO] - [Senzor] dim
+04.12.2017. 01:40:44 - [INFO] - [Senzor] prepreka
+04.12.2017. 01:40:44 - [INFO] - [Senzor] svjetlo
+04.12.2017. 01:40:44 - [INFO] - [Senzor] prepreka
+04.12.2017. 01:40:44 - [INFO] - [Senzor] kontakt
+04.12.2017. 01:40:44 - [INFO] - [Aktuator] paljenje/gašenje lampe
+04.12.2017. 01:40:44 - [INFO] - [Aktuator] snimanje kamerom
+04.12.2017. 01:40:44 - [INFO] - [Aktuator] snimanje kamerom
+04.12.2017. 01:40:44 - [INFO] - [Aktuator] dizanje/spuštanje platna za ploču
+04.12.2017. 01:40:44 - [INFO] - [Aktuator] dizanje/spuštanje platna za ploču
+04.12.2017. 01:40:44 - [INFO] - 
+-------------------------------------------------------------
+	Postavljam uredjaje za FOI 1 - restoran
+-------------------------------------------------------------
+
+04.12.2017. 01:40:44 - [INFO] - [Senzor] unutarnja temperatura
+04.12.2017. 01:40:44 - [INFO] - [Senzor] svjetlo
+04.12.2017. 01:40:44 - [INFO] - [Senzor] unutarnja temperatura
+04.12.2017. 01:40:44 - [INFO] - [Senzor] kontakt
+04.12.2017. 01:40:44 - [INFO] - [Senzor] kontakt
+04.12.2017. 01:40:44 - [INFO] - [Aktuator] dizanje/spuštanje televizora
+04.12.2017. 01:40:44 - [INFO] - [Aktuator] paljenje/gašenje lampe
+04.12.2017. 01:40:44 - [INFO] - [Aktuator] dizanje/spuštanje televizora
+04.12.2017. 01:40:44 - [INFO] - 
+-------------------------------------------------------------
+	Postavljam uredjaje za FOI 1 - sistem sala
+-------------------------------------------------------------
+
+04.12.2017. 01:40:44 - [INFO] - [Senzor] unutarnja temperatura
+04.12.2017. 01:40:44 - [INFO] - [Senzor] vlaga
+04.12.2017. 01:40:44 - [INFO] - [Senzor] dim
+04.12.2017. 01:40:44 - [INFO] - [Senzor] svjetlo
+04.12.2017. 01:40:44 - [INFO] - [Senzor] unutarnja temperatura
+04.12.2017. 01:40:44 - [INFO] - [Senzor] prepreka
+04.12.2017. 01:40:44 - [INFO] - [Aktuator] paljenje/gašenje lampe
+04.12.2017. 01:40:44 - [INFO] - [Aktuator] paljenje/gašenje lampe
+04.12.2017. 01:40:44 - [INFO] - [Aktuator] dizanje/spuštanje televizora
+04.12.2017. 01:40:44 - [INFO] - [Aktuator] dizanje/spuštanje televizora
+04.12.2017. 01:40:44 - [INFO] - 
+-------------------------------------------------------------
+	Inicijaliziram uredjaje za FOI 1 - dvorišna vrata
+-------------------------------------------------------------
+
+04.12.2017. 01:40:44 - [INFO] - kontakt [1]
+04.12.2017. 01:40:44 - [WARNING] - vlaga [0]
+04.12.2017. 01:40:44 - [INFO] - prepreka [1]
+04.12.2017. 01:40:44 - [INFO] - dizanje/spuštanje platna za ploču [1]
+04.12.2017. 01:40:44 - [WARNING] - paljenje/gašenje lampe [0]
+04.12.2017. 01:40:44 - [INFO] - 
+-------------------------------------------------------------
+	Inicijaliziram uredjaje za FOI 1 - knjižnica
+-------------------------------------------------------------
+
+04.12.2017. 01:40:44 - [INFO] - dim [1]
+04.12.2017. 01:40:44 - [INFO] - unutarnja temperatura [1]
+04.12.2017. 01:40:44 - [INFO] - unutarnja temperatura [1]
+04.12.2017. 01:40:44 - [INFO] - kontakt [1]
+04.12.2017. 01:40:44 - [INFO] - kontakt [1]
+04.12.2017. 01:40:44 - [INFO] - paljenje/gašenje lampe [1]
+04.12.2017. 01:40:44 - [INFO] - dizanje/spuštanje televizora [1]
+04.12.2017. 01:40:44 - [INFO] - otvaranje/zatvaranje vrata [1]
+04.12.2017. 01:40:44 - [INFO] - 
+-------------------------------------------------------------
+	Inicijaliziram uredjaje za FOI 1 - dvorana 1
+-------------------------------------------------------------
+
+04.12.2017. 01:40:44 - [WARNING] - dim [0]
+04.12.2017. 01:40:44 - [WARNING] - vlaga [0]
+04.12.2017. 01:40:44 - [INFO] - dim [1]
+04.12.2017. 01:40:44 - [INFO] - prepreka [1]
+04.12.2017. 01:40:44 - [INFO] - svjetlo [1]
+04.12.2017. 01:40:44 - [INFO] - prepreka [1]
+04.12.2017. 01:40:44 - [INFO] - kontakt [1]
+04.12.2017. 01:40:44 - [INFO] - paljenje/gašenje lampe [1]
+04.12.2017. 01:40:44 - [INFO] - snimanje kamerom [1]
+04.12.2017. 01:40:44 - [INFO] - snimanje kamerom [1]
+04.12.2017. 01:40:44 - [INFO] - dizanje/spuštanje platna za ploču [1]
+04.12.2017. 01:40:44 - [INFO] - dizanje/spuštanje platna za ploču [1]
+04.12.2017. 01:40:44 - [INFO] - 
+-------------------------------------------------------------
+	Inicijaliziram uredjaje za FOI 1 - restoran
+-------------------------------------------------------------
+
+04.12.2017. 01:40:44 - [INFO] - unutarnja temperatura [1]
+04.12.2017. 01:40:44 - [INFO] - svjetlo [1]
+04.12.2017. 01:40:44 - [INFO] - unutarnja temperatura [1]
+04.12.2017. 01:40:44 - [INFO] - kontakt [1]
+04.12.2017. 01:40:44 - [WARNING] - kontakt [0]
+04.12.2017. 01:40:44 - [INFO] - dizanje/spuštanje televizora [1]
+04.12.2017. 01:40:44 - [INFO] - paljenje/gašenje lampe [1]
+04.12.2017. 01:40:44 - [INFO] - dizanje/spuštanje televizora [1]
+04.12.2017. 01:40:44 - [INFO] - 
+-------------------------------------------------------------
+	Inicijaliziram uredjaje za FOI 1 - parkiralište
+-------------------------------------------------------------
+
+04.12.2017. 01:40:44 - [INFO] - svjetlo [1]
+04.12.2017. 01:40:44 - [WARNING] - prepreka [0]
+04.12.2017. 01:40:44 - [INFO] - vanjska temperatura [1]
+04.12.2017. 01:40:44 - [INFO] - kontakt [1]
+04.12.2017. 01:40:44 - [INFO] - snimanje kamerom [1]
+04.12.2017. 01:40:44 - [INFO] - paljenje/gašenje lampe [1]
+04.12.2017. 01:40:44 - [INFO] - 
+-------------------------------------------------------------
+	Inicijaliziram uredjaje za FOI 1 - sistem sala
+-------------------------------------------------------------
+
+04.12.2017. 01:40:44 - [WARNING] - unutarnja temperatura [0]
+04.12.2017. 01:40:44 - [INFO] - vlaga [1]
+04.12.2017. 01:40:44 - [WARNING] - dim [0]
+04.12.2017. 01:40:44 - [INFO] - svjetlo [1]
+04.12.2017. 01:40:44 - [INFO] - unutarnja temperatura [1]
+04.12.2017. 01:40:44 - [INFO] - prepreka [1]
+04.12.2017. 01:40:44 - [INFO] - paljenje/gašenje lampe [1]
+04.12.2017. 01:40:44 - [INFO] - paljenje/gašenje lampe [1]
+04.12.2017. 01:40:44 - [INFO] - dizanje/spuštanje televizora [1]
+04.12.2017. 01:40:44 - [INFO] - dizanje/spuštanje televizora [1]
+04.12.2017. 01:40:44 - [INFO] - 
+-------------------------------------------------------------
+	Inicijaliziram uredjaje za FOI 1 - vijećnica
+-------------------------------------------------------------
+
+04.12.2017. 01:40:44 - [INFO] - vlaga [1]
+04.12.2017. 01:40:44 - [WARNING] - kontakt [0]
+04.12.2017. 01:40:44 - [INFO] - unutarnja temperatura [1]
+04.12.2017. 01:40:44 - [INFO] - prepreka [1]
+04.12.2017. 01:40:44 - [INFO] - dizanje/spuštanje platna za ploču [1]
+04.12.2017. 01:40:44 - [INFO] - dizanje/spuštanje platna za ploču [1]
+04.12.2017. 01:40:44 - [INFO] - dizanje/spuštanje platna za ploču [1]
+04.12.2017. 01:40:44 - [INFO] - paljenje/gašenje lampe [1]
+04.12.2017. 01:40:44 - [INFO] - 
+-------------------------------------------------------------
+	Inicijaliziram uredjaje za FOI 1 - ulazna vrata
+-------------------------------------------------------------
+
+04.12.2017. 01:40:44 - [INFO] - unutarnja temperatura [1]
+04.12.2017. 01:40:44 - [INFO] - vlaga [1]
+04.12.2017. 01:40:44 - [INFO] - unutarnja temperatura [1]
+04.12.2017. 01:40:44 - [INFO] - dizanje/spuštanje televizora [1]
+04.12.2017. 01:44:04 - [INFO] - Kreiram mjesto FOI 1 - ulazna vrata .
+04.12.2017. 01:44:04 - [INFO] - Kreiram mjesto FOI 1 - dvorišna vrata .
+04.12.2017. 01:44:04 - [WARNING] - Mjesto FOI 1 - dvorišna vrata već postoji.
+04.12.2017. 01:44:04 - [INFO] - Kreiram mjesto FOI 1 - parkiralište .
+04.12.2017. 01:44:04 - [INFO] - Kreiram mjesto FOI 1 - vijećnica .
+04.12.2017. 01:44:04 - [INFO] - Kreiram mjesto FOI 1 - knjižnica .
+04.12.2017. 01:44:04 - [WARNING] - Format zapisa za mjesto FOI 1 - knjižnica2 nije valjan.
+04.12.2017. 01:44:04 - [INFO] - Kreiram mjesto FOI 1 - dvorana 1 .
+04.12.2017. 01:44:04 - [INFO] - Kreiram mjesto FOI 1 - restoran .
+04.12.2017. 01:44:04 - [INFO] - Kreiram mjesto FOI 1 - sistem sala .
+04.12.2017. 01:44:04 - [WARNING] - Format zapisa za smjer vjetra nije valjan.
+04.12.2017. 01:44:04 - [INFO] - 
+-------------------------------------------------------------
+	Postavljam uredjaje za FOI 1 - ulazna vrata
+-------------------------------------------------------------
+
+04.12.2017. 01:44:04 - [INFO] - [Senzor] prepreka
+04.12.2017. 01:44:04 - [INFO] - [Senzor] kontakt
+04.12.2017. 01:44:04 - [INFO] - [Senzor] dim
+04.12.2017. 01:44:04 - [INFO] - [Aktuator] dizanje/spuštanje platna za ploču
+04.12.2017. 01:44:04 - [INFO] - [Aktuator] dizanje/spuštanje televizora
+04.12.2017. 01:44:04 - [INFO] - 
+-------------------------------------------------------------
+	Postavljam uredjaje za FOI 1 - dvorišna vrata
+-------------------------------------------------------------
+
+04.12.2017. 01:44:04 - [INFO] - [Senzor] unutarnja temperatura
+04.12.2017. 01:44:04 - [INFO] - [Senzor] svjetlo
+04.12.2017. 01:44:04 - [INFO] - [Senzor] prepreka
+04.12.2017. 01:44:04 - [INFO] - [Aktuator] paljenje/gašenje lampe
+04.12.2017. 01:44:04 - [INFO] - [Aktuator] paljenje/gašenje lampe
+04.12.2017. 01:44:04 - [INFO] - 
+-------------------------------------------------------------
+	Postavljam uredjaje za FOI 1 - parkiralište
+-------------------------------------------------------------
+
+04.12.2017. 01:44:04 - [INFO] - [Senzor] vlaga
+04.12.2017. 01:44:04 - [INFO] - [Senzor] vanjska temperatura
+04.12.2017. 01:44:04 - [INFO] - [Senzor] vlaga
+04.12.2017. 01:44:04 - [INFO] - [Senzor] vanjska temperatura
+04.12.2017. 01:44:04 - [INFO] - [Aktuator] dizanje/spuštanje rampe
+04.12.2017. 01:44:04 - [INFO] - [Aktuator] snimanje kamerom
+04.12.2017. 01:44:04 - [INFO] - 
+-------------------------------------------------------------
+	Postavljam uredjaje za FOI 1 - vijećnica
+-------------------------------------------------------------
+
+04.12.2017. 01:44:04 - [INFO] - [Senzor] svjetlo
+04.12.2017. 01:44:04 - [INFO] - [Senzor] svjetlo
+04.12.2017. 01:44:04 - [INFO] - [Senzor] dim
+04.12.2017. 01:44:04 - [INFO] - [Senzor] kontakt
+04.12.2017. 01:44:04 - [INFO] - [Aktuator] otvaranje/zatvaranje vrata
+04.12.2017. 01:44:04 - [INFO] - [Aktuator] otvaranje/zatvaranje vrata
+04.12.2017. 01:44:04 - [INFO] - [Aktuator] paljenje/gašenje lampe
+04.12.2017. 01:44:04 - [INFO] - [Aktuator] dizanje/spuštanje televizora
+04.12.2017. 01:44:04 - [INFO] - 
+-------------------------------------------------------------
+	Postavljam uredjaje za FOI 1 - knjižnica
+-------------------------------------------------------------
+
+04.12.2017. 01:44:04 - [INFO] - [Senzor] vlaga
+04.12.2017. 01:44:04 - [INFO] - [Senzor] unutarnja temperatura
+04.12.2017. 01:44:04 - [INFO] - [Senzor] kontakt
+04.12.2017. 01:44:04 - [INFO] - [Senzor] dim
+04.12.2017. 01:44:04 - [INFO] - [Senzor] unutarnja temperatura
+04.12.2017. 01:44:04 - [INFO] - [Aktuator] dizanje/spuštanje platna za ploču
+04.12.2017. 01:44:04 - [INFO] - [Aktuator] dizanje/spuštanje platna za ploču
+04.12.2017. 01:44:04 - [INFO] - [Aktuator] snimanje kamerom
+04.12.2017. 01:44:04 - [INFO] - 
+-------------------------------------------------------------
+	Postavljam uredjaje za FOI 1 - dvorana 1
+-------------------------------------------------------------
+
+04.12.2017. 01:44:04 - [INFO] - [Senzor] kontakt
+04.12.2017. 01:44:04 - [INFO] - [Senzor] prepreka
+04.12.2017. 01:44:04 - [INFO] - [Senzor] dim
+04.12.2017. 01:44:04 - [INFO] - [Senzor] svjetlo
+04.12.2017. 01:44:04 - [INFO] - [Senzor] svjetlo
+04.12.2017. 01:44:04 - [INFO] - [Senzor] vlaga
+04.12.2017. 01:44:04 - [INFO] - [Senzor] unutarnja temperatura
+04.12.2017. 01:44:04 - [INFO] - [Aktuator] otvaranje/zatvaranje vrata
+04.12.2017. 01:44:04 - [INFO] - [Aktuator] dizanje/spuštanje platna za ploču
+04.12.2017. 01:44:04 - [INFO] - [Aktuator] dizanje/spuštanje televizora
+04.12.2017. 01:44:04 - [INFO] - [Aktuator] otvaranje/zatvaranje vrata
+04.12.2017. 01:44:04 - [INFO] - [Aktuator] otvaranje/zatvaranje vrata
+04.12.2017. 01:44:04 - [INFO] - 
+-------------------------------------------------------------
+	Postavljam uredjaje za FOI 1 - restoran
+-------------------------------------------------------------
+
+04.12.2017. 01:44:04 - [INFO] - [Senzor] kontakt
+04.12.2017. 01:44:04 - [INFO] - [Senzor] prepreka
+04.12.2017. 01:44:04 - [INFO] - [Senzor] prepreka
+04.12.2017. 01:44:04 - [INFO] - [Senzor] dim
+04.12.2017. 01:44:04 - [INFO] - [Senzor] dim
+04.12.2017. 01:44:04 - [INFO] - [Aktuator] dizanje/spuštanje televizora
+04.12.2017. 01:44:04 - [INFO] - [Aktuator] otvaranje/zatvaranje vrata
+04.12.2017. 01:44:04 - [INFO] - [Aktuator] paljenje/gašenje lampe
+04.12.2017. 01:44:04 - [INFO] - 
+-------------------------------------------------------------
+	Postavljam uredjaje za FOI 1 - sistem sala
+-------------------------------------------------------------
+
+04.12.2017. 01:44:04 - [INFO] - [Senzor] unutarnja temperatura
+04.12.2017. 01:44:04 - [INFO] - [Senzor] vlaga
+04.12.2017. 01:44:04 - [INFO] - [Senzor] kontakt
+04.12.2017. 01:44:04 - [INFO] - [Senzor] dim
+04.12.2017. 01:44:04 - [INFO] - [Senzor] unutarnja temperatura
+04.12.2017. 01:44:04 - [INFO] - [Senzor] kontakt
+04.12.2017. 01:44:04 - [INFO] - [Aktuator] dizanje/spuštanje platna za ploču
+04.12.2017. 01:44:04 - [INFO] - [Aktuator] snimanje kamerom
+04.12.2017. 01:44:04 - [INFO] - [Aktuator] otvaranje/zatvaranje vrata
+04.12.2017. 01:44:04 - [INFO] - [Aktuator] paljenje/gašenje lampe
+04.12.2017. 01:44:04 - [INFO] - 
+-------------------------------------------------------------
+	Inicijaliziram uredjaje za FOI 1 - parkiralište
+-------------------------------------------------------------
+
+04.12.2017. 01:44:04 - [INFO] - vlaga [1]
+04.12.2017. 01:44:04 - [INFO] - vanjska temperatura [1]
+04.12.2017. 01:44:04 - [INFO] - vlaga [1]
+04.12.2017. 01:44:04 - [INFO] - vanjska temperatura [1]
+04.12.2017. 01:44:04 - [INFO] - dizanje/spuštanje rampe [1]
+04.12.2017. 01:44:04 - [INFO] - snimanje kamerom [1]
+04.12.2017. 01:44:04 - [INFO] - 
+-------------------------------------------------------------
+	Inicijaliziram uredjaje za FOI 1 - vijećnica
+-------------------------------------------------------------
+
+04.12.2017. 01:44:04 - [INFO] - svjetlo [1]
+04.12.2017. 01:44:04 - [INFO] - svjetlo [1]
+04.12.2017. 01:44:04 - [INFO] - dim [1]
+04.12.2017. 01:44:04 - [INFO] - kontakt [1]
+04.12.2017. 01:44:04 - [INFO] - otvaranje/zatvaranje vrata [1]
+04.12.2017. 01:44:04 - [INFO] - otvaranje/zatvaranje vrata [1]
+04.12.2017. 01:44:04 - [INFO] - paljenje/gašenje lampe [1]
+04.12.2017. 01:44:04 - [INFO] - dizanje/spuštanje televizora [1]
+04.12.2017. 01:44:04 - [INFO] - 
+-------------------------------------------------------------
+	Inicijaliziram uredjaje za FOI 1 - sistem sala
+-------------------------------------------------------------
+
+04.12.2017. 01:44:04 - [INFO] - unutarnja temperatura [1]
+04.12.2017. 01:44:04 - [INFO] - vlaga [1]
+04.12.2017. 01:44:04 - [INFO] - kontakt [1]
+04.12.2017. 01:44:04 - [INFO] - dim [1]
+04.12.2017. 01:44:04 - [INFO] - unutarnja temperatura [1]
+04.12.2017. 01:44:04 - [WARNING] - kontakt [0]
+04.12.2017. 01:44:04 - [INFO] - dizanje/spuštanje platna za ploču [1]
+04.12.2017. 01:44:04 - [INFO] - snimanje kamerom [1]
+04.12.2017. 01:44:04 - [INFO] - otvaranje/zatvaranje vrata [1]
+04.12.2017. 01:44:04 - [INFO] - paljenje/gašenje lampe [1]
+04.12.2017. 01:44:04 - [INFO] - 
+-------------------------------------------------------------
+	Inicijaliziram uredjaje za FOI 1 - knjižnica
+-------------------------------------------------------------
+
+04.12.2017. 01:44:04 - [INFO] - vlaga [1]
+04.12.2017. 01:44:04 - [INFO] - unutarnja temperatura [1]
+04.12.2017. 01:44:04 - [INFO] - kontakt [1]
+04.12.2017. 01:44:04 - [INFO] - dim [1]
+04.12.2017. 01:44:04 - [INFO] - unutarnja temperatura [1]
+04.12.2017. 01:44:04 - [WARNING] - dizanje/spuštanje platna za ploču [0]
+04.12.2017. 01:44:04 - [INFO] - dizanje/spuštanje platna za ploču [1]
+04.12.2017. 01:44:04 - [INFO] - snimanje kamerom [1]
+04.12.2017. 01:44:04 - [INFO] - 
+-------------------------------------------------------------
+	Inicijaliziram uredjaje za FOI 1 - ulazna vrata
+-------------------------------------------------------------
+
+04.12.2017. 01:44:04 - [WARNING] - prepreka [0]
+04.12.2017. 01:44:04 - [INFO] - kontakt [1]
+04.12.2017. 01:44:04 - [INFO] - dim [1]
+04.12.2017. 01:44:04 - [INFO] - dizanje/spuštanje platna za ploču [1]
+04.12.2017. 01:44:04 - [INFO] - dizanje/spuštanje televizora [1]
+04.12.2017. 01:44:04 - [INFO] - 
+-------------------------------------------------------------
+	Inicijaliziram uredjaje za FOI 1 - dvorišna vrata
+-------------------------------------------------------------
+
+04.12.2017. 01:44:04 - [INFO] - unutarnja temperatura [1]
+04.12.2017. 01:44:04 - [INFO] - svjetlo [1]
+04.12.2017. 01:44:04 - [INFO] - prepreka [1]
+04.12.2017. 01:44:04 - [INFO] - paljenje/gašenje lampe [1]
+04.12.2017. 01:44:04 - [INFO] - paljenje/gašenje lampe [1]
+04.12.2017. 01:44:04 - [INFO] - 
+-------------------------------------------------------------
+	Inicijaliziram uredjaje za FOI 1 - restoran
+-------------------------------------------------------------
+
+04.12.2017. 01:44:04 - [INFO] - kontakt [1]
+04.12.2017. 01:44:04 - [INFO] - prepreka [1]
+04.12.2017. 01:44:04 - [INFO] - prepreka [1]
+04.12.2017. 01:44:04 - [INFO] - dim [1]
+04.12.2017. 01:44:04 - [INFO] - dim [1]
+04.12.2017. 01:44:04 - [INFO] - dizanje/spuštanje televizora [1]
+04.12.2017. 01:44:04 - [WARNING] - otvaranje/zatvaranje vrata [0]
+04.12.2017. 01:44:04 - [WARNING] - paljenje/gašenje lampe [0]
+04.12.2017. 01:44:04 - [INFO] - 
+-------------------------------------------------------------
+	Inicijaliziram uredjaje za FOI 1 - dvorana 1
+-------------------------------------------------------------
+
+04.12.2017. 01:44:04 - [INFO] - kontakt [1]
+04.12.2017. 01:44:04 - [INFO] - prepreka [1]
+04.12.2017. 01:44:04 - [INFO] - dim [1]
+04.12.2017. 01:44:04 - [INFO] - svjetlo [1]
+04.12.2017. 01:44:04 - [INFO] - svjetlo [1]
+04.12.2017. 01:44:04 - [INFO] - vlaga [1]
+04.12.2017. 01:44:04 - [INFO] - unutarnja temperatura [1]
+04.12.2017. 01:44:04 - [INFO] - otvaranje/zatvaranje vrata [1]
+04.12.2017. 01:44:04 - [INFO] - dizanje/spuštanje platna za ploču [1]
+04.12.2017. 01:44:04 - [WARNING] - dizanje/spuštanje televizora [0]
+04.12.2017. 01:44:04 - [INFO] - otvaranje/zatvaranje vrata [1]
+04.12.2017. 02:03:28 - [INFO] - Kreiram mjesto FOI 1 - ulazna vrata .
+04.12.2017. 02:03:28 - [INFO] - Kreiram mjesto FOI 1 - dvorišna vrata .
+04.12.2017. 02:03:28 - [WARNING] - Mjesto FOI 1 - dvorišna vrata već postoji.
+04.12.2017. 02:03:28 - [INFO] - Kreiram mjesto FOI 1 - parkiralište .
+04.12.2017. 02:03:28 - [INFO] - Kreiram mjesto FOI 1 - vijećnica .
+04.12.2017. 02:03:28 - [INFO] - Kreiram mjesto FOI 1 - knjižnica .
+04.12.2017. 02:03:28 - [WARNING] - Format zapisa za mjesto FOI 1 - knjižnica2 nije valjan.
+04.12.2017. 02:03:28 - [INFO] - Kreiram mjesto FOI 1 - dvorana 1 .
+04.12.2017. 02:03:28 - [INFO] - Kreiram mjesto FOI 1 - restoran .
+04.12.2017. 02:03:28 - [INFO] - Kreiram mjesto FOI 1 - sistem sala .
+04.12.2017. 02:03:28 - [WARNING] - Format zapisa za smjer vjetra nije valjan.
+04.12.2017. 02:03:28 - [INFO] - 
+-------------------------------------------------------------
+	Postavljam uredjaje za FOI 1 - ulazna vrata
+-------------------------------------------------------------
+
+04.12.2017. 02:03:28 - [INFO] - [Senzor] dim
+04.12.2017. 02:03:28 - [INFO] - [Senzor] vlaga
+04.12.2017. 02:03:28 - [INFO] - [Senzor] dim
+04.12.2017. 02:03:28 - [INFO] - [Aktuator] dizanje/spuštanje platna za ploču
+04.12.2017. 02:03:28 - [INFO] - [Aktuator] paljenje/gašenje lampe
+04.12.2017. 02:03:28 - [INFO] - 
+-------------------------------------------------------------
+	Postavljam uredjaje za FOI 1 - dvorišna vrata
+-------------------------------------------------------------
+
+04.12.2017. 02:03:28 - [INFO] - [Senzor] kontakt
+04.12.2017. 02:03:28 - [INFO] - [Senzor] vlaga
+04.12.2017. 02:03:28 - [INFO] - [Senzor] kontakt
+04.12.2017. 02:03:28 - [INFO] - [Aktuator] dizanje/spuštanje platna za ploču
+04.12.2017. 02:03:28 - [INFO] - [Aktuator] dizanje/spuštanje televizora
+04.12.2017. 02:03:28 - [INFO] - 
+-------------------------------------------------------------
+	Postavljam uredjaje za FOI 1 - parkiralište
+-------------------------------------------------------------
+
+04.12.2017. 02:03:28 - [INFO] - [Senzor] prepreka
+04.12.2017. 02:03:28 - [INFO] - [Senzor] svjetlo
+04.12.2017. 02:03:28 - [INFO] - [Senzor] vanjska temperatura
+04.12.2017. 02:03:28 - [INFO] - [Senzor] vanjska temperatura
+04.12.2017. 02:03:28 - [INFO] - [Aktuator] snimanje kamerom
+04.12.2017. 02:03:28 - [INFO] - [Aktuator] snimanje kamerom
+04.12.2017. 02:03:28 - [INFO] - 
+-------------------------------------------------------------
+	Postavljam uredjaje za FOI 1 - vijećnica
+-------------------------------------------------------------
+
+04.12.2017. 02:03:28 - [INFO] - [Senzor] prepreka
+04.12.2017. 02:03:28 - [INFO] - [Senzor] unutarnja temperatura
+04.12.2017. 02:03:28 - [INFO] - [Senzor] kontakt
+04.12.2017. 02:03:28 - [INFO] - [Senzor] prepreka
+04.12.2017. 02:03:28 - [INFO] - [Aktuator] otvaranje/zatvaranje vrata
+04.12.2017. 02:03:28 - [INFO] - [Aktuator] otvaranje/zatvaranje vrata
+04.12.2017. 02:03:28 - [INFO] - [Aktuator] dizanje/spuštanje platna za ploču
+04.12.2017. 02:03:28 - [INFO] - [Aktuator] dizanje/spuštanje platna za ploču
+04.12.2017. 02:03:28 - [INFO] - 
+-------------------------------------------------------------
+	Postavljam uredjaje za FOI 1 - knjižnica
+-------------------------------------------------------------
+
+04.12.2017. 02:03:28 - [INFO] - [Senzor] vlaga
+04.12.2017. 02:03:28 - [INFO] - [Senzor] dim
+04.12.2017. 02:03:28 - [INFO] - [Senzor] dim
+04.12.2017. 02:03:28 - [INFO] - [Senzor] dim
+04.12.2017. 02:03:28 - [INFO] - [Senzor] unutarnja temperatura
+04.12.2017. 02:03:28 - [INFO] - [Aktuator] dizanje/spuštanje televizora
+04.12.2017. 02:03:28 - [INFO] - [Aktuator] otvaranje/zatvaranje vrata
+04.12.2017. 02:03:28 - [INFO] - [Aktuator] dizanje/spuštanje platna za ploču
+04.12.2017. 02:03:28 - [INFO] - 
+-------------------------------------------------------------
+	Postavljam uredjaje za FOI 1 - dvorana 1
+-------------------------------------------------------------
+
+04.12.2017. 02:03:28 - [INFO] - [Senzor] dim
+04.12.2017. 02:03:28 - [INFO] - [Senzor] dim
+04.12.2017. 02:03:28 - [INFO] - [Senzor] vlaga
+04.12.2017. 02:03:28 - [INFO] - [Senzor] unutarnja temperatura
+04.12.2017. 02:03:28 - [INFO] - [Senzor] vlaga
+04.12.2017. 02:03:28 - [INFO] - [Senzor] svjetlo
+04.12.2017. 02:03:28 - [INFO] - [Senzor] prepreka
+04.12.2017. 02:03:28 - [INFO] - [Aktuator] paljenje/gašenje lampe
+04.12.2017. 02:03:28 - [INFO] - [Aktuator] snimanje kamerom
+04.12.2017. 02:03:28 - [INFO] - [Aktuator] dizanje/spuštanje televizora
+04.12.2017. 02:03:28 - [INFO] - [Aktuator] snimanje kamerom
+04.12.2017. 02:03:28 - [INFO] - [Aktuator] snimanje kamerom
+04.12.2017. 02:03:28 - [INFO] - 
+-------------------------------------------------------------
+	Postavljam uredjaje za FOI 1 - restoran
+-------------------------------------------------------------
+
+04.12.2017. 02:03:28 - [INFO] - [Senzor] vlaga
+04.12.2017. 02:03:28 - [INFO] - [Senzor] prepreka
+04.12.2017. 02:03:28 - [INFO] - [Senzor] dim
+04.12.2017. 02:03:28 - [INFO] - [Senzor] dim
+04.12.2017. 02:03:28 - [INFO] - [Senzor] kontakt
+04.12.2017. 02:03:28 - [INFO] - [Aktuator] paljenje/gašenje lampe
+04.12.2017. 02:03:28 - [INFO] - [Aktuator] paljenje/gašenje lampe
+04.12.2017. 02:03:28 - [INFO] - [Aktuator] snimanje kamerom
+04.12.2017. 02:03:28 - [INFO] - 
+-------------------------------------------------------------
+	Postavljam uredjaje za FOI 1 - sistem sala
+-------------------------------------------------------------
+
+04.12.2017. 02:03:28 - [INFO] - [Senzor] svjetlo
+04.12.2017. 02:03:28 - [INFO] - [Senzor] kontakt
+04.12.2017. 02:03:28 - [INFO] - [Senzor] kontakt
+04.12.2017. 02:03:28 - [INFO] - [Senzor] svjetlo
+04.12.2017. 02:03:28 - [INFO] - [Senzor] unutarnja temperatura
+04.12.2017. 02:03:28 - [INFO] - [Senzor] kontakt
+04.12.2017. 02:03:28 - [INFO] - [Aktuator] otvaranje/zatvaranje vrata
+04.12.2017. 02:03:28 - [INFO] - [Aktuator] snimanje kamerom
+04.12.2017. 02:03:28 - [INFO] - [Aktuator] paljenje/gašenje lampe
+04.12.2017. 02:03:28 - [INFO] - [Aktuator] dizanje/spuštanje televizora
+04.12.2017. 02:03:28 - [INFO] - 
+-------------------------------------------------------------
+	Inicijaliziram uredjaje za FOI 1 - dvorišna vrata
+-------------------------------------------------------------
+
+04.12.2017. 02:03:28 - [INFO] - kontakt [1]
+04.12.2017. 02:03:28 - [INFO] - vlaga [1]
+04.12.2017. 02:03:28 - [INFO] - kontakt [1]
+04.12.2017. 02:03:28 - [INFO] - dizanje/spuštanje platna za ploču [1]
+04.12.2017. 02:03:28 - [INFO] - dizanje/spuštanje televizora [1]
+04.12.2017. 02:03:28 - [INFO] - 
+-------------------------------------------------------------
+	Inicijaliziram uredjaje za FOI 1 - ulazna vrata
+-------------------------------------------------------------
+
+04.12.2017. 02:03:28 - [INFO] - dim [1]
+04.12.2017. 02:03:28 - [INFO] - vlaga [1]
+04.12.2017. 02:03:28 - [INFO] - dim [1]
+04.12.2017. 02:03:28 - [INFO] - dizanje/spuštanje platna za ploču [1]
+04.12.2017. 02:03:28 - [INFO] - paljenje/gašenje lampe [1]
+04.12.2017. 02:03:28 - [INFO] - 
+-------------------------------------------------------------
+	Inicijaliziram uredjaje za FOI 1 - parkiralište
+-------------------------------------------------------------
+
+04.12.2017. 02:03:28 - [INFO] - prepreka [1]
+04.12.2017. 02:03:28 - [INFO] - svjetlo [1]
+04.12.2017. 02:03:28 - [INFO] - vanjska temperatura [1]
+04.12.2017. 02:03:28 - [INFO] - vanjska temperatura [1]
+04.12.2017. 02:03:28 - [INFO] - snimanje kamerom [1]
+04.12.2017. 02:03:28 - [INFO] - snimanje kamerom [1]
+04.12.2017. 02:03:28 - [INFO] - 
+-------------------------------------------------------------
+	Inicijaliziram uredjaje za FOI 1 - dvorana 1
+-------------------------------------------------------------
+
+04.12.2017. 02:03:28 - [INFO] - dim [1]
+04.12.2017. 02:03:28 - [INFO] - dim [1]
+04.12.2017. 02:03:28 - [INFO] - vlaga [1]
+04.12.2017. 02:03:28 - [INFO] - unutarnja temperatura [1]
+04.12.2017. 02:03:28 - [INFO] - vlaga [1]
+04.12.2017. 02:03:28 - [INFO] - svjetlo [1]
+04.12.2017. 02:03:28 - [INFO] - prepreka [1]
+04.12.2017. 02:03:28 - [INFO] - paljenje/gašenje lampe [1]
+04.12.2017. 02:03:28 - [INFO] - snimanje kamerom [1]
+04.12.2017. 02:03:28 - [INFO] - dizanje/spuštanje televizora [1]
+04.12.2017. 02:03:28 - [INFO] - snimanje kamerom [1]
+04.12.2017. 02:03:28 - [INFO] - snimanje kamerom [1]
+04.12.2017. 02:03:28 - [INFO] - 
+-------------------------------------------------------------
+	Inicijaliziram uredjaje za FOI 1 - restoran
+-------------------------------------------------------------
+
+04.12.2017. 02:03:28 - [WARNING] - vlaga [0]
+04.12.2017. 02:03:28 - [WARNING] - prepreka [0]
+04.12.2017. 02:03:28 - [INFO] - dim [1]
+04.12.2017. 02:03:28 - [INFO] - dim [1]
+04.12.2017. 02:03:28 - [INFO] - kontakt [1]
+04.12.2017. 02:03:28 - [INFO] - paljenje/gašenje lampe [1]
+04.12.2017. 02:03:28 - [INFO] - paljenje/gašenje lampe [1]
+04.12.2017. 02:03:28 - [INFO] - snimanje kamerom [1]
+04.12.2017. 02:03:28 - [INFO] - 
+-------------------------------------------------------------
+	Inicijaliziram uredjaje za FOI 1 - knjižnica
+-------------------------------------------------------------
+
+04.12.2017. 02:03:28 - [INFO] - vlaga [1]
+04.12.2017. 02:03:28 - [INFO] - dim [1]
+04.12.2017. 02:03:28 - [INFO] - dim [1]
+04.12.2017. 02:03:28 - [INFO] - dim [1]
+04.12.2017. 02:03:28 - [INFO] - unutarnja temperatura [1]
+04.12.2017. 02:03:28 - [INFO] - dizanje/spuštanje televizora [1]
+04.12.2017. 02:03:28 - [INFO] - otvaranje/zatvaranje vrata [1]
+04.12.2017. 02:03:28 - [INFO] - dizanje/spuštanje platna za ploču [1]
+04.12.2017. 02:03:28 - [INFO] - 
+-------------------------------------------------------------
+	Inicijaliziram uredjaje za FOI 1 - sistem sala
+-------------------------------------------------------------
+
+04.12.2017. 02:03:28 - [INFO] - svjetlo [1]
+04.12.2017. 02:03:28 - [INFO] - kontakt [1]
+04.12.2017. 02:03:28 - [INFO] - kontakt [1]
+04.12.2017. 02:03:28 - [INFO] - svjetlo [1]
+04.12.2017. 02:03:28 - [INFO] - unutarnja temperatura [1]
+04.12.2017. 02:03:28 - [INFO] - kontakt [1]
+04.12.2017. 02:03:28 - [INFO] - otvaranje/zatvaranje vrata [1]
+04.12.2017. 02:03:28 - [INFO] - snimanje kamerom [1]
+04.12.2017. 02:03:28 - [INFO] - paljenje/gašenje lampe [1]
+04.12.2017. 02:03:28 - [WARNING] - dizanje/spuštanje televizora [0]
+04.12.2017. 02:03:28 - [INFO] - 
+-------------------------------------------------------------
+	Inicijaliziram uredjaje za FOI 1 - vijećnica
+-------------------------------------------------------------
+
+04.12.2017. 02:03:28 - [INFO] - prepreka [1]
+04.12.2017. 02:03:28 - [INFO] - unutarnja temperatura [1]
+04.12.2017. 02:03:28 - [INFO] - kontakt [1]
+04.12.2017. 02:03:28 - [INFO] - prepreka [1]
+04.12.2017. 02:03:28 - [INFO] - otvaranje/zatvaranje vrata [1]
+04.12.2017. 02:03:28 - [INFO] - otvaranje/zatvaranje vrata [1]
+04.12.2017. 02:03:28 - [INFO] - dizanje/spuštanje platna za ploču [1]
+04.12.2017. 02:03:28 - [INFO] - dizanje/spuštanje platna za ploču [1]
+04.12.2017. 02:03:28 - [INFO] - 
+-------------------------------------------------------------
+	Opremam mjesto FOI 1 - dvorišna vrata
+-------------------------------------------------------------
+
+04.12.2017. 02:03:28 - [INFO] - 
+-------------------------------------------------------------
+	Opremam mjesto FOI 1 - ulazna vrata
+-------------------------------------------------------------
+
+04.12.2017. 02:03:28 - [INFO] - 
+-------------------------------------------------------------
+	Opremam mjesto FOI 1 - parkiralište
+-------------------------------------------------------------
+
+04.12.2017. 02:03:28 - [INFO] - 
+-------------------------------------------------------------
+	Opremam mjesto FOI 1 - dvorana 1
+-------------------------------------------------------------
+
+04.12.2017. 02:05:07 - [INFO] - Kreiram mjesto FOI 1 - ulazna vrata .
+04.12.2017. 02:05:07 - [INFO] - Kreiram mjesto FOI 1 - dvorišna vrata .
+04.12.2017. 02:05:07 - [WARNING] - Mjesto FOI 1 - dvorišna vrata već postoji.
+04.12.2017. 02:05:07 - [INFO] - Kreiram mjesto FOI 1 - parkiralište .
+04.12.2017. 02:05:07 - [INFO] - Kreiram mjesto FOI 1 - vijećnica .
+04.12.2017. 02:05:07 - [INFO] - Kreiram mjesto FOI 1 - knjižnica .
+04.12.2017. 02:05:07 - [WARNING] - Format zapisa za mjesto FOI 1 - knjižnica2 nije valjan.
+04.12.2017. 02:05:07 - [INFO] - Kreiram mjesto FOI 1 - dvorana 1 .
+04.12.2017. 02:05:07 - [INFO] - Kreiram mjesto FOI 1 - restoran .
+04.12.2017. 02:05:07 - [INFO] - Kreiram mjesto FOI 1 - sistem sala .
+04.12.2017. 02:05:07 - [WARNING] - Format zapisa za smjer vjetra nije valjan.
+04.12.2017. 02:05:07 - [INFO] - 
+-------------------------------------------------------------
+	Postavljam uredjaje za FOI 1 - ulazna vrata
+-------------------------------------------------------------
+
+04.12.2017. 02:05:07 - [INFO] - [Senzor] vlaga
+04.12.2017. 02:05:07 - [INFO] - [Senzor] kontakt
+04.12.2017. 02:05:07 - [INFO] - [Senzor] kontakt
+04.12.2017. 02:05:07 - [INFO] - [Aktuator] snimanje kamerom
+04.12.2017. 02:05:07 - [INFO] - [Aktuator] snimanje kamerom
+04.12.2017. 02:05:07 - [INFO] - 
+-------------------------------------------------------------
+	Postavljam uredjaje za FOI 1 - dvorišna vrata
+-------------------------------------------------------------
+
+04.12.2017. 02:05:07 - [INFO] - [Senzor] vlaga
+04.12.2017. 02:05:07 - [INFO] - [Senzor] vlaga
+04.12.2017. 02:05:07 - [INFO] - [Senzor] unutarnja temperatura
+04.12.2017. 02:05:07 - [INFO] - [Aktuator] dizanje/spuštanje televizora
+04.12.2017. 02:05:07 - [INFO] - [Aktuator] snimanje kamerom
+04.12.2017. 02:05:07 - [INFO] - 
+-------------------------------------------------------------
+	Postavljam uredjaje za FOI 1 - parkiralište
+-------------------------------------------------------------
+
+04.12.2017. 02:05:07 - [INFO] - [Senzor] vjetar
+04.12.2017. 02:05:07 - [INFO] - [Senzor] prepreka
+04.12.2017. 02:05:07 - [INFO] - [Senzor] prepreka
+04.12.2017. 02:05:07 - [INFO] - [Senzor] vlaga
+04.12.2017. 02:05:07 - [INFO] - [Aktuator] paljenje/gašenje lampe
+04.12.2017. 02:05:07 - [INFO] - [Aktuator] otvaranje/zatvaranje vrata
+04.12.2017. 02:05:07 - [INFO] - 
+-------------------------------------------------------------
+	Postavljam uredjaje za FOI 1 - vijećnica
+-------------------------------------------------------------
+
+04.12.2017. 02:05:07 - [INFO] - [Senzor] vlaga
+04.12.2017. 02:05:07 - [INFO] - [Senzor] kontakt
+04.12.2017. 02:05:07 - [INFO] - [Senzor] unutarnja temperatura
+04.12.2017. 02:05:07 - [INFO] - [Senzor] kontakt
+04.12.2017. 02:05:07 - [INFO] - [Aktuator] dizanje/spuštanje televizora
+04.12.2017. 02:05:07 - [INFO] - [Aktuator] otvaranje/zatvaranje vrata
+04.12.2017. 02:05:07 - [INFO] - [Aktuator] paljenje/gašenje lampe
+04.12.2017. 02:05:07 - [INFO] - [Aktuator] snimanje kamerom
+04.12.2017. 02:05:07 - [INFO] - 
+-------------------------------------------------------------
+	Postavljam uredjaje za FOI 1 - knjižnica
+-------------------------------------------------------------
+
+04.12.2017. 02:05:07 - [INFO] - [Senzor] dim
+04.12.2017. 02:05:07 - [INFO] - [Senzor] svjetlo
+04.12.2017. 02:05:07 - [INFO] - [Senzor] kontakt
+04.12.2017. 02:05:07 - [INFO] - [Senzor] prepreka
+04.12.2017. 02:05:07 - [INFO] - [Senzor] svjetlo
+04.12.2017. 02:05:07 - [INFO] - [Aktuator] dizanje/spuštanje platna za ploču
+04.12.2017. 02:05:07 - [INFO] - [Aktuator] paljenje/gašenje lampe
+04.12.2017. 02:05:07 - [INFO] - [Aktuator] paljenje/gašenje lampe
+04.12.2017. 02:05:07 - [INFO] - 
+-------------------------------------------------------------
+	Postavljam uredjaje za FOI 1 - dvorana 1
+-------------------------------------------------------------
+
+04.12.2017. 02:05:07 - [INFO] - [Senzor] kontakt
+04.12.2017. 02:05:07 - [INFO] - [Senzor] unutarnja temperatura
+04.12.2017. 02:05:07 - [INFO] - [Senzor] unutarnja temperatura
+04.12.2017. 02:05:07 - [INFO] - [Senzor] dim
+04.12.2017. 02:05:07 - [INFO] - [Senzor] vlaga
+04.12.2017. 02:05:07 - [INFO] - [Senzor] dim
+04.12.2017. 02:05:07 - [INFO] - [Senzor] unutarnja temperatura
+04.12.2017. 02:05:07 - [INFO] - [Aktuator] dizanje/spuštanje televizora
+04.12.2017. 02:05:07 - [INFO] - [Aktuator] paljenje/gašenje lampe
+04.12.2017. 02:05:07 - [INFO] - [Aktuator] otvaranje/zatvaranje vrata
+04.12.2017. 02:05:07 - [INFO] - [Aktuator] dizanje/spuštanje televizora
+04.12.2017. 02:05:07 - [INFO] - [Aktuator] dizanje/spuštanje televizora
+04.12.2017. 02:05:07 - [INFO] - 
+-------------------------------------------------------------
+	Postavljam uredjaje za FOI 1 - restoran
+-------------------------------------------------------------
+
+04.12.2017. 02:05:07 - [INFO] - [Senzor] svjetlo
+04.12.2017. 02:05:07 - [INFO] - [Senzor] kontakt
+04.12.2017. 02:05:07 - [INFO] - [Senzor] svjetlo
+04.12.2017. 02:05:07 - [INFO] - [Senzor] vlaga
+04.12.2017. 02:05:07 - [INFO] - [Senzor] prepreka
+04.12.2017. 02:05:07 - [INFO] - [Aktuator] snimanje kamerom
+04.12.2017. 02:05:07 - [INFO] - [Aktuator] otvaranje/zatvaranje vrata
+04.12.2017. 02:05:07 - [INFO] - [Aktuator] snimanje kamerom
+04.12.2017. 02:05:07 - [INFO] - 
+-------------------------------------------------------------
+	Postavljam uredjaje za FOI 1 - sistem sala
+-------------------------------------------------------------
+
+04.12.2017. 02:05:07 - [INFO] - [Senzor] dim
+04.12.2017. 02:05:07 - [INFO] - [Senzor] svjetlo
+04.12.2017. 02:05:07 - [INFO] - [Senzor] dim
+04.12.2017. 02:05:07 - [INFO] - [Senzor] prepreka
+04.12.2017. 02:05:07 - [INFO] - [Senzor] svjetlo
+04.12.2017. 02:05:07 - [INFO] - [Senzor] svjetlo
+04.12.2017. 02:05:07 - [INFO] - [Aktuator] snimanje kamerom
+04.12.2017. 02:05:07 - [INFO] - [Aktuator] dizanje/spuštanje televizora
+04.12.2017. 02:05:07 - [INFO] - [Aktuator] otvaranje/zatvaranje vrata
+04.12.2017. 02:05:07 - [INFO] - [Aktuator] otvaranje/zatvaranje vrata
+04.12.2017. 02:05:07 - [INFO] - 
+-------------------------------------------------------------
+	Inicijaliziram uredjaje za 280 FOI 1 - dvorišna vrata
+-------------------------------------------------------------
+
+04.12.2017. 02:05:07 - [INFO] - 
+-------------------------------------------------------------
+	Inicijaliziram uredjaje za 292 FOI 1 - ulazna vrata
+-------------------------------------------------------------
+
+04.12.2017. 02:05:07 - [INFO] - 
+-------------------------------------------------------------
+	Inicijaliziram uredjaje za 356 FOI 1 - dvorana 1
+-------------------------------------------------------------
+
+04.12.2017. 02:05:07 - [INFO] - 
+-------------------------------------------------------------
+	Inicijaliziram uredjaje za 395 FOI 1 - vijećnica
+-------------------------------------------------------------
+
+04.12.2017. 02:05:07 - [INFO] - 
+-------------------------------------------------------------
+	Inicijaliziram uredjaje za 433 FOI 1 - sistem sala
+-------------------------------------------------------------
+
+04.12.2017. 02:05:07 - [INFO] - 
+-------------------------------------------------------------
+	Inicijaliziram uredjaje za 718 FOI 1 - knjižnica
+-------------------------------------------------------------
+
+04.12.2017. 02:05:07 - [INFO] - 
+-------------------------------------------------------------
+	Inicijaliziram uredjaje za 910 FOI 1 - parkiralište
+-------------------------------------------------------------
+
+04.12.2017. 02:05:07 - [INFO] - 
+-------------------------------------------------------------
+	Inicijaliziram uredjaje za 952 FOI 1 - restoran
+-------------------------------------------------------------
+
+04.12.2017. 02:05:07 - [INFO] - 
+-------------------------------------------------------------
+	Opremam mjesto FOI 1 - dvorišna vrata
+-------------------------------------------------------------
+
+04.12.2017. 02:05:07 - [INFO] - 
+-------------------------------------------------------------
+	Opremam mjesto FOI 1 - ulazna vrata
+-------------------------------------------------------------
+
+04.12.2017. 02:05:07 - [INFO] - 
+-------------------------------------------------------------
+	Opremam mjesto FOI 1 - dvorana 1
+-------------------------------------------------------------
+
+04.12.2017. 02:05:07 - [INFO] - 
+-------------------------------------------------------------
+	Opremam mjesto FOI 1 - vijećnica
+-------------------------------------------------------------
+
+04.12.2017. 02:05:07 - [INFO] - 
+-------------------------------------------------------------
+	Opremam mjesto FOI 1 - sistem sala
+-------------------------------------------------------------
+
+04.12.2017. 02:05:07 - [INFO] - 
+-------------------------------------------------------------
+	Opremam mjesto FOI 1 - knjižnica
+-------------------------------------------------------------
+
+04.12.2017. 02:05:19 - [INFO] - Kreiram mjesto FOI 1 - ulazna vrata .
+04.12.2017. 02:05:19 - [INFO] - Kreiram mjesto FOI 1 - dvorišna vrata .
+04.12.2017. 02:05:19 - [WARNING] - Mjesto FOI 1 - dvorišna vrata već postoji.
+04.12.2017. 02:05:19 - [INFO] - Kreiram mjesto FOI 1 - parkiralište .
+04.12.2017. 02:05:19 - [INFO] - Kreiram mjesto FOI 1 - vijećnica .
+04.12.2017. 02:05:19 - [INFO] - Kreiram mjesto FOI 1 - knjižnica .
+04.12.2017. 02:05:19 - [WARNING] - Format zapisa za mjesto FOI 1 - knjižnica2 nije valjan.
+04.12.2017. 02:05:19 - [INFO] - Kreiram mjesto FOI 1 - dvorana 1 .
+04.12.2017. 02:05:19 - [INFO] - Kreiram mjesto FOI 1 - restoran .
+04.12.2017. 02:05:19 - [INFO] - Kreiram mjesto FOI 1 - sistem sala .
+04.12.2017. 02:05:19 - [WARNING] - Format zapisa za smjer vjetra nije valjan.
+04.12.2017. 02:05:19 - [INFO] - 
+-------------------------------------------------------------
+	Postavljam uredjaje za FOI 1 - ulazna vrata
+-------------------------------------------------------------
+
+04.12.2017. 02:05:19 - [INFO] - [Senzor] prepreka
+04.12.2017. 02:05:19 - [INFO] - [Senzor] svjetlo
+04.12.2017. 02:05:19 - [INFO] - [Senzor] svjetlo
+04.12.2017. 02:05:19 - [INFO] - [Aktuator] paljenje/gašenje lampe
+04.12.2017. 02:05:19 - [INFO] - [Aktuator] paljenje/gašenje lampe
+04.12.2017. 02:05:19 - [INFO] - 
+-------------------------------------------------------------
+	Postavljam uredjaje za FOI 1 - dvorišna vrata
+-------------------------------------------------------------
+
+04.12.2017. 02:05:19 - [INFO] - [Senzor] vlaga
+04.12.2017. 02:05:19 - [INFO] - [Senzor] vlaga
+04.12.2017. 02:05:19 - [INFO] - [Senzor] kontakt
+04.12.2017. 02:05:19 - [INFO] - [Aktuator] snimanje kamerom
+04.12.2017. 02:05:19 - [INFO] - [Aktuator] otvaranje/zatvaranje vrata
+04.12.2017. 02:05:19 - [INFO] - 
+-------------------------------------------------------------
+	Postavljam uredjaje za FOI 1 - parkiralište
+-------------------------------------------------------------
+
+04.12.2017. 02:05:19 - [INFO] - [Senzor] vjetar
+04.12.2017. 02:05:19 - [INFO] - [Senzor] vlaga
+04.12.2017. 02:05:19 - [INFO] - [Senzor] vlaga
+04.12.2017. 02:05:19 - [INFO] - [Senzor] vjetar
+04.12.2017. 02:05:19 - [INFO] - [Aktuator] paljenje/gašenje lampe
+04.12.2017. 02:05:19 - [INFO] - [Aktuator] otvaranje/zatvaranje vrata
+04.12.2017. 02:05:19 - [INFO] - 
+-------------------------------------------------------------
+	Postavljam uredjaje za FOI 1 - vijećnica
+-------------------------------------------------------------
+
+04.12.2017. 02:05:19 - [INFO] - [Senzor] dim
+04.12.2017. 02:05:19 - [INFO] - [Senzor] unutarnja temperatura
+04.12.2017. 02:05:19 - [INFO] - [Senzor] unutarnja temperatura
+04.12.2017. 02:05:19 - [INFO] - [Senzor] unutarnja temperatura
+04.12.2017. 02:05:19 - [INFO] - [Aktuator] paljenje/gašenje lampe
+04.12.2017. 02:05:19 - [INFO] - [Aktuator] otvaranje/zatvaranje vrata
+04.12.2017. 02:05:19 - [INFO] - [Aktuator] paljenje/gašenje lampe
+04.12.2017. 02:05:19 - [INFO] - [Aktuator] snimanje kamerom
+04.12.2017. 02:05:19 - [INFO] - 
+-------------------------------------------------------------
+	Postavljam uredjaje za FOI 1 - knjižnica
+-------------------------------------------------------------
+
+04.12.2017. 02:05:19 - [INFO] - [Senzor] prepreka
+04.12.2017. 02:05:19 - [INFO] - [Senzor] svjetlo
+04.12.2017. 02:05:19 - [INFO] - [Senzor] dim
+04.12.2017. 02:05:19 - [INFO] - [Senzor] kontakt
+04.12.2017. 02:05:19 - [INFO] - [Senzor] prepreka
+04.12.2017. 02:05:19 - [INFO] - [Aktuator] otvaranje/zatvaranje vrata
+04.12.2017. 02:05:19 - [INFO] - [Aktuator] otvaranje/zatvaranje vrata
+04.12.2017. 02:05:19 - [INFO] - [Aktuator] dizanje/spuštanje platna za ploču
+04.12.2017. 02:05:19 - [INFO] - 
+-------------------------------------------------------------
+	Postavljam uredjaje za FOI 1 - dvorana 1
+-------------------------------------------------------------
+
+04.12.2017. 02:05:19 - [INFO] - [Senzor] svjetlo
+04.12.2017. 02:05:19 - [INFO] - [Senzor] kontakt
+04.12.2017. 02:05:19 - [INFO] - [Senzor] dim
+04.12.2017. 02:05:19 - [INFO] - [Senzor] vlaga
+04.12.2017. 02:05:19 - [INFO] - [Senzor] svjetlo
+04.12.2017. 02:05:19 - [INFO] - [Senzor] vlaga
+04.12.2017. 02:05:19 - [INFO] - [Senzor] svjetlo
+04.12.2017. 02:05:19 - [INFO] - [Aktuator] otvaranje/zatvaranje vrata
+04.12.2017. 02:05:19 - [INFO] - [Aktuator] paljenje/gašenje lampe
+04.12.2017. 02:05:19 - [INFO] - [Aktuator] dizanje/spuštanje platna za ploču
+04.12.2017. 02:05:19 - [INFO] - [Aktuator] otvaranje/zatvaranje vrata
+04.12.2017. 02:05:19 - [INFO] - [Aktuator] dizanje/spuštanje platna za ploču
+04.12.2017. 02:05:19 - [INFO] - 
+-------------------------------------------------------------
+	Postavljam uredjaje za FOI 1 - restoran
+-------------------------------------------------------------
+
+04.12.2017. 02:05:19 - [INFO] - [Senzor] unutarnja temperatura
+04.12.2017. 02:05:19 - [INFO] - [Senzor] vlaga
+04.12.2017. 02:05:19 - [INFO] - [Senzor] svjetlo
+04.12.2017. 02:05:19 - [INFO] - [Senzor] unutarnja temperatura
+04.12.2017. 02:05:19 - [INFO] - [Senzor] prepreka
+04.12.2017. 02:05:19 - [INFO] - [Aktuator] paljenje/gašenje lampe
+04.12.2017. 02:05:19 - [INFO] - [Aktuator] dizanje/spuštanje televizora
+04.12.2017. 02:05:19 - [INFO] - [Aktuator] dizanje/spuštanje televizora
+04.12.2017. 02:05:19 - [INFO] - 
+-------------------------------------------------------------
+	Postavljam uredjaje za FOI 1 - sistem sala
+-------------------------------------------------------------
+
+04.12.2017. 02:05:19 - [INFO] - [Senzor] vlaga
+04.12.2017. 02:05:19 - [INFO] - [Senzor] svjetlo
+04.12.2017. 02:05:19 - [INFO] - [Senzor] kontakt
+04.12.2017. 02:05:19 - [INFO] - [Senzor] unutarnja temperatura
+04.12.2017. 02:05:19 - [INFO] - [Senzor] dim
+04.12.2017. 02:05:19 - [INFO] - [Senzor] unutarnja temperatura
+04.12.2017. 02:05:19 - [INFO] - [Aktuator] dizanje/spuštanje platna za ploču
+04.12.2017. 02:05:19 - [INFO] - [Aktuator] otvaranje/zatvaranje vrata
+04.12.2017. 02:05:19 - [INFO] - [Aktuator] snimanje kamerom
+04.12.2017. 02:05:19 - [INFO] - [Aktuator] dizanje/spuštanje televizora
+04.12.2017. 02:05:19 - [INFO] - 
+-------------------------------------------------------------
+	Inicijaliziram uredjaje za 1 FOI 1 - dvorana 1
+-------------------------------------------------------------
+
+04.12.2017. 02:05:19 - [INFO] - 
+-------------------------------------------------------------
+	Inicijaliziram uredjaje za 147 FOI 1 - dvorišna vrata
+-------------------------------------------------------------
+
+04.12.2017. 02:05:19 - [INFO] - 
+-------------------------------------------------------------
+	Inicijaliziram uredjaje za 157 FOI 1 - parkiralište
+-------------------------------------------------------------
+
+04.12.2017. 02:05:19 - [INFO] - 
+-------------------------------------------------------------
+	Inicijaliziram uredjaje za 185 FOI 1 - restoran
+-------------------------------------------------------------
+
+04.12.2017. 02:05:19 - [INFO] - 
+-------------------------------------------------------------
+	Inicijaliziram uredjaje za 481 FOI 1 - vijećnica
+-------------------------------------------------------------
+
+04.12.2017. 02:05:19 - [INFO] - 
+-------------------------------------------------------------
+	Inicijaliziram uredjaje za 509 FOI 1 - sistem sala
+-------------------------------------------------------------
+
+04.12.2017. 02:05:19 - [INFO] - 
+-------------------------------------------------------------
+	Inicijaliziram uredjaje za 791 FOI 1 - ulazna vrata
+-------------------------------------------------------------
+
+04.12.2017. 02:05:19 - [INFO] - 
+-------------------------------------------------------------
+	Inicijaliziram uredjaje za 874 FOI 1 - knjižnica
+-------------------------------------------------------------
+
+04.12.2017. 02:05:19 - [INFO] - 
+-------------------------------------------------------------
+	Opremam mjesto FOI 1 - dvorana 1
+-------------------------------------------------------------
+
+04.12.2017. 02:05:19 - [INFO] - 
+-------------------------------------------------------------
+	Opremam mjesto FOI 1 - dvorišna vrata
+-------------------------------------------------------------
+
+04.12.2017. 02:05:19 - [INFO] - 
+-------------------------------------------------------------
+	Opremam mjesto FOI 1 - parkiralište
+-------------------------------------------------------------
+
+04.12.2017. 02:05:19 - [INFO] - 
+-------------------------------------------------------------
+	Opremam mjesto FOI 1 - restoran
+-------------------------------------------------------------
+
+04.12.2017. 02:05:19 - [INFO] - 
+-------------------------------------------------------------
+	Opremam mjesto FOI 1 - vijećnica
+-------------------------------------------------------------
+
+04.12.2017. 02:05:19 - [INFO] - 
+-------------------------------------------------------------
+	Opremam mjesto FOI 1 - sistem sala
+-------------------------------------------------------------
+
+04.12.2017. 02:06:07 - [INFO] - Kreiram mjesto FOI 1 - ulazna vrata .
+04.12.2017. 02:06:07 - [INFO] - Kreiram mjesto FOI 1 - dvorišna vrata .
+04.12.2017. 02:06:07 - [WARNING] - Mjesto FOI 1 - dvorišna vrata već postoji.
+04.12.2017. 02:06:07 - [INFO] - Kreiram mjesto FOI 1 - parkiralište .
+04.12.2017. 02:06:07 - [INFO] - Kreiram mjesto FOI 1 - vijećnica .
+04.12.2017. 02:06:07 - [INFO] - Kreiram mjesto FOI 1 - knjižnica .
+04.12.2017. 02:06:07 - [WARNING] - Format zapisa za mjesto FOI 1 - knjižnica2 nije valjan.
+04.12.2017. 02:06:07 - [INFO] - Kreiram mjesto FOI 1 - dvorana 1 .
+04.12.2017. 02:06:07 - [INFO] - Kreiram mjesto FOI 1 - restoran .
+04.12.2017. 02:06:07 - [INFO] - Kreiram mjesto FOI 1 - sistem sala .
+04.12.2017. 02:06:07 - [WARNING] - Format zapisa za smjer vjetra nije valjan.
+04.12.2017. 02:06:07 - [INFO] - 
+-------------------------------------------------------------
+	Postavljam uredjaje za FOI 1 - ulazna vrata
+-------------------------------------------------------------
+
+04.12.2017. 02:06:07 - [INFO] - [Senzor] vlaga
+04.12.2017. 02:06:07 - [INFO] - [Senzor] unutarnja temperatura
+04.12.2017. 02:06:07 - [INFO] - [Senzor] vlaga
+04.12.2017. 02:06:07 - [INFO] - [Aktuator] paljenje/gašenje lampe
+04.12.2017. 02:06:07 - [INFO] - [Aktuator] snimanje kamerom
+04.12.2017. 02:06:07 - [INFO] - 
+-------------------------------------------------------------
+	Postavljam uredjaje za FOI 1 - dvorišna vrata
+-------------------------------------------------------------
+
+04.12.2017. 02:06:07 - [INFO] - [Senzor] kontakt
+04.12.2017. 02:06:07 - [INFO] - [Senzor] unutarnja temperatura
+04.12.2017. 02:06:07 - [INFO] - [Senzor] kontakt
+04.12.2017. 02:06:07 - [INFO] - [Aktuator] dizanje/spuštanje televizora
+04.12.2017. 02:06:07 - [INFO] - [Aktuator] dizanje/spuštanje platna za ploču
+04.12.2017. 02:06:07 - [INFO] - 
+-------------------------------------------------------------
+	Postavljam uredjaje za FOI 1 - parkiralište
+-------------------------------------------------------------
+
+04.12.2017. 02:06:07 - [INFO] - [Senzor] vjetar
+04.12.2017. 02:06:07 - [INFO] - [Senzor] vjetar
+04.12.2017. 02:06:07 - [INFO] - [Senzor] vanjska temperatura
+04.12.2017. 02:06:07 - [INFO] - [Senzor] vlaga
+04.12.2017. 02:06:07 - [INFO] - [Aktuator] snimanje kamerom
+04.12.2017. 02:06:07 - [INFO] - [Aktuator] paljenje/gašenje lampe
+04.12.2017. 02:06:07 - [INFO] - 
+-------------------------------------------------------------
+	Postavljam uredjaje za FOI 1 - vijećnica
+-------------------------------------------------------------
+
+04.12.2017. 02:06:07 - [INFO] - [Senzor] prepreka
+04.12.2017. 02:06:07 - [INFO] - [Senzor] vlaga
+04.12.2017. 02:06:07 - [INFO] - [Senzor] vlaga
+04.12.2017. 02:06:07 - [INFO] - [Senzor] dim
+04.12.2017. 02:06:07 - [INFO] - [Aktuator] paljenje/gašenje lampe
+04.12.2017. 02:06:07 - [INFO] - [Aktuator] dizanje/spuštanje platna za ploču
+04.12.2017. 02:06:07 - [INFO] - [Aktuator] paljenje/gašenje lampe
+04.12.2017. 02:06:07 - [INFO] - [Aktuator] snimanje kamerom
+04.12.2017. 02:06:07 - [INFO] - 
+-------------------------------------------------------------
+	Postavljam uredjaje za FOI 1 - knjižnica
+-------------------------------------------------------------
+
+04.12.2017. 02:06:07 - [INFO] - [Senzor] svjetlo
+04.12.2017. 02:06:07 - [INFO] - [Senzor] prepreka
+04.12.2017. 02:06:07 - [INFO] - [Senzor] kontakt
+04.12.2017. 02:06:07 - [INFO] - [Senzor] svjetlo
+04.12.2017. 02:06:07 - [INFO] - [Senzor] prepreka
+04.12.2017. 02:06:07 - [INFO] - [Aktuator] snimanje kamerom
+04.12.2017. 02:06:07 - [INFO] - [Aktuator] otvaranje/zatvaranje vrata
+04.12.2017. 02:06:07 - [INFO] - [Aktuator] snimanje kamerom
+04.12.2017. 02:06:07 - [INFO] - 
+-------------------------------------------------------------
+	Postavljam uredjaje za FOI 1 - dvorana 1
+-------------------------------------------------------------
+
+04.12.2017. 02:06:07 - [INFO] - [Senzor] unutarnja temperatura
+04.12.2017. 02:06:07 - [INFO] - [Senzor] unutarnja temperatura
+04.12.2017. 02:06:07 - [INFO] - [Senzor] unutarnja temperatura
+04.12.2017. 02:06:07 - [INFO] - [Senzor] prepreka
+04.12.2017. 02:06:07 - [INFO] - [Senzor] dim
+04.12.2017. 02:06:07 - [INFO] - [Senzor] unutarnja temperatura
+04.12.2017. 02:06:07 - [INFO] - [Senzor] vlaga
+04.12.2017. 02:06:07 - [INFO] - [Aktuator] dizanje/spuštanje platna za ploču
+04.12.2017. 02:06:07 - [INFO] - [Aktuator] dizanje/spuštanje televizora
+04.12.2017. 02:06:07 - [INFO] - [Aktuator] dizanje/spuštanje televizora
+04.12.2017. 02:06:07 - [INFO] - [Aktuator] paljenje/gašenje lampe
+04.12.2017. 02:06:07 - [INFO] - [Aktuator] otvaranje/zatvaranje vrata
+04.12.2017. 02:06:07 - [INFO] - 
+-------------------------------------------------------------
+	Postavljam uredjaje za FOI 1 - restoran
+-------------------------------------------------------------
+
+04.12.2017. 02:06:07 - [INFO] - [Senzor] dim
+04.12.2017. 02:06:07 - [INFO] - [Senzor] dim
+04.12.2017. 02:06:07 - [INFO] - [Senzor] unutarnja temperatura
+04.12.2017. 02:06:07 - [INFO] - [Senzor] svjetlo
+04.12.2017. 02:06:07 - [INFO] - [Senzor] prepreka
+04.12.2017. 02:06:07 - [INFO] - [Aktuator] otvaranje/zatvaranje vrata
+04.12.2017. 02:06:07 - [INFO] - [Aktuator] paljenje/gašenje lampe
+04.12.2017. 02:06:07 - [INFO] - [Aktuator] dizanje/spuštanje televizora
+04.12.2017. 02:06:07 - [INFO] - 
+-------------------------------------------------------------
+	Postavljam uredjaje za FOI 1 - sistem sala
+-------------------------------------------------------------
+
+04.12.2017. 02:06:07 - [INFO] - [Senzor] svjetlo
+04.12.2017. 02:06:07 - [INFO] - [Senzor] vlaga
+04.12.2017. 02:06:07 - [INFO] - [Senzor] unutarnja temperatura
+04.12.2017. 02:06:07 - [INFO] - [Senzor] prepreka
+04.12.2017. 02:06:07 - [INFO] - [Senzor] kontakt
+04.12.2017. 02:06:07 - [INFO] - [Senzor] svjetlo
+04.12.2017. 02:06:07 - [INFO] - [Aktuator] dizanje/spuštanje televizora
+04.12.2017. 02:06:07 - [INFO] - [Aktuator] otvaranje/zatvaranje vrata
+04.12.2017. 02:06:07 - [INFO] - [Aktuator] dizanje/spuštanje televizora
+04.12.2017. 02:06:07 - [INFO] - [Aktuator] otvaranje/zatvaranje vrata
+04.12.2017. 02:06:07 - [INFO] - 
+-------------------------------------------------------------
+	Inicijaliziram uredjaje za 93 FOI 1 - dvorišna vrata
+-------------------------------------------------------------
+
+04.12.2017. 02:06:07 - [INFO] - kontakt [1]
+04.12.2017. 02:06:07 - [INFO] - unutarnja temperatura [1]
+04.12.2017. 02:06:07 - [INFO] - kontakt [1]
+04.12.2017. 02:06:07 - [INFO] - dizanje/spuštanje televizora [1]
+04.12.2017. 02:06:07 - [INFO] - dizanje/spuštanje platna za ploču [1]
+04.12.2017. 02:06:07 - [INFO] - 
+-------------------------------------------------------------
+	Inicijaliziram uredjaje za 331 FOI 1 - dvorana 1
+-------------------------------------------------------------
+
+04.12.2017. 02:06:07 - [INFO] - unutarnja temperatura [1]
+04.12.2017. 02:06:07 - [WARNING] - unutarnja temperatura [0]
+04.12.2017. 02:06:07 - [INFO] - unutarnja temperatura [1]
+04.12.2017. 02:06:07 - [INFO] - prepreka [1]
+04.12.2017. 02:06:07 - [INFO] - dim [1]
+04.12.2017. 02:06:07 - [INFO] - unutarnja temperatura [1]
+04.12.2017. 02:06:07 - [INFO] - vlaga [1]
+04.12.2017. 02:06:07 - [INFO] - dizanje/spuštanje platna za ploču [1]
+04.12.2017. 02:06:07 - [INFO] - dizanje/spuštanje televizora [1]
+04.12.2017. 02:06:07 - [INFO] - dizanje/spuštanje televizora [1]
+04.12.2017. 02:06:07 - [INFO] - paljenje/gašenje lampe [1]
+04.12.2017. 02:06:07 - [INFO] - otvaranje/zatvaranje vrata [1]
+04.12.2017. 02:06:07 - [INFO] - 
+-------------------------------------------------------------
+	Inicijaliziram uredjaje za 401 FOI 1 - vijećnica
+-------------------------------------------------------------
+
+04.12.2017. 02:06:07 - [INFO] - prepreka [1]
+04.12.2017. 02:06:07 - [INFO] - vlaga [1]
+04.12.2017. 02:06:07 - [INFO] - vlaga [1]
+04.12.2017. 02:06:07 - [INFO] - dim [1]
+04.12.2017. 02:06:07 - [INFO] - paljenje/gašenje lampe [1]
+04.12.2017. 02:06:07 - [INFO] - dizanje/spuštanje platna za ploču [1]
+04.12.2017. 02:06:07 - [WARNING] - paljenje/gašenje lampe [0]
+04.12.2017. 02:06:07 - [INFO] - snimanje kamerom [1]
+04.12.2017. 02:06:07 - [INFO] - 
+-------------------------------------------------------------
+	Inicijaliziram uredjaje za 479 FOI 1 - knjižnica
+-------------------------------------------------------------
+
+04.12.2017. 02:06:07 - [INFO] - svjetlo [1]
+04.12.2017. 02:06:07 - [INFO] - prepreka [1]
+04.12.2017. 02:06:07 - [INFO] - kontakt [1]
+04.12.2017. 02:06:07 - [INFO] - svjetlo [1]
+04.12.2017. 02:06:07 - [INFO] - prepreka [1]
+04.12.2017. 02:06:07 - [INFO] - snimanje kamerom [1]
+04.12.2017. 02:06:07 - [INFO] - otvaranje/zatvaranje vrata [1]
+04.12.2017. 02:06:07 - [INFO] - snimanje kamerom [1]
+04.12.2017. 02:06:07 - [INFO] - 
+-------------------------------------------------------------
+	Inicijaliziram uredjaje za 700 FOI 1 - ulazna vrata
+-------------------------------------------------------------
+
+04.12.2017. 02:06:07 - [INFO] - vlaga [1]
+04.12.2017. 02:06:07 - [INFO] - unutarnja temperatura [1]
+04.12.2017. 02:06:07 - [INFO] - vlaga [1]
+04.12.2017. 02:06:07 - [INFO] - paljenje/gašenje lampe [1]
+04.12.2017. 02:06:07 - [INFO] - snimanje kamerom [1]
+04.12.2017. 02:06:07 - [INFO] - 
+-------------------------------------------------------------
+	Inicijaliziram uredjaje za 803 FOI 1 - sistem sala
+-------------------------------------------------------------
+
+04.12.2017. 02:06:07 - [INFO] - svjetlo [1]
+04.12.2017. 02:06:07 - [INFO] - vlaga [1]
+04.12.2017. 02:06:07 - [INFO] - unutarnja temperatura [1]
+04.12.2017. 02:06:07 - [INFO] - prepreka [1]
+04.12.2017. 02:06:07 - [INFO] - kontakt [1]
+04.12.2017. 02:06:07 - [WARNING] - svjetlo [0]
+04.12.2017. 02:06:07 - [INFO] - dizanje/spuštanje televizora [1]
+04.12.2017. 02:06:07 - [WARNING] - otvaranje/zatvaranje vrata [0]
+04.12.2017. 02:06:07 - [INFO] - dizanje/spuštanje televizora [1]
+04.12.2017. 02:06:07 - [WARNING] - otvaranje/zatvaranje vrata [0]
+04.12.2017. 02:06:07 - [INFO] - 
+-------------------------------------------------------------
+	Inicijaliziram uredjaje za 897 FOI 1 - parkiralište
+-------------------------------------------------------------
+
+04.12.2017. 02:06:07 - [INFO] - vjetar [1]
+04.12.2017. 02:06:07 - [INFO] - vjetar [1]
+04.12.2017. 02:06:07 - [INFO] - vanjska temperatura [1]
+04.12.2017. 02:06:07 - [INFO] - vlaga [1]
+04.12.2017. 02:06:07 - [INFO] - snimanje kamerom [1]
+04.12.2017. 02:06:07 - [INFO] - paljenje/gašenje lampe [1]
+04.12.2017. 02:06:07 - [INFO] - 
+-------------------------------------------------------------
+	Inicijaliziram uredjaje za 927 FOI 1 - restoran
+-------------------------------------------------------------
+
+04.12.2017. 02:06:07 - [INFO] - dim [1]
+04.12.2017. 02:06:07 - [WARNING] - dim [0]
+04.12.2017. 02:06:07 - [INFO] - unutarnja temperatura [1]
+04.12.2017. 02:06:07 - [INFO] - svjetlo [1]
+04.12.2017. 02:06:07 - [INFO] - prepreka [1]
+04.12.2017. 02:06:07 - [INFO] - otvaranje/zatvaranje vrata [1]
+04.12.2017. 02:06:07 - [INFO] - paljenje/gašenje lampe [1]
+04.12.2017. 02:06:07 - [INFO] - dizanje/spuštanje televizora [1]
+04.12.2017. 02:06:07 - [INFO] - 
+-------------------------------------------------------------
+	Opremam mjesto 93 FOI 1 - dvorišna vrata
+-------------------------------------------------------------
+
+04.12.2017. 02:06:07 - [INFO] - 
+-------------------------------------------------------------
+	Opremam mjesto 331 FOI 1 - dvorana 1
+-------------------------------------------------------------
+
+04.12.2017. 02:06:07 - [INFO] - 
+-------------------------------------------------------------
+	Opremam mjesto 401 FOI 1 - vijećnica
+-------------------------------------------------------------
+
+04.12.2017. 02:06:07 - [INFO] - 
+-------------------------------------------------------------
+	Opremam mjesto 479 FOI 1 - knjižnica
+-------------------------------------------------------------
+

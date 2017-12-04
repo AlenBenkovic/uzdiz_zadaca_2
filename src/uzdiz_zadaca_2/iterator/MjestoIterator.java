@@ -5,7 +5,7 @@
  */
 package uzdiz_zadaca_2.iterator;
 
-import java.util.ArrayList;
+import java.util.Collections;
 import java.util.List;
 import uzdiz_zadaca_2.composite.Mjesto;
 
@@ -20,8 +20,8 @@ public class MjestoIterator implements Iterator {
 
     public MjestoIterator(List<Mjesto> mjesta) {
 
-        this.mjesta = new ArrayList<Mjesto>();
-        this.sort(mjesta);
+        this.mjesta = mjesta;
+        Collections.sort(this.mjesta, (m1, m2)-> m1.id - m2.id);
 
     }
 
@@ -41,24 +41,11 @@ public class MjestoIterator implements Iterator {
         position++;
         return mjesto;
     }
-    
-    private void sort(List<Mjesto> nesortiranaMjesta) {
-        int min = 1001;
-        int tmpPosition = 0;
 
-        for (int i = 0; i < nesortiranaMjesta.size(); i++) {
-            if (nesortiranaMjesta.get(i).id < min) {
-                min = nesortiranaMjesta.get(i).id;
-                tmpPosition = i;
-            }
-        }
-        
-        this.mjesta.add(nesortiranaMjesta.get(tmpPosition));
-        nesortiranaMjesta.remove(tmpPosition);
-        if (!nesortiranaMjesta.isEmpty()) {
-            this.sort(nesortiranaMjesta);
-        }
-
+    @Override
+    public void reset() {
+        this.position = 0;
     }
+       
 
 }
