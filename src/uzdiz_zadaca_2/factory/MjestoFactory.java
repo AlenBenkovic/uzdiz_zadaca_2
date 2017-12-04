@@ -42,9 +42,6 @@ public class MjestoFactory extends FoiFactory {
                     brojAtributa = podatak.length;
                     
                 } else if (podatak.length == brojAtributa) {
-                    Mjesto mjesto = this.kreirajMjesto(podatak);
-
-                    this.logger.log("Kreiram mjesto " + podatak[0] + " .", "info");
                     
                     if (postojiMjesto(podatak[0], mjesta)) {
                         
@@ -52,7 +49,9 @@ public class MjestoFactory extends FoiFactory {
                         
                     } else {
                         
-                        mjesta.add(mjesto);
+                        this.logger.log("Kreiram mjesto " + podatak[0] + " .", "info");
+                        Mjesto mjesto = this.kreirajMjesto(podatak);
+                        mjesta.add(mjesto);  
                         
                     }
 
@@ -74,7 +73,8 @@ public class MjestoFactory extends FoiFactory {
     }
 
     public Mjesto kreirajMjesto(String[] podaciMjesta) {
-        return new Mjesto(podaciMjesta[0],
+        return new 
+        Mjesto(podaciMjesta[0],
                 Integer.parseInt(podaciMjesta[1]),
                 Integer.parseInt(podaciMjesta[2]),
                 Integer.parseInt(podaciMjesta[3]));

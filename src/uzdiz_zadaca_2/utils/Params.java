@@ -59,7 +59,6 @@ public class Params {
                 String timestamp = new SimpleDateFormat("_yyyyMMdd_HHmmss").format(new Date());
                 String value = "alebenkov" + timestamp + ".txt";
                 params.put("-i", value);
-                System.out.println(params.get("-i"));
             }
 
             if (!params.containsKey("-tcd")) {

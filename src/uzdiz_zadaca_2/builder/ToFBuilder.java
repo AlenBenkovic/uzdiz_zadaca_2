@@ -6,10 +6,8 @@
 package uzdiz_zadaca_2.builder;
 
 import java.util.HashMap;
-import uzdiz_zadaca_2.composite.Aktuator;
 import uzdiz_zadaca_2.composite.FoiZgrada;
 import uzdiz_zadaca_2.composite.Mjesto;
-import uzdiz_zadaca_2.composite.Senzor;
 import uzdiz_zadaca_2.factory.FoiFactory;
 import uzdiz_zadaca_2.factory.MjestoFactory;
 import uzdiz_zadaca_2.factory.UredjajFactory;
@@ -40,28 +38,24 @@ public class ToFBuilder {
             
             factory.kreirajMjesta(this.params.get("-m").toString()).forEach((m) -> {
                 this.foiZgrada.add(m);
-            });
-            
-            for(Mjesto m:this.foiZgrada.getMjesta()){
-                System.out.println(m.id + " " + m.naziv);
-                    for(Aktuator a: m.getAktuatori()){
-                        for(Senzor s: a.getSenzori()){
-                            System.out.println(s.naziv);
-                        }
-                }
-            }
-            
+            });     
             
             return this;
         }
         
         public Builder kreirajUredjaje(){
             FoiFactory factory = new UredjajFactory(this.params);
-            factory.kreirajUredjaj(false, 1);
-            
-            for(Mjesto m: foiZgrada.getMjesta()){
+            factory.kreirajUredjaj(false,1);
+            for(Mjesto m : this.foiZgrada.getMjesta()){
+                for(int i=0; i<= m.brojSenzora; i++){
+                    m.addUredjaj(factory.kreirajUredjaj(true, m.tip));
+                }
                 
+                for(int i=0; i<= m.brojAktuatora; i++){
+                    m.addUredjaj(factory.kreirajUredjaj(false, m.tip));
+                }
             }
+            
             
             return this;
         }

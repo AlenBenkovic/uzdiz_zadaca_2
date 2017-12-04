@@ -46,11 +46,11 @@ public class Mjesto implements Foi {
         this.aktuatori.remove(aktuator);
     }
     
-    public void add(Uredjaj uredjaj){
+    public void addUredjaj(Uredjaj uredjaj){
         this.uredjaji.add(uredjaj);
     }
     
-    public void remove(Uredjaj uredjaj){
+    public void removeUredjaj(Uredjaj uredjaj){
         this.uredjaji.remove(uredjaj);
     }
 

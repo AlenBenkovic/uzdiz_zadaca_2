@@ -28,11 +28,12 @@ public class UredjajFactory extends FoiFactory {
     public UredjajFactory(HashMap params) {
         this.popisAktuatora = new ArrayList<>();
         this.popisSenzora = new ArrayList<>();
+        this.ucitajPopisUredjaja(true); // ucitavam senzore
+        this.ucitajPopisUredjaja(false); // ucitavam aktuatore
     }
 
     @Override
     public Uredjaj kreirajUredjaj(boolean isSenzor, int tip) {
-       this.ucitajPopisUredjaja(isSenzor);
 
        return null;
     }
