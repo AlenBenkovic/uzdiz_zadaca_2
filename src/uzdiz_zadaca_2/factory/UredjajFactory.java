@@ -11,16 +11,20 @@ import java.io.IOException;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
+import uzdiz_zadaca_2.composite.Aktuator;
 import uzdiz_zadaca_2.composite.Mjesto;
+import uzdiz_zadaca_2.composite.Senzor;
 import uzdiz_zadaca_2.composite.Uredjaj;
 import uzdiz_zadaca_2.logs.FoiLogger;
 import uzdiz_zadaca_2.utils.Params;
+import uzdiz_zadaca_2.utils.RandomNumber;
 
 /**
  *
  * @author abenkovic
  */
 public class UredjajFactory extends FoiFactory {
+
     FoiLogger logger = FoiLogger.getInstance();
     ArrayList<String[]> popisSenzora;
     ArrayList<String[]> popisAktuatora;
@@ -34,10 +38,28 @@ public class UredjajFactory extends FoiFactory {
 
     @Override
     public Uredjaj kreirajUredjaj(boolean isSenzor, int tip) {
+        ArrayList<String[]> odgovarajuciUredjaji = new ArrayList<>();
+        if (isSenzor) {
+            for (String[] senzor : this.popisSenzora) {
+                if (Integer.parseInt(senzor[1]) == tip || Integer.parseInt(senzor[1]) == 2) {
+                   odgovarajuciUredjaji.add(senzor);
+                }
 
-       return null;
+            }
+        } else {
+            for (String[] aktuator : this.popisAktuatora) {
+                if (Integer.parseInt(aktuator[1]) == tip || Integer.parseInt(aktuator[1]) == 2) {
+                   odgovarajuciUredjaji.add(aktuator);
+                }
+
+            }
+        }
+
+        return isSenzor? kreirajSenzor(odgovarajuciUredjaji.get(RandomNumber.dajSlucajniBroj(0, odgovarajuciUredjaji.size()-1))):
+                         kreirajAktuator(odgovarajuciUredjaji.get(RandomNumber.dajSlucajniBroj(0, odgovarajuciUredjaji.size()-1)));
     }
     
+
     public void ucitajPopisUredjaja(boolean isSenzor) {
         try {
             FileReader fr = new FileReader(isSenzor ? Params.params.get("-s").toString() : Params.params.get("-a").toString());
@@ -49,26 +71,29 @@ public class UredjajFactory extends FoiFactory {
                 if (brojAtributa == 0) { //prva linija je sam opis podataka i ona je mjerodavna za broj atributa
                     brojAtributa = podatak.length;
                 } else if (podatak.length == brojAtributa || podatak.length == brojAtributa - 1) {
-                    
+
                     if (isSenzor) {
                         this.popisSenzora.add(podatak);
                     } else {
                         this.popisAktuatora.add(podatak);
                     }
-                 
+
                 } else {
-                     this.logger.log("Format zapisa za " + podatak[0] + " nije valjan.", "warning");
+                    this.logger.log("Format zapisa za " + podatak[0] + " nije valjan.", "warning");
                 }
             }
         } catch (IOException e) {
             System.out.println("Greska prilikom citanja datoteke: " + e.toString());
         }
-        
-        for(String[] s: popisAktuatora){
-           System.out.println(s[0]);
-        }
 
     }
-    
-    
+
+    public Senzor kreirajSenzor(String[] senzor) {
+        return new Senzor(senzor[0], Integer.parseInt(senzor[1]), Integer.parseInt(senzor[2]), Float.parseFloat(senzor[3]), Float.parseFloat(senzor[4]), senzor.length == 5 ? "-" : senzor[5]);
+    }
+
+    public Aktuator kreirajAktuator(String[] aktuator) {
+        return new Aktuator(aktuator[0], Integer.parseInt(aktuator[1]), Integer.parseInt(aktuator[2]), Float.parseFloat(aktuator[3]), Float.parseFloat(aktuator[4]), aktuator.length == 5 ? "-" : aktuator[5]);
+    }
+
 }

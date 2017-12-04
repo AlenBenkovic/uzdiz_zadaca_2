@@ -25,6 +25,7 @@ public class Mjesto implements Foi {
     List<Aktuator> aktuatori;
 
     public Mjesto(String naziv, int tip, int brojSenzora, int brojAktuatora) {
+        this.uredjaji = new ArrayList<>();
         this.aktuatori = new ArrayList<>();
         this.naziv = naziv;
         this.tip = tip;

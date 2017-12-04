@@ -57,7 +57,7 @@ public class MjestoFactory extends FoiFactory {
 
                 } else {
                     
-                    this.logger.log("Zapis mjesta iz datoteke nije valjan.", "warning");
+                    this.logger.log("Format zapisa za mjesto " + podatak[0] + " nije valjan.", "warning");
                     
                 }
             }

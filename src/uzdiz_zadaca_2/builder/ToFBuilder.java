@@ -45,7 +45,6 @@ public class ToFBuilder {
         
         public Builder kreirajUredjaje(){
             FoiFactory factory = new UredjajFactory(this.params);
-            factory.kreirajUredjaj(false,1);
             for(Mjesto m : this.foiZgrada.getMjesta()){
                 for(int i=0; i<= m.brojSenzora; i++){
                     m.addUredjaj(factory.kreirajUredjaj(true, m.tip));

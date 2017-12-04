@@ -478,3 +478,73 @@
 04.12.2017. 09:37:19 - [INFO] - Kreiram mjesto FOI 1 - dvorana 1 .
 04.12.2017. 09:37:19 - [INFO] - Kreiram mjesto FOI 1 - restoran .
 04.12.2017. 09:37:19 - [INFO] - Kreiram mjesto FOI 1 - sistem sala .
+04.12.2017. 09:54:35 - [INFO] - Kreiram mjesto FOI 1 - ulazna vrata .
+04.12.2017. 09:54:35 - [INFO] - Kreiram mjesto FOI 1 - dvorišna vrata .
+04.12.2017. 09:54:35 - [WARNING] - Mjesto FOI 1 - dvorišna vrata već postoji.
+04.12.2017. 09:54:35 - [INFO] - Kreiram mjesto FOI 1 - parkiralište .
+04.12.2017. 09:54:35 - [INFO] - Kreiram mjesto FOI 1 - vijećnica .
+04.12.2017. 09:54:35 - [INFO] - Kreiram mjesto FOI 1 - knjižnica .
+04.12.2017. 09:54:35 - [WARNING] - Zapis mjesta iz datoteke nije valjan.
+04.12.2017. 09:54:35 - [INFO] - Kreiram mjesto FOI 1 - dvorana 1 .
+04.12.2017. 09:54:35 - [INFO] - Kreiram mjesto FOI 1 - restoran .
+04.12.2017. 09:54:35 - [INFO] - Kreiram mjesto FOI 1 - sistem sala .
+04.12.2017. 10:10:01 - [INFO] - Kreiram mjesto FOI 1 - ulazna vrata .
+04.12.2017. 10:10:01 - [INFO] - Kreiram mjesto FOI 1 - dvorišna vrata .
+04.12.2017. 10:10:01 - [WARNING] - Mjesto FOI 1 - dvorišna vrata već postoji.
+04.12.2017. 10:10:01 - [INFO] - Kreiram mjesto FOI 1 - parkiralište .
+04.12.2017. 10:10:01 - [INFO] - Kreiram mjesto FOI 1 - vijećnica .
+04.12.2017. 10:10:01 - [INFO] - Kreiram mjesto FOI 1 - knjižnica .
+04.12.2017. 10:10:01 - [WARNING] - Zapis mjesta iz datoteke nije valjan.
+04.12.2017. 10:10:01 - [INFO] - Kreiram mjesto FOI 1 - dvorana 1 .
+04.12.2017. 10:10:01 - [INFO] - Kreiram mjesto FOI 1 - restoran .
+04.12.2017. 10:10:01 - [INFO] - Kreiram mjesto FOI 1 - sistem sala .
+04.12.2017. 10:10:42 - [INFO] - Kreiram mjesto FOI 1 - ulazna vrata .
+04.12.2017. 10:10:42 - [INFO] - Kreiram mjesto FOI 1 - dvorišna vrata .
+04.12.2017. 10:10:42 - [WARNING] - Mjesto FOI 1 - dvorišna vrata već postoji.
+04.12.2017. 10:10:42 - [INFO] - Kreiram mjesto FOI 1 - parkiralište .
+04.12.2017. 10:10:42 - [INFO] - Kreiram mjesto FOI 1 - vijećnica .
+04.12.2017. 10:10:42 - [INFO] - Kreiram mjesto FOI 1 - knjižnica .
+04.12.2017. 10:10:42 - [WARNING] - Zapis mjesta iz datoteke nije valjan.
+04.12.2017. 10:10:42 - [INFO] - Kreiram mjesto FOI 1 - dvorana 1 .
+04.12.2017. 10:10:42 - [INFO] - Kreiram mjesto FOI 1 - restoran .
+04.12.2017. 10:10:42 - [INFO] - Kreiram mjesto FOI 1 - sistem sala .
+04.12.2017. 10:12:37 - [INFO] - Kreiram mjesto FOI 1 - ulazna vrata .
+04.12.2017. 10:12:37 - [INFO] - Kreiram mjesto FOI 1 - dvorišna vrata .
+04.12.2017. 10:12:37 - [WARNING] - Mjesto FOI 1 - dvorišna vrata već postoji.
+04.12.2017. 10:12:37 - [INFO] - Kreiram mjesto FOI 1 - parkiralište .
+04.12.2017. 10:12:37 - [INFO] - Kreiram mjesto FOI 1 - vijećnica .
+04.12.2017. 10:12:37 - [INFO] - Kreiram mjesto FOI 1 - knjižnica .
+04.12.2017. 10:12:37 - [WARNING] - Zapis mjesta iz datoteke nije valjan.
+04.12.2017. 10:12:37 - [INFO] - Kreiram mjesto FOI 1 - dvorana 1 .
+04.12.2017. 10:12:37 - [INFO] - Kreiram mjesto FOI 1 - restoran .
+04.12.2017. 10:12:37 - [INFO] - Kreiram mjesto FOI 1 - sistem sala .
+04.12.2017. 10:13:50 - [INFO] - Kreiram mjesto FOI 1 - ulazna vrata .
+04.12.2017. 10:13:50 - [INFO] - Kreiram mjesto FOI 1 - dvorišna vrata .
+04.12.2017. 10:13:50 - [WARNING] - Mjesto FOI 1 - dvorišna vrata već postoji.
+04.12.2017. 10:13:50 - [INFO] - Kreiram mjesto FOI 1 - parkiralište .
+04.12.2017. 10:13:50 - [INFO] - Kreiram mjesto FOI 1 - vijećnica .
+04.12.2017. 10:13:50 - [INFO] - Kreiram mjesto FOI 1 - knjižnica .
+04.12.2017. 10:13:50 - [WARNING] - Zapis mjesta FOI 1 - knjižnica nije valjan.
+04.12.2017. 10:13:50 - [INFO] - Kreiram mjesto FOI 1 - dvorana 1 .
+04.12.2017. 10:13:50 - [INFO] - Kreiram mjesto FOI 1 - restoran .
+04.12.2017. 10:13:50 - [INFO] - Kreiram mjesto FOI 1 - sistem sala .
+04.12.2017. 10:14:11 - [INFO] - Kreiram mjesto FOI 1 - ulazna vrata .
+04.12.2017. 10:14:11 - [INFO] - Kreiram mjesto FOI 1 - dvorišna vrata .
+04.12.2017. 10:14:11 - [WARNING] - Mjesto FOI 1 - dvorišna vrata već postoji.
+04.12.2017. 10:14:11 - [INFO] - Kreiram mjesto FOI 1 - parkiralište .
+04.12.2017. 10:14:11 - [INFO] - Kreiram mjesto FOI 1 - vijećnica .
+04.12.2017. 10:14:11 - [INFO] - Kreiram mjesto FOI 1 - knjižnica .
+04.12.2017. 10:14:11 - [WARNING] - Format zapisa mjesta FOI 1 - knjižnica nije valjan.
+04.12.2017. 10:14:11 - [INFO] - Kreiram mjesto FOI 1 - dvorana 1 .
+04.12.2017. 10:14:11 - [INFO] - Kreiram mjesto FOI 1 - restoran .
+04.12.2017. 10:14:11 - [INFO] - Kreiram mjesto FOI 1 - sistem sala .
+04.12.2017. 10:14:28 - [INFO] - Kreiram mjesto FOI 1 - ulazna vrata .
+04.12.2017. 10:14:28 - [INFO] - Kreiram mjesto FOI 1 - dvorišna vrata .
+04.12.2017. 10:14:28 - [WARNING] - Mjesto FOI 1 - dvorišna vrata već postoji.
+04.12.2017. 10:14:28 - [INFO] - Kreiram mjesto FOI 1 - parkiralište .
+04.12.2017. 10:14:28 - [INFO] - Kreiram mjesto FOI 1 - vijećnica .
+04.12.2017. 10:14:28 - [INFO] - Kreiram mjesto FOI 1 - knjižnica .
+04.12.2017. 10:14:28 - [WARNING] - Format zapisa za mjesto FOI 1 - knjižnica nije valjan.
+04.12.2017. 10:14:28 - [INFO] - Kreiram mjesto FOI 1 - dvorana 1 .
+04.12.2017. 10:14:28 - [INFO] - Kreiram mjesto FOI 1 - restoran .
+04.12.2017. 10:14:28 - [INFO] - Kreiram mjesto FOI 1 - sistem sala .

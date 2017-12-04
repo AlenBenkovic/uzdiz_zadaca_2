@@ -21,6 +21,7 @@ public abstract class Uredjaj {
     public float max;
     public String komentar;
     public float vrijednost;
+    public int id;
 
     public boolean onemogucen = false;
     public int neuspjesneProvjere = 0;
@@ -35,6 +36,7 @@ public abstract class Uredjaj {
         this.max = max;
         this.komentar = komentar;
         this.vrijednost = RandomNumber.dajSlucajniBroj(min, max);
+        this.id = RandomNumber.dajSlucajniBroj(1, 1000);
     }
     
 }
