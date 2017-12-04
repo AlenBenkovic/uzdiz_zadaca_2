@@ -11,6 +11,8 @@ import uzdiz_zadaca_2.composite.Mjesto;
 import uzdiz_zadaca_2.factory.FoiFactory;
 import uzdiz_zadaca_2.factory.MjestoFactory;
 import uzdiz_zadaca_2.factory.UredjajFactory;
+import uzdiz_zadaca_2.iterator.Iterator;
+import uzdiz_zadaca_2.iterator.MjestoIterator;
 import uzdiz_zadaca_2.logs.FoiLogger;
 
 /**
@@ -46,7 +48,7 @@ public class ToFBuilder {
         public Builder postaviUredjaje() {
              FoiFactory factory = new UredjajFactory(this.params);
             for(Mjesto m : this.foiZgrada.getMjesta()){
-                 String poruka = "\n-------------------------------------------------------------"
+                String poruka = "\n-------------------------------------------------------------"
                     + "\n\tPostavljam uredjaje za " + m.naziv
                     + "\n-------------------------------------------------------------\n";
                 this.logger.log(poruka, "info");
@@ -64,6 +66,20 @@ public class ToFBuilder {
         }
 
         public Builder inicijalizacija() {
+            Iterator iterator = this.foiZgrada.createIterator();
+            while(iterator.hasNext()){
+                Mjesto m = (Mjesto)iterator.next();
+                String poruka = "\n-------------------------------------------------------------"
+                    + "\n\tInicijaliziram uredjaje za " + m.naziv
+                    + "\n-------------------------------------------------------------\n";
+                this.logger.log(poruka, "info");
+                m.inicijalizacijaUredjaja();
+            }
+            
+            return this;
+        }
+        
+        public Builder opremanjeMjesta() {
             return this;
 
         }

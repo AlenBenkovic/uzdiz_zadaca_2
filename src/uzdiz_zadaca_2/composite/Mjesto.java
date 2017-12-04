@@ -8,6 +8,8 @@ package uzdiz_zadaca_2.composite;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
+import uzdiz_zadaca_2.iterator.Iterator;
+import uzdiz_zadaca_2.iterator.MjestoIterator;
 import uzdiz_zadaca_2.utils.RandomNumber;
 
 /**
@@ -71,6 +73,9 @@ public class Mjesto implements Foi {
         this.uredjaji = uredjaji;
     }
     
+    public void inicijalizacijaUredjaja(){
+        System.err.println("inizijaliziram");
+    }
     
     
     

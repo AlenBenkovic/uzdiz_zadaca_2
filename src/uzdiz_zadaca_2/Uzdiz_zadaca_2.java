@@ -23,6 +23,7 @@ public class Uzdiz_zadaca_2 {
                     .kreirajMjesta()
                     .postaviUredjaje()
                     .inicijalizacija()
+                    .opremanjeMjesta()
                     .build();
             
             tof.radiProvjere();

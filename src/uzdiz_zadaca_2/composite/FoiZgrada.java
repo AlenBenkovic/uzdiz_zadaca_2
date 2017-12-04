@@ -7,6 +7,8 @@ package uzdiz_zadaca_2.composite;
 
 import java.util.ArrayList;
 import java.util.List;
+import uzdiz_zadaca_2.iterator.Iterator;
+import uzdiz_zadaca_2.iterator.MjestoIterator;
 
 /**
  *
@@ -32,6 +34,10 @@ public class FoiZgrada implements Foi {
     public void setMjesta(List<Mjesto> mjesta) {
         this.mjesta = mjesta;
     }
+    
+    public Iterator createIterator(){
+        return new MjestoIterator(this.mjesta);
+    } 
     
     
     

@@ -5,12 +5,16 @@
  */
 package uzdiz_zadaca_2.iterator;
 
+import uzdiz_zadaca_2.composite.Mjesto;
+
 /**
  *
  * @author abenkovic
  */
-public enum ItemType_e {
+public interface Iterator {
     
-    MJESTO, SENZOR, AKTUATOR
+    boolean hasNext();
+    
+    Object next();
     
 }
