@@ -73,7 +73,8 @@ public class Mjesto implements Foi {
         this.uredjaji = uredjaji;
     }
     
-    public void inicijalizacijaUredjaja(){
+    @Override
+    public boolean inicijalizacija(){
         ArrayList<Uredjaj> neispravniUredjaji = new ArrayList<Uredjaj>();
         for(Uredjaj uredjaj: this.uredjaji){
             if(!uredjaj.inicijalizacija()){
@@ -87,8 +88,32 @@ public class Mjesto implements Foi {
         for(Uredjaj neispravniUredjaj: neispravniUredjaji){
             this.uredjaji.remove(neispravniUredjaj);
         }
+        return true;
     }
     
+    public void opremanjeMjesta() {
+        ArrayList<Senzor> senzori = new ArrayList<Senzor>();
+        for(Uredjaj uredjaj: this.uredjaji){
+            if(uredjaj instanceof Aktuator){
+                this.add((Aktuator)uredjaj);
+            }else {
+                senzori.add((Senzor)uredjaj);
+            }
+        }
+        
+        String poruka = "";
+        
+        for (Aktuator aktuator: this.aktuatori){
+            poruka = poruka + "\n> Aktuatoru " + aktuator.naziv + " dodjeljujem senzore:";
+            for(int i=1; i <= RandomNumber.dajSlucajniBroj(1,this.brojSenzora); i++){
+                Senzor senzor = senzori.get(RandomNumber.dajSlucajniBroj(0, senzori.size()-1));
+                poruka = poruka + "\n  [senzor] " + senzor.naziv;
+                aktuator.add(senzor);
+            }
+            
+        }
+        this.logger.log(poruka, "info");
+    }   
     
     
 }

@@ -13,4 +13,6 @@ public interface Foi {
     
     public void provjera();
     
+    public boolean inicijalizacija();
+    
 }

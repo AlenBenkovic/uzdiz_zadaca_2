@@ -65,29 +65,13 @@ public class ToFBuilder {
         }
 
         public Builder inicijalizacija() {
-            Iterator iterator = this.foiZgrada.createIterator();
-            while(iterator.hasNext()){
-                Mjesto m = (Mjesto)iterator.next();
-                String poruka = "\n-------------------------------------------------------------"
-                    + "\n\tInicijaliziram uredjaje za " + m.id + " " +  m.naziv
-                    + "\n-------------------------------------------------------------\n";
-                this.logger.log(poruka, "info");
-                m.inicijalizacijaUredjaja();
-            }
+            this.foiZgrada.inicijalizacija();
             
             return this;
         }
         
         public Builder opremanjeMjesta() {
-            Iterator iterator = this.foiZgrada.createIterator();
-            while(iterator.hasNext()){
-                Mjesto m = (Mjesto)iterator.next();
-                String poruka = "\n-------------------------------------------------------------"
-                    + "\n\tOpremam mjesto " + m.id + " " +  m.naziv
-                    + "\n-------------------------------------------------------------\n";
-                this.logger.log(poruka, "info");
-                
-            }
+            this.foiZgrada.opremanjeMjesta();
             
             return this;
 

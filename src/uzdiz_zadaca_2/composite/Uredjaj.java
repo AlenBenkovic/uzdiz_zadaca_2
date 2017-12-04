@@ -12,7 +12,7 @@ import uzdiz_zadaca_2.utils.RandomNumber;
  *
  * @author abenkovic
  */
-public abstract class Uredjaj {
+public abstract class Uredjaj implements Foi{
     
     public String naziv;
     public int tip;
@@ -26,7 +26,7 @@ public abstract class Uredjaj {
     public boolean onemogucen = false;
     public int neuspjesneProvjere = 0;
 
-    FoiLogger logs = FoiLogger.getInstance();
+    FoiLogger logger = FoiLogger.getInstance();
 
     public Uredjaj(String naziv, int tip, int vrsta, float min, float max, String komentar) {
         this.naziv = naziv;
@@ -38,7 +38,16 @@ public abstract class Uredjaj {
         this.vrijednost = RandomNumber.dajSlucajniBroj(min, max);
         this.id = RandomNumber.dajSlucajniBroj(1, 1000);
     }
+
+    @Override
+    public void provjera() {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
+
+    @Override
+    public boolean inicijalizacija() {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
     
-    public abstract boolean inicijalizacija();
     
 }
