@@ -6,10 +6,8 @@
 package uzdiz_zadaca_2.composite;
 
 import java.util.ArrayList;
-import java.util.HashMap;
 import java.util.List;
-import uzdiz_zadaca_2.iterator.Iterator;
-import uzdiz_zadaca_2.iterator.MjestoIterator;
+import uzdiz_zadaca_2.logs.FoiLogger;
 import uzdiz_zadaca_2.utils.RandomNumber;
 
 /**
@@ -17,6 +15,7 @@ import uzdiz_zadaca_2.utils.RandomNumber;
  * @author abenkovic
  */
 public class Mjesto implements Foi {
+    private final FoiLogger logger = FoiLogger.getInstance();
     public String naziv;
     public int tip;
     public int brojSenzora;
@@ -25,6 +24,7 @@ public class Mjesto implements Foi {
     
     List<Uredjaj> uredjaji; // privremena lista uredjaja, dok se senzori ne dodjele aktuatoru
     List<Aktuator> aktuatori;
+    
 
     public Mjesto(String naziv, int tip, int brojSenzora, int brojAktuatora) {
         this.uredjaji = new ArrayList<>();
@@ -74,7 +74,19 @@ public class Mjesto implements Foi {
     }
     
     public void inicijalizacijaUredjaja(){
-        System.err.println("inizijaliziram");
+        ArrayList<Uredjaj> neispravniUredjaji = new ArrayList<Uredjaj>();
+        for(Uredjaj uredjaj: this.uredjaji){
+            if(!uredjaj.inicijalizacija()){
+                this.logger.log(uredjaj.naziv + " [0]","warning");
+                neispravniUredjaji.add(uredjaj);
+            } else {
+                this.logger.log(uredjaj.naziv + " [1]","info");
+            }
+        }
+        
+        for(Uredjaj neispravniUredjaj: neispravniUredjaji){
+            this.uredjaji.remove(neispravniUredjaj);
+        }
     }
     
     

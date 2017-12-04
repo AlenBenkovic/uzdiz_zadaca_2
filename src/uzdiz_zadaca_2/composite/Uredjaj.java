@@ -39,4 +39,6 @@ public abstract class Uredjaj {
         this.id = RandomNumber.dajSlucajniBroj(1, 1000);
     }
     
+    public abstract boolean inicijalizacija();
+    
 }

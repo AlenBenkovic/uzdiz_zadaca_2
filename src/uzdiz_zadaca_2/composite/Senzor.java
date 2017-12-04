@@ -5,12 +5,14 @@
  */
 package uzdiz_zadaca_2.composite;
 
+import uzdiz_zadaca_2.utils.RandomNumber;
+
 /**
  *
  * @author abenkovic
  */
 public class Senzor extends Uredjaj implements Foi {
-    
+
     public Senzor(String naziv, int tip, int vrsta, float min, float max, String komentar) {
         super(naziv, tip, vrsta, min, max, komentar);
     }
@@ -19,6 +21,10 @@ public class Senzor extends Uredjaj implements Foi {
     public void provjera() {
         throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
     }
-    
-    
+
+    @Override
+    public boolean inicijalizacija() {
+        return RandomNumber.dajSlucajniBroj(0, 100) < 90;
+    }
+
 }
