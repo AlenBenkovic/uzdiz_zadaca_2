@@ -19,7 +19,7 @@ public class Aktuator extends Uredjaj implements Foi {
 
     public Aktuator(String naziv, int tip, int vrsta, float min, float max, String komentar) {
         super(naziv, tip, vrsta, min, max, komentar);
-        this.senzori = new ArrayList<>();
+        this.senzori = new ArrayList<Senzor>();
     }
 
     @Override
@@ -47,5 +47,19 @@ public class Aktuator extends Uredjaj implements Foi {
     public boolean inicijalizacija() {
         return RandomNumber.dajSlucajniBroj(0, 100) < 90;
     }
+
+    @Override
+    public void pridruzenostUredjaja() {
+        String poruka = "\n-------------------------------------------------------------"
+                + "\nAktuatoru " + this.id + " " + this.naziv + " pridruzeni su senzori:  "
+                + "\n-------------------------------------------------------------";
+        for (Senzor s : this.senzori) {
+            s.pridruzenostUredjaja();
+            poruka = poruka + "\n" +  s.naziv;
+        }
+        super.logger.log(poruka, "info");
+    }
+    
+    
 
 }
