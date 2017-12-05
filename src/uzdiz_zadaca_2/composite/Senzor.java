@@ -51,7 +51,7 @@ public class Senzor extends Uredjaj implements Foi {
     @Override
     public void pridruzenostUredjaja() {
         String poruka = "\n-------------------------------------------------------------"
-                + "\nSenzor " + this.id + " " + this.naziv + " pridruzen je aktuatorima:  "
+                + "\n[Senzor] " + this.id + " " + this.naziv + " pridruzen je aktuatorima:  "
                 + "\n-------------------------------------------------------------";
         for (Aktuator a : this.aktuatori) {
             poruka = poruka + "\n" + a.id + " " + a.naziv ;

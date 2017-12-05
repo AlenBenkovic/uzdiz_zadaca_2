@@ -3687,3 +3687,1241 @@ Senzor 800 vlaga pridruzen je aktuatorima:
 Senzor 908 prepreka pridruzen je aktuatorima:  
 -------------------------------------------------------------
 531 otvaranje/zatvaranje vrata
+05.12.2017. 03:05:46 - [INFO] - Kreiram mjesto FOI 1 - ulazna vrata .
+05.12.2017. 03:05:46 - [INFO] - Kreiram mjesto FOI 1 - dvorišna vrata .
+05.12.2017. 03:05:46 - [WARNING] - Mjesto FOI 1 - dvorišna vrata već postoji.
+05.12.2017. 03:05:46 - [INFO] - Kreiram mjesto FOI 1 - parkiralište .
+05.12.2017. 03:05:46 - [INFO] - Kreiram mjesto FOI 1 - vijećnica .
+05.12.2017. 03:05:46 - [INFO] - Kreiram mjesto FOI 1 - knjižnica .
+05.12.2017. 03:05:46 - [WARNING] - Format zapisa za mjesto FOI 1 - knjižnica2 nije valjan.
+05.12.2017. 03:05:46 - [INFO] - Kreiram mjesto FOI 1 - dvorana 1 .
+05.12.2017. 03:05:46 - [INFO] - Kreiram mjesto FOI 1 - restoran .
+05.12.2017. 03:05:46 - [INFO] - Kreiram mjesto FOI 1 - sistem sala .
+05.12.2017. 03:05:46 - [WARNING] - Format zapisa za smjer vjetra nije valjan.
+05.12.2017. 03:05:46 - [INFO] - 
+-------------------------------------------------------------
+	Postavljam uredjaje za FOI 1 - ulazna vrata
+-------------------------------------------------------------
+
+05.12.2017. 03:05:46 - [INFO] - [Senzor] svjetlo
+05.12.2017. 03:05:46 - [INFO] - [Senzor] unutarnja temperatura
+05.12.2017. 03:05:46 - [INFO] - [Senzor] kontakt
+05.12.2017. 03:05:46 - [INFO] - [Aktuator] dizanje/spuštanje televizora
+05.12.2017. 03:05:46 - [INFO] - [Aktuator] snimanje kamerom
+05.12.2017. 03:05:46 - [INFO] - 
+-------------------------------------------------------------
+	Postavljam uredjaje za FOI 1 - dvorišna vrata
+-------------------------------------------------------------
+
+05.12.2017. 03:05:46 - [INFO] - [Senzor] vlaga
+05.12.2017. 03:05:46 - [INFO] - [Senzor] dim
+05.12.2017. 03:05:46 - [INFO] - [Senzor] dim
+05.12.2017. 03:05:46 - [INFO] - [Aktuator] otvaranje/zatvaranje vrata
+05.12.2017. 03:05:46 - [INFO] - [Aktuator] paljenje/gašenje lampe
+05.12.2017. 03:05:46 - [INFO] - 
+-------------------------------------------------------------
+	Postavljam uredjaje za FOI 1 - parkiralište
+-------------------------------------------------------------
+
+05.12.2017. 03:05:46 - [INFO] - [Senzor] vlaga
+05.12.2017. 03:05:46 - [INFO] - [Senzor] kontakt
+05.12.2017. 03:05:46 - [INFO] - [Senzor] vanjska temperatura
+05.12.2017. 03:05:46 - [INFO] - [Senzor] vanjska temperatura
+05.12.2017. 03:05:46 - [INFO] - [Aktuator] snimanje kamerom
+05.12.2017. 03:05:46 - [INFO] - [Aktuator] snimanje kamerom
+05.12.2017. 03:05:46 - [INFO] - 
+-------------------------------------------------------------
+	Postavljam uredjaje za FOI 1 - vijećnica
+-------------------------------------------------------------
+
+05.12.2017. 03:05:46 - [INFO] - [Senzor] dim
+05.12.2017. 03:05:46 - [INFO] - [Senzor] kontakt
+05.12.2017. 03:05:46 - [INFO] - [Senzor] kontakt
+05.12.2017. 03:05:46 - [INFO] - [Senzor] kontakt
+05.12.2017. 03:05:46 - [INFO] - [Aktuator] dizanje/spuštanje platna za ploču
+05.12.2017. 03:05:46 - [INFO] - [Aktuator] dizanje/spuštanje platna za ploču
+05.12.2017. 03:05:46 - [INFO] - [Aktuator] otvaranje/zatvaranje vrata
+05.12.2017. 03:05:46 - [INFO] - [Aktuator] snimanje kamerom
+05.12.2017. 03:05:46 - [INFO] - 
+-------------------------------------------------------------
+	Postavljam uredjaje za FOI 1 - knjižnica
+-------------------------------------------------------------
+
+05.12.2017. 03:05:46 - [INFO] - [Senzor] dim
+05.12.2017. 03:05:46 - [INFO] - [Senzor] svjetlo
+05.12.2017. 03:05:46 - [INFO] - [Senzor] svjetlo
+05.12.2017. 03:05:46 - [INFO] - [Senzor] vlaga
+05.12.2017. 03:05:46 - [INFO] - [Senzor] prepreka
+05.12.2017. 03:05:46 - [INFO] - [Aktuator] dizanje/spuštanje televizora
+05.12.2017. 03:05:46 - [INFO] - [Aktuator] dizanje/spuštanje televizora
+05.12.2017. 03:05:46 - [INFO] - [Aktuator] otvaranje/zatvaranje vrata
+05.12.2017. 03:05:46 - [INFO] - 
+-------------------------------------------------------------
+	Postavljam uredjaje za FOI 1 - dvorana 1
+-------------------------------------------------------------
+
+05.12.2017. 03:05:46 - [INFO] - [Senzor] svjetlo
+05.12.2017. 03:05:46 - [INFO] - [Senzor] kontakt
+05.12.2017. 03:05:46 - [INFO] - [Senzor] unutarnja temperatura
+05.12.2017. 03:05:46 - [INFO] - [Senzor] unutarnja temperatura
+05.12.2017. 03:05:46 - [INFO] - [Senzor] dim
+05.12.2017. 03:05:46 - [INFO] - [Senzor] kontakt
+05.12.2017. 03:05:46 - [INFO] - [Senzor] svjetlo
+05.12.2017. 03:05:46 - [INFO] - [Aktuator] snimanje kamerom
+05.12.2017. 03:05:46 - [INFO] - [Aktuator] dizanje/spuštanje televizora
+05.12.2017. 03:05:46 - [INFO] - [Aktuator] snimanje kamerom
+05.12.2017. 03:05:46 - [INFO] - [Aktuator] otvaranje/zatvaranje vrata
+05.12.2017. 03:05:46 - [INFO] - [Aktuator] paljenje/gašenje lampe
+05.12.2017. 03:05:46 - [INFO] - 
+-------------------------------------------------------------
+	Postavljam uredjaje za FOI 1 - restoran
+-------------------------------------------------------------
+
+05.12.2017. 03:05:46 - [INFO] - [Senzor] prepreka
+05.12.2017. 03:05:46 - [INFO] - [Senzor] prepreka
+05.12.2017. 03:05:46 - [INFO] - [Senzor] svjetlo
+05.12.2017. 03:05:46 - [INFO] - [Senzor] dim
+05.12.2017. 03:05:46 - [INFO] - [Senzor] svjetlo
+05.12.2017. 03:05:46 - [INFO] - [Aktuator] dizanje/spuštanje platna za ploču
+05.12.2017. 03:05:46 - [INFO] - [Aktuator] paljenje/gašenje lampe
+05.12.2017. 03:05:46 - [INFO] - [Aktuator] paljenje/gašenje lampe
+05.12.2017. 03:05:46 - [INFO] - 
+-------------------------------------------------------------
+	Postavljam uredjaje za FOI 1 - sistem sala
+-------------------------------------------------------------
+
+05.12.2017. 03:05:46 - [INFO] - [Senzor] unutarnja temperatura
+05.12.2017. 03:05:46 - [INFO] - [Senzor] dim
+05.12.2017. 03:05:46 - [INFO] - [Senzor] kontakt
+05.12.2017. 03:05:46 - [INFO] - [Senzor] vlaga
+05.12.2017. 03:05:46 - [INFO] - [Senzor] unutarnja temperatura
+05.12.2017. 03:05:46 - [INFO] - [Senzor] dim
+05.12.2017. 03:05:46 - [INFO] - [Aktuator] dizanje/spuštanje televizora
+05.12.2017. 03:05:46 - [INFO] - [Aktuator] paljenje/gašenje lampe
+05.12.2017. 03:05:46 - [INFO] - [Aktuator] otvaranje/zatvaranje vrata
+05.12.2017. 03:05:46 - [INFO] - [Aktuator] dizanje/spuštanje platna za ploču
+05.12.2017. 03:05:46 - [INFO] - 
+-------------------------------------------------------------
+	Inicijaliziram uredjaje za 77 FOI 1 - parkiralište
+-------------------------------------------------------------
+
+05.12.2017. 03:05:46 - [INFO] - vlaga [1]
+05.12.2017. 03:05:46 - [INFO] - kontakt [1]
+05.12.2017. 03:05:46 - [INFO] - vanjska temperatura [1]
+05.12.2017. 03:05:46 - [INFO] - vanjska temperatura [1]
+05.12.2017. 03:05:46 - [INFO] - snimanje kamerom [1]
+05.12.2017. 03:05:46 - [INFO] - snimanje kamerom [1]
+05.12.2017. 03:05:46 - [INFO] - 
+-------------------------------------------------------------
+	Inicijaliziram uredjaje za 100 FOI 1 - dvorana 1
+-------------------------------------------------------------
+
+05.12.2017. 03:05:46 - [INFO] - svjetlo [1]
+05.12.2017. 03:05:46 - [WARNING] - kontakt [0]
+05.12.2017. 03:05:46 - [INFO] - unutarnja temperatura [1]
+05.12.2017. 03:05:46 - [INFO] - unutarnja temperatura [1]
+05.12.2017. 03:05:46 - [INFO] - dim [1]
+05.12.2017. 03:05:46 - [INFO] - kontakt [1]
+05.12.2017. 03:05:46 - [INFO] - svjetlo [1]
+05.12.2017. 03:05:46 - [INFO] - snimanje kamerom [1]
+05.12.2017. 03:05:46 - [INFO] - dizanje/spuštanje televizora [1]
+05.12.2017. 03:05:46 - [INFO] - snimanje kamerom [1]
+05.12.2017. 03:05:46 - [INFO] - otvaranje/zatvaranje vrata [1]
+05.12.2017. 03:05:46 - [INFO] - paljenje/gašenje lampe [1]
+05.12.2017. 03:05:46 - [INFO] - 
+-------------------------------------------------------------
+	Inicijaliziram uredjaje za 341 FOI 1 - dvorišna vrata
+-------------------------------------------------------------
+
+05.12.2017. 03:05:46 - [INFO] - vlaga [1]
+05.12.2017. 03:05:46 - [INFO] - dim [1]
+05.12.2017. 03:05:46 - [INFO] - dim [1]
+05.12.2017. 03:05:46 - [WARNING] - otvaranje/zatvaranje vrata [0]
+05.12.2017. 03:05:46 - [INFO] - paljenje/gašenje lampe [1]
+05.12.2017. 03:05:46 - [INFO] - 
+-------------------------------------------------------------
+	Inicijaliziram uredjaje za 406 FOI 1 - sistem sala
+-------------------------------------------------------------
+
+05.12.2017. 03:05:46 - [INFO] - unutarnja temperatura [1]
+05.12.2017. 03:05:46 - [INFO] - dim [1]
+05.12.2017. 03:05:46 - [INFO] - kontakt [1]
+05.12.2017. 03:05:46 - [INFO] - vlaga [1]
+05.12.2017. 03:05:46 - [INFO] - unutarnja temperatura [1]
+05.12.2017. 03:05:46 - [WARNING] - dim [0]
+05.12.2017. 03:05:46 - [INFO] - dizanje/spuštanje televizora [1]
+05.12.2017. 03:05:46 - [INFO] - paljenje/gašenje lampe [1]
+05.12.2017. 03:05:46 - [INFO] - otvaranje/zatvaranje vrata [1]
+05.12.2017. 03:05:46 - [INFO] - dizanje/spuštanje platna za ploču [1]
+05.12.2017. 03:05:46 - [INFO] - 
+-------------------------------------------------------------
+	Inicijaliziram uredjaje za 407 FOI 1 - restoran
+-------------------------------------------------------------
+
+05.12.2017. 03:05:46 - [INFO] - prepreka [1]
+05.12.2017. 03:05:46 - [INFO] - prepreka [1]
+05.12.2017. 03:05:46 - [INFO] - svjetlo [1]
+05.12.2017. 03:05:46 - [INFO] - dim [1]
+05.12.2017. 03:05:46 - [INFO] - svjetlo [1]
+05.12.2017. 03:05:46 - [INFO] - dizanje/spuštanje platna za ploču [1]
+05.12.2017. 03:05:46 - [INFO] - paljenje/gašenje lampe [1]
+05.12.2017. 03:05:46 - [WARNING] - paljenje/gašenje lampe [0]
+05.12.2017. 03:05:46 - [INFO] - 
+-------------------------------------------------------------
+	Inicijaliziram uredjaje za 621 FOI 1 - ulazna vrata
+-------------------------------------------------------------
+
+05.12.2017. 03:05:46 - [INFO] - svjetlo [1]
+05.12.2017. 03:05:46 - [INFO] - unutarnja temperatura [1]
+05.12.2017. 03:05:46 - [INFO] - kontakt [1]
+05.12.2017. 03:05:46 - [INFO] - dizanje/spuštanje televizora [1]
+05.12.2017. 03:05:46 - [INFO] - snimanje kamerom [1]
+05.12.2017. 03:05:46 - [INFO] - 
+-------------------------------------------------------------
+	Inicijaliziram uredjaje za 647 FOI 1 - knjižnica
+-------------------------------------------------------------
+
+05.12.2017. 03:05:46 - [INFO] - dim [1]
+05.12.2017. 03:05:46 - [INFO] - svjetlo [1]
+05.12.2017. 03:05:46 - [INFO] - svjetlo [1]
+05.12.2017. 03:05:46 - [INFO] - vlaga [1]
+05.12.2017. 03:05:46 - [WARNING] - prepreka [0]
+05.12.2017. 03:05:46 - [INFO] - dizanje/spuštanje televizora [1]
+05.12.2017. 03:05:46 - [INFO] - dizanje/spuštanje televizora [1]
+05.12.2017. 03:05:46 - [INFO] - otvaranje/zatvaranje vrata [1]
+05.12.2017. 03:05:46 - [INFO] - 
+-------------------------------------------------------------
+	Inicijaliziram uredjaje za 873 FOI 1 - vijećnica
+-------------------------------------------------------------
+
+05.12.2017. 03:05:46 - [INFO] - dim [1]
+05.12.2017. 03:05:46 - [INFO] - kontakt [1]
+05.12.2017. 03:05:46 - [INFO] - kontakt [1]
+05.12.2017. 03:05:46 - [INFO] - kontakt [1]
+05.12.2017. 03:05:46 - [INFO] - dizanje/spuštanje platna za ploču [1]
+05.12.2017. 03:05:46 - [INFO] - dizanje/spuštanje platna za ploču [1]
+05.12.2017. 03:05:46 - [WARNING] - otvaranje/zatvaranje vrata [0]
+05.12.2017. 03:05:46 - [INFO] - snimanje kamerom [1]
+05.12.2017. 03:05:46 - [INFO] - 
+-------------------------------------------------------------
+	Opremam mjesto 77 FOI 1 - parkiralište
+-------------------------------------------------------------
+
+05.12.2017. 03:05:46 - [INFO] - 
+-------------------------------------------------------------
+[Senzor] 199 vanjska temperatura pridruzen je aktuatorima:  
+-------------------------------------------------------------
+566 snimanje kamerom
+05.12.2017. 03:05:46 - [INFO] - 
+-------------------------------------------------------------
+[Aktuator] 566 snimanje kamerom pridruzeni su senzori:  
+-------------------------------------------------------------
+199 vanjska temperatura
+05.12.2017. 03:05:46 - [INFO] - 
+-------------------------------------------------------------
+[Senzor] 464 vlaga pridruzen je aktuatorima:  
+-------------------------------------------------------------
+300 snimanje kamerom
+05.12.2017. 03:05:46 - [INFO] - 
+-------------------------------------------------------------
+[Aktuator] 300 snimanje kamerom pridruzeni su senzori:  
+-------------------------------------------------------------
+464 vlaga
+05.12.2017. 03:05:46 - [INFO] - 
+-------------------------------------------------------------
+	Opremam mjesto 100 FOI 1 - dvorana 1
+-------------------------------------------------------------
+
+05.12.2017. 03:05:46 - [INFO] - 
+-------------------------------------------------------------
+[Senzor] 474 svjetlo pridruzen je aktuatorima:  
+-------------------------------------------------------------
+979 snimanje kamerom
+569 dizanje/spuštanje televizora
+05.12.2017. 03:05:46 - [INFO] - 
+-------------------------------------------------------------
+[Aktuator] 979 snimanje kamerom pridruzeni su senzori:  
+-------------------------------------------------------------
+474 svjetlo
+05.12.2017. 03:05:46 - [INFO] - 
+-------------------------------------------------------------
+[Senzor] 2 unutarnja temperatura pridruzen je aktuatorima:  
+-------------------------------------------------------------
+569 dizanje/spuštanje televizora
+05.12.2017. 03:05:46 - [INFO] - 
+-------------------------------------------------------------
+[Senzor] 474 svjetlo pridruzen je aktuatorima:  
+-------------------------------------------------------------
+979 snimanje kamerom
+569 dizanje/spuštanje televizora
+05.12.2017. 03:05:46 - [INFO] - 
+-------------------------------------------------------------
+[Aktuator] 569 dizanje/spuštanje televizora pridruzeni su senzori:  
+-------------------------------------------------------------
+2 unutarnja temperatura
+474 svjetlo
+05.12.2017. 03:05:46 - [INFO] - 
+-------------------------------------------------------------
+[Senzor] 383 svjetlo pridruzen je aktuatorima:  
+-------------------------------------------------------------
+924 snimanje kamerom
+455 paljenje/gašenje lampe
+05.12.2017. 03:05:46 - [INFO] - 
+-------------------------------------------------------------
+[Senzor] 127 unutarnja temperatura pridruzen je aktuatorima:  
+-------------------------------------------------------------
+924 snimanje kamerom
+845 otvaranje/zatvaranje vrata
+05.12.2017. 03:05:46 - [INFO] - 
+-------------------------------------------------------------
+[Aktuator] 924 snimanje kamerom pridruzeni su senzori:  
+-------------------------------------------------------------
+383 svjetlo
+127 unutarnja temperatura
+05.12.2017. 03:05:46 - [INFO] - 
+-------------------------------------------------------------
+[Senzor] 319 dim pridruzen je aktuatorima:  
+-------------------------------------------------------------
+845 otvaranje/zatvaranje vrata
+455 paljenje/gašenje lampe
+05.12.2017. 03:05:46 - [INFO] - 
+-------------------------------------------------------------
+[Senzor] 786 kontakt pridruzen je aktuatorima:  
+-------------------------------------------------------------
+845 otvaranje/zatvaranje vrata
+455 paljenje/gašenje lampe
+05.12.2017. 03:05:46 - [INFO] - 
+-------------------------------------------------------------
+[Senzor] 127 unutarnja temperatura pridruzen je aktuatorima:  
+-------------------------------------------------------------
+924 snimanje kamerom
+845 otvaranje/zatvaranje vrata
+05.12.2017. 03:05:46 - [INFO] - 
+-------------------------------------------------------------
+[Aktuator] 845 otvaranje/zatvaranje vrata pridruzeni su senzori:  
+-------------------------------------------------------------
+319 dim
+786 kontakt
+127 unutarnja temperatura
+05.12.2017. 03:05:46 - [INFO] - 
+-------------------------------------------------------------
+[Senzor] 383 svjetlo pridruzen je aktuatorima:  
+-------------------------------------------------------------
+924 snimanje kamerom
+455 paljenje/gašenje lampe
+05.12.2017. 03:05:46 - [INFO] - 
+-------------------------------------------------------------
+[Senzor] 786 kontakt pridruzen je aktuatorima:  
+-------------------------------------------------------------
+845 otvaranje/zatvaranje vrata
+455 paljenje/gašenje lampe
+05.12.2017. 03:05:46 - [INFO] - 
+-------------------------------------------------------------
+[Senzor] 319 dim pridruzen je aktuatorima:  
+-------------------------------------------------------------
+845 otvaranje/zatvaranje vrata
+455 paljenje/gašenje lampe
+05.12.2017. 03:05:46 - [INFO] - 
+-------------------------------------------------------------
+[Aktuator] 455 paljenje/gašenje lampe pridruzeni su senzori:  
+-------------------------------------------------------------
+383 svjetlo
+786 kontakt
+319 dim
+05.12.2017. 03:05:46 - [INFO] - 
+-------------------------------------------------------------
+	Opremam mjesto 341 FOI 1 - dvorišna vrata
+-------------------------------------------------------------
+
+05.12.2017. 03:05:46 - [INFO] - 
+-------------------------------------------------------------
+[Senzor] 791 dim pridruzen je aktuatorima:  
+-------------------------------------------------------------
+566 paljenje/gašenje lampe
+05.12.2017. 03:05:46 - [INFO] - 
+-------------------------------------------------------------
+[Aktuator] 566 paljenje/gašenje lampe pridruzeni su senzori:  
+-------------------------------------------------------------
+791 dim
+05.12.2017. 03:05:46 - [INFO] - 
+-------------------------------------------------------------
+	Opremam mjesto 406 FOI 1 - sistem sala
+-------------------------------------------------------------
+
+05.12.2017. 03:05:46 - [INFO] - 
+-------------------------------------------------------------
+[Senzor] 851 unutarnja temperatura pridruzen je aktuatorima:  
+-------------------------------------------------------------
+593 dizanje/spuštanje televizora
+158 otvaranje/zatvaranje vrata
+05.12.2017. 03:05:46 - [INFO] - 
+-------------------------------------------------------------
+[Senzor] 158 dim pridruzen je aktuatorima:  
+-------------------------------------------------------------
+593 dizanje/spuštanje televizora
+856 paljenje/gašenje lampe
+158 otvaranje/zatvaranje vrata
+05.12.2017. 03:05:46 - [INFO] - 
+-------------------------------------------------------------
+[Aktuator] 593 dizanje/spuštanje televizora pridruzeni su senzori:  
+-------------------------------------------------------------
+851 unutarnja temperatura
+158 dim
+05.12.2017. 03:05:46 - [INFO] - 
+-------------------------------------------------------------
+[Senzor] 158 dim pridruzen je aktuatorima:  
+-------------------------------------------------------------
+593 dizanje/spuštanje televizora
+856 paljenje/gašenje lampe
+158 otvaranje/zatvaranje vrata
+05.12.2017. 03:05:46 - [INFO] - 
+-------------------------------------------------------------
+[Aktuator] 856 paljenje/gašenje lampe pridruzeni su senzori:  
+-------------------------------------------------------------
+158 dim
+05.12.2017. 03:05:46 - [INFO] - 
+-------------------------------------------------------------
+[Senzor] 158 dim pridruzen je aktuatorima:  
+-------------------------------------------------------------
+593 dizanje/spuštanje televizora
+856 paljenje/gašenje lampe
+158 otvaranje/zatvaranje vrata
+05.12.2017. 03:05:46 - [INFO] - 
+-------------------------------------------------------------
+[Senzor] 851 unutarnja temperatura pridruzen je aktuatorima:  
+-------------------------------------------------------------
+593 dizanje/spuštanje televizora
+158 otvaranje/zatvaranje vrata
+05.12.2017. 03:05:46 - [INFO] - 
+-------------------------------------------------------------
+[Senzor] 987 unutarnja temperatura pridruzen je aktuatorima:  
+-------------------------------------------------------------
+158 otvaranje/zatvaranje vrata
+971 dizanje/spuštanje platna za ploču
+05.12.2017. 03:05:46 - [INFO] - 
+-------------------------------------------------------------
+[Aktuator] 158 otvaranje/zatvaranje vrata pridruzeni su senzori:  
+-------------------------------------------------------------
+158 dim
+851 unutarnja temperatura
+987 unutarnja temperatura
+05.12.2017. 03:05:46 - [INFO] - 
+-------------------------------------------------------------
+[Senzor] 918 kontakt pridruzen je aktuatorima:  
+-------------------------------------------------------------
+971 dizanje/spuštanje platna za ploču
+05.12.2017. 03:05:46 - [INFO] - 
+-------------------------------------------------------------
+[Senzor] 987 unutarnja temperatura pridruzen je aktuatorima:  
+-------------------------------------------------------------
+158 otvaranje/zatvaranje vrata
+971 dizanje/spuštanje platna za ploču
+05.12.2017. 03:05:46 - [INFO] - 
+-------------------------------------------------------------
+[Aktuator] 971 dizanje/spuštanje platna za ploču pridruzeni su senzori:  
+-------------------------------------------------------------
+918 kontakt
+987 unutarnja temperatura
+05.12.2017. 03:05:46 - [INFO] - 
+-------------------------------------------------------------
+	Opremam mjesto 407 FOI 1 - restoran
+-------------------------------------------------------------
+
+05.12.2017. 03:05:46 - [INFO] - 
+-------------------------------------------------------------
+[Senzor] 199 dim pridruzen je aktuatorima:  
+-------------------------------------------------------------
+148 dizanje/spuštanje platna za ploču
+483 paljenje/gašenje lampe
+05.12.2017. 03:05:46 - [INFO] - 
+-------------------------------------------------------------
+[Senzor] 218 svjetlo pridruzen je aktuatorima:  
+-------------------------------------------------------------
+148 dizanje/spuštanje platna za ploču
+483 paljenje/gašenje lampe
+05.12.2017. 03:05:46 - [INFO] - 
+-------------------------------------------------------------
+[Senzor] 684 svjetlo pridruzen je aktuatorima:  
+-------------------------------------------------------------
+148 dizanje/spuštanje platna za ploču
+05.12.2017. 03:05:46 - [INFO] - 
+-------------------------------------------------------------
+[Aktuator] 148 dizanje/spuštanje platna za ploču pridruzeni su senzori:  
+-------------------------------------------------------------
+199 dim
+218 svjetlo
+684 svjetlo
+05.12.2017. 03:05:46 - [INFO] - 
+-------------------------------------------------------------
+[Senzor] 199 dim pridruzen je aktuatorima:  
+-------------------------------------------------------------
+148 dizanje/spuštanje platna za ploču
+483 paljenje/gašenje lampe
+05.12.2017. 03:05:46 - [INFO] - 
+-------------------------------------------------------------
+[Senzor] 218 svjetlo pridruzen je aktuatorima:  
+-------------------------------------------------------------
+148 dizanje/spuštanje platna za ploču
+483 paljenje/gašenje lampe
+05.12.2017. 03:05:46 - [INFO] - 
+-------------------------------------------------------------
+[Aktuator] 483 paljenje/gašenje lampe pridruzeni su senzori:  
+-------------------------------------------------------------
+199 dim
+218 svjetlo
+05.12.2017. 03:05:46 - [INFO] - 
+-------------------------------------------------------------
+	Opremam mjesto 621 FOI 1 - ulazna vrata
+-------------------------------------------------------------
+
+05.12.2017. 03:05:46 - [INFO] - 
+-------------------------------------------------------------
+[Senzor] 96 unutarnja temperatura pridruzen je aktuatorima:  
+-------------------------------------------------------------
+760 dizanje/spuštanje televizora
+18 snimanje kamerom
+05.12.2017. 03:05:46 - [INFO] - 
+-------------------------------------------------------------
+[Aktuator] 760 dizanje/spuštanje televizora pridruzeni su senzori:  
+-------------------------------------------------------------
+96 unutarnja temperatura
+05.12.2017. 03:05:46 - [INFO] - 
+-------------------------------------------------------------
+[Senzor] 96 unutarnja temperatura pridruzen je aktuatorima:  
+-------------------------------------------------------------
+760 dizanje/spuštanje televizora
+18 snimanje kamerom
+05.12.2017. 03:05:46 - [INFO] - 
+-------------------------------------------------------------
+[Aktuator] 18 snimanje kamerom pridruzeni su senzori:  
+-------------------------------------------------------------
+96 unutarnja temperatura
+05.12.2017. 03:05:46 - [INFO] - 
+-------------------------------------------------------------
+	Opremam mjesto 647 FOI 1 - knjižnica
+-------------------------------------------------------------
+
+05.12.2017. 03:05:46 - [INFO] - 
+-------------------------------------------------------------
+[Senzor] 971 vlaga pridruzen je aktuatorima:  
+-------------------------------------------------------------
+680 dizanje/spuštanje televizora
+665 otvaranje/zatvaranje vrata
+05.12.2017. 03:05:46 - [INFO] - 
+-------------------------------------------------------------
+[Aktuator] 680 dizanje/spuštanje televizora pridruzeni su senzori:  
+-------------------------------------------------------------
+971 vlaga
+05.12.2017. 03:05:46 - [INFO] - 
+-------------------------------------------------------------
+[Senzor] 860 dim pridruzen je aktuatorima:  
+-------------------------------------------------------------
+139 dizanje/spuštanje televizora
+665 otvaranje/zatvaranje vrata
+05.12.2017. 03:05:46 - [INFO] - 
+-------------------------------------------------------------
+[Senzor] 387 svjetlo pridruzen je aktuatorima:  
+-------------------------------------------------------------
+139 dizanje/spuštanje televizora
+05.12.2017. 03:05:46 - [INFO] - 
+-------------------------------------------------------------
+[Aktuator] 139 dizanje/spuštanje televizora pridruzeni su senzori:  
+-------------------------------------------------------------
+860 dim
+387 svjetlo
+05.12.2017. 03:05:46 - [INFO] - 
+-------------------------------------------------------------
+[Senzor] 589 svjetlo pridruzen je aktuatorima:  
+-------------------------------------------------------------
+665 otvaranje/zatvaranje vrata
+05.12.2017. 03:05:46 - [INFO] - 
+-------------------------------------------------------------
+[Senzor] 971 vlaga pridruzen je aktuatorima:  
+-------------------------------------------------------------
+680 dizanje/spuštanje televizora
+665 otvaranje/zatvaranje vrata
+05.12.2017. 03:05:46 - [INFO] - 
+-------------------------------------------------------------
+[Senzor] 860 dim pridruzen je aktuatorima:  
+-------------------------------------------------------------
+139 dizanje/spuštanje televizora
+665 otvaranje/zatvaranje vrata
+05.12.2017. 03:05:46 - [INFO] - 
+-------------------------------------------------------------
+[Aktuator] 665 otvaranje/zatvaranje vrata pridruzeni su senzori:  
+-------------------------------------------------------------
+589 svjetlo
+971 vlaga
+860 dim
+05.12.2017. 03:05:46 - [INFO] - 
+-------------------------------------------------------------
+	Opremam mjesto 873 FOI 1 - vijećnica
+-------------------------------------------------------------
+
+05.12.2017. 03:05:46 - [INFO] - 
+-------------------------------------------------------------
+[Senzor] 258 kontakt pridruzen je aktuatorima:  
+-------------------------------------------------------------
+607 dizanje/spuštanje platna za ploču
+253 snimanje kamerom
+05.12.2017. 03:05:46 - [INFO] - 
+-------------------------------------------------------------
+[Aktuator] 607 dizanje/spuštanje platna za ploču pridruzeni su senzori:  
+-------------------------------------------------------------
+258 kontakt
+05.12.2017. 03:05:46 - [INFO] - 
+-------------------------------------------------------------
+[Senzor] 755 kontakt pridruzen je aktuatorima:  
+-------------------------------------------------------------
+140 dizanje/spuštanje platna za ploču
+05.12.2017. 03:05:46 - [INFO] - 
+-------------------------------------------------------------
+[Senzor] 558 dim pridruzen je aktuatorima:  
+-------------------------------------------------------------
+140 dizanje/spuštanje platna za ploču
+05.12.2017. 03:05:46 - [INFO] - 
+-------------------------------------------------------------
+[Aktuator] 140 dizanje/spuštanje platna za ploču pridruzeni su senzori:  
+-------------------------------------------------------------
+755 kontakt
+558 dim
+05.12.2017. 03:05:46 - [INFO] - 
+-------------------------------------------------------------
+[Senzor] 258 kontakt pridruzen je aktuatorima:  
+-------------------------------------------------------------
+607 dizanje/spuštanje platna za ploču
+253 snimanje kamerom
+05.12.2017. 03:05:46 - [INFO] - 
+-------------------------------------------------------------
+[Aktuator] 253 snimanje kamerom pridruzeni su senzori:  
+-------------------------------------------------------------
+258 kontakt
+05.12.2017. 03:19:14 - [INFO] - Kreiram mjesto FOI 1 - ulazna vrata .
+05.12.2017. 03:19:14 - [INFO] - Kreiram mjesto FOI 1 - dvorišna vrata .
+05.12.2017. 03:19:14 - [WARNING] - Mjesto FOI 1 - dvorišna vrata već postoji.
+05.12.2017. 03:19:14 - [INFO] - Kreiram mjesto FOI 1 - parkiralište .
+05.12.2017. 03:19:14 - [INFO] - Kreiram mjesto FOI 1 - vijećnica .
+05.12.2017. 03:19:14 - [INFO] - Kreiram mjesto FOI 1 - knjižnica .
+05.12.2017. 03:19:14 - [WARNING] - Format zapisa za mjesto FOI 1 - knjižnica2 nije valjan.
+05.12.2017. 03:19:14 - [INFO] - Kreiram mjesto FOI 1 - dvorana 1 .
+05.12.2017. 03:19:14 - [INFO] - Kreiram mjesto FOI 1 - restoran .
+05.12.2017. 03:19:14 - [INFO] - Kreiram mjesto FOI 1 - sistem sala .
+05.12.2017. 03:19:14 - [WARNING] - Format zapisa za smjer vjetra nije valjan.
+05.12.2017. 03:19:14 - [INFO] - 
+-------------------------------------------------------------
+	Postavljam uredjaje za FOI 1 - ulazna vrata
+-------------------------------------------------------------
+
+05.12.2017. 03:19:14 - [INFO] - [Senzor] unutarnja temperatura
+05.12.2017. 03:19:14 - [INFO] - [Senzor] vlaga
+05.12.2017. 03:19:14 - [INFO] - [Senzor] kontakt
+05.12.2017. 03:19:14 - [INFO] - [Aktuator] paljenje/gašenje lampe
+05.12.2017. 03:19:14 - [INFO] - [Aktuator] paljenje/gašenje lampe
+05.12.2017. 03:19:14 - [INFO] - 
+-------------------------------------------------------------
+	Postavljam uredjaje za FOI 1 - dvorišna vrata
+-------------------------------------------------------------
+
+05.12.2017. 03:19:14 - [INFO] - [Senzor] unutarnja temperatura
+05.12.2017. 03:19:14 - [INFO] - [Senzor] kontakt
+05.12.2017. 03:19:14 - [INFO] - [Senzor] kontakt
+05.12.2017. 03:19:14 - [INFO] - [Aktuator] paljenje/gašenje lampe
+05.12.2017. 03:19:14 - [INFO] - [Aktuator] snimanje kamerom
+05.12.2017. 03:19:14 - [INFO] - 
+-------------------------------------------------------------
+	Postavljam uredjaje za FOI 1 - parkiralište
+-------------------------------------------------------------
+
+05.12.2017. 03:19:14 - [INFO] - [Senzor] svjetlo
+05.12.2017. 03:19:14 - [INFO] - [Senzor] svjetlo
+05.12.2017. 03:19:14 - [INFO] - [Senzor] prepreka
+05.12.2017. 03:19:14 - [INFO] - [Senzor] vlaga
+05.12.2017. 03:19:14 - [INFO] - [Aktuator] snimanje kamerom
+05.12.2017. 03:19:14 - [INFO] - [Aktuator] dizanje/spuštanje rampe
+05.12.2017. 03:19:14 - [INFO] - 
+-------------------------------------------------------------
+	Postavljam uredjaje za FOI 1 - vijećnica
+-------------------------------------------------------------
+
+05.12.2017. 03:19:14 - [INFO] - [Senzor] prepreka
+05.12.2017. 03:19:14 - [INFO] - [Senzor] vlaga
+05.12.2017. 03:19:14 - [INFO] - [Senzor] svjetlo
+05.12.2017. 03:19:14 - [INFO] - [Senzor] unutarnja temperatura
+05.12.2017. 03:19:14 - [INFO] - [Aktuator] otvaranje/zatvaranje vrata
+05.12.2017. 03:19:14 - [INFO] - [Aktuator] dizanje/spuštanje platna za ploču
+05.12.2017. 03:19:14 - [INFO] - [Aktuator] dizanje/spuštanje platna za ploču
+05.12.2017. 03:19:14 - [INFO] - [Aktuator] snimanje kamerom
+05.12.2017. 03:19:14 - [INFO] - 
+-------------------------------------------------------------
+	Postavljam uredjaje za FOI 1 - knjižnica
+-------------------------------------------------------------
+
+05.12.2017. 03:19:14 - [INFO] - [Senzor] dim
+05.12.2017. 03:19:14 - [INFO] - [Senzor] kontakt
+05.12.2017. 03:19:14 - [INFO] - [Senzor] dim
+05.12.2017. 03:19:14 - [INFO] - [Senzor] unutarnja temperatura
+05.12.2017. 03:19:14 - [INFO] - [Senzor] prepreka
+05.12.2017. 03:19:14 - [INFO] - [Aktuator] paljenje/gašenje lampe
+05.12.2017. 03:19:14 - [INFO] - [Aktuator] paljenje/gašenje lampe
+05.12.2017. 03:19:14 - [INFO] - [Aktuator] otvaranje/zatvaranje vrata
+05.12.2017. 03:19:14 - [INFO] - 
+-------------------------------------------------------------
+	Postavljam uredjaje za FOI 1 - dvorana 1
+-------------------------------------------------------------
+
+05.12.2017. 03:19:14 - [INFO] - [Senzor] svjetlo
+05.12.2017. 03:19:14 - [INFO] - [Senzor] prepreka
+05.12.2017. 03:19:14 - [INFO] - [Senzor] unutarnja temperatura
+05.12.2017. 03:19:14 - [INFO] - [Senzor] kontakt
+05.12.2017. 03:19:14 - [INFO] - [Senzor] kontakt
+05.12.2017. 03:19:14 - [INFO] - [Senzor] prepreka
+05.12.2017. 03:19:14 - [INFO] - [Senzor] dim
+05.12.2017. 03:19:14 - [INFO] - [Aktuator] dizanje/spuštanje televizora
+05.12.2017. 03:19:14 - [INFO] - [Aktuator] paljenje/gašenje lampe
+05.12.2017. 03:19:14 - [INFO] - [Aktuator] dizanje/spuštanje televizora
+05.12.2017. 03:19:14 - [INFO] - [Aktuator] otvaranje/zatvaranje vrata
+05.12.2017. 03:19:14 - [INFO] - [Aktuator] snimanje kamerom
+05.12.2017. 03:19:14 - [INFO] - 
+-------------------------------------------------------------
+	Postavljam uredjaje za FOI 1 - restoran
+-------------------------------------------------------------
+
+05.12.2017. 03:19:14 - [INFO] - [Senzor] unutarnja temperatura
+05.12.2017. 03:19:14 - [INFO] - [Senzor] svjetlo
+05.12.2017. 03:19:14 - [INFO] - [Senzor] prepreka
+05.12.2017. 03:19:14 - [INFO] - [Senzor] svjetlo
+05.12.2017. 03:19:14 - [INFO] - [Senzor] dim
+05.12.2017. 03:19:14 - [INFO] - [Aktuator] paljenje/gašenje lampe
+05.12.2017. 03:19:14 - [INFO] - [Aktuator] otvaranje/zatvaranje vrata
+05.12.2017. 03:19:14 - [INFO] - [Aktuator] paljenje/gašenje lampe
+05.12.2017. 03:19:14 - [INFO] - 
+-------------------------------------------------------------
+	Postavljam uredjaje za FOI 1 - sistem sala
+-------------------------------------------------------------
+
+05.12.2017. 03:19:14 - [INFO] - [Senzor] unutarnja temperatura
+05.12.2017. 03:19:14 - [INFO] - [Senzor] unutarnja temperatura
+05.12.2017. 03:19:14 - [INFO] - [Senzor] dim
+05.12.2017. 03:19:14 - [INFO] - [Senzor] vlaga
+05.12.2017. 03:19:14 - [INFO] - [Senzor] prepreka
+05.12.2017. 03:19:14 - [INFO] - [Senzor] svjetlo
+05.12.2017. 03:19:14 - [INFO] - [Aktuator] dizanje/spuštanje televizora
+05.12.2017. 03:19:14 - [INFO] - [Aktuator] otvaranje/zatvaranje vrata
+05.12.2017. 03:19:14 - [INFO] - [Aktuator] snimanje kamerom
+05.12.2017. 03:19:14 - [INFO] - [Aktuator] paljenje/gašenje lampe
+05.12.2017. 03:19:14 - [INFO] - 
+-------------------------------------------------------------
+	Inicijaliziram uredjaje za 258 FOI 1 - vijećnica
+-------------------------------------------------------------
+
+05.12.2017. 03:19:14 - [WARNING] - prepreka [0]
+05.12.2017. 03:19:14 - [INFO] - vlaga [1]
+05.12.2017. 03:19:14 - [INFO] - svjetlo [1]
+05.12.2017. 03:19:14 - [INFO] - unutarnja temperatura [1]
+05.12.2017. 03:19:14 - [WARNING] - otvaranje/zatvaranje vrata [0]
+05.12.2017. 03:19:14 - [WARNING] - dizanje/spuštanje platna za ploču [0]
+05.12.2017. 03:19:14 - [INFO] - dizanje/spuštanje platna za ploču [1]
+05.12.2017. 03:19:14 - [INFO] - snimanje kamerom [1]
+05.12.2017. 03:19:14 - [INFO] - 
+-------------------------------------------------------------
+	Inicijaliziram uredjaje za 321 FOI 1 - sistem sala
+-------------------------------------------------------------
+
+05.12.2017. 03:19:14 - [WARNING] - unutarnja temperatura [0]
+05.12.2017. 03:19:14 - [INFO] - unutarnja temperatura [1]
+05.12.2017. 03:19:14 - [WARNING] - dim [0]
+05.12.2017. 03:19:14 - [INFO] - vlaga [1]
+05.12.2017. 03:19:14 - [INFO] - prepreka [1]
+05.12.2017. 03:19:14 - [INFO] - svjetlo [1]
+05.12.2017. 03:19:14 - [INFO] - dizanje/spuštanje televizora [1]
+05.12.2017. 03:19:14 - [INFO] - otvaranje/zatvaranje vrata [1]
+05.12.2017. 03:19:14 - [INFO] - snimanje kamerom [1]
+05.12.2017. 03:19:14 - [INFO] - paljenje/gašenje lampe [1]
+05.12.2017. 03:19:14 - [INFO] - 
+-------------------------------------------------------------
+	Inicijaliziram uredjaje za 397 FOI 1 - dvorišna vrata
+-------------------------------------------------------------
+
+05.12.2017. 03:19:14 - [INFO] - unutarnja temperatura [1]
+05.12.2017. 03:19:14 - [WARNING] - kontakt [0]
+05.12.2017. 03:19:14 - [INFO] - kontakt [1]
+05.12.2017. 03:19:14 - [WARNING] - paljenje/gašenje lampe [0]
+05.12.2017. 03:19:14 - [INFO] - snimanje kamerom [1]
+05.12.2017. 03:19:14 - [INFO] - 
+-------------------------------------------------------------
+	Inicijaliziram uredjaje za 482 FOI 1 - dvorana 1
+-------------------------------------------------------------
+
+05.12.2017. 03:19:14 - [INFO] - svjetlo [1]
+05.12.2017. 03:19:14 - [INFO] - prepreka [1]
+05.12.2017. 03:19:14 - [INFO] - unutarnja temperatura [1]
+05.12.2017. 03:19:14 - [INFO] - kontakt [1]
+05.12.2017. 03:19:14 - [INFO] - kontakt [1]
+05.12.2017. 03:19:14 - [INFO] - prepreka [1]
+05.12.2017. 03:19:14 - [INFO] - dim [1]
+05.12.2017. 03:19:14 - [INFO] - dizanje/spuštanje televizora [1]
+05.12.2017. 03:19:14 - [INFO] - paljenje/gašenje lampe [1]
+05.12.2017. 03:19:14 - [INFO] - dizanje/spuštanje televizora [1]
+05.12.2017. 03:19:14 - [INFO] - otvaranje/zatvaranje vrata [1]
+05.12.2017. 03:19:14 - [WARNING] - snimanje kamerom [0]
+05.12.2017. 03:19:14 - [INFO] - 
+-------------------------------------------------------------
+	Inicijaliziram uredjaje za 588 FOI 1 - parkiralište
+-------------------------------------------------------------
+
+05.12.2017. 03:19:14 - [INFO] - svjetlo [1]
+05.12.2017. 03:19:14 - [INFO] - svjetlo [1]
+05.12.2017. 03:19:14 - [INFO] - prepreka [1]
+05.12.2017. 03:19:14 - [INFO] - vlaga [1]
+05.12.2017. 03:19:14 - [INFO] - snimanje kamerom [1]
+05.12.2017. 03:19:14 - [INFO] - dizanje/spuštanje rampe [1]
+05.12.2017. 03:19:14 - [INFO] - 
+-------------------------------------------------------------
+	Inicijaliziram uredjaje za 673 FOI 1 - knjižnica
+-------------------------------------------------------------
+
+05.12.2017. 03:19:14 - [INFO] - dim [1]
+05.12.2017. 03:19:14 - [INFO] - kontakt [1]
+05.12.2017. 03:19:14 - [INFO] - dim [1]
+05.12.2017. 03:19:14 - [WARNING] - unutarnja temperatura [0]
+05.12.2017. 03:19:14 - [INFO] - prepreka [1]
+05.12.2017. 03:19:14 - [INFO] - paljenje/gašenje lampe [1]
+05.12.2017. 03:19:14 - [WARNING] - paljenje/gašenje lampe [0]
+05.12.2017. 03:19:14 - [INFO] - otvaranje/zatvaranje vrata [1]
+05.12.2017. 03:19:14 - [INFO] - 
+-------------------------------------------------------------
+	Inicijaliziram uredjaje za 737 FOI 1 - restoran
+-------------------------------------------------------------
+
+05.12.2017. 03:19:14 - [INFO] - unutarnja temperatura [1]
+05.12.2017. 03:19:14 - [INFO] - svjetlo [1]
+05.12.2017. 03:19:14 - [INFO] - prepreka [1]
+05.12.2017. 03:19:14 - [INFO] - svjetlo [1]
+05.12.2017. 03:19:14 - [WARNING] - dim [0]
+05.12.2017. 03:19:14 - [INFO] - paljenje/gašenje lampe [1]
+05.12.2017. 03:19:14 - [INFO] - otvaranje/zatvaranje vrata [1]
+05.12.2017. 03:19:14 - [INFO] - paljenje/gašenje lampe [1]
+05.12.2017. 03:19:14 - [INFO] - 
+-------------------------------------------------------------
+	Inicijaliziram uredjaje za 850 FOI 1 - ulazna vrata
+-------------------------------------------------------------
+
+05.12.2017. 03:19:14 - [INFO] - unutarnja temperatura [1]
+05.12.2017. 03:19:14 - [INFO] - vlaga [1]
+05.12.2017. 03:19:14 - [INFO] - kontakt [1]
+05.12.2017. 03:19:14 - [INFO] - paljenje/gašenje lampe [1]
+05.12.2017. 03:19:14 - [INFO] - paljenje/gašenje lampe [1]
+05.12.2017. 03:19:14 - [INFO] - 
+-------------------------------------------------------------
+	Opremam mjesto 258 FOI 1 - vijećnica
+-------------------------------------------------------------
+
+05.12.2017. 03:19:14 - [INFO] - 
+-------------------------------------------------------------
+[Senzor] 668 unutarnja temperatura pridruzen je aktuatorima:  
+-------------------------------------------------------------
+708 dizanje/spuštanje platna za ploču
+288 snimanje kamerom
+05.12.2017. 03:19:14 - [INFO] - 
+-------------------------------------------------------------
+[Senzor] 880 vlaga pridruzen je aktuatorima:  
+-------------------------------------------------------------
+708 dizanje/spuštanje platna za ploču
+05.12.2017. 03:19:14 - [INFO] - 
+-------------------------------------------------------------
+[Aktuator] 708 dizanje/spuštanje platna za ploču pridruzeni su senzori:  
+-------------------------------------------------------------
+668 unutarnja temperatura
+880 vlaga
+05.12.2017. 03:19:14 - [INFO] - 
+-------------------------------------------------------------
+[Senzor] 668 unutarnja temperatura pridruzen je aktuatorima:  
+-------------------------------------------------------------
+708 dizanje/spuštanje platna za ploču
+288 snimanje kamerom
+05.12.2017. 03:19:14 - [INFO] - 
+-------------------------------------------------------------
+[Aktuator] 288 snimanje kamerom pridruzeni su senzori:  
+-------------------------------------------------------------
+668 unutarnja temperatura
+05.12.2017. 03:19:14 - [INFO] - 
+-------------------------------------------------------------
+	Opremam mjesto 321 FOI 1 - sistem sala
+-------------------------------------------------------------
+
+05.12.2017. 03:19:14 - [INFO] - 
+-------------------------------------------------------------
+[Senzor] 357 prepreka pridruzen je aktuatorima:  
+-------------------------------------------------------------
+102 dizanje/spuštanje televizora
+270 otvaranje/zatvaranje vrata
+195 snimanje kamerom
+196 paljenje/gašenje lampe
+05.12.2017. 03:19:14 - [INFO] - 
+-------------------------------------------------------------
+[Senzor] 342 svjetlo pridruzen je aktuatorima:  
+-------------------------------------------------------------
+102 dizanje/spuštanje televizora
+195 snimanje kamerom
+196 paljenje/gašenje lampe
+05.12.2017. 03:19:14 - [INFO] - 
+-------------------------------------------------------------
+[Aktuator] 102 dizanje/spuštanje televizora pridruzeni su senzori:  
+-------------------------------------------------------------
+357 prepreka
+342 svjetlo
+05.12.2017. 03:19:14 - [INFO] - 
+-------------------------------------------------------------
+[Senzor] 357 prepreka pridruzen je aktuatorima:  
+-------------------------------------------------------------
+102 dizanje/spuštanje televizora
+270 otvaranje/zatvaranje vrata
+195 snimanje kamerom
+196 paljenje/gašenje lampe
+05.12.2017. 03:19:14 - [INFO] - 
+-------------------------------------------------------------
+[Senzor] 954 vlaga pridruzen je aktuatorima:  
+-------------------------------------------------------------
+270 otvaranje/zatvaranje vrata
+196 paljenje/gašenje lampe
+05.12.2017. 03:19:14 - [INFO] - 
+-------------------------------------------------------------
+[Senzor] 36 unutarnja temperatura pridruzen je aktuatorima:  
+-------------------------------------------------------------
+270 otvaranje/zatvaranje vrata
+05.12.2017. 03:19:14 - [INFO] - 
+-------------------------------------------------------------
+[Aktuator] 270 otvaranje/zatvaranje vrata pridruzeni su senzori:  
+-------------------------------------------------------------
+357 prepreka
+954 vlaga
+36 unutarnja temperatura
+05.12.2017. 03:19:14 - [INFO] - 
+-------------------------------------------------------------
+[Senzor] 357 prepreka pridruzen je aktuatorima:  
+-------------------------------------------------------------
+102 dizanje/spuštanje televizora
+270 otvaranje/zatvaranje vrata
+195 snimanje kamerom
+196 paljenje/gašenje lampe
+05.12.2017. 03:19:14 - [INFO] - 
+-------------------------------------------------------------
+[Senzor] 342 svjetlo pridruzen je aktuatorima:  
+-------------------------------------------------------------
+102 dizanje/spuštanje televizora
+195 snimanje kamerom
+196 paljenje/gašenje lampe
+05.12.2017. 03:19:14 - [INFO] - 
+-------------------------------------------------------------
+[Aktuator] 195 snimanje kamerom pridruzeni su senzori:  
+-------------------------------------------------------------
+357 prepreka
+342 svjetlo
+05.12.2017. 03:19:14 - [INFO] - 
+-------------------------------------------------------------
+[Senzor] 954 vlaga pridruzen je aktuatorima:  
+-------------------------------------------------------------
+270 otvaranje/zatvaranje vrata
+196 paljenje/gašenje lampe
+05.12.2017. 03:19:14 - [INFO] - 
+-------------------------------------------------------------
+[Senzor] 357 prepreka pridruzen je aktuatorima:  
+-------------------------------------------------------------
+102 dizanje/spuštanje televizora
+270 otvaranje/zatvaranje vrata
+195 snimanje kamerom
+196 paljenje/gašenje lampe
+05.12.2017. 03:19:14 - [INFO] - 
+-------------------------------------------------------------
+[Senzor] 342 svjetlo pridruzen je aktuatorima:  
+-------------------------------------------------------------
+102 dizanje/spuštanje televizora
+195 snimanje kamerom
+196 paljenje/gašenje lampe
+05.12.2017. 03:19:14 - [INFO] - 
+-------------------------------------------------------------
+[Aktuator] 196 paljenje/gašenje lampe pridruzeni su senzori:  
+-------------------------------------------------------------
+954 vlaga
+357 prepreka
+342 svjetlo
+05.12.2017. 03:19:14 - [INFO] - 
+-------------------------------------------------------------
+	Opremam mjesto 397 FOI 1 - dvorišna vrata
+-------------------------------------------------------------
+
+05.12.2017. 03:19:14 - [INFO] - 
+-------------------------------------------------------------
+[Senzor] 699 kontakt pridruzen je aktuatorima:  
+-------------------------------------------------------------
+826 snimanje kamerom
+05.12.2017. 03:19:14 - [INFO] - 
+-------------------------------------------------------------
+[Senzor] 137 unutarnja temperatura pridruzen je aktuatorima:  
+-------------------------------------------------------------
+826 snimanje kamerom
+05.12.2017. 03:19:14 - [INFO] - 
+-------------------------------------------------------------
+[Aktuator] 826 snimanje kamerom pridruzeni su senzori:  
+-------------------------------------------------------------
+699 kontakt
+137 unutarnja temperatura
+05.12.2017. 03:19:14 - [INFO] - 
+-------------------------------------------------------------
+	Opremam mjesto 482 FOI 1 - dvorana 1
+-------------------------------------------------------------
+
+05.12.2017. 03:19:14 - [INFO] - 
+-------------------------------------------------------------
+[Senzor] 762 dim pridruzen je aktuatorima:  
+-------------------------------------------------------------
+173 dizanje/spuštanje televizora
+771 paljenje/gašenje lampe
+180 dizanje/spuštanje televizora
+05.12.2017. 03:19:14 - [INFO] - 
+-------------------------------------------------------------
+[Senzor] 668 prepreka pridruzen je aktuatorima:  
+-------------------------------------------------------------
+173 dizanje/spuštanje televizora
+180 dizanje/spuštanje televizora
+286 otvaranje/zatvaranje vrata
+05.12.2017. 03:19:14 - [INFO] - 
+-------------------------------------------------------------
+[Senzor] 708 svjetlo pridruzen je aktuatorima:  
+-------------------------------------------------------------
+173 dizanje/spuštanje televizora
+180 dizanje/spuštanje televizora
+05.12.2017. 03:19:14 - [INFO] - 
+-------------------------------------------------------------
+[Aktuator] 173 dizanje/spuštanje televizora pridruzeni su senzori:  
+-------------------------------------------------------------
+762 dim
+668 prepreka
+708 svjetlo
+05.12.2017. 03:19:14 - [INFO] - 
+-------------------------------------------------------------
+[Senzor] 718 unutarnja temperatura pridruzen je aktuatorima:  
+-------------------------------------------------------------
+771 paljenje/gašenje lampe
+180 dizanje/spuštanje televizora
+286 otvaranje/zatvaranje vrata
+05.12.2017. 03:19:14 - [INFO] - 
+-------------------------------------------------------------
+[Senzor] 762 dim pridruzen je aktuatorima:  
+-------------------------------------------------------------
+173 dizanje/spuštanje televizora
+771 paljenje/gašenje lampe
+180 dizanje/spuštanje televizora
+05.12.2017. 03:19:14 - [INFO] - 
+-------------------------------------------------------------
+[Senzor] 34 prepreka pridruzen je aktuatorima:  
+-------------------------------------------------------------
+771 paljenje/gašenje lampe
+180 dizanje/spuštanje televizora
+05.12.2017. 03:19:14 - [INFO] - 
+-------------------------------------------------------------
+[Aktuator] 771 paljenje/gašenje lampe pridruzeni su senzori:  
+-------------------------------------------------------------
+718 unutarnja temperatura
+762 dim
+34 prepreka
+05.12.2017. 03:19:14 - [INFO] - 
+-------------------------------------------------------------
+[Senzor] 762 dim pridruzen je aktuatorima:  
+-------------------------------------------------------------
+173 dizanje/spuštanje televizora
+771 paljenje/gašenje lampe
+180 dizanje/spuštanje televizora
+05.12.2017. 03:19:14 - [INFO] - 
+-------------------------------------------------------------
+[Senzor] 708 svjetlo pridruzen je aktuatorima:  
+-------------------------------------------------------------
+173 dizanje/spuštanje televizora
+180 dizanje/spuštanje televizora
+05.12.2017. 03:19:14 - [INFO] - 
+-------------------------------------------------------------
+[Senzor] 34 prepreka pridruzen je aktuatorima:  
+-------------------------------------------------------------
+771 paljenje/gašenje lampe
+180 dizanje/spuštanje televizora
+05.12.2017. 03:19:14 - [INFO] - 
+-------------------------------------------------------------
+[Senzor] 718 unutarnja temperatura pridruzen je aktuatorima:  
+-------------------------------------------------------------
+771 paljenje/gašenje lampe
+180 dizanje/spuštanje televizora
+286 otvaranje/zatvaranje vrata
+05.12.2017. 03:19:14 - [INFO] - 
+-------------------------------------------------------------
+[Senzor] 668 prepreka pridruzen je aktuatorima:  
+-------------------------------------------------------------
+173 dizanje/spuštanje televizora
+180 dizanje/spuštanje televizora
+286 otvaranje/zatvaranje vrata
+05.12.2017. 03:19:14 - [INFO] - 
+-------------------------------------------------------------
+[Aktuator] 180 dizanje/spuštanje televizora pridruzeni su senzori:  
+-------------------------------------------------------------
+762 dim
+708 svjetlo
+34 prepreka
+718 unutarnja temperatura
+668 prepreka
+05.12.2017. 03:19:14 - [INFO] - 
+-------------------------------------------------------------
+[Senzor] 735 kontakt pridruzen je aktuatorima:  
+-------------------------------------------------------------
+286 otvaranje/zatvaranje vrata
+05.12.2017. 03:19:14 - [INFO] - 
+-------------------------------------------------------------
+[Senzor] 668 prepreka pridruzen je aktuatorima:  
+-------------------------------------------------------------
+173 dizanje/spuštanje televizora
+180 dizanje/spuštanje televizora
+286 otvaranje/zatvaranje vrata
+05.12.2017. 03:19:14 - [INFO] - 
+-------------------------------------------------------------
+[Senzor] 718 unutarnja temperatura pridruzen je aktuatorima:  
+-------------------------------------------------------------
+771 paljenje/gašenje lampe
+180 dizanje/spuštanje televizora
+286 otvaranje/zatvaranje vrata
+05.12.2017. 03:19:14 - [INFO] - 
+-------------------------------------------------------------
+[Aktuator] 286 otvaranje/zatvaranje vrata pridruzeni su senzori:  
+-------------------------------------------------------------
+735 kontakt
+668 prepreka
+718 unutarnja temperatura
+05.12.2017. 03:19:14 - [INFO] - 
+-------------------------------------------------------------
+	Opremam mjesto 588 FOI 1 - parkiralište
+-------------------------------------------------------------
+
+05.12.2017. 03:19:14 - [INFO] - 
+-------------------------------------------------------------
+[Senzor] 419 prepreka pridruzen je aktuatorima:  
+-------------------------------------------------------------
+754 snimanje kamerom
+05.12.2017. 03:19:14 - [INFO] - 
+-------------------------------------------------------------
+[Aktuator] 754 snimanje kamerom pridruzeni su senzori:  
+-------------------------------------------------------------
+419 prepreka
+05.12.2017. 03:19:14 - [INFO] - 
+-------------------------------------------------------------
+[Senzor] 361 vlaga pridruzen je aktuatorima:  
+-------------------------------------------------------------
+559 dizanje/spuštanje rampe
+05.12.2017. 03:19:14 - [INFO] - 
+-------------------------------------------------------------
+[Senzor] 420 svjetlo pridruzen je aktuatorima:  
+-------------------------------------------------------------
+559 dizanje/spuštanje rampe
+05.12.2017. 03:19:14 - [INFO] - 
+-------------------------------------------------------------
+[Aktuator] 559 dizanje/spuštanje rampe pridruzeni su senzori:  
+-------------------------------------------------------------
+361 vlaga
+420 svjetlo
+05.12.2017. 03:19:14 - [INFO] - 
+-------------------------------------------------------------
+	Opremam mjesto 673 FOI 1 - knjižnica
+-------------------------------------------------------------
+
+05.12.2017. 03:19:14 - [INFO] - 
+-------------------------------------------------------------
+[Senzor] 732 kontakt pridruzen je aktuatorima:  
+-------------------------------------------------------------
+700 paljenje/gašenje lampe
+05.12.2017. 03:19:14 - [INFO] - 
+-------------------------------------------------------------
+[Aktuator] 700 paljenje/gašenje lampe pridruzeni su senzori:  
+-------------------------------------------------------------
+732 kontakt
+05.12.2017. 03:19:14 - [INFO] - 
+-------------------------------------------------------------
+[Senzor] 736 prepreka pridruzen je aktuatorima:  
+-------------------------------------------------------------
+693 otvaranje/zatvaranje vrata
+05.12.2017. 03:19:14 - [INFO] - 
+-------------------------------------------------------------
+[Aktuator] 693 otvaranje/zatvaranje vrata pridruzeni su senzori:  
+-------------------------------------------------------------
+736 prepreka
+05.12.2017. 03:19:14 - [INFO] - 
+-------------------------------------------------------------
+	Opremam mjesto 737 FOI 1 - restoran
+-------------------------------------------------------------
+
+05.12.2017. 03:19:14 - [INFO] - 
+-------------------------------------------------------------
+[Senzor] 230 unutarnja temperatura pridruzen je aktuatorima:  
+-------------------------------------------------------------
+243 paljenje/gašenje lampe
+43 otvaranje/zatvaranje vrata
+05.12.2017. 03:19:14 - [INFO] - 
+-------------------------------------------------------------
+[Aktuator] 243 paljenje/gašenje lampe pridruzeni su senzori:  
+-------------------------------------------------------------
+230 unutarnja temperatura
+05.12.2017. 03:19:14 - [INFO] - 
+-------------------------------------------------------------
+[Senzor] 923 prepreka pridruzen je aktuatorima:  
+-------------------------------------------------------------
+43 otvaranje/zatvaranje vrata
+05.12.2017. 03:19:14 - [INFO] - 
+-------------------------------------------------------------
+[Senzor] 230 unutarnja temperatura pridruzen je aktuatorima:  
+-------------------------------------------------------------
+243 paljenje/gašenje lampe
+43 otvaranje/zatvaranje vrata
+05.12.2017. 03:19:14 - [INFO] - 
+-------------------------------------------------------------
+[Aktuator] 43 otvaranje/zatvaranje vrata pridruzeni su senzori:  
+-------------------------------------------------------------
+923 prepreka
+230 unutarnja temperatura
+05.12.2017. 03:19:14 - [INFO] - 
+-------------------------------------------------------------
+[Senzor] 57 svjetlo pridruzen je aktuatorima:  
+-------------------------------------------------------------
+172 paljenje/gašenje lampe
+05.12.2017. 03:19:14 - [INFO] - 
+-------------------------------------------------------------
+[Aktuator] 172 paljenje/gašenje lampe pridruzeni su senzori:  
+-------------------------------------------------------------
+57 svjetlo
+05.12.2017. 03:19:14 - [INFO] - 
+-------------------------------------------------------------
+	Opremam mjesto 850 FOI 1 - ulazna vrata
+-------------------------------------------------------------
+
+05.12.2017. 03:19:14 - [INFO] - 
+-------------------------------------------------------------
+[Senzor] 732 vlaga pridruzen je aktuatorima:  
+-------------------------------------------------------------
+598 paljenje/gašenje lampe
+208 paljenje/gašenje lampe
+05.12.2017. 03:19:14 - [INFO] - 
+-------------------------------------------------------------
+[Senzor] 973 unutarnja temperatura pridruzen je aktuatorima:  
+-------------------------------------------------------------
+598 paljenje/gašenje lampe
+05.12.2017. 03:19:14 - [INFO] - 
+-------------------------------------------------------------
+[Aktuator] 598 paljenje/gašenje lampe pridruzeni su senzori:  
+-------------------------------------------------------------
+732 vlaga
+973 unutarnja temperatura
+05.12.2017. 03:19:14 - [INFO] - 
+-------------------------------------------------------------
+[Senzor] 660 kontakt pridruzen je aktuatorima:  
+-------------------------------------------------------------
+208 paljenje/gašenje lampe
+05.12.2017. 03:19:14 - [INFO] - 
+-------------------------------------------------------------
+[Senzor] 732 vlaga pridruzen je aktuatorima:  
+-------------------------------------------------------------
+598 paljenje/gašenje lampe
+208 paljenje/gašenje lampe
