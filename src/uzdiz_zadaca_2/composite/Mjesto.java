@@ -92,7 +92,8 @@ public class Mjesto implements Foi {
     }
 
     public void opremanjeMjesta() {
-        ArrayList<Senzor> senzori = new ArrayList<Senzor>();
+        ArrayList<Senzor> senzori = new ArrayList<>();
+
         for (Uredjaj uredjaj : this.uredjaji) {
             if (uredjaj instanceof Aktuator) {
                 this.add((Aktuator) uredjaj);
@@ -104,11 +105,15 @@ public class Mjesto implements Foi {
         String poruka = "";
 
         for (Aktuator aktuator : this.aktuatori) {
-           
             for (int i = 1; i <= RandomNumber.dajSlucajniBroj(1, this.brojSenzora); i++) {
                 Senzor senzor = senzori.get(RandomNumber.dajSlucajniBroj(0, senzori.size() - 1));
-                senzor.add(aktuator);
-                aktuator.add(senzor);
+                
+                // ukoliko je aktuatoru vec pridruzen senzor, preskoci ga
+                if (!aktuator.getSenzori().contains(senzor)) {
+                    senzor.add(aktuator);
+                    aktuator.add(senzor);
+                }
+
             }
 
         }

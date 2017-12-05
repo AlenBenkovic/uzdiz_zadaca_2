@@ -6,10 +6,13 @@
 package uzdiz_zadaca_2.composite;
 
 import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.List;
-import uzdiz_zadaca_2.iterator.Iterator;
+import uzdiz_zadaca_2.factory.FoiFactory;
+import uzdiz_zadaca_2.factory.UredjajFactory;
 import uzdiz_zadaca_2.iterator.MjestoIterator;
 import uzdiz_zadaca_2.logs.FoiLogger;
+import uzdiz_zadaca_2.iterator.FoiIterator;
 
 /**
  *
@@ -19,7 +22,7 @@ public class FoiZgrada implements Foi {
 
     private final FoiLogger logger = FoiLogger.getInstance();
 
-    private List<Mjesto> mjesta = new ArrayList<Mjesto>();
+    private List<Mjesto> mjesta = new ArrayList<>();
 
     @Override
     public void provjera() {
@@ -38,13 +41,13 @@ public class FoiZgrada implements Foi {
         this.mjesta = mjesta;
     }
 
-    public Iterator createIterator() {
+    public FoiIterator createIterator() {
         return new MjestoIterator(this.mjesta);
     }
 
     @Override
     public boolean inicijalizacija() {
-        Iterator iterator = this.createIterator();
+        FoiIterator iterator = this.createIterator();
         while (iterator.hasNext()) {
             Mjesto m = (Mjesto) iterator.next();
             String poruka = "\n-------------------------------------------------------------"
@@ -55,9 +58,27 @@ public class FoiZgrada implements Foi {
         }
         return true;
     }
-    
-        public void opremanjeMjesta() {
-        Iterator iterator = this.createIterator();
+
+    public void postaviUredjaje(HashMap params) {
+        FoiFactory factory = new UredjajFactory(params);
+        for (Mjesto m : this.mjesta) {
+            String poruka = "\n-------------------------------------------------------------"
+                    + "\n\tPostavljam uredjaje za " + m.naziv
+                    + "\n-------------------------------------------------------------\n";
+            this.logger.log(poruka, "info");
+
+            for (int i = 0; i <= m.brojSenzora; i++) {
+                m.addUredjaj(factory.kreirajUredjaj(true, m.tip));
+            }
+
+            for (int i = 0; i <= m.brojAktuatora; i++) {
+                m.addUredjaj(factory.kreirajUredjaj(false, m.tip));
+            }
+        }
+    }
+
+    public void opremanjeMjesta() {
+        FoiIterator iterator = this.createIterator();
         while (iterator.hasNext()) {
             Mjesto m = (Mjesto) iterator.next();
             String poruka = "\n-------------------------------------------------------------"
@@ -67,6 +88,5 @@ public class FoiZgrada implements Foi {
             m.opremanjeMjesta();
         }
     }
-    
 
 }

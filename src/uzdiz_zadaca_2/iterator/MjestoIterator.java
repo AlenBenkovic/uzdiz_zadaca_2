@@ -13,7 +13,7 @@ import uzdiz_zadaca_2.composite.Mjesto;
  *
  * @author abenkovic
  */
-public class MjestoIterator implements Iterator {
+public class MjestoIterator implements FoiIterator {
 
     List<Mjesto> mjesta;
     int position = 0;

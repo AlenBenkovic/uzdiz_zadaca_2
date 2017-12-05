@@ -11,7 +11,7 @@ import uzdiz_zadaca_2.composite.Mjesto;
  *
  * @author abenkovic
  */
-public interface Iterator {
+public interface FoiIterator {
     
     boolean hasNext();
     

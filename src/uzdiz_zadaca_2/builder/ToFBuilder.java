@@ -11,81 +11,67 @@ import uzdiz_zadaca_2.composite.Mjesto;
 import uzdiz_zadaca_2.factory.FoiFactory;
 import uzdiz_zadaca_2.factory.MjestoFactory;
 import uzdiz_zadaca_2.factory.UredjajFactory;
-import uzdiz_zadaca_2.iterator.Iterator;
 import uzdiz_zadaca_2.logs.FoiLogger;
+import uzdiz_zadaca_2.iterator.FoiIterator;
 
 /**
  *
  * @author abenkovic
  */
 public class ToFBuilder {
-    
+
     public ToFBuilder(Builder builder) {
-        
+
     }
 
     public static class Builder {
-        private final HashMap params;  
+
+        private final HashMap params;
         private final FoiLogger logger = FoiLogger.getInstance();
         private final FoiZgrada foiZgrada = new FoiZgrada();
-        
+
         public Builder(HashMap params) {
-            this.params = params;   
+            this.params = params;
             this.logger.init(this.params.get("-i").toString(), Integer.parseInt(this.params.get("-brl").toString()));
         }
-        
-        public Builder kreirajMjesta(){
+
+        public Builder kreirajMjesta() {
             FoiFactory factory = new MjestoFactory();
-            
+
             factory.kreirajMjesta(this.params.get("-m").toString()).forEach((m) -> {
                 this.foiZgrada.add(m);
-            });     
-            
+            });
+
             return this;
         }
-        
+
         public Builder postaviUredjaje() {
-             FoiFactory factory = new UredjajFactory(this.params);
-            for(Mjesto m : this.foiZgrada.getMjesta()){
-                String poruka = "\n-------------------------------------------------------------"
-                    + "\n\tPostavljam uredjaje za " + m.naziv
-                    + "\n-------------------------------------------------------------\n";
-                this.logger.log(poruka, "info");
-                
-                for(int i=0; i<= m.brojSenzora; i++){
-                    m.addUredjaj(factory.kreirajUredjaj(true, m.tip));
-                }
-                
-                for(int i=0; i<= m.brojAktuatora; i++){
-                    m.addUredjaj(factory.kreirajUredjaj(false, m.tip));
-                }
-            }
-            
+            this.foiZgrada.postaviUredjaje(this.params);
+
             return this;
         }
 
         public Builder inicijalizacija() {
             this.foiZgrada.inicijalizacija();
-            
+
             return this;
         }
-        
+
         public Builder opremanjeMjesta() {
             this.foiZgrada.opremanjeMjesta();
-            
+
             return this;
 
         }
-        
+
         public ToFBuilder build() {
             return new ToFBuilder(this);
         }
 
     }
-    
+
     public void radiProvjere() {
 
     }
-    
 
 }

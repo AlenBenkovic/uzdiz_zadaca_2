@@ -54,7 +54,7 @@ public class Senzor extends Uredjaj implements Foi {
                 + "\nSenzor " + this.id + " " + this.naziv + " pridruzen je aktuatorima:  "
                 + "\n-------------------------------------------------------------";
         for (Aktuator a : this.aktuatori) {
-            poruka = poruka + "\n" + a.naziv ;
+            poruka = poruka + "\n" + a.id + " " + a.naziv ;
         }
         super.logger.log(poruka, "info");
     }
