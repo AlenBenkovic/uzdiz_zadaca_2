@@ -19,7 +19,7 @@ public class Uzdiz_zadaca_2 {
      */
     public static void main(String[] args) {
         if (Params.checkArgs(args)) {
-            ToFBuilder tof = new ToFBuilder.Builder(Params.params)
+            ToFBuilder tof = new ToFBuilder.Builder()
                     .kreirajMjesta()
                     .postaviUredjaje()
                     .inicijalizacija()

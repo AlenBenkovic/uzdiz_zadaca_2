@@ -59,8 +59,8 @@ public class FoiZgrada implements Foi {
         return true;
     }
 
-    public void postaviUredjaje(HashMap params) {
-        FoiFactory factory = new UredjajFactory(params);
+    public void postaviUredjaje() {
+        FoiFactory factory = new UredjajFactory();
         for (Mjesto m : this.mjesta) {
             String poruka = "\n-------------------------------------------------------------"
                     + "\n\tPostavljam uredjaje za " + m.naziv

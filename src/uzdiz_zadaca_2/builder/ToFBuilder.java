@@ -13,32 +13,33 @@ import uzdiz_zadaca_2.factory.MjestoFactory;
 import uzdiz_zadaca_2.factory.UredjajFactory;
 import uzdiz_zadaca_2.logs.FoiLogger;
 import uzdiz_zadaca_2.iterator.FoiIterator;
+import uzdiz_zadaca_2.utils.Params;
 
 /**
  *
  * @author abenkovic
  */
 public class ToFBuilder {
+    private final FoiLogger logger = FoiLogger.getInstance();
+    private final FoiZgrada foiZgrada;
 
     public ToFBuilder(Builder builder) {
-
+        this.foiZgrada = builder.foiZgrada;
     }
 
     public static class Builder {
 
-        private final HashMap params;
         private final FoiLogger logger = FoiLogger.getInstance();
         private final FoiZgrada foiZgrada = new FoiZgrada();
 
-        public Builder(HashMap params) {
-            this.params = params;
-            this.logger.init(this.params.get("-i").toString(), Integer.parseInt(this.params.get("-brl").toString()));
+        public Builder() {
+            this.logger.init(Params.params.get("-i").toString(), Integer.parseInt(Params.params.get("-brl").toString()));
         }
 
         public Builder kreirajMjesta() {
             FoiFactory factory = new MjestoFactory();
 
-            factory.kreirajMjesta(this.params.get("-m").toString()).forEach((m) -> {
+            factory.kreirajMjesta(Params.params.get("-m").toString()).forEach((m) -> {
                 this.foiZgrada.add(m);
             });
 
@@ -46,7 +47,7 @@ public class ToFBuilder {
         }
 
         public Builder postaviUredjaje() {
-            this.foiZgrada.postaviUredjaje(this.params);
+            this.foiZgrada.postaviUredjaje();
 
             return this;
         }
@@ -71,6 +72,25 @@ public class ToFBuilder {
     }
 
     public void radiProvjere() {
+        Runnable dretva = () -> {
+            int i = 0;
+            while (i < Integer.parseInt(Params.params.get("-bcd").toString())) {
+                try {
+                    i++;
+                    Thread.sleep(Integer.parseInt(Params.params.get("-tcd").toString()) * 1000);
+
+                    for (Mjesto mjesto : this.foiZgrada.getMjesta()) {
+                        this.logger.log("aa", "info");
+                    }
+
+                } catch (InterruptedException ex) {
+                    System.out.println("Problem sa dretvom...");
+                }
+
+            }
+        };
+
+        new Thread(dretva).start();
 
     }
 

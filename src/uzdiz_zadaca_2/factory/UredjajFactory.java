@@ -29,7 +29,7 @@ public class UredjajFactory extends FoiFactory {
     ArrayList<String[]> popisSenzora;
     ArrayList<String[]> popisAktuatora;
 
-    public UredjajFactory(HashMap params) {
+    public UredjajFactory() {
         this.popisAktuatora = new ArrayList<>();
         this.popisSenzora = new ArrayList<>();
         this.ucitajPopisUredjaja(true); // ucitavam senzore
