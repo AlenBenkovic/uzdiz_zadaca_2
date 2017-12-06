@@ -54,12 +54,9 @@ public class Aktuator extends Uredjaj implements Foi {
                 + "\n[Aktuator] " + this.id + " " + this.naziv + " pridruzeni su senzori:  "
                 + "\n-------------------------------------------------------------";
         for (Senzor s : this.senzori) {
-            s.pridruzenostUredjaja();
-            poruka = poruka + "\n" + s.id + " " +  s.naziv;
+            poruka = poruka + "\n" + s.id + " " + s.naziv;
         }
         super.logger.log(poruka, "info");
     }
-    
-    
 
 }
