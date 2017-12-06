@@ -5,6 +5,7 @@
  */
 package uzdiz_zadaca_2.builder;
 
+import java.util.List;
 import uzdiz_zadaca_2.composite.FoiZgrada;
 import uzdiz_zadaca_2.composite.Mjesto;
 import uzdiz_zadaca_2.composite.Uredjaj;
@@ -83,12 +84,20 @@ public class ToFBuilder {
                     Thread.sleep(Integer.parseInt(Params.params.get("-tcd").toString()) * 1000);
 
                     for (Mjesto mjesto : this.foiZgrada.getMjesta()) {
-                        FoiIterator iterator = new AlgoritamObrnuto(mjesto.getUredjaji());
-                        while (iterator.hasNext()) {
-                            Uredjaj u = (Uredjaj) iterator.next();
-                            System.out.println(u.id + " " + u.naziv);
+                        try {
+                            
+                            FoiIterator iterator = (FoiIterator) Class.forName(Params.params.get("-alg").toString())
+                                    .getConstructor(List.class).newInstance(mjesto.getUredjaji());
+                            
+                            while (iterator.hasNext()) {
+                                Uredjaj u = (Uredjaj) iterator.next();
+                                System.out.println(u.id + " " + u.naziv);
+                            }
+                            System.out.println("--------\n");
+                        } catch (Exception e) {
+                            this.logger.log("Greska prilikom ucitavanja klase", "warning");
                         }
-                        System.out.println("--------\n");
+
                     }
 
                 } catch (InterruptedException ex) {

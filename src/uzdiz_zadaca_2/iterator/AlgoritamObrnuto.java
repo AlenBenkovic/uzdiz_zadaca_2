@@ -17,6 +17,8 @@ public class AlgoritamObrnuto implements FoiIterator {
 
     List<Uredjaj> uredjaji;
     int position = 0;
+    
+    
 
     public AlgoritamObrnuto(List<Uredjaj> uredjaji) {
         this.uredjaji = uredjaji;
