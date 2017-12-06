@@ -24,8 +24,8 @@ public class Mjesto implements Foi {
     public int id;
 
     List<Uredjaj> uredjaji; // koristim samo jednu listu uredjaja radi prikaza pridruzenosti senzora i aktuatora,
-                            // radi kompozicije ovdje bi radije stavio samo aktuatore
-                            // ali na taj nacin cu dobiti dupli prikaz pridruzenosti senzora
+    // radi kompozicije ovdje bi radije stavio samo aktuatore
+    // ali na taj nacin cu dobiti dupli prikaz pridruzenosti senzora
 
     public Mjesto(String naziv, int tip, int brojSenzora, int brojAktuatora) {
         this.uredjaji = new ArrayList<>();
@@ -38,7 +38,7 @@ public class Mjesto implements Foi {
 
     @Override
     public void provjera() {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+        //throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
     }
 
     public void addUredjaj(Uredjaj uredjaj) {
@@ -82,19 +82,24 @@ public class Mjesto implements Foi {
         for (Uredjaj uredjaj : this.uredjaji) {
             if (uredjaj instanceof Aktuator) {
                 aktuatori.add((Aktuator) uredjaj);
-            } else {
+            } else if (uredjaj instanceof Senzor) {
                 senzori.add((Senzor) uredjaj);
             }
         }
 
         for (Aktuator aktuator : aktuatori) {
             for (int i = 1; i <= RandomNumber.dajSlucajniBroj(1, this.brojSenzora); i++) {
-                Senzor senzor = senzori.get(RandomNumber.dajSlucajniBroj(0, senzori.size() - 1));
+                try {
+                    Senzor senzor = senzori.get(RandomNumber.dajSlucajniBroj(0, senzori.size() - 1));
 
-                // ukoliko je aktuatoru vec pridruzen senzor, preskoci ga
-                if (!aktuator.getSenzori().contains(senzor)) {
-                    senzor.add(aktuator);
-                    aktuator.add(senzor);
+                    // ukoliko je aktuatoru vec pridruzen senzor, preskoci ga
+                    if (!aktuator.getSenzori().contains(senzor)) {
+                        senzor.add(aktuator);
+                        aktuator.add(senzor);
+                    }
+
+                } catch (Exception e) {
+                    this.logger.log("Greska kod dodjele senzora: " + e.toString(), "warning");
                 }
 
             }

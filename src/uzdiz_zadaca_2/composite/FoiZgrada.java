@@ -25,7 +25,7 @@ public class FoiZgrada implements Foi {
 
     @Override
     public void provjera() {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+        //throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
     }
 
     public void add(Mjesto mjesto) {

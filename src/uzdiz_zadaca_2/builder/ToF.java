@@ -11,9 +11,6 @@ import uzdiz_zadaca_2.composite.Mjesto;
 import uzdiz_zadaca_2.composite.Uredjaj;
 import uzdiz_zadaca_2.factory.FoiFactory;
 import uzdiz_zadaca_2.factory.MjestoFactory;
-import uzdiz_zadaca_2.iterator.AlgoritamNasumicno;
-import uzdiz_zadaca_2.iterator.AlgoritamObrnuto;
-import uzdiz_zadaca_2.iterator.AlgoritamSlijedno;
 import uzdiz_zadaca_2.iterator.FoiIterator;
 import uzdiz_zadaca_2.logs.FoiLogger;
 import uzdiz_zadaca_2.utils.Params;
@@ -22,12 +19,12 @@ import uzdiz_zadaca_2.utils.Params;
  *
  * @author abenkovic
  */
-public class ToFBuilder {
+public class ToF {
 
     private final FoiLogger logger = FoiLogger.getInstance();
     private final FoiZgrada foiZgrada;
 
-    public ToFBuilder(Builder builder) {
+    public ToF(Builder builder) {
         this.foiZgrada = builder.foiZgrada;
     }
 
@@ -69,8 +66,8 @@ public class ToFBuilder {
 
         }
 
-        public ToFBuilder build() {
-            return new ToFBuilder(this);
+        public ToF build() {
+            return new ToF(this);
         }
 
     }
@@ -86,16 +83,17 @@ public class ToFBuilder {
                     for (Mjesto mjesto : this.foiZgrada.getMjesta()) {
                         try {
                             
+                            // kreiram iterator klase X na temelju korisnikovog unosa
                             FoiIterator iterator = (FoiIterator) Class.forName(Params.params.get("-alg").toString())
                                     .getConstructor(List.class).newInstance(mjesto.getUredjaji());
                             
                             while (iterator.hasNext()) {
                                 Uredjaj u = (Uredjaj) iterator.next();
-                                System.out.println(u.id + " " + u.naziv);
+                                System.out.println(u.id + " " + u.naziv + " " + u.status() );
                             }
                             System.out.println("--------\n");
                         } catch (Exception e) {
-                            this.logger.log("Greska prilikom ucitavanja klase", "warning");
+                            this.logger.log("Greska prilikom ucitavanja klase: " + e.getMessage(), "warning");
                         }
 
                     }

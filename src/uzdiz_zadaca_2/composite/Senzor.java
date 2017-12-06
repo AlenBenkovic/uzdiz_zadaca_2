@@ -24,12 +24,7 @@ public class Senzor extends Uredjaj implements Foi {
 
     @Override
     public void provjera() {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
-    }
-
-    @Override
-    public boolean inicijalizacija() {
-        return RandomNumber.dajSlucajniBroj(0, 100) < 90;
+        //throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
     }
 
     public List<Aktuator> getAktuatori() {
@@ -58,5 +53,7 @@ public class Senzor extends Uredjaj implements Foi {
         }
         super.logger.log(poruka, "info");
     }
+    
+    
 
 }

@@ -12,8 +12,8 @@ import uzdiz_zadaca_2.utils.RandomNumber;
  *
  * @author abenkovic
  */
-public abstract class Uredjaj implements Foi{
-    
+public abstract class Uredjaj implements Foi {
+
     public String naziv;
     public int tip;
     public int vrsta;
@@ -41,15 +41,19 @@ public abstract class Uredjaj implements Foi{
 
     @Override
     public void provjera() {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+        //throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
     }
 
     @Override
     public boolean inicijalizacija() {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+        return RandomNumber.dajSlucajniBroj(0, 100) < 90;
     }
-    
+
     public abstract void pridruzenostUredjaja();
-    
-    
+
+    public boolean status() {
+        return RandomNumber.dajSlucajniBroj(0, 100) < 90;
+    }
+;
+
 }
