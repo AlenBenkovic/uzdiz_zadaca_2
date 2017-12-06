@@ -7,7 +7,6 @@ package uzdiz_zadaca_2.composite;
 
 import java.util.ArrayList;
 import java.util.List;
-import uzdiz_zadaca_2.utils.RandomNumber;
 
 /**
  *
@@ -20,11 +19,6 @@ public class Aktuator extends Uredjaj implements Foi {
     public Aktuator(String naziv, int tip, int vrsta, float min, float max, String komentar) {
         super(naziv, tip, vrsta, min, max, komentar);
         this.senzori = new ArrayList<Senzor>();
-    }
-
-    @Override
-    public void provjera() {
-        //throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
     }
 
     public void add(Senzor senzor) {
@@ -43,7 +37,6 @@ public class Aktuator extends Uredjaj implements Foi {
         this.senzori = senzori;
     }
 
-
     @Override
     public void pridruzenostUredjaja() {
         String poruka = "\n-------------------------------------------------------------"
@@ -53,6 +46,11 @@ public class Aktuator extends Uredjaj implements Foi {
             poruka = poruka + "\n" + s.id + " " + s.naziv;
         }
         super.logger.log(poruka, "info");
+    }
+
+    @Override
+    public Uredjaj zamjena() {
+        return new Aktuator(this.naziv, this.tip, this.vrsta, this.min, this.max, this.komentar);
     }
     
     

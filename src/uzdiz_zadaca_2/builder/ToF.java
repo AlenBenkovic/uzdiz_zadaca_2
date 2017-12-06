@@ -80,23 +80,7 @@ public class ToF {
                     i++;
                     Thread.sleep(Integer.parseInt(Params.params.get("-tcd").toString()) * 1000);
 
-                    for (Mjesto mjesto : this.foiZgrada.getMjesta()) {
-                        try {
-                            
-                            // kreiram iterator klase X na temelju korisnikovog unosa
-                            FoiIterator iterator = (FoiIterator) Class.forName(Params.params.get("-alg").toString())
-                                    .getConstructor(List.class).newInstance(mjesto.getUredjaji());
-                            
-                            while (iterator.hasNext()) {
-                                Uredjaj u = (Uredjaj) iterator.next();
-                                System.out.println(u.id + " " + u.naziv + " " + u.status() );
-                            }
-                            System.out.println("--------\n");
-                        } catch (Exception e) {
-                            this.logger.log("Greska prilikom ucitavanja klase: " + e.getMessage(), "warning");
-                        }
-
-                    }
+                    this.foiZgrada.provjera();
 
                 } catch (InterruptedException ex) {
                     this.logger.log("Problem u radu sa dretvom", "warning");

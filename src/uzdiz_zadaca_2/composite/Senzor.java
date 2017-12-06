@@ -22,10 +22,6 @@ public class Senzor extends Uredjaj implements Foi {
         this.aktuatori = new ArrayList<Aktuator>();
     }
 
-    @Override
-    public void provjera() {
-        //throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
-    }
 
     public List<Aktuator> getAktuatori() {
         return aktuatori;
@@ -52,6 +48,11 @@ public class Senzor extends Uredjaj implements Foi {
             poruka = poruka + "\n" + a.id + " " + a.naziv;
         }
         super.logger.log(poruka, "info");
+    }
+
+    @Override
+    public Uredjaj zamjena() {
+        return new Senzor(this.naziv, this.tip, this.vrsta, this.min, this.max, this.komentar);
     }
     
     

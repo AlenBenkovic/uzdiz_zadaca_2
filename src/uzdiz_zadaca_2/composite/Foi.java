@@ -11,7 +11,7 @@ package uzdiz_zadaca_2.composite;
  */
 public interface Foi {
     
-    public void provjera();
+    public boolean provjera();
     
     public boolean inicijalizacija();
     

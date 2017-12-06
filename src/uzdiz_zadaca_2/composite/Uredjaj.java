@@ -40,8 +40,21 @@ public abstract class Uredjaj implements Foi {
     }
 
     @Override
-    public void provjera() {
-        //throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    public boolean provjera() {
+        int status = this.status();
+        if (status < 1) {
+            this.neuspjesneProvjere++;
+            if (this.neuspjesneProvjere > 2) {
+                this.onemogucen = true;
+            }
+        }
+
+        this.logger.log("\n-----------\nUredjaj: " + this.id + " " + this.naziv
+                + "\nStatus: " + status + " (neuspjesne provjere: " + this.neuspjesneProvjere + ")"
+                + "\nVrijednost: NaN", status > 0 ? "info" : "warning");
+
+        return this.onemogucen;
+
     }
 
     @Override
@@ -51,9 +64,10 @@ public abstract class Uredjaj implements Foi {
 
     public abstract void pridruzenostUredjaja();
 
-    public boolean status() {
-        return RandomNumber.dajSlucajniBroj(0, 100) < 90;
+    public int status() {
+        return RandomNumber.dajSlucajniBroj(0, 100) < 90 ? 1 : 0;
     }
-;
+
+    public abstract Uredjaj zamjena();
 
 }

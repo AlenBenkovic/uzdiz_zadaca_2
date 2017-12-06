@@ -7,7 +7,9 @@ package uzdiz_zadaca_2.composite;
 
 import java.util.ArrayList;
 import java.util.List;
+import uzdiz_zadaca_2.iterator.FoiIterator;
 import uzdiz_zadaca_2.logs.FoiLogger;
+import uzdiz_zadaca_2.utils.Params;
 import uzdiz_zadaca_2.utils.RandomNumber;
 
 /**
@@ -37,8 +39,26 @@ public class Mjesto implements Foi {
     }
 
     @Override
-    public void provjera() {
-        //throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    public boolean provjera() {
+        try {
+
+            // kreiram iterator klase X na temelju korisnickog unosa
+            FoiIterator iterator = (FoiIterator) Class.forName(Params.params.get("-alg").toString())
+                    .getConstructor(List.class).newInstance(this.uredjaji);
+
+            while (iterator.hasNext()) {
+                Uredjaj u = (Uredjaj) iterator.next();
+                if(u.provjera()){
+                    this.logger.log("Radim zamjenu uredjaja", "warning");
+                    this.uredjaji.add(u.zamjena());
+                    this.uredjaji.remove(u);
+                }
+            }
+        } catch (Exception e) {
+            this.logger.log("Greska prilikom ucitavanja klase: " + e.getMessage(), "warning");
+        }
+        
+        return true;
     }
 
     public void addUredjaj(Uredjaj uredjaj) {

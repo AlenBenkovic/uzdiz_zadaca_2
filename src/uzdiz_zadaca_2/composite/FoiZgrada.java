@@ -12,6 +12,7 @@ import uzdiz_zadaca_2.factory.UredjajFactory;
 import uzdiz_zadaca_2.iterator.MjestoIterator;
 import uzdiz_zadaca_2.logs.FoiLogger;
 import uzdiz_zadaca_2.iterator.FoiIterator;
+import uzdiz_zadaca_2.utils.Params;
 
 /**
  *
@@ -24,8 +25,15 @@ public class FoiZgrada implements Foi {
     private List<Mjesto> mjesta = new ArrayList<>();
 
     @Override
-    public void provjera() {
-        //throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    public boolean provjera() {
+        for (Mjesto m : mjesta) {
+            String poruka = "\n-------------------------------------------------------------"
+                    + "\n\tRadim provjeru uredjaja za " + m.id + " " + m.naziv
+                    + "\n-------------------------------------------------------------\n";
+            this.logger.log(poruka, "info");
+            m.provjera();
+        }
+        return true;
     }
 
     public void add(Mjesto mjesto) {
