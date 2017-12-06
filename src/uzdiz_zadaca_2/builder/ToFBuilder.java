@@ -5,14 +5,16 @@
  */
 package uzdiz_zadaca_2.builder;
 
-import java.util.HashMap;
 import uzdiz_zadaca_2.composite.FoiZgrada;
 import uzdiz_zadaca_2.composite.Mjesto;
+import uzdiz_zadaca_2.composite.Uredjaj;
 import uzdiz_zadaca_2.factory.FoiFactory;
 import uzdiz_zadaca_2.factory.MjestoFactory;
-import uzdiz_zadaca_2.factory.UredjajFactory;
-import uzdiz_zadaca_2.logs.FoiLogger;
+import uzdiz_zadaca_2.iterator.AlgoritamNasumicno;
+import uzdiz_zadaca_2.iterator.AlgoritamObrnuto;
+import uzdiz_zadaca_2.iterator.AlgoritamSlijedno;
 import uzdiz_zadaca_2.iterator.FoiIterator;
+import uzdiz_zadaca_2.logs.FoiLogger;
 import uzdiz_zadaca_2.utils.Params;
 
 /**
@@ -20,6 +22,7 @@ import uzdiz_zadaca_2.utils.Params;
  * @author abenkovic
  */
 public class ToFBuilder {
+
     private final FoiLogger logger = FoiLogger.getInstance();
     private final FoiZgrada foiZgrada;
 
@@ -80,11 +83,16 @@ public class ToFBuilder {
                     Thread.sleep(Integer.parseInt(Params.params.get("-tcd").toString()) * 1000);
 
                     for (Mjesto mjesto : this.foiZgrada.getMjesta()) {
-                        this.logger.log("aa", "info");
+                        FoiIterator iterator = new AlgoritamObrnuto(mjesto.getUredjaji());
+                        while (iterator.hasNext()) {
+                            Uredjaj u = (Uredjaj) iterator.next();
+                            System.out.println(u.id + " " + u.naziv);
+                        }
+                        System.out.println("--------\n");
                     }
 
                 } catch (InterruptedException ex) {
-                    System.out.println("Problem sa dretvom...");
+                    this.logger.log("Problem u radu sa dretvom", "warning");
                 }
 
             }
