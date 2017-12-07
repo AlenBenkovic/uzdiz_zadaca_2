@@ -42,7 +42,15 @@ public abstract class Uredjaj implements Foi {
     @Override
     public boolean provjera() {
         int status = this.status();
+        float staraVrijednost = this.vrijednost;
         this.vrijednost = this.kreirajVrijednost();
+        if(this instanceof Senzor){
+            Senzor s = (Senzor)this;
+            if(staraVrijednost != vrijednost){
+                s.setImaNovuVrijednost(true);
+            }
+        }
+        
         if (status < 1) {
             this.neuspjesneProvjere++;
             if (this.neuspjesneProvjere > 2) {
@@ -53,6 +61,8 @@ public abstract class Uredjaj implements Foi {
         this.logger.log("\n-----------\nUredjaj: " + this.id + " " + this.naziv
                 + "\nStatus: " + status + " (neuspjesne provjere: " + this.neuspjesneProvjere + ")"
                 + "\nVrijednost: " + this.getVrijednost(), status > 0 ? "info" : "warning");
+        
+        
 
         return !this.onemogucen;
 

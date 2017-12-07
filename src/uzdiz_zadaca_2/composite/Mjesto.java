@@ -48,20 +48,29 @@ public class Mjesto implements Foi {
 
             while (iterator.hasNext()) {
                 Uredjaj u = (Uredjaj) iterator.next();
-                if(!u.provjera()){ // ako provjera nije uspjela
+                if (!u.provjera()) { // ako provjera nije uspjela
                     this.logger.log("Radim zamjenu uredjaja", "warning");
                     this.uredjaji.add(u.zamjena());
                     this.uredjaji.remove(u);
                 }
-                
-                if(u instanceof Aktuator){
-                    ((Aktuator) u).obaviRadnju();
+
+                if (u instanceof Aktuator) {
+                    boolean senzorDetektirao = false;
+                    for (Senzor s : ((Aktuator) u).getSenzori()) {
+                        if (s.imaNovuVrijednost) {
+                            senzorDetektirao = true;
+                        }
+                    }
+                    if (senzorDetektirao) {
+                        ((Aktuator) u).obaviRadnju();
+                    }
+
                 }
             }
         } catch (Exception e) {
             this.logger.log("Greska prilikom ucitavanja klase: " + e.getMessage(), "warning");
         }
-        
+
         return true;
     }
 

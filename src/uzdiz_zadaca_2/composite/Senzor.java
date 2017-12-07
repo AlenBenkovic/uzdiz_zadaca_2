@@ -7,7 +7,6 @@ package uzdiz_zadaca_2.composite;
 
 import java.util.ArrayList;
 import java.util.List;
-import uzdiz_zadaca_2.utils.RandomNumber;
 
 /**
  *
@@ -16,6 +15,7 @@ import uzdiz_zadaca_2.utils.RandomNumber;
 public class Senzor extends Uredjaj implements Foi {
 
     private List<Aktuator> aktuatori;
+    public boolean imaNovuVrijednost = false;
 
     public Senzor(String naziv, int tip, int vrsta, float min, float max, String komentar) {
         super(naziv, tip, vrsta, min, max, komentar);
@@ -54,6 +54,16 @@ public class Senzor extends Uredjaj implements Foi {
     public Uredjaj zamjena() {
         return new Senzor(this.naziv, this.tip, this.vrsta, this.min, this.max, this.komentar);
     }
+
+    public boolean isImaNovuVrijednost() {
+        return imaNovuVrijednost;
+    }
+
+    public void setImaNovuVrijednost(boolean imaNovuVrijednost) {
+        this.imaNovuVrijednost = imaNovuVrijednost;
+    }
+
+
     
     
 
