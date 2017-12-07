@@ -35,13 +35,14 @@ public abstract class Uredjaj implements Foi {
         this.min = min;
         this.max = max;
         this.komentar = komentar;
-        this.vrijednost = RandomNumber.dajSlucajniBroj(min, max);
+        this.vrijednost = this.kreirajVrijednost();
         this.id = RandomNumber.dajSlucajniBroj(1, 1000);
     }
 
     @Override
     public boolean provjera() {
         int status = this.status();
+        this.vrijednost = this.kreirajVrijednost();
         if (status < 1) {
             this.neuspjesneProvjere++;
             if (this.neuspjesneProvjere > 2) {
@@ -51,9 +52,9 @@ public abstract class Uredjaj implements Foi {
 
         this.logger.log("\n-----------\nUredjaj: " + this.id + " " + this.naziv
                 + "\nStatus: " + status + " (neuspjesne provjere: " + this.neuspjesneProvjere + ")"
-                + "\nVrijednost: NaN", status > 0 ? "info" : "warning");
+                + "\nVrijednost: " + this.getVrijednost(), status > 0 ? "info" : "warning");
 
-        return this.onemogucen;
+        return !this.onemogucen;
 
     }
 
@@ -69,5 +70,32 @@ public abstract class Uredjaj implements Foi {
     }
 
     public abstract Uredjaj zamjena();
+
+    public float kreirajVrijednost() {
+        switch (this.vrsta) {
+            case 0:
+            case 1:
+            case 2:
+                return RandomNumber.dajSlucajniBroj(this.min, this.max);
+            case 3:
+                return RandomNumber.dajSlucajniBroj((int)this.min, (int)this.max);
+        }
+        return 0;
+
+    }
+
+    public String getVrijednost() {
+        switch (this.vrsta) {
+            case 0:
+                return String.valueOf((int) this.vrijednost);
+            case 1:
+                return String.format("%.1f", this.vrijednost);
+            case 2:
+                return String.format("%.5f", this.vrijednost);
+            case 3:
+                return (int) this.vrijednost > 0 ? "da" : "ne";
+        }
+        return "nema";
+    }
 
 }

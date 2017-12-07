@@ -7,6 +7,7 @@ package uzdiz_zadaca_2.composite;
 
 import java.util.ArrayList;
 import java.util.List;
+import uzdiz_zadaca_2.utils.RandomNumber;
 
 /**
  *
@@ -15,6 +16,7 @@ import java.util.List;
 public class Aktuator extends Uredjaj implements Foi {
 
     private List<Senzor> senzori;
+    boolean gore = true;
 
     public Aktuator(String naziv, int tip, int vrsta, float min, float max, String komentar) {
         super(naziv, tip, vrsta, min, max, komentar);
@@ -51,6 +53,34 @@ public class Aktuator extends Uredjaj implements Foi {
     @Override
     public Uredjaj zamjena() {
         return new Aktuator(this.naziv, this.tip, this.vrsta, this.min, this.max, this.komentar);
+    }
+    
+    public void obaviRadnju() {
+        switch (this.vrsta) {
+            case 0:
+            case 1:
+            case 2:
+                if (this.vrijednost == this.max) {
+                    this.gore = false;
+                } else if (this.vrijednost == this.min) {
+                    this.gore = true;
+                }
+                if (this.gore) {
+                    this.vrijednost = RandomNumber.dajSlucajniBroj(this.vrijednost, this.max);
+                } else {
+                    this.vrijednost = RandomNumber.dajSlucajniBroj(this.min, this.vrijednost);
+                }
+                break;
+            case 3:
+                if (this.vrijednost > 0) {
+                    this.vrijednost = 0;
+                } else {
+                    this.vrijednost = 1;
+                }
+
+        }
+        this.logger.log("\nAktuator izvršava radnju.\nNova vrijednost: " + this.getVrijednost() + "\n----------", "info");
+
     }
     
     
