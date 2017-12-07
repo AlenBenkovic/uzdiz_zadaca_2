@@ -80,7 +80,6 @@ public class Params {
 
             System.out.println(Collections.singletonList(params));
 
-            status = true;
 
         }
 
