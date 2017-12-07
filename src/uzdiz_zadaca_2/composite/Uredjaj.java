@@ -7,12 +7,14 @@ package uzdiz_zadaca_2.composite;
 
 import uzdiz_zadaca_2.logs.FoiLogger;
 import uzdiz_zadaca_2.utils.RandomNumber;
+import uzdiz_zadaca_2.visitor.Visitable;
+import uzdiz_zadaca_2.visitor.Visitor;
 
 /**
  *
  * @author abenkovic
  */
-public abstract class Uredjaj implements Foi {
+public abstract class Uredjaj implements Foi, Visitable {
 
     public String naziv;
     public int tip;
@@ -60,7 +62,7 @@ public abstract class Uredjaj implements Foi {
 
         this.logger.log("\n-----------\nUredjaj: " + this.id + " " + this.naziv
                 + "\nStatus: " + status + " (neuspjesne provjere: " + this.neuspjesneProvjere + ")"
-                + "\nVrijednost: " + this.getVrijednost(), status > 0 ? "info" : "warning");
+                + "\nVrijednost: " + this.formatVrijednost(this.vrijednost), status > 0 ? "info" : "warning");
         
         
 
@@ -94,18 +96,24 @@ public abstract class Uredjaj implements Foi {
 
     }
 
-    public String getVrijednost() {
+    
+    public String formatVrijednost(float v) {
         switch (this.vrsta) {
             case 0:
-                return String.valueOf((int) this.vrijednost);
+                return String.valueOf((int) v);
             case 1:
-                return String.format("%.1f", this.vrijednost);
+                return String.format("%.1f", v);
             case 2:
-                return String.format("%.5f", this.vrijednost);
+                return String.format("%.5f", v);
             case 3:
-                return (int) this.vrijednost > 0 ? "da" : "ne";
+                return (int) v > 0 ? "da" : "ne";
         }
         return "nema";
+    }
+    
+    @Override
+    public float accept(Visitor visitor) {
+        return visitor.visit(this);
     }
 
 }

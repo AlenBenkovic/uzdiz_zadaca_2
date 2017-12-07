@@ -13,6 +13,7 @@ import uzdiz_zadaca_2.iterator.MjestoIterator;
 import uzdiz_zadaca_2.logs.FoiLogger;
 import uzdiz_zadaca_2.iterator.FoiIterator;
 import uzdiz_zadaca_2.utils.Params;
+import uzdiz_zadaca_2.visitor.UredjajVisitor;
 
 /**
  *
@@ -94,6 +95,24 @@ public class FoiZgrada implements Foi {
             this.logger.log(poruka, "info");
             m.opremanjeMjesta();
         }
+    }
+    
+    public void stanjeUredjaja(){
+        
+        FoiIterator iterator = this.createIterator();
+        while (iterator.hasNext()) {
+            Mjesto m = (Mjesto) iterator.next();
+            String poruka = "\n-------------------------------------------------------------"
+                    + "\n\tPrikaz stanja uredjaja " + m.id + " " + m.naziv
+                    + "\n-------------------------------------------------------------\n";
+            for(Uredjaj u: m.getUredjaji()){
+                UredjajVisitor uv = new UredjajVisitor();
+                poruka = poruka + "\nUredjaj " + u.naziv + " (" + u.formatVrijednost(u.vrijednost) + "/" + u.formatVrijednost(u.max) + ") " + (int)u.accept(uv) + "%";
+            }
+            this.logger.log(poruka, "info");            
+            
+        }
+        
     }
 
 }

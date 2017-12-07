@@ -8,12 +8,14 @@ package uzdiz_zadaca_2.composite;
 import java.util.ArrayList;
 import java.util.List;
 import uzdiz_zadaca_2.utils.RandomNumber;
+import uzdiz_zadaca_2.visitor.Visitable;
+import uzdiz_zadaca_2.visitor.Visitor;
 
 /**
  *
  * @author abenkovic
  */
-public class Aktuator extends Uredjaj implements Foi {
+public class Aktuator extends Uredjaj implements Foi, Visitable {
 
     private List<Senzor> senzori;
     boolean gore = true;
@@ -79,10 +81,13 @@ public class Aktuator extends Uredjaj implements Foi {
                 }
 
         }
-        this.logger.log("\nAktuator izvršava radnju.\nNova vrijednost: " + this.getVrijednost() + "\n----------", "info");
+        this.logger.log("\nAktuator izvršava radnju.\nNova vrijednost: " + this.formatVrijednost(this.vrijednost) + "\n----------", "info");
 
     }
     
+    @Override
+    public float accept(Visitor visitor) {
+        return visitor.visit(this);
+    }
     
-
 }

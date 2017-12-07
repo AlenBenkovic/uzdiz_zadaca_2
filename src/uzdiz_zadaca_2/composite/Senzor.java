@@ -7,12 +7,14 @@ package uzdiz_zadaca_2.composite;
 
 import java.util.ArrayList;
 import java.util.List;
+import uzdiz_zadaca_2.visitor.Visitable;
+import uzdiz_zadaca_2.visitor.Visitor;
 
 /**
  *
  * @author abenkovic
  */
-public class Senzor extends Uredjaj implements Foi {
+public class Senzor extends Uredjaj implements Foi, Visitable {
 
     private List<Aktuator> aktuatori;
     public boolean imaNovuVrijednost = false;
@@ -63,8 +65,11 @@ public class Senzor extends Uredjaj implements Foi {
         this.imaNovuVrijednost = imaNovuVrijednost;
     }
 
+    @Override
+    public float accept(Visitor visitor) {
+        return visitor.visit(this);
+    }
 
-    
-    
+
 
 }

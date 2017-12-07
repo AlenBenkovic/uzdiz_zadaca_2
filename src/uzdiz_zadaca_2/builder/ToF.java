@@ -81,6 +81,7 @@ public class ToF {
                     Thread.sleep(Integer.parseInt(Params.params.get("-tcd").toString()) * 1000);
 
                     this.foiZgrada.provjera();
+                    this.foiZgrada.stanjeUredjaja();
 
                 } catch (InterruptedException ex) {
                     this.logger.log("Problem u radu sa dretvom", "warning");
