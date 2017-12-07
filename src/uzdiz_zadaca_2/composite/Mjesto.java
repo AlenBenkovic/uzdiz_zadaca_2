@@ -77,13 +77,13 @@ public class Mjesto implements Foi {
                 }
 
                 if (u instanceof Aktuator) {
-                    boolean senzorDetektirao = false;
+                    boolean obaviRadnju = false;
                     for (Senzor s : ((Aktuator) u).getSenzori()) {
-                        if (s.imaNovuVrijednost) {
-                            senzorDetektirao = true;
+                        if (s.imaNovuVrijednost && s.status > 0 && ((Aktuator) u).status >0) {
+                            obaviRadnju = true;
                         }
                     }
-                    if (senzorDetektirao) {
+                    if (obaviRadnju) {
                         ((Aktuator) u).obaviRadnju();
                     }
 

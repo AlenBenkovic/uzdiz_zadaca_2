@@ -24,6 +24,7 @@ public abstract class Uredjaj implements Foi, Visitable {
     public String komentar;
     public float vrijednost;
     public int id;
+    public int status = 1;
 
     public boolean onemogucen = false;
     public int neuspjesneProvjere = 0;
@@ -43,7 +44,7 @@ public abstract class Uredjaj implements Foi, Visitable {
 
     @Override
     public boolean provjera() {
-        int status = this.status();
+        this.status = this.status();
         float staraVrijednost = this.vrijednost;
         this.vrijednost = this.kreirajVrijednost();
         if(this instanceof Senzor){
@@ -53,17 +54,23 @@ public abstract class Uredjaj implements Foi, Visitable {
             }
         }
         
-        if (status < 1) {
+        if (this.status < 1) {
             this.neuspjesneProvjere++;
             if (this.neuspjesneProvjere > 2) {
                 this.onemogucen = true;
             }
         }
-
-        this.logger.log("\n-----------\nUredjaj: " + this.id + " " + this.naziv
-                + "\nStatus: " + status + " (neuspjesne provjere: " + this.neuspjesneProvjere + ")"
-                + "\nVrijednost: " + this.formatVrijednost(this.vrijednost), status > 0 ? "info" : "warning");
         
+        String poruka = "\n-----------\nUredjaj: " + this.id + " " + this.naziv
+                + "\nStatus: " + status + " (neuspjesne provjere: " + this.neuspjesneProvjere + ")";
+        
+        if(status > 0){
+            poruka = poruka + "\nVrijednost: " + this.formatVrijednost(this.vrijednost);
+            this.logger.log(poruka, "info");
+        } else {
+            poruka = poruka + "\nVrijednost: " + "nepoznato";
+            this.logger.log(poruka, "warning");
+        }
         
 
         return !this.onemogucen;
