@@ -5,13 +5,9 @@
  */
 package uzdiz_zadaca_2.builder;
 
-import java.util.List;
 import uzdiz_zadaca_2.composite.FoiZgrada;
-import uzdiz_zadaca_2.composite.Mjesto;
-import uzdiz_zadaca_2.composite.Uredjaj;
 import uzdiz_zadaca_2.factory.FoiFactory;
 import uzdiz_zadaca_2.factory.MjestoFactory;
-import uzdiz_zadaca_2.iterator.FoiIterator;
 import uzdiz_zadaca_2.logs.FoiLogger;
 import uzdiz_zadaca_2.utils.Params;
 
@@ -88,6 +84,7 @@ public class ToF {
                 }
 
             }
+            this.foiZgrada.statistika();
         };
 
         new Thread(dretva).start();

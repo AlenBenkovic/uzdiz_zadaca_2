@@ -7,12 +7,12 @@ package uzdiz_zadaca_2.composite;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Map;
 import uzdiz_zadaca_2.factory.FoiFactory;
 import uzdiz_zadaca_2.factory.UredjajFactory;
 import uzdiz_zadaca_2.iterator.MjestoIterator;
 import uzdiz_zadaca_2.logs.FoiLogger;
 import uzdiz_zadaca_2.iterator.FoiIterator;
-import uzdiz_zadaca_2.utils.Params;
 import uzdiz_zadaca_2.visitor.UredjajVisitor;
 
 /**
@@ -75,11 +75,11 @@ public class FoiZgrada implements Foi {
                     + "\n-------------------------------------------------------------\n";
             this.logger.log(poruka, "info");
 
-            for (int i = 0; i <= m.brojSenzora; i++) {
+            for (int i = 0; i < m.brojSenzora; i++) {
                 m.addUredjaj(factory.kreirajUredjaj(true, m.tip));
             }
 
-            for (int i = 0; i <= m.brojAktuatora; i++) {
+            for (int i = 0; i < m.brojAktuatora; i++) {
                 m.addUredjaj(factory.kreirajUredjaj(false, m.tip));
             }
         }
@@ -113,6 +113,19 @@ public class FoiZgrada implements Foi {
             
         }
         
+    }
+    
+    public void statistika() {
+        for (Mjesto mjesto : this.mjesta) {
+            String log = "\n-------------------------------------------------------------"
+                    + "\n\tStatistika za " + mjesto.naziv
+                    + "\n-------------------------------------------------------------\n";
+            for (Map.Entry<String, Integer> entry : mjesto.statistikaMjesta.entrySet()) {
+
+                log = log + entry.getKey() + ": " + entry.getValue() + "\n";
+            }
+            this.logger.log(log, "info");
+        }
     }
 
 }

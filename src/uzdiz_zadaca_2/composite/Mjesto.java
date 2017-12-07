@@ -6,6 +6,7 @@
 package uzdiz_zadaca_2.composite;
 
 import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.List;
 import uzdiz_zadaca_2.iterator.FoiIterator;
 import uzdiz_zadaca_2.logs.FoiLogger;
@@ -19,15 +20,17 @@ import uzdiz_zadaca_2.utils.RandomNumber;
 public class Mjesto implements Foi {
 
     private final FoiLogger logger = FoiLogger.getInstance();
-    public String naziv;
-    public int tip;
-    public int brojSenzora;
-    public int brojAktuatora;
-    public int id;
+    public final String naziv;
+    public final int tip;
+    public final int brojSenzora;
+    public final int brojAktuatora;
+    public final int id;
 
     List<Uredjaj> uredjaji; // koristim samo jednu listu uredjaja radi prikaza pridruzenosti senzora i aktuatora,
     // radi kompozicije ovdje bi radije stavio samo aktuatore
     // ali na taj nacin cu dobiti dupli prikaz pridruzenosti senzora
+
+    HashMap<String, Integer> statistikaMjesta = new HashMap<String, Integer>();
 
     public Mjesto(String naziv, int tip, int brojSenzora, int brojAktuatora) {
         this.uredjaji = new ArrayList<>();
@@ -36,6 +39,14 @@ public class Mjesto implements Foi {
         this.brojSenzora = brojSenzora;
         this.brojAktuatora = brojAktuatora;
         this.id = RandomNumber.dajSlucajniBroj(1, 1000);
+        this.statistikaMjesta.put("Ukupan broj senzora", this.brojSenzora);
+        this.statistikaMjesta.put("Ukupan broj aktuatora", this.brojAktuatora);
+        this.statistikaMjesta.put("Broj senzora koji nisu prošli inicijalizaciju", 0);
+        this.statistikaMjesta.put("Broj aktuatora koji nisu prošli inicijalizaciju", 0);
+        this.statistikaMjesta.put("Broj dodanih senzora", 0);
+        this.statistikaMjesta.put("Broj dodanih aktuatora", 0);
+        this.statistikaMjesta.put("Broj uklonjenih senzora", 0);
+        this.statistikaMjesta.put("Broj uklonjenih aktuatora", 0);
     }
 
     @Override
@@ -52,6 +63,17 @@ public class Mjesto implements Foi {
                     this.logger.log("Radim zamjenu uredjaja", "warning");
                     this.uredjaji.add(u.zamjena());
                     this.uredjaji.remove(u);
+                    if (u instanceof Senzor) {
+                        int tmp = this.statistikaMjesta.get("Broj uklonjenih senzora");
+                        this.statistikaMjesta.put("Broj uklonjenih senzora", tmp + 1);
+                        int tmp2 = this.statistikaMjesta.get("Broj dodanih senzora");
+                        this.statistikaMjesta.put("Broj dodanih senzora", tmp2 + 1);
+                    } else {
+                        int tmp = this.statistikaMjesta.get("Broj uklonjenih aktuatora");
+                        this.statistikaMjesta.put("Broj uklonjenih aktuatora", tmp + 1);
+                        int tmp2 = this.statistikaMjesta.get("Broj dodanih aktuatora");
+                        this.statistikaMjesta.put("Broj dodanih aktuatora", tmp2 + 1);
+                    }
                 }
 
                 if (u instanceof Aktuator) {
@@ -76,6 +98,13 @@ public class Mjesto implements Foi {
 
     public void addUredjaj(Uredjaj uredjaj) {
         this.uredjaji.add(uredjaj);
+        if (uredjaj instanceof Senzor) {
+            int tmp = this.statistikaMjesta.get("Broj dodanih senzora");
+            this.statistikaMjesta.put("Broj dodanih senzora", tmp + 1);
+        } else {
+            int tmp = this.statistikaMjesta.get("Broj dodanih aktuatora");
+            this.statistikaMjesta.put("Broj dodanih aktuatora", tmp + 1);
+        }
     }
 
     public void removeUredjaj(Uredjaj uredjaj) {
@@ -97,6 +126,13 @@ public class Mjesto implements Foi {
             if (!uredjaj.inicijalizacija()) {
                 this.logger.log(uredjaj.naziv + " [0]", "warning");
                 neispravniUredjaji.add(uredjaj);
+                if (uredjaj instanceof Senzor) {
+                    int tmp = this.statistikaMjesta.get("Broj senzora koji nisu prošli inicijalizaciju");
+                    this.statistikaMjesta.put("Broj senzora koji nisu prošli inicijalizaciju", tmp + 1);
+                } else {
+                    int tmp = this.statistikaMjesta.get("Broj aktuatora koji nisu prošli inicijalizaciju");
+                    this.statistikaMjesta.put("Broj aktuatora koji nisu prošli inicijalizaciju", tmp + 1);
+                }
             } else {
                 this.logger.log(uredjaj.naziv + " [1]", "info");
             }
@@ -115,8 +151,10 @@ public class Mjesto implements Foi {
         for (Uredjaj uredjaj : this.uredjaji) {
             if (uredjaj instanceof Aktuator) {
                 aktuatori.add((Aktuator) uredjaj);
+
             } else if (uredjaj instanceof Senzor) {
                 senzori.add((Senzor) uredjaj);
+
             }
         }
 
