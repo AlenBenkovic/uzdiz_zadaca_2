@@ -43,11 +43,10 @@ public class Senzor extends Uredjaj implements Foi, Visitable {
 
     @Override
     public void pridruzenostUredjaja() {
-        String poruka = "\n-------------------------------------------------------------"
-                + "\n[Senzor] " + this.id + " " + this.naziv + " pridruzen je aktuatorima:  "
-                + "\n-------------------------------------------------------------";
+        String poruka = "\n-----------"
+                + "\n[Senzor] " + this.id + " " + this.naziv + " pridruzen je aktuatorima:  ";
         for (Aktuator a : this.aktuatori) {
-            poruka = poruka + "\n" + a.id + " " + a.naziv;
+            poruka = poruka + "\n>" + a.id + " " + a.naziv;
         }
         super.logger.log(poruka, "info");
     }

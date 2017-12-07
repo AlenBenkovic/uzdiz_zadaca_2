@@ -79,7 +79,7 @@ public class Mjesto implements Foi {
                 if (u instanceof Aktuator) {
                     boolean obaviRadnju = false;
                     for (Senzor s : ((Aktuator) u).getSenzori()) {
-                        if (s.imaNovuVrijednost && s.status > 0 && ((Aktuator) u).status >0) {
+                        if (s.imaNovuVrijednost && s.status > 0 && ((Aktuator) u).status > 0) {
                             obaviRadnju = true;
                         }
                     }
@@ -160,17 +160,20 @@ public class Mjesto implements Foi {
 
         for (Aktuator aktuator : aktuatori) {
             for (int i = 1; i <= RandomNumber.dajSlucajniBroj(1, this.brojSenzora); i++) {
-                try {
-                    Senzor senzor = senzori.get(RandomNumber.dajSlucajniBroj(0, senzori.size() - 1));
+                if (!senzori.isEmpty()) {
+                    try {
+                        Senzor senzor = senzori.get(RandomNumber.dajSlucajniBroj(0, senzori.size() - 1));
 
-                    // ukoliko je aktuatoru vec pridruzen senzor, preskoci ga
-                    if (!aktuator.getSenzori().contains(senzor)) {
-                        senzor.add(aktuator);
-                        aktuator.add(senzor);
+                        // ukoliko je aktuatoru vec pridruzen senzor, preskoci ga
+                        if (!aktuator.getSenzori().contains(senzor)) {
+                            senzor.add(aktuator);
+                            aktuator.add(senzor);
+                        }
+
+                    } catch (Exception e) {
+                        this.logger.log("Greska kod dodjele senzora: " + e.toString(), "warning");
                     }
 
-                } catch (Exception e) {
-                    this.logger.log("Greska kod dodjele senzora: " + e.toString(), "warning");
                 }
 
             }
