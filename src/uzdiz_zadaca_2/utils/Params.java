@@ -100,9 +100,14 @@ public class Params {
             case "-s":
             case "-a":
             case "-i":
-                pattern = Pattern.compile("\\w*(.txt)?");
+                /*pattern = Pattern.compile("\\w*(.txt)?");
                 matcher = pattern.matcher(value);
-                status = matcher.matches();
+                status = matcher.matches();*/
+                if(value.contains(" ")){
+                    status = false;
+                } else {
+                    status = true;
+                }
                 break;
             case "-alg":
                 try {

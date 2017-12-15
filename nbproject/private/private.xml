@@ -2,22 +2,6 @@
 <project-private xmlns="http://www.netbeans.org/ns/project-private/1">
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
-        <group>
-            <file>file:/home/abenkovic/javadev/projects/uzdiz_zadaca_2/src/uzdiz_zadaca_2/visitor/UredjajVisitor.java</file>
-            <file>file:/home/abenkovic/javadev/projects/uzdiz_zadaca_2/src/uzdiz_zadaca_2/composite/FoiZgrada.java</file>
-            <file>file:/home/abenkovic/javadev/projects/uzdiz_zadaca_2/src/uzdiz_zadaca_2/visitor/Visitor.java</file>
-            <file>file:/home/abenkovic/javadev/projects/uzdiz_zadaca_2/src/uzdiz_zadaca_2/composite/Senzor.java</file>
-            <file>file:/home/abenkovic/javadev/projects/uzdiz_zadaca_2/src/uzdiz_zadaca_2/composite/Foi.java</file>
-            <file>file:/home/abenkovic/javadev/projects/uzdiz_zadaca_2/src/uzdiz_zadaca_2/composite/Mjesto.java</file>
-            <file>file:/home/abenkovic/javadev/projects/uzdiz_zadaca_2/src/uzdiz_zadaca_2/composite/Aktuator.java</file>
-            <file>file:/home/abenkovic/javadev/projects/uzdiz_zadaca_2/src/uzdiz_zadaca_2/composite/Uredjaj.java</file>
-            <file>file:/home/abenkovic/javadev/projects/uzdiz_zadaca_2/src/uzdiz_zadaca_2/iterator/FoiIterator.java</file>
-            <file>file:/home/abenkovic/javadev/projects/uzdiz_zadaca_2/src/uzdiz_zadaca_2/builder/ToF.java</file>
-            <file>file:/home/abenkovic/javadev/projects/uzdiz_zadaca_2/src/uzdiz_zadaca_2/iterator/AlgoritamSlijedno.java</file>
-            <file>file:/home/abenkovic/javadev/projects/uzdiz_zadaca_2/src/uzdiz_zadaca_2/factory/MjestoFactory.java</file>
-            <file>file:/home/abenkovic/javadev/projects/uzdiz_zadaca_2/src/uzdiz_zadaca_2/factory/FoiFactory.java</file>
-            <file>file:/home/abenkovic/javadev/projects/uzdiz_zadaca_2/src/uzdiz_zadaca_2/visitor/Visitable.java</file>
-            <file>file:/home/abenkovic/javadev/projects/uzdiz_zadaca_2/src/uzdiz_zadaca_2/iterator/MjestoIterator.java</file>
-        </group>
+        <group/>
     </open-files>
 </project-private>
