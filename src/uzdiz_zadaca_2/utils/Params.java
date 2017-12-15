@@ -24,7 +24,7 @@ public class Params {
     public static boolean checkArgs(String[] args) {
         boolean status = false;
 
-        if (args[0].equals("--help")) {
+        if (args.length > 0 && args[0].equals("--help")) {
 
             System.out.println("Opcije:\n");
             System.out.println("-g sjeme za generator slučajnog broja (u intervalu 100 - 65535).\n"
@@ -42,8 +42,8 @@ public class Params {
                     + " uzima se slučajni broj u intervalu 100 - 999.\n"
                     + "");
             System.exit(0);
-            
-        } else {
+
+        } else if (args.length > 0) {
 
             for (int i = 0; i < args.length - 1; i = i + 2) {
                 checkParams(args[i], args[i + 1]);
@@ -103,7 +103,7 @@ public class Params {
                 /*pattern = Pattern.compile("\\w*(.txt)?");
                 matcher = pattern.matcher(value);
                 status = matcher.matches();*/
-                if(value.contains(" ")){
+                if (value.contains(" ")) {
                     status = false;
                 } else {
                     status = true;
