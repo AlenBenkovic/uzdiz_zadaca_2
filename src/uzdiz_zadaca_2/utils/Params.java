@@ -51,7 +51,9 @@ public class Params {
 
             if (!params.containsKey("-g")) {
                 // broj milisekundi od trenutnog vremena, a ne od 1.1.1970
-                params.put("-g", Calendar.getInstance().get(Calendar.MILLISECOND));
+                Integer seed = new Integer(Calendar.getInstance().get(Calendar.MILLISECOND));
+                params.put("-g", seed);
+                RandomNumber.setSeed(seed.longValue());
 
             }
 
@@ -93,7 +95,7 @@ public class Params {
             case "-g":
                 status = Integer.parseInt(value) >= 100 && Integer.parseInt(value) <= 65535;
                 if (status) {
-                    RandomNumber.setSeed(Long.getLong(value));
+                    RandomNumber.setSeed(Long.parseLong(value));
                 }
                 break;
             case "-m":

@@ -12,7 +12,7 @@ import java.util.Random;
  * @author abenkovic
  */
 public class RandomNumber {
-    public static Random rand = new Random();
+    private static Random rand = new Random();
     
     
     public static void setSeed(long seed){
